@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "channels": [
+    {
+      "id": 1,
+      "name": "PTV Sports",
+      "logo": "https://example.com/ptv.png",
+      "stream": "https://tvsen5.aynaott.com/PtvSports/index.m3u8"
+    }
+  ]
+}
