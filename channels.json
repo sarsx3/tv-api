@@ -10,6 +10,14 @@
     },
     {
       "id": "c2",
+      "name": "Somoy Tv",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=54692667",
+      "description": "Football • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c3",
       "name": "Bein Sports 1",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
@@ -17,7 +25,7 @@
       "isCustom": false
     },
     {
-      "id": "c3",
+      "id": "c4",
       "name": "WIN Sports",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
