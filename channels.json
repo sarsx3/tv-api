@@ -1,16 +1,28 @@
 {
-  "app_version": 1,
-  "maintenance": false,
-  "message": "",
-
   "channels": [
     {
-      "id": 1,
-      "name": "PTV Sports",
-      "logo": "https://yourdomain.com/logo/ptv.png",
-      "stream": "https://tvsen5.aynaott.com/PtvSports/index.m3u8",
-      "country": "Pakistan",
-      "category": "Sports"
+      "id": "c1",
+      "name": "T Sports",
+      "logo": "https://i.ibb.co.com/h1Wvy09C/1000283988.png",
+      "streamUrl": "http://198.195.239.50:8095/tsports/index.m3u8",
+      "description": "Football • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c2",
+      "name": "Bein Sports 1",
+      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
+      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+      "description": "Football • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c3",
+      "name": "WIN Sports",
+      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
+      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+      "description": "Sports • Live",
+      "isCustom": false
     }
   ]
 }
