@@ -18,14 +18,6 @@
     },
     {
       "id": "c3",
-      "name": "Zee Bangla Sonar",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
-      "description": "Entertainment • HD",
-      "isCustom": false
-    },
-    {
-      "id": "c4",
       "name": "Bein Sports 1",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
@@ -33,7 +25,7 @@
       "isCustom": false
     },
     {
-      "id": "c5",
+      "id": "c4",
       "name": "Bein Sports 1 UHD",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "http://proxpanel.cc/h1wqD6CY/byxHYgX/707929",
@@ -41,7 +33,7 @@
       "isCustom": false
     },
     {
-      "id": "c6",
+      "id": "c5",
       "name": "Bein Sports Max 1 4K",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "http://proxpanel.cc/h1wqD6CY/byxHYgX/835130",
@@ -49,7 +41,7 @@
       "isCustom": false
     },
     {
-      "id": "c7",
+      "id": "c6",
       "name": "WIN Sports",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
@@ -57,7 +49,7 @@
       "isCustom": false
     },
     {
-      "id": "c8",
+      "id": "c7",
       "name": "FOX",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://84.17.50.102/fox/index.m3u8",
@@ -65,7 +57,7 @@
       "isCustom": false
     },
     {
-      "id": "c9",
+      "id": "c8",
       "name": "FS1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://41.223.30.230/FOXSPORTS1/index.m3u8",
@@ -73,7 +65,7 @@
       "isCustom": false
     },
     {
-      "id": "c10",
+      "id": "c9",
       "name": "FS2",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
@@ -81,7 +73,7 @@
       "isCustom": false
     },
     {
-      "id": "c11",
+      "id": "c10",
       "name": "DAZN 1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://znty.dyndns.org:5010/hls/eleven1.m3u8",
@@ -89,8 +81,7 @@
       "isCustom": false
     },
     {
-      "id": "c13",
-      "id": "c12",
+      "id": "c11",
       "name": "Telemundo",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
@@ -98,7 +89,7 @@
       "isCustom": false
     },
     {
-      "id": "c13",
+      "id": "c12",
       "name": "ESPN",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8",
@@ -106,7 +97,7 @@
       "isCustom": false
     },
     {
-      "id": "c14",
+      "id": "c13",
       "name": "D Sports",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
@@ -114,7 +105,7 @@
       "isCustom": false
     },
     {
-      "id": "c15",
+      "id": "c14",
       "name": "Jamuna TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
@@ -122,7 +113,7 @@
       "isCustom": false
     },
     {
-      "id": "c16",
+      "id": "c15",
       "name": "DBC News HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
@@ -130,7 +121,7 @@
       "isCustom": false
     },
     {
-      "id": "c17",
+      "id": "c16",
       "name": "Maasranga TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
@@ -138,7 +129,7 @@
       "isCustom": false
     },
     {
-      "id": "c18",
+      "id": "c17",
       "name": "Ekattor HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
@@ -146,7 +137,7 @@
       "isCustom": false
     },
     {
-      "id": "c19",
+      "id": "c18",
       "name": "Channel 24 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
@@ -154,7 +145,7 @@
       "isCustom": false
     },
     {
-      "id": "c20",
+      "id": "c19",
       "name": "ATN News",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
@@ -162,7 +153,7 @@
       "isCustom": false
     },
     {
-      "id": "c21",
+      "id": "c20",
       "name": "News 24 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
@@ -170,7 +161,7 @@
       "isCustom": false
     },
     {
-      "id": "c22",
+      "id": "c21",
       "name": "Star News",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
@@ -178,7 +169,7 @@
       "isCustom": false
     },
     {
-      "id": "c23",
+      "id": "c22",
       "name": "Deepto TV HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
@@ -186,7 +177,7 @@
       "isCustom": false
     },
     {
-      "id": "c24",
+      "id": "c23",
       "name": "Channel 9 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
@@ -194,7 +185,7 @@
       "isCustom": false
     },
     {
-      "id": "c25",
+      "id": "c24",
       "name": "Channel I HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
@@ -202,7 +193,7 @@
       "isCustom": false
     },
     {
-      "id": "c26",
+      "id": "c25",
       "name": "Cineedge HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
@@ -210,7 +201,7 @@
       "isCustom": false
     },
     {
-      "id": "c27",
+      "id": "c26",
       "name": "Uniques HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
@@ -218,7 +209,7 @@
       "isCustom": false
     },
     {
-      "id": "c28",
+      "id": "c27",
       "name": "Superrix HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
@@ -226,7 +217,7 @@
       "isCustom": false
     },
     {
-      "id": "c29",
+      "id": "c28",
       "name": "Bangla Vision",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
@@ -234,7 +225,7 @@
       "isCustom": false
     },
     {
-      "id": "c30",
+      "id": "c29",
       "name": "NTV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
@@ -242,7 +233,7 @@
       "isCustom": false
     },
     {
-      "id": "c31",
+      "id": "c30",
       "name": "Screem",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
@@ -250,7 +241,7 @@
       "isCustom": false
     },
     {
-      "id": "c32",
+      "id": "c31",
       "name": "Flash Guys HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
@@ -258,7 +249,7 @@
       "isCustom": false
     },
     {
-      "id": "c33",
+      "id": "c32",
       "name": "BuddyStar HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
@@ -266,7 +257,7 @@
       "isCustom": false
     },
     {
-      "id": "c34",
+      "id": "c33",
       "name": "Luxell HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
@@ -274,7 +265,7 @@
       "isCustom": false
     },
     {
-      "id": "c35",
+      "id": "c34",
       "name": "Joy",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
@@ -282,7 +273,7 @@
       "isCustom": false
     },
     {
-      "id": "c36",
+      "id": "c35",
       "name": "Funny Junior HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
@@ -290,7 +281,7 @@
       "isCustom": false
     },
     {
-      "id": "c37",
+      "id": "c36",
       "name": "Crimes",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
@@ -298,7 +289,7 @@
       "isCustom": false
     },
     {
-      "id": "c38",
+      "id": "c37",
       "name": "True Stories",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
@@ -306,7 +297,7 @@
       "isCustom": false
     },
     {
-      "id": "c39",
+      "id": "c38",
       "name": "Intelligence",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
@@ -314,7 +305,7 @@
       "isCustom": false
     },
     {
-      "id": "c40",
+      "id": "c39",
       "name": "Thunder Er",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
@@ -322,7 +313,7 @@
       "isCustom": false
     },
     {
-      "id": "c41",
+      "id": "c40",
       "name": "Fighters",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
@@ -330,7 +321,7 @@
       "isCustom": false
     },
     {
-      "id": "c42",
+      "id": "c41",
       "name": "Smarty",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
@@ -338,7 +329,7 @@
       "isCustom": false
     },
     {
-      "id": "c43",
+      "id": "c42",
       "name": "Lucky Family",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
@@ -346,7 +337,7 @@
       "isCustom": false
     },
     {
-      "id": "c44",
+      "id": "c43",
       "name": "Kids Stars",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
@@ -354,7 +345,7 @@
       "isCustom": false
     },
     {
-      "id": "c45",
+      "id": "c44",
       "name": "SRK TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779607122445.png",
       "streamUrl": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
@@ -362,7 +353,7 @@
       "isCustom": false
     },
     {
-      "id": "c46",
+      "id": "c45",
       "name": "Sports Legends",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779609962271.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
@@ -370,7 +361,7 @@
       "isCustom": false
     },
     {
-      "id": "c47",
+      "id": "c46",
       "name": "Al Jazeera",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
@@ -378,7 +369,7 @@
       "isCustom": false
     },
     {
-      "id": "c48",
+      "id": "c47",
       "name": "BTV Shangshad",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
@@ -386,7 +377,7 @@
       "isCustom": false
     },
     {
-      "id": "c49",
+      "id": "c48",
       "name": "Party Universe",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
@@ -394,7 +385,7 @@
       "isCustom": false
     },
     {
-      "id": "c50",
+      "id": "c49",
       "name": "Al Quran",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
@@ -402,7 +393,7 @@
       "isCustom": false
     },
     {
-      "id": "c51",
+      "id": "c50",
       "name": "Independent TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
@@ -410,7 +401,7 @@
       "isCustom": false
     },
     {
-      "id": "c52",
+      "id": "c51",
       "name": "Nikki",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
@@ -418,7 +409,7 @@
       "isCustom": false
     },
     {
-      "id": "c53",
+      "id": "c52",
       "name": "Originals",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
@@ -426,7 +417,7 @@
       "isCustom": false
     },
     {
-      "id": "c54",
+      "id": "c53",
       "name": "Crazy Ex",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
@@ -434,7 +425,7 @@
       "isCustom": false
     },
     {
-      "id": "c55",
+      "id": "c54",
       "name": "Delicious",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
@@ -442,7 +433,7 @@
       "isCustom": false
     },
     {
-      "id": "c56",
+      "id": "c55",
       "name": "Program Promo",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087459461.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
@@ -450,7 +441,7 @@
       "isCustom": false
     },
     {
-      "id": "c57",
+      "id": "c56",
       "name": "Sports Range",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
@@ -458,12 +449,1604 @@
       "isCustom": false
     },
     {
-      "id": "c58",
+      "id": "c57",
       "name": "Channel 1",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
       "description": "News • Live",
       "isCustom": false
+    },
+    {
+      "id": "c58",
+      "name": "Peace TV English HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/927887031?ticket=22453962D0B47331AFA92B2783B096D3E567B769&profile=pass",
+      "description": "Religious • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c59",
+      "name": "Peace TV Urdu HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/793792200?ticket=7F097CAF9866266C6A7CC3064E9202203CD919F5&profile=pass",
+      "description": "Religious • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c60",
+      "name": "PAIGHAM TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1259497814?ticket=962714E044669F5A8085FDD1271AA41CAC092848&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c61",
+      "name": "Saudia Quran",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1369723928?ticket=FB519FDE7AC5E4632EA26A4B5017AE222A64D4A7&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c62",
+      "name": "Saudia Sunnah",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1300124871?ticket=69FE89F0BFDF1851956A098C90486E07E596E92C&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c63",
+      "name": "ARYQTV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1666330779?ticket=A9E9ED19449565B390AC8C1EFD07D7452DCEA217&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c64",
+      "name": "MADANI TV HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1960787019?ticket=EA2F91E240DE7CBE1179805A202B1A50B9745D92&profile=pass",
+      "description": "Religious • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c65",
+      "name": "Hadi TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1877282557?ticket=BCCD7E94BC2E61215AE55AF72ED65745A4D2E297&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c66",
+      "name": "Ahlebait TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/283752475?ticket=BAC69A33D4A3B1AFCD4613040CF73964A9E5DA9A&profile=pass",
+      "description": "Religious • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c67",
+      "name": "PTV-NEWS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1838447778?ticket=A245D0D407DF74921B52D4AD98481D3EAE323DDD&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c68",
+      "name": "GEO NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/515750675?ticket=588CD5F9DF4A171ACAFF5F9F7B7B6B14917A79EB&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c69",
+      "name": "SAMAA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1787885816?ticket=16C54A442AF2CB1E9DCA419DEF2B5A9DF0DED10E&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c70",
+      "name": "EXPRESS NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1819492922?ticket=0241A083388501B75EA7351142E751FCA035FA9E&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c71",
+      "name": "Dunya News HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1654875478?ticket=07B021BDF8F789719A71486DE5F33763508650E0&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c72",
+      "name": "ARYNewsAsia",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/646524253?ticket=E6730B810447ABCE0819E8B6025A93E6B4AA298A&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c73",
+      "name": "AAJ NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/22466701?ticket=8D503D97D6A4E4A5556ED5B4A62DF7C348CCE71F&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c74",
+      "name": "CHANNEL-24",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/151261022?ticket=3BCC144308004BC3DD03605B9372B709CF0FCC55&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c75",
+      "name": "BOL News HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1647833542?ticket=9D8BCF1A64FCDC198ABC84D84B71C56050A94EBB&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c76",
+      "name": "Dawn News TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/521233747?ticket=2407FC9F8E48578F917D8B652EA2A05D44BA9CB8&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c77",
+      "name": "NEWS ONE",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1280749504?ticket=EE95F0D749F4E92B3EFC6676362D6E9E1056C717&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c78",
+      "name": "Public NEWS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1634521678?ticket=02960BCAD1EC31FF59E2077720668C01D32A53FD&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c79",
+      "name": "CH 5 NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/835997166?ticket=CCB93E8B8E4443B0D3BECC0F80058AE20CAA3153&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c80",
+      "name": "SUCH TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1364105387?ticket=2443916514BD8103B339B1DE4BD4A3912F6B4B9D&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c81",
+      "name": "ABBTAKK HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1328457552?ticket=E6DDD3453607BA91B710A08AF3318AF4F4757279&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c82",
+      "name": "92 News HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/645912433?ticket=8118D57885972793642244A5B03001D2004EB47A&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c83",
+      "name": "HUM NEWS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/695853983?ticket=7DA96287931E70971531D0FD7EDA7FAC60166825&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c84",
+      "name": "Lahore News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/909279380?ticket=1A41BA7A192EC5BA2BE0FBF4424D84284B52333C&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c85",
+      "name": "CHAUPAAL NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1759957684?ticket=7151AAF889E6B8813BEC10E587F5C50667B361E6&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c86",
+      "name": "CITY-41",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1711184684?ticket=30268AF3AC12CDCAC3ACA3932EFF8AB1AB742C25&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c87",
+      "name": "CITY-42",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2082664197?ticket=C431F653E28D71BBDE64F555DE263BCB0EFC150B&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c88",
+      "name": "Capital TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/619469459?ticket=C62D1AFF2D23E387F472AC6B8C4A982D0BAA4E4A&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c89",
+      "name": "Geo Tez",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1034008291?ticket=003AFB98A246971C28D38696A25ADC5FAE82C839&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c90",
+      "name": "PTV-Global",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2095243528?ticket=2355449A5D1A5F812912DBA470EB40A2D5AEE6E8&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c91",
+      "name": "SUN NEWS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1574958733?ticket=F5FA4C751CCC97B940132F99FCA5E431A7690385&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c92",
+      "name": "Kohenoor News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/171857117?ticket=3552DA62CD2C90D8727BC766967D3191E1DD94C3&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c93",
+      "name": "ROHI TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1728303011?ticket=20A67E182F92A4FEBCB6192BDDDF45C4563993B6&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c94",
+      "name": "TV TODAY",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1355020806?ticket=3D12CF831DD211986B1ADC712059539622F8D151&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c95",
+      "name": "M-News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/329505864?ticket=ED7F6A0E82406867C49690E0713EF786EF27355D&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c96",
+      "name": "WASEB NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1029612378?ticket=2F6C6E4423411D5C4AFA8FE72323B8FF6ABA0AB5&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c97",
+      "name": "DM NEWS ENGLISH",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/632267882?ticket=DDB9D782A91AFC092B271EDF05B3C792FFAE2111&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c98",
+      "name": "Pakistan-TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1153685369?ticket=882CC4FBF6B3CD0CA2CE64CC6DBBD496367308DF&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c99",
+      "name": "EXPRESS 24/7",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1950705884?ticket=B7351EFA1EEDB562640B3C24C50D3DDFB9C43128&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c100",
+      "name": "BBC NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1096130156?ticket=34BDA388B3BA6A678AFDD0B0238C80E09D171DEB&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c101",
+      "name": "DW English HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1537259700?ticket=F151FCF7374CD7351DD1095EC3F227F4781519F0&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c102",
+      "name": "Al Jazeera English HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/901763414?ticket=C0E61EC4CE773BDF7B70CB6C6F2BC994F7932202&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c103",
+      "name": "NHK WORLD-JPN",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1419991895?ticket=D69F72222FCB427BFAFD8429174C95D291755D3F&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c104",
+      "name": "TRT World HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/945644007?ticket=A5594ABB3D4A67578DD08BADDABAC3CFDF3459FB&profile=pass",
+      "description": "News • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c105",
+      "name": "PTV-Home",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/7370701?ticket=DFA64A3066EF54C9A7DFA95C1721F79A3E868D7F&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c106",
+      "name": "GEO ENT HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/938637555?ticket=8CABCB6364314A35F046D1D892FDDE794BF60193&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c107",
+      "name": "HUM TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1396638108?ticket=2D3E9EC3E9FE0A52CC6807F48BA470C6F32B7450&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c108",
+      "name": "GreenEnt - HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/361914910?ticket=06D756FA6B910A9064E348F12097CFA01E74A6E1&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c109",
+      "name": "AAJ ENT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/247571383?ticket=D6291830B9E9D9F5D2CF63B0E0413707EB8833C6&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c110",
+      "name": "ARY Digital HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/516289357?ticket=AD0DA139152C10332D56F4A53DBCB4D7527FD8F2&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c111",
+      "name": "AAN TV - HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1445643262?ticket=1EBF3C2E15B9FED4F558114728BA30C3BBA8D8C5&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c112",
+      "name": "HUM SITARAY",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1006580442?ticket=B26D6530FDF52F8A3C031713DB7606C077769ED1&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c113",
+      "name": "EXPRESS ENT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1054819467?ticket=C3293279F32A40B07D2ECFD144DEFD35532FF56C&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c114",
+      "name": "BOL ENT HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2137636936?ticket=1D80B1A296F7CCA5D3D8425353D201DD5FB35386&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c115",
+      "name": "GEO KAHANI HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/240731441?ticket=17E2349D756536D6E9B41C7E1AD7E518EE2A7B44&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c116",
+      "name": "ARYZindagi",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1071354240?ticket=1958A86D8F3ACE08ED221C0E1A86F607AA00DFC6&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c117",
+      "name": "TV ONE",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/699611011?ticket=CB76080D96AF931449D9605C778D525439BA86D4&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c118",
+      "name": "AUR Life TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1009321919?ticket=34FDDB34600DAFD09CBDB5471DAA2F40676190F2&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c119",
+      "name": "PLAY ENT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/610237110?ticket=F31D1E740BD60605022C8C799DE360A3780F85EA&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c120",
+      "name": "APLUS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/88292565?ticket=BD62E72D74E938B1383B9A1A3DB5DA153C81C78B&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c121",
+      "name": "Sab TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/858717672?ticket=B50E3011DC34F5FE7B555396D9D936AEABA40D7E&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c122",
+      "name": "By Pass HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/191660174?ticket=B92616F3001F0CE011BE142602DCA3F26BBEFAD9&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c123",
+      "name": "M-Entertainment",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1500127178?ticket=2D341CD72568E844030F773CFCB1102FD3DA2BDC&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c124",
+      "name": "Venus HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1442785583?ticket=31F0A688DF626EFF43022F1B4573766C4BCB7E25&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c125",
+      "name": "LTN FAMILY",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/864856931?ticket=DC775867988232A260CAC67027A4235FEC2D4036&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c126",
+      "name": "Venus ENT HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1903768801?ticket=AF4E1FF5A6A0AF3DACB5B7A28E26CE4E94D4AE88&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c127",
+      "name": "MASALA TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2140582900?ticket=9626190A1FBAD84A813FD3AD5A5C9095FF902E60&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c128",
+      "name": "PTV SPORTS SD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/679185749?ticket=EBAB5C69AE9B879AAE3B0AD64D72C3BB4BEF61F4&profile=pass",
+      "description": "Sports • SD",
+      "isCustom": false
+    },
+    {
+      "id": "c129",
+      "name": "TEN Sports",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1969686851?ticket=DCA7B32BA687AB5990C0606E5D1B9EDF5917163F&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c130",
+      "name": "A Sports HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1362911542?ticket=1671628835DDCEEAFE19247EDF35C9A2A352A132&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c131",
+      "name": "FAST SPORTS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/631410132?ticket=96C93A86713BBB861F45A5EEFCCF6F56030DBC14&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c132",
+      "name": "Geo Super",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1997093479?ticket=DD6E030E0DE83C558360E413C47124E3869424C3&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c133",
+      "name": "Star Sports 1 Hindi HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/997901928?ticket=5594988F820AB2374470A7DDCAA30169C732ACA1&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c134",
+      "name": "Star Sports 1 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1954196473?ticket=0F2F6030C638079778CC6D1F97C65093DFCDA200&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c135",
+      "name": "Star Sports 2 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/499059519?ticket=42B4A8DA0463C74EF68D7773D3912E2388CA7F07&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c136",
+      "name": "Star Sports Select 1 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1134381186?ticket=DEC38BFB5D4380135279094233FA0A958B70222C&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c137",
+      "name": "Star Sports Select 2 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/926244412?ticket=C935F9E0CC6E8B98D26302C1781C7A117A663FAB&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c138",
+      "name": "SONY TEN 1",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/784749914?ticket=875CB866803BD9CF05CC64AB42D65D797E804BAB&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c139",
+      "name": "SONY TEN 2 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1768523944?ticket=87B7B3FD278FA21DB324E487574B51421E03876D&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c140",
+      "name": "SONY TEN 3",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/990758354?ticket=C745A928C9F52D04D58628C6CA80198C4F59783F&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c141",
+      "name": "SONY TEN 5 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1240519261?ticket=9840F17FC88F077941D9C9390565E8930A7C4536&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c142",
+      "name": "EUROSPORT HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/715726806?ticket=CD1DA44BC2E2F4119C69A4C23A22DAAB1E7DD5EF&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c143",
+      "name": "EXTREME SPORTS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1545107375?ticket=6283F5ACFED7110268E1424895CB547021B1057F&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c144",
+      "name": "KSA SPORT1 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/25845810?ticket=32F9B89331DFB0B71E365C30A5309E4B15321AD1&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c145",
+      "name": "KSA SPORT2 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/680782527?ticket=37EA18EAE03DF0D4272C7D3BF4BE09B4D2F2C8F3&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c146",
+      "name": "KSA SPORTS 3 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/214964811?ticket=144F2599F9F12404FDE565B43DA8C6CCABA0A37D&profile=pass",
+      "description": "Sports • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c147",
+      "name": "M-Sports",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2055515316?ticket=FF51D0CD9BF2F245233ACFC55FD6D24A4CC94067&profile=pass",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c148",
+      "name": "CN HD+",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1331773591?ticket=92E81E5F91F5275AD29D5B44009AF978D35442D3&profile=pass",
+      "description": "Kids • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c149",
+      "name": "DISNEY CHANNEL",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1324398660?ticket=EFDAF58D8A9426D7CB978A0697AB554578A987EA&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c150",
+      "name": "POGO",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1362195527?ticket=C1F7B17CDF718CBCEACF84E19692D462C4FDF909&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c151",
+      "name": "NICK",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/612942355?ticket=06DA498B53EC13E9FE64D6286FBF5949B047196C&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c152",
+      "name": "NICK HD+",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/990520415?ticket=BD85F707C9D433070B1EF22A07ECCC9033020F0B&profile=pass",
+      "description": "Kids • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c153",
+      "name": "DISCOVERY KIDS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1701677696?ticket=A4796B54BB68C641A3E0652EA5DC83A747D2636A&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c154",
+      "name": "SONIC",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1705035070?ticket=768DF1AB8D51E9C6CC2C01DBB6BB90B7F6649487&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c155",
+      "name": "NICK JR",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1407770376?ticket=F3890266A43655F0EB914061157BA6A85D0EE7B6&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c156",
+      "name": "HUNGAMA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/285878552?ticket=036B53AA134ACB20658C93E83ADD07BA9B4380D4&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c157",
+      "name": "Planet Fun",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/483244220?ticket=6EC34A9348C9E22A97CD49108FD4BD3EFDD0270D&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c158",
+      "name": "HOORA TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/143349042?ticket=794333DA0AC78EBD2CA17B1128A27A20B3A2CFAF&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c159",
+      "name": "MBC 3",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1792850475?ticket=BD5A107D101488EA02C799F51C6D2D3A0A022734&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c160",
+      "name": "GEM JUNIOR",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1862274517?ticket=F02817BC21DB95392488A33F0904F4E16AB59E20&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c161",
+      "name": "GEM KIDS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/406025080?ticket=83A189CAF887B878EA05FEE5997A9F8B1590A9FD&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c162",
+      "name": "MINIMAX",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1685890381?ticket=7F75D2682518917DB14D1886C3F65E90EF06BBBD&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c163",
+      "name": "Kidzone Pakistan",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1310253310?ticket=AD24B76D8A53102FF2D6A594C76259E723B6102A&profile=pass",
+      "description": "Kids • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c164",
+      "name": "DISCOVERY",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/844114631?ticket=A3CE49BD98358A1941DAE920D71EA327C61936E1&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c165",
+      "name": "Discover Pakistan",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/300196034?ticket=1F6E05F1C50E0CC76D2CE8ED7E9619FCF1CC4F8F&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c166",
+      "name": "NAT GEO WILD HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1787419272?ticket=F9743A93A662E076EA07FA2D24537097B8AB6FC9&profile=pass",
+      "description": "Infotainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c167",
+      "name": "NAT GEO HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/572029434?ticket=114A2CD104F796CDC28824C89ADD8AAE0BCEB4CE&profile=pass",
+      "description": "Infotainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c168",
+      "name": "TLC HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/72398198?ticket=2FD542C00B25228B1868C507F191FDA469F039A9&profile=pass",
+      "description": "Infotainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c169",
+      "name": "SONY BBC EARTH HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1270213654?ticket=FBDC22FB162AB4C63416D063D869B0C3529CC74B&profile=pass",
+      "description": "Infotainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c170",
+      "name": "HISTORY TV18",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/973182615?ticket=E9AE2E0808724C96143E097605E36BC84C11BBEB&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c171",
+      "name": "ID HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/302067065?ticket=6FCC34ABAE7CFF06271A10B2162C75010EEBA38D&profile=pass",
+      "description": "Infotainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c172",
+      "name": "DISCOVERY TURBO",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/685029575?ticket=C361B282138405FD0F0AA111D929E3AB544AE9C6&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c173",
+      "name": "DISCOVERY SCIENCE",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/85469860?ticket=FE603B1871FF3B1DC0838D5FE9E028A53C8B20E6&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c174",
+      "name": "TRAVEL XP",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/272810068?ticket=7912C9EFC835229F7791C598C0B1CAFBDAA1E5AA&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c175",
+      "name": "GEM NATURE",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/516499105?ticket=DF2B87A11C8850C65D3B8D25584827897DF3C1A7&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c176",
+      "name": "GEM TRAVEL",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/480630621?ticket=CF28A825637F5C75A21B735FA3DFE56D6E493F3C&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c177",
+      "name": "GEM LIFE+",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1135882852?ticket=FFD8729FBBAE1503A90BA7281610786F40B7F219&profile=pass",
+      "description": "Infotainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c178",
+      "name": "Fashion TV HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/956680288?ticket=F5B1100AD7263F5C71516447DB2F24FF626B2B9D&profile=pass",
+      "description": "Music • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c179",
+      "name": "Fashion TV Asia",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/179951552?ticket=FBC44C5DD4CA6D8F4E455032D2B1EC26F7B625BC&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c180",
+      "name": "M-World",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1555263715?ticket=853B6ACA604518F495F7F2D6D49B094218D9CCF7&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c181",
+      "name": "ROMEDY NOW",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1613931066?ticket=DB326F2D4FFA03DB9B6B795661E36764F01D4144&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c182",
+      "name": "STAR MOVIES",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2092964041?ticket=B3AE3C8085CC2F07FDF21412B1C83BB0515F1A89&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c183",
+      "name": "STAR MOVIES SELECT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/929044861?ticket=F8A4A3BB5E85DBC80807DDFED1962B8AFF467E7F&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c184",
+      "name": "MNX HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/567691107?ticket=BE9DA48B1BF9B77D11DA434F22EA9D62D3673D89&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c185",
+      "name": "STAR GOLD THRILLS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1216303140?ticket=04842210F4D8590B0B0611312505F89F42DA788E&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c186",
+      "name": "DISNEY INT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1799924700?ticket=B1BDF688B99E527608807C14E4177964248BCE49&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c187",
+      "name": "MN+ HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/54241014?ticket=8E004FD5DB214988D53EFCA05244AD6571501973&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c188",
+      "name": "MOVIES NOW",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1296222276?ticket=00AFAE016B16DA690A618478A1A57DA3FF7D65D8&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c189",
+      "name": "SONY PIX",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/954608593?ticket=A3F142D5695D40EAE4AB168648D8D60F2296F424&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c190",
+      "name": "LotusTV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/142078828?ticket=8F5E1D32A287A4D7EED627EA7637375D7DB84319&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c191",
+      "name": "INPLUS Pakistan",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1306256241?ticket=766939F1ABEDA82C8A18582167ED3F8EF09E821E&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c192",
+      "name": "MBC1",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/960684113?ticket=1915CDB3C744250F756EE78FC85C648CBDCF8686&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c193",
+      "name": "MBC 2",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1413428904?ticket=9DFE34F5DD5F95407A72B95A9DC413E866075FF4&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c194",
+      "name": "MBC4",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1805263842?ticket=909D8FD04E31C374E13BBFDCDFC09233A3E6C5E4&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c195",
+      "name": "MBC Action",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/232510132?ticket=16D381BF068BCEF607A5CC8D459C3814B673FE3D&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c196",
+      "name": "MBC Bollywood",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/399806639?ticket=24743CB8CF735B2206A6A99E1721DF3A0AF4662B&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c197",
+      "name": "ONYX HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1328731598?ticket=A83DB7AE63C5EEA2E2C62F21E99B89061A08D9FE&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c198",
+      "name": "MBC Drama",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1427148104?ticket=0961DF71557F8BDCE8EBD0BEC66126F5E4D55520&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c199",
+      "name": "MAXX",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1582992739?ticket=86957BB036C09FE66E49EBC83C5567FEBEEF1E77&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c200",
+      "name": "MBC MAX",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1776545044?ticket=1850331CFE6922991B2348B577EE70F4C6FA83B3&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c201",
+      "name": "GEM FILM",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1986681175?ticket=A75E1D8239856BE1A712B7299C204978F003B52C&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c202",
+      "name": "8XM",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1908155931?ticket=6941CFCCC8F76B8CDE30776288E4C2C3558EDCF4&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c203",
+      "name": "JALWA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1893273325?ticket=5EF55726216061A865BF4FA036851078C18F750A&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c204",
+      "name": "ZING",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/904403277?ticket=0D52043BF1D87E34519EBBDEF45499E4EC388124&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c205",
+      "name": "9X JALWA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/368626942?ticket=92F26A571CD1CEF466E7E999CAF04874C16AE541&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c206",
+      "name": "9X JHAKAAS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2062789173?ticket=F556653E4DD8F1FA40246FF4763A1E5589357340&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c207",
+      "name": "9XM",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/289934875?ticket=962FE6703139147EC512753021E23B3FC67B57C3&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c208",
+      "name": "ARYMusik",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/431324007?ticket=D3353ADAD7D14B431E2D0F83ACB20B369C0967FA&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c209",
+      "name": "MIFA + HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/786036414?ticket=CE4C215760C95E813B1040C3692502B95838B72B&profile=pass",
+      "description": "Music • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c210",
+      "name": "Music India",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/966053596?ticket=4E2CCB96000FFE45DBC0BEF6A19D683CEAC1E685&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c211",
+      "name": "9X TASHAN",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/931720962?ticket=1248EDEFFBBC4146E77894C842C022C4D9AB8DCF&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c212",
+      "name": "TABBAR HITS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1701747810?ticket=A66E8A049CF262D75F4095040B8385B038F0CB08&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c213",
+      "name": "Balle Balle Music",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1962360289?ticket=DD3729529E65326C51779085A25E82CDB3AB5A1F&profile=pass",
+      "description": "Music • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c214",
+      "name": "24B HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/901969546?ticket=2682116E4B5A332FAB50F6E7AB6C7A2B242E37F6&profile=pass",
+      "description": "Music • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c215",
+      "name": "MIFA MUSIC HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/991039162?ticket=343A63A78B616E31A887606D62EAD6AB9A72EDC8&profile=pass",
+      "description": "Music • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c216",
+      "name": "STAR PLUS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/95243181?ticket=A47EA1D14604A8B1E77A7CA8F64C45C576416BD9&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c217",
+      "name": "SONY HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/148905550?ticket=D95C2C596ED07768CCE8E1D59F93D6330BF4EBA8&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c218",
+      "name": "COLORS HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2057230362?ticket=05870E49AA29998C87099CC0A0070D709B461548&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c219",
+      "name": "STAR BHARAT",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2119636855?ticket=FFD1B0A1C7C0B2D81611CBE69499CD5D025179C4&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c220",
+      "name": "SONY SAB HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1467177652?ticket=F09724E44C9148B50B49A48B73C83154A6396249&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c221",
+      "name": "&TV HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1424211961?ticket=C7BAB98DCD73A645F1B9BFFE432814AE37AF5B86&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c222",
+      "name": "ZEE TV HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1098503157?ticket=2A0955D467EF1DEB566F0D4269D31348F11593CF&profile=pass",
+      "description": "Entertainment • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c223",
+      "name": "ZEE BOLLYWOOD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1766080362?ticket=7B3A22D0FDD6DA7C336F604AD12FB9CE47004F5E&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c224",
+      "name": "COLORS RISHTEY",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/554707426?ticket=F7C8313812F601090511F9F8AA08477F7931A87B&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c225",
+      "name": "SONY PAL",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1459277132?ticket=490440D1322F4F7783041D3AFC75B6F19A87708B&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c226",
+      "name": "ZEE CINEMA HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1477567606?ticket=1BFF6B61CD818AB68A89742ED2DE9F0B57CF0368&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c227",
+      "name": "&PICTURES HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1175206610?ticket=12F78F3EED8D182D30FF5C3E8B9126436A1E310E&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c228",
+      "name": "STAR GOLD HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/363433704?ticket=215AC4C7AD94EE684FA3BD51D8DC2E9DDC03ADD6&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c229",
+      "name": "STAR GOLD 2 HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/282855773?ticket=DA9E56B48ED60751271B9CF8930975E3C50B84ED&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c230",
+      "name": "STAR GOLD ROMANCE",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/285724856?ticket=EA2350E521ECC0E86CFEA8099B7863CD7FE104FE&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c231",
+      "name": "STAR GOLD SELECT HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/763749110?ticket=055238360DBEA848167280203C11851640C173C8&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c232",
+      "name": "SONY MAX HD",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1052904367?ticket=6666723409340575B6F7D32E46BF6C5A6205FD39&profile=pass",
+      "description": "Movies • HD",
+      "isCustom": false
+    },
+    {
+      "id": "c233",
+      "name": "SONY MAX 2",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1416664449?ticket=AC71985DAF3D8A1938E04341535321420FACBAC9&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c234",
+      "name": "ZEE CLASSIC",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1720807147?ticket=9DDE26EF1778C3C723A6D5D5D945049B7D983481&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c235",
+      "name": "B4U KADAK",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1135007727?ticket=1F5657A881348E86D5B6367621E08F994525E46A&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c236",
+      "name": "PITAARA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/373677854?ticket=E88E04CAFACAA332CBAEE0ED93ACF8F96690667B&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c237",
+      "name": "THE Q",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/900719871?ticket=126B64FF5C133AD4786A3A4CBAA2C1BC096BA23D&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c238",
+      "name": "Goldmines",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1390981897?ticket=2A530CE193C7DEA7DE14654829B6200BD53778CB&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c239",
+      "name": "GOLDMINES MOVIES",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/981045765?ticket=EC407FED32E9777A3531F206515104B067295A3D&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c240",
+      "name": "Goldmines 2",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1072623178?ticket=A68895B8A1BA840C0BD5F278CB3D5A33644D6180&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c241",
+      "name": "Goldmines Bollywood",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2056363423?ticket=A669CD14525AC2DFC1B4770118A5B2BEF78C70D1&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c242",
+      "name": "ALL TIME MOVIES",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/809716983?ticket=73B3D562FE42167880EE926995A922688EC4058C&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c243",
+      "name": "A1TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1074255569?ticket=94AE965366B9D55EA2F64AF3E02194D79D623018&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c244",
+      "name": "Hum Pashto 1",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1705991730?ticket=534F47ECE6ED4C560FBF8B0C494C26FA84C2D841&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c245",
+      "name": "See TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/239824005?ticket=AB37BBE1756A8F5AE7F71C81D69CF64DF7D3EE73&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c246",
+      "name": "RAAVI TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/2094398592?ticket=885B5F21B30AC4A94E254961C305858E10DCCF72&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c247",
+      "name": "ARUJ TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1613924316?ticket=0D4EFB496A38FC9DFCAF38BA478F55E871AE54D2&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c248",
+      "name": "FILMAX",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/520083254?ticket=37DD5AA1517901ED4F48A8C30E787E5CBB48480E&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c249",
+      "name": "FILMAZIA",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1827867429?ticket=129FFA652E8BDB4ED5851FED01FBD60A8879CDFF&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c250",
+      "name": "FILMAZIA PUNJABI",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1186357151?ticket=1C6F1BD03240B9DE7BCC362FC66483FBE1E90EE2&profile=pass",
+      "description": "Movies • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c251",
+      "name": "Sindh News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1261293653?ticket=64DFC71D76DC686A7E71E9E329D340A064907B3B&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c252",
+      "name": "K21 NEWS",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1846898053?ticket=B6D67031F876460A1D6F1C5A9A025EE528AE1164&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c253",
+      "name": "Sindh TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/1291929595?ticket=17236126117D97DA26B4BEC39CE8FDE7A07BAFD1&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c254",
+      "name": "Isaac TV",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/346513977?ticket=DC12E3ECA5C5D9F09203D9A280D2DADC7BD35950&profile=pass",
+      "description": "Entertainment • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c255",
+      "name": "AUR News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/408698649?ticket=B0A8CB8863096854AA748B66034D6BC4B1931E51&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c256",
+      "name": "SNN News",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "http://119.156.228.231:9983/stream/channelid/339810336?ticket=A2CFFC20B2F74192DE19003195AF7D300FC88230&profile=pass",
+      "description": "News • Live",
+      "isCustom": false
     }
   ]
-}
+    }
