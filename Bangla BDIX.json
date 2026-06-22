@@ -2,14 +2,6 @@
   "channels": [
     {
       "id": "c1",
-      "name": "FIFA WATCH",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
-      "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c2",
       "name": "Somoy TV",
       "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
       "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
@@ -17,104 +9,7 @@
       "isCustom": false
     },
     {
-      "id": "c3",
-      "name": "Zee Bangla Sonar",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
-      "description": "Entertainment • HD",
-      "isCustom": false
-    },
-    {
-      "id": "c4",
-      "name": "Bein Sports 1",
-      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
-      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
-      "description": "Football • HD",
-      "isCustom": false
-    },
-    {
-      "id": "c5",
-      "name": "Bein Sports 1 UHD",
-      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
-      "streamUrl": "http://proxpanel.cc/h1wqD6CY/byxHYgX/707929",
-      "description": "Football • UHD",
-      "isCustom": false
-    },
-    {
-      "id": "c6",
-      "name": "Bein Sports Max 1 4K",
-      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
-      "streamUrl": "http://proxpanel.cc/h1wqD6CY/byxHYgX/835130",
-      "description": "Football • 4K",
-      "isCustom": false
-    },
-    {
-      "id": "c7",
-      "name": "WIN Sports",
-      "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
-      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
-      "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c8",
-      "name": "FOX",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://84.17.50.102/fox/index.m3u8",
-      "description": "Football • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c9",
-      "name": "FS1",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://41.223.30.230/FOXSPORTS1/index.m3u8",
-      "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c10",
-      "name": "FS2",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
-      "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c11",
-      "name": "DAZN 1",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://znty.dyndns.org:5010/hls/eleven1.m3u8",
-      "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c13",
-      "id": "c12",
-      "name": "Telemundo",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
-      "description": "Football • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c13",
-      "name": "ESPN",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8",
-      "description": "Sports • HD",
-      "isCustom": false
-    },
-    {
-      "id": "c14",
-      "name": "D Sports",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
-      "description": "Sports • HD",
-      "isCustom": false
-    },
-    {
-      "id": "c15",
+      "id": "c2",
       "name": "Jamuna TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
@@ -122,7 +17,7 @@
       "isCustom": false
     },
     {
-      "id": "c16",
+      "id": "c3",
       "name": "DBC News HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
@@ -130,7 +25,7 @@
       "isCustom": false
     },
     {
-      "id": "c17",
+      "id": "c4",
       "name": "Maasranga TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
@@ -138,7 +33,7 @@
       "isCustom": false
     },
     {
-      "id": "c18",
+      "id": "c5",
       "name": "Ekattor HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
@@ -146,7 +41,7 @@
       "isCustom": false
     },
     {
-      "id": "c19",
+      "id": "c6",
       "name": "Channel 24 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
@@ -154,7 +49,7 @@
       "isCustom": false
     },
     {
-      "id": "c20",
+      "id": "c7",
       "name": "ATN News",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
@@ -162,7 +57,7 @@
       "isCustom": false
     },
     {
-      "id": "c21",
+      "id": "c8",
       "name": "News 24 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
@@ -170,7 +65,7 @@
       "isCustom": false
     },
     {
-      "id": "c22",
+      "id": "c9",
       "name": "Star News",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
@@ -178,7 +73,7 @@
       "isCustom": false
     },
     {
-      "id": "c23",
+      "id": "c10",
       "name": "Deepto TV HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
@@ -186,7 +81,7 @@
       "isCustom": false
     },
     {
-      "id": "c24",
+      "id": "c11",
       "name": "Channel 9 HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
@@ -194,7 +89,7 @@
       "isCustom": false
     },
     {
-      "id": "c25",
+      "id": "c12",
       "name": "Channel I HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
@@ -202,7 +97,7 @@
       "isCustom": false
     },
     {
-      "id": "c26",
+      "id": "c13",
       "name": "Cineedge HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
@@ -210,7 +105,7 @@
       "isCustom": false
     },
     {
-      "id": "c27",
+      "id": "c14",
       "name": "Uniques HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
@@ -218,7 +113,7 @@
       "isCustom": false
     },
     {
-      "id": "c28",
+      "id": "c15",
       "name": "Superrix HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
@@ -226,7 +121,7 @@
       "isCustom": false
     },
     {
-      "id": "c29",
+      "id": "c16",
       "name": "Bangla Vision",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
@@ -234,7 +129,7 @@
       "isCustom": false
     },
     {
-      "id": "c30",
+      "id": "c17",
       "name": "NTV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
@@ -242,7 +137,7 @@
       "isCustom": false
     },
     {
-      "id": "c31",
+      "id": "c18",
       "name": "Screem",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
@@ -250,7 +145,7 @@
       "isCustom": false
     },
     {
-      "id": "c32",
+      "id": "c19",
       "name": "Flash Guys HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
@@ -258,7 +153,7 @@
       "isCustom": false
     },
     {
-      "id": "c33",
+      "id": "c20",
       "name": "BuddyStar HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
@@ -266,7 +161,7 @@
       "isCustom": false
     },
     {
-      "id": "c34",
+      "id": "c21",
       "name": "Luxell HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
@@ -274,7 +169,7 @@
       "isCustom": false
     },
     {
-      "id": "c35",
+      "id": "c22",
       "name": "Joy",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
@@ -282,7 +177,7 @@
       "isCustom": false
     },
     {
-      "id": "c36",
+      "id": "c23",
       "name": "Funny Junior HD",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
@@ -290,7 +185,7 @@
       "isCustom": false
     },
     {
-      "id": "c37",
+      "id": "c24",
       "name": "Crimes",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
@@ -298,7 +193,7 @@
       "isCustom": false
     },
     {
-      "id": "c38",
+      "id": "c25",
       "name": "True Stories",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
@@ -306,7 +201,7 @@
       "isCustom": false
     },
     {
-      "id": "c39",
+      "id": "c26",
       "name": "Intelligence",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
@@ -314,7 +209,7 @@
       "isCustom": false
     },
     {
-      "id": "c40",
+      "id": "c27",
       "name": "Thunder Er",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
@@ -322,7 +217,7 @@
       "isCustom": false
     },
     {
-      "id": "c41",
+      "id": "c28",
       "name": "Fighters",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
@@ -330,7 +225,7 @@
       "isCustom": false
     },
     {
-      "id": "c42",
+      "id": "c29",
       "name": "Smarty",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
@@ -338,7 +233,7 @@
       "isCustom": false
     },
     {
-      "id": "c43",
+      "id": "c30",
       "name": "Lucky Family",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
@@ -346,7 +241,7 @@
       "isCustom": false
     },
     {
-      "id": "c44",
+      "id": "c31",
       "name": "Kids Stars",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
@@ -354,7 +249,7 @@
       "isCustom": false
     },
     {
-      "id": "c45",
+      "id": "c32",
       "name": "SRK TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779607122445.png",
       "streamUrl": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
@@ -362,7 +257,7 @@
       "isCustom": false
     },
     {
-      "id": "c46",
+      "id": "c33",
       "name": "Sports Legends",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779609962271.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
@@ -370,15 +265,7 @@
       "isCustom": false
     },
     {
-      "id": "c47",
-      "name": "Al Jazeera",
-      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
-      "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
-      "description": "News • Live",
-      "isCustom": false
-    },
-    {
-      "id": "c48",
+      "id": "c34",
       "name": "BTV Shangshad",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781166550297.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
@@ -386,7 +273,7 @@
       "isCustom": false
     },
     {
-      "id": "c49",
+      "id": "c35",
       "name": "Party Universe",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
@@ -394,7 +281,7 @@
       "isCustom": false
     },
     {
-      "id": "c50",
+      "id": "c36",
       "name": "Al Quran",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
@@ -402,7 +289,7 @@
       "isCustom": false
     },
     {
-      "id": "c51",
+      "id": "c37",
       "name": "Independent TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
@@ -410,7 +297,7 @@
       "isCustom": false
     },
     {
-      "id": "c52",
+      "id": "c38",
       "name": "Nikki",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
@@ -418,7 +305,7 @@
       "isCustom": false
     },
     {
-      "id": "c53",
+      "id": "c39",
       "name": "Originals",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
@@ -426,7 +313,7 @@
       "isCustom": false
     },
     {
-      "id": "c54",
+      "id": "c40",
       "name": "Crazy Ex",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
@@ -434,7 +321,7 @@
       "isCustom": false
     },
     {
-      "id": "c55",
+      "id": "c41",
       "name": "Delicious",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
@@ -442,7 +329,7 @@
       "isCustom": false
     },
     {
-      "id": "c56",
+      "id": "c42",
       "name": "Program Promo",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087459461.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
@@ -450,7 +337,7 @@
       "isCustom": false
     },
     {
-      "id": "c57",
+      "id": "c43",
       "name": "Sports Range",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1779610478709.png",
       "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
@@ -458,10 +345,18 @@
       "isCustom": false
     },
     {
-      "id": "c58",
+      "id": "c44",
       "name": "Channel 1",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1781163068414.png",
       "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c45",
+      "name": "Al Jazeera",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png",
+      "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
       "description": "News • Live",
       "isCustom": false
     }
