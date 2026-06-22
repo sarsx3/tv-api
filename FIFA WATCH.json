@@ -2,7 +2,7 @@
   "channels": [
     {
       "id": "c1",
-      "name": "FIFA WATCH",
+      "name": "FIFA 1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
       "description": "Sports • Live",
@@ -10,26 +10,26 @@
     },
     {
       "id": "c2",
-      "name": "FIFA 1",
-      "logo": "https://img.icons8.com/color/144/000000/tv.png",
+      "name": "FIFA 2",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://198.195.239.50:8095/Fifa-1/video.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
       "id": "c3",
-      "name": "BTV",
-      "logo": "https://img.icons8.com/color/144/000000/tv.png",
-      "streamUrl": "http://198.195.239.50:8095/btv/video.m3u8",
-      "description": "National • Live",
+      "name": "FIFA 3",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+      "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
+      "description": "Sports • Live",
       "isCustom": false
     },
     {
       "id": "c4",
-      "name": "PTV Sports",
-      "logo": "https://img.icons8.com/color/144/000000/tv.png",
-      "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
-      "description": "Sports • Live",
+      "name": "BTV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/1280px-Bangladesh_Television_Logo.svg.png",
+      "streamUrl": "http://198.195.239.50:8095/btv/video.m3u8",
+      "description": "National • Live",
       "isCustom": false
     },
     {
