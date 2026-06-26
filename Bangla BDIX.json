@@ -1,14 +1,6 @@
 {
   "channels": [
     {
-      "id": "c1",
-      "name": "Somoy TV",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
-      "description": "News • Live",
-      "isCustom": false
-    },
-    {
       "id": "c2",
       "name": "Jamuna TV",
       "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
