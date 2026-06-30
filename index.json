@@ -1,8 +1,8 @@
 {
   "servers": [
     { "name": "FIFA WATCH.json", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/FIFA%20WATCH.json" },
+    { "name": "World Cup", "downloadUrl": "https://raw.githubusercontent.com/stablesports711-hue/stable-sports-iptv/refs/heads/main/STABLE-SPORTS%20TV.m3u" },
     { "name": "Indian BDIX.m3u", "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/Indian%20BDIX%20V2.m3u" },
     { "name": "Kids.m3u8", "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/7skt.m3u.m3u8" }
-    
   ]
 }
