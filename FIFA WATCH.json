@@ -2,9 +2,9 @@
   "channels": [
     {
       "id": "c0",
-      "name": "BIOSCOPE+",
-      "logo": "https://play-lh.googleusercontent.com/17-1vwUEC8ngCmbshKDcq0h-R6F16ZD7QQs3-bcmPbv85e8vcJdHujyHuOmC94WjSdrMAvCU9CfT34fBA_4yJvE=w240-h480-rw",
-      "streamUrl": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8",
+      "name": "BTV",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5D7FRfJk_-Ehx9MwGomXHkVtIZhpD9QtJ2QgJDDE1vw&s=10",
+      "streamUrl": "http://180.94.28.28:8097//BTV/index.fmp4.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
