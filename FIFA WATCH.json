@@ -25,14 +25,6 @@
       "isCustom": false
     },
     {
-      "id": "c04",
-      "name": "FIFA 4K",
-      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://fastshare1.com/live/25711345/late8airline/745270.ts",
-      "description": "National • Live",
-      "isCustom": false
-    },
-    {
       "id": "c00",
       "name": "T Sports 01",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
@@ -41,10 +33,26 @@
       "isCustom": false
     },
     {
+      "id": "c0df0",
+      "name": "T Sports 02",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+      "streamUrl": "http://114.130.57.233:8080/LIVE-Sports/video.m3u8?token=SkQuhAXZxgBan1",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c04",
+      "name": "FIFA 4K",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+      "streamUrl": "http://fastshare1.com/live/25711345/late8airline/745270.ts",
+      "description": "National • Live",
+      "isCustom": false
+    },
+    {
       "id": "c1",
       "name": "FIFA 1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
+      "streamUrl": "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -89,18 +97,26 @@
       "isCustom": false
     },
     {
-      "id": "cfd7",
-      "name": "Somoy TV 3",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
-      "description": "News • Live",
+      "id": "c6",
+      "name": "UNT Sports 01",
+      "logo": "https://img.icons8.com/color/144/000000/tv.png",
+      "streamUrl": "http://198.195.239.50:8095/unt-s/video.m3u8",
+      "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "c6",
-      "name": "UNT Sports",
+      "id": "cfgf6",
+      "name": "UNT Sports 02",
       "logo": "https://img.icons8.com/color/144/000000/tv.png",
-      "streamUrl": "http://198.195.239.50:8095/unt-s/video.m3u8",
+      "streamUrl": "https://yowaimo.in/Sflex-ArtlPVT0719/ZEE_CAFE_HD.m3u8",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+     {
+      "id": "c6hf",
+      "name": "UNT Sports 03",
+      "logo": "https://img.icons8.com/color/144/000000/tv.png",
+      "streamUrl": "http://114.130.57.233:8080/unitedsports-bdixbd.net/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
       "description": "Sports • Live",
       "isCustom": false
     },
