@@ -41,6 +41,30 @@
       "isCustom": false
     },
     {
+      "id": "c5",
+      "name": "Somoy TV 1",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "http://198.195.239.50:8095/somoyTv/index.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "cfb5",
+      "name": "Somoy TV 2",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c7",
+      "name": "Somoy TV 3",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
       "id": "c04",
       "name": "FIFA 4K",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
@@ -81,26 +105,26 @@
       "isCustom": false
     },
     {
-      "id": "c5",
-      "name": "Somoy TV 1",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "http://198.195.239.50:8095/somoyTv/index.m3u8",
+      "id": "cdf7",
+      "name": "Toffee 01",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://cdn-tt.pages.dev/ch1.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
     {
-      "id": "cfb5",
-      "name": "Somoy TV 2",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8",
+      "id": "cdff7",
+      "name": "Toffee 02",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://cdn-tt.pages.dev/ch2.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
     {
-      "id": "c7",
-      "name": "Somoy TV 3",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "id": "cdfgff7",
+      "name": "Toffee 03",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
@@ -126,30 +150,6 @@
       "logo": "https://img.icons8.com/color/144/000000/tv.png",
       "streamUrl": "http://114.130.57.233:8080/unitedsports-bdixbd.net/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
       "description": "Sports • Live",
-      "isCustom": false
-    },
-    {
-      "id": "cdf7",
-      "name": "Toffee 01",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
-      "streamUrl": "https://cdn-tt.pages.dev/ch1.m3u8",
-      "description": "News • Live",
-      "isCustom": false
-    },
-    {
-      "id": "cdff7",
-      "name": "Toffee 02",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
-      "streamUrl": "https://cdn-tt.pages.dev/ch2.m3u8",
-      "description": "News • Live",
-      "isCustom": false
-    },
-    {
-      "id": "cdfgff7",
-      "name": "Toffee 03",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
-      "streamUrl": "https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8",
-      "description": "News • Live",
       "isCustom": false
     },
     {
