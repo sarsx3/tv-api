@@ -2,17 +2,41 @@
   "channels": [
     {
       "id": "c0",
-      "name": "BTV",
+      "name": "BTV 1",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5D7FRfJk_-Ehx9MwGomXHkVtIZhpD9QtJ2QgJDDE1vw&s=10",
       "streamUrl": "http://180.94.28.28:8097//BTV/index.fmp4.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "c00",
-      "name": "T Sports",
+      "id": "c001",
+      "name": "BTV 2",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5D7FRfJk_-Ehx9MwGomXHkVtIZhpD9QtJ2QgJDDE1vw&s=10",
+      "streamUrl": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c4",
+      "name": "BTV 3",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5D7FRfJk_-Ehx9MwGomXHkVtIZhpD9QtJ2QgJDDE1vw&s=10",
+      "streamUrl": "http://198.195.239.50:8095/btv/video.m3u8",
+      "description": "National • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c04",
+      "name": "FIFA 4K",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://tv.emnetbd.com/flussonic/Tsports1/tracks-v1a1/mono.m3u8",
+      "streamUrl": "http://fastshare1.com/live/25711345/late8airline/745270.ts",
+      "description": "National • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c00",
+      "name": "T Sports 01",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+      "streamUrl": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -39,20 +63,36 @@
       "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
       "description": "Sports • Live",
       "isCustom": false
-    },
+    }, 
     {
-      "id": "c4",
-      "name": "BTV",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Bangladesh_Television_Logo.svg/1280px-Bangladesh_Television_Logo.svg.png",
-      "streamUrl": "http://198.195.239.50:8095/btv/video.m3u8",
-      "description": "National • Live",
+      "id": "c5",
+      "name": "Somoy TV 1",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "http://198.195.239.50:8095/somoyTv/index.m3u8",
+      "description": "News • Live",
       "isCustom": false
     },
     {
-      "id": "c5",
-      "name": "Somoy TV",
+      "id": "cfb5",
+      "name": "Somoy TV 2",
       "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "http://198.195.239.50:8095/somoyTv/index.m3u8",
+      "streamUrl": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "c7",
+      "name": "Somoy TV 3",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "cfd7",
+      "name": "Somoy TV 3",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
+      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
@@ -65,10 +105,26 @@
       "isCustom": false
     },
     {
-      "id": "c7",
-      "name": "Somoy TV (Global)",
-      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "id": "cdf7",
+      "name": "Toffee 01",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://cdn-tt.pages.dev/ch1.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "cdff7",
+      "name": "Toffee 02",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://cdn-tt.pages.dev/ch2.m3u8",
+      "description": "News • Live",
+      "isCustom": false
+    },
+    {
+      "id": "cdfgff7",
+      "name": "Toffee 03",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
+      "streamUrl": "https://kazimmt.ami.bd/playlist/TF/TF-1.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
