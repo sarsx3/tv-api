@@ -71,12 +71,20 @@
       "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
       "description": "Sports • Live",
       "isCustom": false
-    }, 
+    },
+    {
+      "id": "cfs3",
+      "name": "FIFA 4",
+      "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+      "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
+      "description": "Sports • Live",
+      "isCustom": false
+    },
     {
       "id": "c5",
       "name": "Somoy TV 1",
       "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/03d33e123989497.Y3JvcCw5MDAsNzAzLDAsOTg.jpg",
-      "streamUrl": "http://198.195.239.50:8095/somoyTv/index.m3u8",
+      "streamUrl": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
       "description": "News • Live",
       "isCustom": false
     },
