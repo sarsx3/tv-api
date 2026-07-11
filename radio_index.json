@@ -1,11 +1,11 @@
 {
   "servers": [
     {
-      "name": "Bangladesh.m3u",
+      "name": "Bangladesh",
       "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/Radio/refs/heads/main/radios/bdradios.json"
     },
     {
-      "name": "Extra.json",
+      "name": "Extra",
       "downloadUrl": ""
     }
   ]
