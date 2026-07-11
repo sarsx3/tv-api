@@ -1,68 +1,68 @@
 {
   "channels": [
     {
-      "id": "c0df0",
-      "name": "T Sports 02",
+      "id": "01",
+      "name": "T Sports",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://114.130.57.233:8080/LIVE-Sports/video.m3u8?token=SkQuhAXZxgBan1",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "c04",
-      "name": "FIFA 4K",
+      "id": "02",
+      "name": "FIFA 1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://fastshare1.com/live/25711345/late8airline/745270.ts",
       "description": "National • Live",
       "isCustom": false
     },
     {
-      "id": "c1",
-      "name": "FIFA 1",
+      "id": "03",
+      "name": "FIFA 2",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "c2",
-      "name": "FIFA 2",
+      "id": "04",
+      "name": "FIFA 3",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://198.195.239.50:8095/Fifa-1/video.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "c3",
-      "name": "FIFA 3",
+      "id": "05",
+      "name": "FIFA 4",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "cfs3",
-      "name": "FIFA 4",
+      "id": "06",
+      "name": "FIFA 5",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
       "streamUrl": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
     {
-      "id": "cdfgff7",
-      "name": "Toffee 03",
+      "id": "07",
+      "name": "Toffee",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmaKTsbDjzBZAzja9s_H5MJeP1ojXN1hYiaoj82JpsUw&s=10",
       "streamUrl": "https://trophystream.com/cors-proxy/https/prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783847957~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMjk2NmI0NzEtNTVlMS00ZWY0LThjNzQtMzdlYjgzMDllMjNjIn0~Signature=AWIR_5F8q_6NB8OvnPSmmV3w9j0btjuV3fIHsivXFGGtIhCbAVF_skMskImmwSkBt2f57hvX_3KmrtSuBVziPuVpChcN",
       "description": "News • Live",
       "isCustom": false
     },
     {
-      "id": "c8",
-      "name": "Bein Sports 1",
+      "id": "08",
+      "name": "beIN Sports",
       "logo": "https://i.postimg.cc/Y903JSq8/20260612-095648.jpg",
       "streamUrl": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
       "description": "Football • HD",
       "isCustom": false
-    },
+    }
   ]
 }
