@@ -5,8 +5,12 @@
       "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/Radio/refs/heads/main/radios/bdradios.json"
     },
     {
-      "name": "Extra",
-      "downloadUrl": ""
+      "name": "Al-Quran",
+      "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/Radio/refs/heads/main/radios/alquran.json"
+    },
+    {
+      "name": "Mixed",
+      "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/Radio/refs/heads/main/radios/top40-radios.json"
     }
   ]
 }
