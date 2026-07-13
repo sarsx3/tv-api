@@ -1,0 +1,51 @@
+[  
+  {
+    "name": "Radio Today(89.6)",
+    "description": "Radio Today 89.6 FM from Dhaka, Bangladesh",
+    "url": "http://node-03.zeno.fm/0zha3rfq02quv",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwsPsZ8ydAQQ_Qq5CYuqdlhzCBze53_7NzCg&usqp=CAU",
+    "status": "active"
+  },
+  {
+    "name": "Bangladesh Betar Dhaka",
+    "description": "National broadcaster Bangladesh Betar from Dhaka",
+    "url": "http://as3.digitalsynapsebd.com:8263/;stream.mp3",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUmJx9jACLmDe3lkRYxo4AZcuxSuD6rIqbvw&usqp=CAU",
+    "status": "active"
+  },
+  {
+    "name": "Radio Foorti",
+    "description": "Radio Foorti music radio station",
+    "url": "https://node-11.zeno.fm/f0bfdk2w34zuv",
+    "thumb": "https://cdn-profiles.tunein.com/s122537/images/logod.png?t=636625146120570000",
+    "status": "active"
+  }, 
+  {
+    "name": "FnF.FM Bangla",
+    "description": "FnF.FM Bangla music radio station",
+    "url": "http://eu6.fastcast4u.com:5099/;stream",
+    "thumb": "https://static.mytuner.mobi/media/tvos_radios/mn9anbdu3mle.png",
+    "status": "active"
+  },
+  {
+    "name": "Traffic FM",
+    "description": "Traffic FM talk radio station",
+    "url": "http://as3.digitalsynapsebd.com:8263/;stream.mp3",
+    "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5fsVPeMvC-Is-WajMo_pk13SBT-A7yjko0Q&s",
+    "status": "active"
+  },  
+  {
+    "name": "Awaj FM",
+    "description": "Awaj FM talk radio station",
+    "url": "http://streamasiacdn.atc-labs.com/radioawaj.aac",
+    "thumb": "https://via.placeholder.com/100x60?text=Awaj+FM",
+    "status": "active"
+  },
+  {
+    "name": "Suno FM 102",
+    "description": "Suno FM 102 music radio station",
+    "url": "http://51.255.235.165:5476/;stream.mp3",
+    "thumb": "https://via.placeholder.com/100x60?text=Suno+FM",
+    "status": "active"
+  }
+]
