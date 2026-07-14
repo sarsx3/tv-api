@@ -12,7 +12,7 @@
       "id": "03",
       "name": "FIFA 1",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4",
+      "streamUrl": "https://raw.githubusercontent.com/shidul100/Iptv/refs/heads/main/playlist.m3u",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -20,7 +20,7 @@
       "id": "04",
       "name": "FIFA 2",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://198.195.239.50:8095/Fifa-1/video.m3u8",
+      "streamUrl": "http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -28,7 +28,7 @@
       "id": "05",
       "name": "FIFA 3",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "http://198.195.239.50:8095/ptv/index.m3u8",
+      "streamUrl": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -36,7 +36,7 @@
       "id": "06",
       "name": "FIFA 4",
       "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-      "streamUrl": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
+      "streamUrl": "http://103.165.93.31:8095/ptv/tracks-v1a1/mono.m3u8",
       "description": "Sports • Live",
       "isCustom": false
     },
@@ -48,6 +48,14 @@
       "description": "News • Live",
       "isCustom": false
     },
+    {
+  "id": "cw9bmvcx",
+  "name": "Willow",
+  "logo": "https://i.imgur.com/sqeIrMo.jpeg",
+  "streamUrl": "http://27.124.71.27/Willow_Extra/index.m3u8",
+  "description": "Live",
+  "isCustom": false
+},
     {
       "id": "08",
       "name": "beIN Sports",
