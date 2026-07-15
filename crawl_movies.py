@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
 """
-FM FTP Movie Crawler — Improved Version
-========================================
-- যত গভীরেই folder থাকুক, শেষ পর্যন্ত crawl করে
-- Parent folder name = Category (যেমন hindidub → Hindi Dubbed)
-- Movie folder name = Movie name
-- TMDB থেকে poster/logo আনে
-- movies_fmftp.json এ save করে
+FM FTP Movie Crawler — Incremental Smart Version
+==================================================
+কাজের ধরন:
+  1. movies_fmftp.json লোড করো (আগের সব মুভি)
+  2. fmftp.net crawl করো — শুধু নতুন মুভি খোঁজো
+  3. নতুন মুভি পেলে TMDB থেকে poster আনো
+  4. নতুন মুভি লিস্টের শুরুতে যোগ করো
+  5. Save করো
 
-Usage:
-    python crawl_movies.py
-    python crawl_movies.py --output custom.json
-    python crawl_movies.py --no-poster   # poster ছাড়া (দ্রুত)
+পুরনো মুভিতে কোনো হাত দেওয়া হয় না।
 """
 
 import argparse
 import json
 import os
 import re
-import sys
 import time
-from datetime import datetime, timezone
 from html.parser import HTMLParser
 from urllib.parse import urljoin, unquote, quote
 from urllib.request import urlopen, Request
@@ -32,486 +28,424 @@ from urllib.error import URLError, HTTPError
 
 BASE_URL        = "https://fmftp.net/data/disk-1/movies/"
 OUTPUT_FILE     = "movies_fmftp.json"
-REQUEST_DELAY   = 0.4          # প্রতি request এর পরে wait (seconds)
-REQUEST_TIMEOUT = 20           # connection timeout
-MAX_RETRIES     = 3            # fail হলে retry count
+REQUEST_DELAY   = 0.3
+REQUEST_TIMEOUT = 20
+MAX_RETRIES     = 3
 
-# TMDB API credentials
-# GitHub Actions এ TMDB_API_TOKEN secret set করলে সেটা automatically use হবে
-TMDB_API_KEY   = os.environ.get("TMDB_API_KEY",   "6944c4f8c6903253dd78963f27e2890e")
 TMDB_API_TOKEN = os.environ.get("TMDB_API_TOKEN",
     "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2OTQ0YzRmOGM2OTAzMjUzZGQ3ODk2M2YyN2UyODkwZSIsIm5iZiI6MTc4NDExNTA0OS42NTQsInN1YiI6IjZhNTc2ZjY5YzdhNmJlMzQxMmE3YmZiYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IWpeUu3ZcJg0-gewjhtRMBq_CoJE2myi6NLzYXtjnlI"
 )
 
-# Video file extensions
 VIDEO_EXTS = {'.mp4', '.mkv', '.avi', '.mov', '.m4v',
               '.webm', '.ts', '.flv', '.wmv', '.mpg', '.mpeg'}
+SKIP_NAMES = {'..', '.', '__pycache__', '.git',
+              'thumbnail', 'thumbs', 'cover', 'artwork', 'subs', 'subtitles'}
 
-# Skip এই folder গুলো
-SKIP_NAMES = {'..', '.', '__pycache__', '.git', 'thumbnail', 'thumbs', 'cover', 'artwork'}
-
-# Folder name → সুন্দর Category name
 CATEGORY_MAP = {
-    'bollywood':        'Bollywood',
-    'hollywood':        'Hollywood',
-    'hindidub':         'Hindi Dubbed',
-    'hindi dub':        'Hindi Dubbed',
-    'hindi dubbed':     'Hindi Dubbed',
-    'indianbangla':     'Indian Bangla',
-    'indian bangla':    'Indian Bangla',
-    'bangla':           'Bangla',
-    'korean':           'Korean',
-    'turkish':          'Turkish',
-    'thai':             'Thai',
-    'animation':        'Animation',
-    'horror':           'Horror',
-    'pakisthani':       'Pakistani',
-    'pakistani':        'Pakistani',
-    'foreigner movie':  'Foreign',
-    'foreign':          'Foreign',
-    'fm':               'FM Originals',
-    'south':            'South Indian',
-    'tamil':            'Tamil',
-    'telugu':           'Telugu',
-    'malayalam':        'Malayalam',
-    'action':           'Action',
-    'comedy':           'Comedy',
-    'drama':            'Drama',
-    'thriller':         'Thriller',
-    'sci-fi':           'Sci-Fi',
-    'romance':          'Romance',
-    'documentary':      'Documentary',
-    'kids':             'Kids',
-    'english':          'English',
-    'chinese':          'Chinese',
-    'japanese':         'Japanese',
-    'nepali':           'Nepali',
-    'urdu':             'Urdu',
+    'bollywood':       'Bollywood',
+    'hollywood':       'Hollywood',
+    'hindidub':        'Hindi Dubbed',
+    'hindi dub':       'Hindi Dubbed',
+    'hindi dubbed':    'Hindi Dubbed',
+    'indianbangla':    'Indian Bangla',
+    'indian bangla':   'Indian Bangla',
+    'bangla':          'Bangla',
+    'korean':          'Korean',
+    'turkish':         'Turkish',
+    'thai':            'Thai',
+    'animation':       'Animation',
+    'horror':          'Horror',
+    'pakisthani':      'Pakistani',
+    'pakistani':       'Pakistani',
+    'foreigner movie': 'Foreign',
+    'foreign':         'Foreign',
+    'fm':              'FM Originals',
+    'south':           'South Indian',
+    'tamil':           'Tamil',
+    'telugu':          'Telugu',
+    'malayalam':       'Malayalam',
+    'action':          'Action',
+    'comedy':          'Comedy',
+    'drama':           'Drama',
+    'thriller':        'Thriller',
+    'sci-fi':          'Sci-Fi',
+    'romance':         'Romance',
+    'documentary':     'Documentary',
+    'kids':            'Kids',
+    'english':         'English',
+    'chinese':         'Chinese',
+    'japanese':        'Japanese',
+    'nepali':          'Nepali',
+    'urdu':            'Urdu',
 }
 
 
 # ══════════════════════════════════════════════════════════════════
-# HTML Parser — Apache/Nginx "Index of" page
+# Existing Data Load
+# ══════════════════════════════════════════════════════════════════
+
+def load_existing(path: str) -> tuple[list, set]:
+    """
+    আগের movies_fmftp.json লোড করো।
+    Return: (movie_list, set_of_known_streamUrls)
+    """
+    if not os.path.exists(path):
+        print("📂 No existing JSON — full crawl mode")
+        return [], set()
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        known = {m['streamUrl'] for m in data if 'streamUrl' in m}
+        print(f"📂 Existing movies loaded: {len(data)} | Known URLs: {len(known)}")
+        return data, known
+    except Exception as e:
+        print(f"⚠ Could not load existing JSON: {e}")
+        return [], set()
+
+
+# ══════════════════════════════════════════════════════════════════
+# HTML Parser
 # ══════════════════════════════════════════════════════════════════
 
 class IndexPageParser(HTMLParser):
-    """
-    Apache/Nginx style "Index of /path/" page থেকে
-    সব links (files ও folders) বের করে।
-    """
-
-    def __init__(self, base_url: str):
+    def __init__(self, base_url):
         super().__init__()
         self.base_url = base_url
-        self.links: list[dict] = []
-        self._current_href = None
-        self._current_text = ''
+        self.links    = []
+        self._href    = None
+        self._text    = ''
 
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
-            d = dict(attrs)
-            href = d.get('href', '')
-            # শুধু relative links নাও, query strings ও parent links বাদ দাও
+            href = dict(attrs).get('href', '')
             if href and not href.startswith('?') and href not in ('/', '../', '..'):
-                full_url = urljoin(self.base_url, href)
-                # শুধু same domain এর links নাও
-                if full_url.startswith('https://fmftp.net') or full_url.startswith('http://fmftp.net'):
-                    self._current_href = full_url
-                    self._current_text = ''
+                full = urljoin(self.base_url, href)
+                if 'fmftp.net' in full:
+                    self._href = full
+                    self._text = ''
 
     def handle_endtag(self, tag):
-        if tag == 'a' and self._current_href:
-            text = self._current_text.strip().rstrip('/')
-            # Parent directory ও empty links বাদ দাও
+        if tag == 'a' and self._href:
+            text = self._text.strip().rstrip('/')
             if text and text not in ('Parent Directory', '..', '../', '.'):
                 self.links.append({
-                    'href': self._current_href,
-                    'text': text,
-                    'is_dir': self._current_href.endswith('/'),
+                    'href':   self._href,
+                    'text':   text,
+                    'is_dir': self._href.endswith('/'),
                 })
-            self._current_href = None
-            self._current_text = ''
+            self._href = None
 
     def handle_data(self, data):
-        if self._current_href is not None:
-            self._current_text += data
+        if self._href:
+            self._text += data
 
 
 # ══════════════════════════════════════════════════════════════════
-# HTTP Helper
+# HTTP
 # ══════════════════════════════════════════════════════════════════
 
-def fetch_html(url: str) -> str | None:
-    """URL fetch করে HTML return করে। Fail হলে None।"""
+def fetch_html(url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) '
-                      'Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,*/*',
-        'Accept-Language': 'en-US,en;q=0.9',
+                      'AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,*/*',
     }
     for attempt in range(MAX_RETRIES):
         try:
             req = Request(url, headers=headers)
-            with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-                return resp.read().decode('utf-8', errors='replace')
+            with urlopen(req, timeout=REQUEST_TIMEOUT) as r:
+                return r.read().decode('utf-8', errors='replace')
         except HTTPError as e:
             if e.code == 403:
-                print(f"  ✗ 403 Forbidden: {url}")
                 return None
-            if attempt < MAX_RETRIES - 1:
-                print(f"  ⚠ Retry {attempt+1}: {url} ({e})")
-                time.sleep(2)
-            else:
-                print(f"  ✗ Failed ({e.code}): {url}")
-                return None
-        except (URLError, Exception) as e:
             if attempt < MAX_RETRIES - 1:
                 time.sleep(2)
             else:
-                print(f"  ✗ Error: {url} — {e}")
+                return None
+        except Exception:
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(2)
+            else:
                 return None
     return None
 
 
-def parse_index_page(url: str) -> list[dict]:
-    """Index page parse করে links return করে।"""
+def parse_page(url):
     html = fetch_html(url)
     if not html:
         return []
-    parser = IndexPageParser(url)
-    parser.feed(html)
-    return parser.links
+    p = IndexPageParser(url)
+    p.feed(html)
+    return p.links
 
 
 # ══════════════════════════════════════════════════════════════════
 # TMDB Poster
 # ══════════════════════════════════════════════════════════════════
 
-_poster_cache: dict[str, str] = {}
+_tmdb_cache = {}   # session cache — একই নামে দুইবার call না হয়
 
-def get_poster_url(movie_name: str, year: str = '') -> str:
-    """
-    TMDB থেকে movie poster URL আনে।
-    Bearer token দিয়ে authenticate করে।
-    """
+def get_poster(movie_name, year=''):
     if not TMDB_API_TOKEN:
         return ''
 
-    # Movie name clean করো — year ও extra info বাদ দাও
-    clean_name = re.sub(r'\s*\(\d{4}\)\s*', '', movie_name).strip()
-    clean_name = re.sub(r'\s*\[\d{4}\]\s*', '', clean_name).strip()
-    clean_name = re.sub(r'\s*\[\w+\]\s*', '', clean_name).strip()
+    clean = re.sub(r'\s*[\(\[]\d{4}[\)\]]\s*', '', movie_name).strip()
+    clean = re.sub(r'\s*\[\w+\]\s*', '', clean).strip()
+    key   = f"{clean.lower()}_{year}"
 
-    cache_key = f"{clean_name}_{year}"
-    if cache_key in _poster_cache:
-        return _poster_cache[cache_key]
+    if key in _tmdb_cache:
+        return _tmdb_cache[key]
 
     try:
-        query = quote(clean_name)
-        year_param = f"&primary_release_year={year}" if year else ''
-        api_url = (f"https://api.themoviedb.org/3/search/movie"
-                   f"?query={query}{year_param}&include_adult=false&language=en-US&page=1")
-
-        req = Request(api_url, headers={
-            'User-Agent':    'FMFTPCrawler/1.0',
+        q      = quote(clean)
+        yp     = f"&primary_release_year={year}" if year else ''
+        url    = (f"https://api.themoviedb.org/3/search/movie"
+                  f"?query={q}{yp}&include_adult=false&language=en-US&page=1")
+        req    = Request(url, headers={
             'Authorization': f'Bearer {TMDB_API_TOKEN}',
             'Accept':        'application/json',
         })
-        with urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read())
+        with urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
 
-        results = data.get('results', [])
-        if results:
-            # প্রথম result এর poster নাও
-            poster_path = results[0].get('poster_path', '')
-            if poster_path:
-                poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}"
-                _poster_cache[cache_key] = poster_url
-                return poster_url
+        poster = ''
+        res    = data.get('results', [])
+        if res:
+            path = res[0].get('poster_path', '')
+            if path:
+                poster = f"https://image.tmdb.org/t/p/w500{path}"
 
-    except Exception as e:
-        pass  # poster না পেলে খালি রাখো, crawl চলতে থাকবে
-
-    _poster_cache[cache_key] = ''
-    return ''
+        _tmdb_cache[key] = poster
+        return poster
+    except Exception:
+        _tmdb_cache[key] = ''
+        return ''
 
 
 # ══════════════════════════════════════════════════════════════════
-# Utility Functions
+# Utility
 # ══════════════════════════════════════════════════════════════════
 
-def is_video_file(href: str) -> bool:
-    """URL টা video file কিনা check করে।"""
-    clean = href.split('?')[0].lower()
-    return any(clean.endswith(ext) for ext in VIDEO_EXTS)
+def is_video(href):
+    return any(href.split('?')[0].lower().endswith(e) for e in VIDEO_EXTS)
 
+def get_year(name):
+    m = re.search(r'[\(\[](\d{4})[\)\]]', name)
+    return m.group(1) if m else ''
 
-def get_year(name: str) -> str:
-    """'Movie Name (2025)' থেকে '2025' বের করে।"""
-    m = re.search(r'\((\d{4})\)', name)
-    if m:
-        return m.group(1)
-    m = re.search(r'\[(\d{4})\]', name)
-    if m:
-        return m.group(1)
-    return ''
+def cat_name(folder):
+    low = folder.lower().strip()
+    return CATEGORY_MAP.get(low, folder.replace('-',' ').replace('_',' ').title())
 
-
-def get_category_name(folder_name: str) -> str:
-    """Folder name থেকে সুন্দর category name বানায়।"""
-    lower = folder_name.lower().strip()
-    if lower in CATEGORY_MAP:
-        return CATEGORY_MAP[lower]
-    # Title case করে return করো
-    return folder_name.replace('-', ' ').replace('_', ' ').title()
-
-
-def clean_movie_name(name: str) -> str:
-    """Movie name clean করো।"""
-    # Extension সরাও
-    for ext in VIDEO_EXTS:
-        if name.lower().endswith(ext):
-            name = name[:-len(ext)]
+def clean_name(name):
+    for e in VIDEO_EXTS:
+        if name.lower().endswith(e):
+            name = name[:-len(e)]
             break
-    # Underscore ও dot কে space বানাও (যদি অনেক বেশি থাকে)
     if '_' in name and ' ' not in name:
         name = name.replace('_', ' ')
     if '.' in name and ' ' not in name and name.count('.') > 2:
         name = name.replace('.', ' ')
     return name.strip()
 
-
-def url_to_name(url: str) -> str:
-    """URL এর শেষ segment থেকে name বের করে।"""
-    path = url.rstrip('/').split('/')[-1]
-    return clean_movie_name(unquote(path))
+def url_name(url):
+    return clean_name(unquote(url.rstrip('/').split('/')[-1]))
 
 
 # ══════════════════════════════════════════════════════════════════
-# Core Recursive Crawler
+# Recursive video finder
 # ══════════════════════════════════════════════════════════════════
 
-def find_video_in_folder(folder_url: str, depth: int = 0) -> str | None:
-    """
-    একটা folder এ ঢুকে প্রথম video file খোঁজে।
-    Nested folder হলে recursively খোঁজে।
-    """
-    if depth > 5:  # অনেক গভীরে গেলে stop
+def find_video(folder_url, depth=0):
+    if depth > 5:
         return None
-
-    links = parse_index_page(folder_url)
+    links = parse_page(folder_url)
     time.sleep(REQUEST_DELAY)
-
-    # আগে direct video files খোঁজো
-    for link in links:
-        if is_video_file(link['href']):
-            return link['href']
-
-    # Video না পেলে sub-folders এ খোঁজো
-    for link in links:
-        if link['is_dir'] and link['text'].lower() not in SKIP_NAMES:
-            video_url = find_video_in_folder(link['href'], depth + 1)
-            if video_url:
-                return video_url
-
+    for l in links:
+        if is_video(l['href']):
+            return l['href']
+    for l in links:
+        if l['is_dir'] and l['text'].lower() not in SKIP_NAMES:
+            v = find_video(l['href'], depth+1)
+            if v:
+                return v
     return None
 
 
-def crawl_folder(
-    url: str,
-    category: str,
-    depth: int = 0,
-    stats: dict = None,
-) -> list[dict]:
-    """
-    ══ মূল recursive function ══
+# ══════════════════════════════════════════════════════════════════
+# Incremental Crawl — মূল function
+# ══════════════════════════════════════════════════════════════════
 
-    একটা folder crawl করে সব movies বের করে।
-    Logic:
-      - যদি folder এ directly video file থাকে → সেটাই movie, folder name = movie name
-      - যদি folder এ sub-folders থাকে:
-          * sub-folder এর নাম দিয়ে year check করো
-          * যদি year আছে বা pattern movie-like → movie folder
-          * নইলে → category/sub-category folder, recursively crawl করো
+def crawl_folder(url, category, known_urls, depth=0, stats=None):
+    """
+    known_urls = আগে থেকে থাকা সব streamUrl এর set।
+    কোনো url এই set এ থাকলে সেটা skip করো।
     """
     if stats is None:
-        stats = {'total': 0, 'errors': 0}
+        stats = {'new': 0, 'skipped': 0, 'errors': 0}
 
-    links = parse_index_page(url)
+    links = parse_page(url)
     time.sleep(REQUEST_DELAY)
-
     if not links:
         return []
 
-    movies = []
+    new_movies  = []
+    video_files = [l for l in links if is_video(l['href'])]
+    sub_folders = [l for l in links if l['is_dir']
+                   and l['text'].lower() not in SKIP_NAMES]
 
-    # এই folder এ কী আছে check করো
-    video_files   = [l for l in links if is_video_file(l['href'])]
-    sub_folders   = [l for l in links if l['is_dir'] and
-                     l['text'].lower() not in SKIP_NAMES]
-
-    # ── Case 1: এই folder এ সরাসরি video files আছে ──
+    # ── Case 1: সরাসরি video file ──
     if video_files:
-        # Folder name = movie name, parent folder = category
-        folder_name = url_to_name(url)
-        # সবচেয়ে বড় file টা নাও (best quality)
-        best_video = video_files[0]['href']  # প্রথমটাই নাও
+        # MP4 prefer
+        best = next((v['href'] for v in video_files
+                     if v['href'].lower().endswith('.mp4')),
+                    video_files[0]['href'])
 
-        # .mp4 prefer করো
-        mp4_files = [v for v in video_files if v['href'].lower().endswith('.mp4')]
-        if mp4_files:
-            best_video = mp4_files[0]['href']
+        # ★ ইতিমধ্যে আছে? → skip
+        if best in known_urls:
+            stats['skipped'] += 1
+            return []
 
-        movie_name = folder_name if folder_name else url_to_name(best_video)
-        year = get_year(movie_name) or get_year(url_to_name(best_video))
+        # নতুন মুভি!
+        name   = url_name(url) or url_name(best)
+        year   = get_year(name)
+        poster = get_poster(name, year)
 
-        poster = ''
-        if TMDB_API_KEY:
-            poster = get_poster_url(movie_name, year)
-
-        movies.append({
-            'id':          movie_name,
-            'name':        movie_name,
-            'streamUrl':   best_video,
+        entry = {
+            'id':          name,
+            'name':        name,
+            'streamUrl':   best,
             'logo':        poster,
             'description': category,
-        })
-        stats['total'] += 1
-        print(f"    🎬 {movie_name[:55]:<55} [{category}]")
-        return movies
+        }
+        new_movies.append(entry)
+        known_urls.add(best)   # এখন known এ যোগ করো
+        stats['new'] += 1
+        print(f"  ✨ NEW: {name[:55]:<55} [{category}]"
+              + (" 🖼" if poster else ""))
+        return new_movies
 
-    # ── Case 2: Sub-folders আছে — movie folders নাকি category folders? ──
+    # ── Case 2: Sub-folders ──
     for folder in sub_folders:
-        folder_name = folder['text']
-        folder_url  = folder['href']
-        lower_name  = folder_name.lower()
+        fname   = folder['text']
+        furl    = folder['href']
+        is_year = bool(re.match(r'^\d{4}$', fname.strip()))
+        has_yr  = bool(re.search(r'\(?(?:19|20)\d{2}\)?', fname))
 
-        # Year pattern check — '2024', '2025' এরকম শুধু year নামের folder
-        is_year_folder = bool(re.match(r'^\d{4}$', folder_name.strip()))
+        if is_year:
+            # Year folder → ভেতরে যাও, category একই রাখো
+            result = crawl_folder(furl, category, known_urls, depth+1, stats)
+            new_movies.extend(result)
 
-        # Movie-like folder check:
-        # "Movie Name (2025)" বা "Movie.Name.2025" pattern
-        has_year_in_name = bool(re.search(r'\(?20\d{2}\)?|\(?19\d{2}\)?', folder_name))
-        looks_like_movie = has_year_in_name
-
-        if is_year_folder:
-            # Year folder → year কে category suffix হিসেবে রাখো, ভেতরে যাও
-            sub_cat = category  # year folder এ category একই রাখো
-            sub_movies = crawl_folder(folder_url, sub_cat, depth + 1, stats)
-            movies.extend(sub_movies)
-
-        elif looks_like_movie:
-            # Movie folder — ভেতরে ঢুকে video খোঁজো
-            print(f"    🎬 {folder_name[:55]:<55} [{category}]")
-            video_url = find_video_in_folder(folder_url)
-            if video_url:
-                year = get_year(folder_name)
-                poster = ''
-                if TMDB_API_KEY:
-                    poster = get_poster_url(folder_name, year)
-
-                movies.append({
-                    'id':          folder_name,
-                    'name':        folder_name,
-                    'streamUrl':   video_url,
-                    'logo':        poster,
-                    'description': category,
-                })
-                stats['total'] += 1
-            else:
-                print(f"    ⚠ No video found: {folder_name[:50]}")
+        elif has_yr:
+            # Movie folder
+            video_url = find_video(furl)
+            if not video_url:
                 stats['errors'] += 1
+                continue
+
+            # ★ ইতিমধ্যে আছে? → skip
+            if video_url in known_urls:
+                stats['skipped'] += 1
+                continue
+
+            # নতুন মুভি!
+            year   = get_year(fname)
+            poster = get_poster(fname, year)
+            entry  = {
+                'id':          fname,
+                'name':        fname,
+                'streamUrl':   video_url,
+                'logo':        poster,
+                'description': category,
+            }
+            new_movies.append(entry)
+            known_urls.add(video_url)
+            stats['new'] += 1
+            print(f"  ✨ NEW: {fname[:55]:<55} [{category}]"
+                  + (" 🖼" if poster else ""))
 
         else:
-            # এটা একটা sub-category folder
-            # Parent folder নাম থেকে নতুন category নাম বানাও
-            sub_cat_name = get_category_name(folder_name)
+            # Sub-category folder
+            sub_cat = cat_name(fname)
+            result  = crawl_folder(furl, sub_cat, known_urls, depth+1, stats)
+            new_movies.extend(result)
 
-            # Category chain: "Hindi Dubbed" না বানিয়ে শুধু leaf category রাখো
-            # (তোমার app এ description = category হিসেবে দেখায়)
-            print(f"  📁 Sub-category: {sub_cat_name}")
-            sub_movies = crawl_folder(folder_url, sub_cat_name, depth + 1, stats)
-            movies.extend(sub_movies)
-
-    return movies
+    return new_movies
 
 
 # ══════════════════════════════════════════════════════════════════
-# Main Crawl
-# ══════════════════════════════════════════════════════════════════
-
-def crawl_all(base_url: str) -> list[dict]:
-    """Root থেকে সব categories crawl করে পুরো movie list বানায়।"""
-
-    print(f"\n🚀 Crawling: {base_url}")
-    print("=" * 65)
-
-    all_movies = []
-    stats = {'total': 0, 'errors': 0}
-
-    root_links = parse_index_page(base_url)
-    time.sleep(REQUEST_DELAY)
-
-    # Root level folders = top-level categories
-    top_cats = [l for l in root_links
-                if l['is_dir'] and l['text'].lower() not in SKIP_NAMES]
-
-    print(f"📂 Found {len(top_cats)} top categories:\n")
-    for cat in top_cats:
-        print(f"   • {cat['text']}")
-    print()
-
-    for cat in top_cats:
-        cat_name = get_category_name(cat['text'])
-        print(f"\n🎯 ══ {cat_name} ══")
-        movies = crawl_folder(cat['href'], cat_name, depth=0, stats=stats)
-        print(f"   ✅ {len(movies)} movies found")
-        all_movies.extend(movies)
-
-    # Deduplicate by streamUrl
-    seen = set()
-    unique = []
-    for m in all_movies:
-        key = m['streamUrl']
-        if key not in seen:
-            seen.add(key)
-            unique.append(m)
-
-    print(f"\n{'=' * 65}")
-    print(f"✅ Total unique movies : {len(unique)}")
-    print(f"⚠  Errors / skipped   : {stats['errors']}")
-
-    return unique
-
-
-# ══════════════════════════════════════════════════════════════════
-# Entry Point
+# Main
 # ══════════════════════════════════════════════════════════════════
 
 def main():
-    parser = argparse.ArgumentParser(description='FM FTP Movie Crawler')
-    parser.add_argument('--base-url',  default=BASE_URL,   help='Root URL to crawl')
-    parser.add_argument('--output',    default=OUTPUT_FILE, help='Output JSON file')
-    parser.add_argument('--no-poster', action='store_true', help='Skip TMDB poster fetch')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--base-url',  default=BASE_URL)
+    parser.add_argument('--output',    default=OUTPUT_FILE)
+    parser.add_argument('--no-poster', action='store_true')
+    parser.add_argument('--full',      action='store_true',
+                        help='Full crawl — আগেরগুলো ignore করে সব নতুন করে আনো')
     args = parser.parse_args()
 
     if args.no_poster:
-        global TMDB_API_KEY
-        TMDB_API_KEY = ''
+        global TMDB_API_TOKEN
+        TMDB_API_TOKEN = ''
+
+    # ── আগের data load করো ──
+    if args.full:
+        existing, known_urls = [], set()
+        print("🔄 Full crawl mode — ignoring existing data")
+    else:
+        existing, known_urls = load_existing(args.output)
 
     start = time.time()
-    movies = crawl_all(args.base_url)
 
-    # Save
+    print(f"\n🚀 Incremental crawl: {args.base_url}")
+    print("=" * 65)
+
+    stats = {'new': 0, 'skipped': 0, 'errors': 0}
+
+    # Root categories
+    root_links = parse_page(args.base_url)
+    time.sleep(REQUEST_DELAY)
+    top_cats   = [l for l in root_links
+                  if l['is_dir'] and l['text'].lower() not in SKIP_NAMES]
+
+    print(f"📂 {len(top_cats)} categories found\n")
+
+    all_new = []
+    for c in top_cats:
+        cname = cat_name(c['text'])
+        print(f"\n🎯 ══ {cname} ══")
+        new = crawl_folder(c['href'], cname, known_urls, depth=0, stats=stats)
+        all_new.extend(new)
+        print(f"   ➕ {len(new)} new | ⏭ {stats['skipped']} skipped so far")
+
+    print(f"\n{'=' * 65}")
+    print(f"✨ New movies found  : {stats['new']}")
+    print(f"⏭  Skipped (existing): {stats['skipped']}")
+    print(f"⚠  Errors           : {stats['errors']}")
+
+    if not all_new:
+        print("\nℹ️ কোনো নতুন মুভি নেই — JSON আপডেট করার দরকার নেই।")
+        # কিছু না পেলেও existing ঠিকঠাক থাকবে
+        if not existing:
+            with open(args.output, 'w', encoding='utf-8') as f:
+                json.dump([], f)
+        return
+
+    # ★ নতুন মুভি লিস্টের শুরুতে যোগ করো
+    final = all_new + existing
+
     with open(args.output, 'w', encoding='utf-8') as f:
-        json.dump(movies, f, ensure_ascii=False, indent=2)
+        json.dump(final, f, ensure_ascii=False, indent=2)
 
-    elapsed = time.time() - start
+    elapsed    = time.time() - start
     mins, secs = divmod(int(elapsed), 60)
-    print(f"\n💾 Saved {len(movies)} movies → {args.output}")
+    print(f"\n💾 Saved {len(final)} total movies → {args.output}")
+    print(f"   ({stats['new']} new + {len(existing)} existing)")
     print(f"⏱  Time: {mins}m {secs}s")
-    print(f"\n✅ Done! GitHub Actions এ push করো।")
+    print(f"\n✅ Done!")
 
 
 if __name__ == '__main__':
