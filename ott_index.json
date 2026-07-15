@@ -5,6 +5,10 @@
       "downloadUrl": "https://raw.githubusercontent.com/abusaeeidx/Movie-Playlist-Auto-update/main/Bangla_Movies.m3u"
     },
     {
+      "name": "Movies",
+      "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/movies_fmftp.json"
+    },
+    {
       "name": "Test.json",
       "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/Test.json"
     },

@@ -1,0 +1,95 @@
+# ════════════════════════════════════════════════════════════════
+# GitHub Actions — FM FTP Movie Auto-Crawler
+# ════════════════════════════════════════════════════════════════
+#
+# এই workflow প্রতিদিন রাত ১টায় (BD time = UTC 19:00) auto run হয়।
+# fmftp.net crawl করে movies_fmftp.json আপডেট করে।
+# তোমার app এই JSON থেকে auto মুভি লোড করবে।
+#
+# File location: .github/workflows/crawl_movies.yml
+# ════════════════════════════════════════════════════════════════
+
+name: 🎬 FM FTP Movie Crawler
+
+on:
+  # প্রতিদিন রাত ১টা BD time (UTC 19:00)
+  schedule:
+    - cron: '0 19 * * *'
+
+  # Manual trigger — GitHub Actions page থেকে হাতে চালাতে পারবে
+  workflow_dispatch:
+    inputs:
+      force_full_crawl:
+        description: 'Force full crawl (ignore cache)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  crawl:
+    name: Crawl & Update Movie Index
+    runs-on: ubuntu-latest
+    timeout-minutes: 90    # সর্বোচ্চ ৯০ মিনিট চলবে (poster fetch এ বেশি সময় লাগে)
+
+    permissions:
+      contents: write       # JSON file push করার জন্য
+
+    steps:
+      # ── 1. Repo checkout ──────────────────────────────────────
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Python setup ──────────────────────────────────────
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # ── 3. Run crawler ──────────────────────────────────────
+      - name: 🕷️ Run crawler
+        env:
+          TMDB_API_KEY:   ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
+        run: |
+          echo "Starting crawl at $(date)"
+          python crawl_movies.py --output movies_fmftp.json
+          echo "Crawl complete at $(date)"
+
+      # ── 4. Show stats ────────────────────────────────────────
+      - name: 📊 Show stats
+        run: |
+          if [ -f movies_fmftp.json ]; then
+            COUNT=$(python3 -c "import json; d=json.load(open('movies_fmftp.json')); print(len(d))")
+            echo "✅ Total movies in JSON: $COUNT"
+            echo "File size: $(du -sh movies_fmftp.json | cut -f1)"
+            echo "First 3 entries:"
+            python3 -c "
+          import json
+          d = json.load(open('movies_fmftp.json'))
+          for m in d[:3]:
+              print(f'  - {m[\"name\"]} | {m[\"description\"]} | logo: {bool(m[\"logo\"])}')
+          "
+          else
+            echo "❌ movies_fmftp.json not found!"
+            exit 1
+          fi
+
+      # ── 5. Commit & push ────────────────────────────────────
+      - name: 📤 Commit & push updated JSON
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add movies_fmftp.json
+
+          # পরিবর্তন আছে কিনা চেক করো
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes detected, skipping commit."
+          else
+            MOVIE_COUNT=$(python3 -c "import json; d=json.load(open('movies_fmftp.json')); print(len(d))")
+            git commit -m "🎬 Auto-update movies_fmftp.json — ${MOVIE_COUNT} movies [$(date '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "✅ Pushed updated movies_fmftp.json"
+          fi
