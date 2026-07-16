@@ -1,7 +1,7 @@
 {
   "servers": [
     {
-      "name": "Bangla_Movies.m3u",
+      "name": "Mixed Movies",
       "downloadUrl": "https://raw.githubusercontent.com/abusaeeidx/Movie-Playlist-Auto-update/main/Bangla_Movies.m3u"
     },
     {
@@ -9,16 +9,8 @@
       "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/movies_fmftp.json"
     },
     {
-      "name": "Movies Test",
-      "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/movies_test.json"
-    },
-    {
-      "name": "Test.json",
-      "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/Test.json"
-    },
-    {
-      "name": "Extra.json",
-      "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/animation.m3u"
+      "name": "Series",
+      "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/series_fmftp.json"
     }
   ]
 }
