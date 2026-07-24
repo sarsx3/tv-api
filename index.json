@@ -8,8 +8,7 @@
     { "name": "Tv & Movies 1", "downloadUrl": "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u" },
     { "name": "Tv & Movies 2", "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u" },
     { "name": "Movies 1", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/movies_fmftp.json" },
-    { "name": "Movies 2", "https://raw.githubusercontent.com/abusaeeidx/Movie-Playlist-Auto-update/main/Bangla_Movies.m3u" },
+    { "name": "Movies 2", "downloadUrl": "https://raw.githubusercontent.com/abusaeeidx/Movie-Playlist-Auto-update/main/Bangla_Movies.m3u" },
     { "name": "Series", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/series_fmftp.json" }
-    
   ]
 }
