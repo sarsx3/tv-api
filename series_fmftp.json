@@ -1,5 +1,54 @@
 [
   {
+    "id": "Adarsh Baal Vidyalaya",
+    "name": "Adarsh Baal Vidyalaya",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/Indian/Adarsh%20Baal%20Vidyalaya/s01/Adarsh%20Baal%20Vidyalaya%20s01e01.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
+    "description": "Indian"
+  },
+  {
+    "id": "Prem Shots",
+    "name": "Prem Shots",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/Bangla/Prem%20Shots/s01/Prem.Shots.2026.S01e01.mkv",
+    "logo": "https://image.tmdb.org/t/p/w500/aXn3wxUibvGlYmQLeTVJxfU65W3.jpg",
+    "description": "Bangla"
+  },
+  {
+    "id": "The East Palace",
+    "name": "The East Palace",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/korean/The%20East%20Palace/s01/The%20East%20Palace%202026%20S01e01.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/yfYohBszGqoAW8oM0qydOtJ4kPh.jpg",
+    "description": "Korean"
+  },
+  {
+    "id": "Downton Abbey",
+    "name": "Downton Abbey",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/English/Downton%20Abbey/s02/Downton%20Abbey%20S02E01%20%20%281080p%20x265%2010bit%20Joy%29%20%28c%29.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/7HgDYRYjym4BwbhKaqTQq771SKb.jpg",
+    "description": "English"
+  },
+  {
+    "id": "Elite Force",
+    "name": "Elite Force",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/English/Elite%20Force/s01/Elite%20Force%202026%20S01e01.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/ymjYmuHG4Af93fcoF0NKwx9Rovb.jpg",
+    "description": "English"
+  },
+  {
+    "id": "Perfect Family",
+    "name": "Perfect Family",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/Indian/Perfect%20Family/s01/Perfect%20Family2025%20S01e01%20Complete.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/4HZCp7StTidUMJvty4fZ2VJaQgm.jpg",
+    "description": "Indian"
+  },
+  {
+    "id": "Mr. Inbetween",
+    "name": "Mr. Inbetween",
+    "streamUrl": "https://fmftp.net/data/disk-1/tvseries/English/Mr.%20Inbetween/s02/Mr%20Inbetween%20S02E01%20Shoulda%20Tapped.mp4",
+    "logo": "https://image.tmdb.org/t/p/w500/1FkONly4j7hxi6Pz5CmuhRN1Ops.jpg",
+    "description": "English"
+  },
+  {
     "id": "Choddobeshi",
     "name": "Choddobeshi",
     "streamUrl": "https://fmftp.net/data/disk-1/tvseries/Bangla/Choddobeshi/s01/Choddobeshi%202026%20S01e01%20Complete.mp4",
@@ -787,7 +836,7 @@
     "id": "BreakUp Story",
     "name": "BreakUp Story",
     "streamUrl": "https://fmftp.net/data/disk-1/tvseries/Bangla/BreakUp%20Story/s01/BreakUp%20Story%20-%20S01%20E01%20-%20%7BErr_Or%7D.mp4",
-    "logo": "",
+    "logo": "https://image.tmdb.org/t/p/w500/6bpREa9Sbk2pKjblgUq2INXr09B.jpg",
     "description": "Bangla"
   },
   {
