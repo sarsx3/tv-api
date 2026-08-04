@@ -55,6 +55,10 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Bangladeshi",Rajdhani TV (1080p)
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+#EXTINF:-1 tvg-id="Ntv Bangladesh" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-zCFWXUW9g4Wxm3K1og7jHRhYIDpQfOfI8ILHPRacqg&s=10" group-title="Bangladeshi",Ntv
+https://toffee-obiramtv.emonsa4.workers.dev/proxy?url=https%3A%2F%2Fbldcmprod-cdn.toffeelive.com%2Fcdn%2Flive%2Fslang%2Fn_tv_576%2Fn_tv_576.m3u8%3Fbitrate%3D1000000%26channel%3Dn_tv_576%26gp_id%3D&cookie=Edge-Cache-Cookie%3DURLPrefix%3DaHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t%3AExpires%3D1786039239%3AKeyName%3Dprod_linear%3ASignature%3DiCkl0EEu_uf6iLNqiio2tpDiiEguHXeqUUXn_ugIt0OqxNiYrSxNUVcQ3m-R2YDxw9poLAMrYE2sHUq-6lAvBA&ua=okhttp%2F5.1.0
+#EXTINF:-1 tvg-id="jamuna tb bd" tvg-logo="" group-title="Bangladeshi",jamuna tv
+https://toffee-obiramtv.emonsa4.workers.dev/05.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Indian",Star Jalsha HD
 https://s3.itcnbd.live/server-4/stream/aHR0cDovLzE3Mi4xOS4xNy4yMzA6ODA5MC9obHMvU3RhckphbHNoYUhELm0zdTg.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dl.dropbox.com/s/8z5yuaoyryedp6l/ZB.jpg" group-title="Indian",Zee Bangla HD
