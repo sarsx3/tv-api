@@ -1,5 +1,6 @@
 {
   "servers": [
+    { "name": "Backup", "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/z.m3u" },
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
     { "name": "Live Events", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/Live%20Events.m3u" },
     { "name": "Akash Go", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/Bangla.m3u" },
