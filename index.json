@@ -1,10 +1,7 @@
 {
   "servers": [
-    { "name": "Backup", "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/z.m3u" },
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
     { "name": "Live Events", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/Live%20Events.m3u" },
-    { "name": "Akash Go", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/Bangla.m3u" },
-    { "name": "Sports", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/sports.m3u" },
     { "name": "Kids", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/kids.m3u" },
     { "name": "Tv 1", "downloadUrl": "https://raw.githubusercontent.com/shidul100/Iptv/refs/heads/main/playlist.m3u" },
     { "name": "Tv 2", "downloadUrl": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/z.m3u" },
@@ -15,7 +12,6 @@
     { "name": "Tv & Movies 1", "downloadUrl": "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u" },
     { "name": "Tv & Movies 2", "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u" },
     { "name": "Movies 1", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/movies_fmftp.json" },
-    { "name": "Movies 2", "downloadUrl": "https://raw.githubusercontent.com/abusaeeidx/Movie-Playlist-Auto-update/main/Bangla_Movies.m3u" },
     { "name": "Series", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/series_fmftp.json" }
   ]
 }
