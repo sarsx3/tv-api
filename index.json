@@ -2,6 +2,7 @@
   "servers": [
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
     { "name": "Live Events", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/Live%20Events.m3u" },
+    { "name": "Bangla Backup", "downloadUrl": "https://ag.hridoytvx.workers.dev/playlist-copy-kore-lav-nei-expire=685358567.m3u" },
     { "name": "Movies", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/main/movies_fmftp.json" },
     { "name": "Series", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/series_fmftp.json" },
     { "name": "Kids", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/kids.m3u" },
@@ -10,7 +11,6 @@
     { "name": "Tv 3", "downloadUrl": "https://raw.githubusercontent.com/sanjoykb/-KB-TV-Playlist/refs/heads/main/Github Auto Update Channel.m3u" },
     { "name": "Tv 4", "downloadUrl": "https://techpro.techproiptv.workers.dev/techpro.m3u" },
     { "name": "Tv 5", "downloadUrl": "https://raw.githubusercontent.com/imShakil/tvlink/refs/heads/main/iptv.m3u8" },
-    { "name": "Tv 6", "downloadUrl": "https://ag.hridoytvx.workers.dev/playlist-copy-kore-lav-nei-expire=685358567.m3u" },
     { "name": "Indian Tv", "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u" },
     { "name": "Tv & Movies 1", "downloadUrl": "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u" },
     { "name": "Tv & Movies 2", "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Bangladesh/LiveTV.m3u" }
