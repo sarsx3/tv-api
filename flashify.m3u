@@ -327,6 +327,10 @@ https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
 http://103.159.180.34:5001/live/562.m3u8
 #EXTINF:-1 tvg-id="DISCOVERYBANGLA.in" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6a/Discovery_HD_2009.png" group-title="Documentary",Discovery Bangla
 http://202.70.146.135:8000/play/a05z/index.m3u8
+#EXTINF:-1 tvg-id="discovery_hd" tvg-logo="https://images.toffeelive.com/images/program/18093/logo/240x240/mobile_logo_868363001673181438.png" group-title="Documentary",Discovery HD
+https://mflixott.com/tv/toffee-by-maruf/live.php?id=discovery_hd&e=.m3u8
+#EXTINF:-1 tvg-id="discovery_sd" tvg-logo="https://images.toffeelive.com/images/program/18097/logo/240x240/mobile_logo_297723001673195119.png" group-title="Documentary",Discovery
+https://mflixott.com/tv/toffee-by-maruf/live.php?id=discovery_sd&e=.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://is.gd/imZMIp" group-title="News",DW NEWS
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://is.gd/ywX5PG" group-title="News",CNN NEWS
