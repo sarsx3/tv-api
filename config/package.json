@@ -1,1 +1,63 @@
-
+{
+  "updatedAt": "2026-08-12",
+  "packages": [
+    {
+      "id": "monthly",
+      "name": "1 Month Plan",
+      "durationDays": 30,
+      "price": 150,
+      "originalPrice": 200,
+      "currency": "BDT",
+      "discountPercent": 25,
+      "popular": false,
+      "features": [
+        "All live TV channels",
+        "HD & Full HD streaming",
+        "Watch on multiple devices",
+        "Priority customer support"
+      ]
+    },
+    {
+      "id": "quarterly",
+      "name": "3 Months Plan",
+      "durationDays": 90,
+      "price": 400,
+      "originalPrice": 500,
+      "currency": "BDT",
+      "discountPercent": 20,
+      "popular": true,
+      "features": [
+        "All live TV channels",
+        "HD & Full HD streaming",
+        "Watch on multiple devices",
+        "Priority customer support",
+        "Best value for regular viewers"
+      ]
+    },
+    {
+      "id": "yearly",
+      "name": "1 Year Plan",
+      "durationDays": 365,
+      "price": 1200,
+      "originalPrice": 1800,
+      "currency": "BDT",
+      "discountPercent": 33,
+      "popular": false,
+      "features": [
+        "All live TV channels",
+        "HD & Full HD streaming",
+        "Watch on multiple devices",
+        "Priority customer support",
+        "Biggest savings"
+      ]
+    },
+    {
+      "id": "lifetime",
+      "name": "Lifetime Plan"
+    }
+  ],
+  "contact": {
+    "telegram": "https://t.me/flashifybd",
+    "facebook": "https://facebook.com/flashify.app"
+  }
+}
