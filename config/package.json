@@ -5,50 +5,26 @@
       "id": "monthly",
       "name": "1 Month Plan",
       "durationDays": 30,
-      "price": 150,
-      "originalPrice": 200,
+      "price": 00,
+      "originalPrice": 50,
       "currency": "BDT",
-      "discountPercent": 25,
-      "popular": false,
+      "discountPercent": 100,
+      "popular": true,
       "features": [
         "All live TV channels",
-        "HD & Full HD streaming",
-        "Watch on multiple devices",
+        "Access to all channel servers",
+        "Free TV access",
         "Priority customer support"
       ]
     },
     {
       "id": "quarterly",
-      "name": "3 Months Plan",
-      "durationDays": 90,
-      "price": 400,
-      "originalPrice": 500,
-      "currency": "BDT",
-      "discountPercent": 20,
-      "popular": true,
-      "features": [
-        "All live TV channels",
-        "HD & Full HD streaming",
-        "Watch on multiple devices",
-        "Priority customer support",
-        "Best value for regular viewers"
+      "name": "3 Months Plan"
       ]
     },
     {
       "id": "yearly",
-      "name": "1 Year Plan",
-      "durationDays": 365,
-      "price": 1200,
-      "originalPrice": 1800,
-      "currency": "BDT",
-      "discountPercent": 33,
-      "popular": false,
-      "features": [
-        "All live TV channels",
-        "HD & Full HD streaming",
-        "Watch on multiple devices",
-        "Priority customer support",
-        "Biggest savings"
+      "name": "1 Year Plan"
       ]
     },
     {
