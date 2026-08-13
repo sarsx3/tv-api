@@ -5,7 +5,7 @@
       "id": "monthly",
       "name": "1 Month Plan",
       "durationDays": 30,
-      "price": 00,
+      "price": 0,
       "originalPrice": 50,
       "currency": "BDT",
       "discountPercent": 100,
@@ -20,20 +20,14 @@
     {
       "id": "quarterly",
       "name": "3 Months Plan"
-      ]
     },
     {
       "id": "yearly",
       "name": "1 Year Plan"
-      ]
     },
     {
       "id": "lifetime",
       "name": "Lifetime Plan"
     }
-  ],
-  "contact": {
-    "telegram": "https://t.me/flashifybd",
-    "facebook": "https://facebook.com/flashify.app"
-  }
+  ]
 }
