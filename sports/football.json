@@ -1,1189 +1,11 @@
 {
   "sport": "football",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-15T12:52:51.400744+00:00",
-  "lastUpdated": "2026-08-15 18:52:51 (Bangladesh Time)",
+  "updatedAt": "2026-08-15T13:08:32.281211+00:00",
+  "lastUpdated": "2026-08-15 19:08:32 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1679,
+  "totalMatches": 1648,
   "matches": [
-    {
-      "matchId": 1517842,
-      "sport": "football",
-      "league": {
-        "id": 835,
-        "name": "New South Wales NPL 2",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/835.png",
-        "round": "Regular Season - 28",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 3769,
-        "name": "Mt Druitt Town",
-        "logo": "https://media.api-sports.io/football/teams/3769.png"
-      },
-      "awayTeam": {
-        "id": 16773,
-        "name": "Hills Brumbies",
-        "logo": "https://media.api-sports.io/football/teams/16773.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1535554,
-      "sport": "football",
-      "league": {
-        "id": 1094,
-        "name": "Western Australia State League 1",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/1094.png",
-        "round": "Regular Season - 21",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 27636,
-        "name": "Quinns FC",
-        "logo": "https://media.api-sports.io/football/teams/27636.png"
-      },
-      "awayTeam": {
-        "id": 10093,
-        "name": "Gwelup Croatia",
-        "logo": "https://media.api-sports.io/football/teams/10093.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1549367,
-      "sport": "football",
-      "league": {
-        "id": 1230,
-        "name": "Npl Nsw U20",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/1230.png",
-        "round": "Regular Season - 28",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 27803,
-        "name": "Manly Utd U20",
-        "logo": "https://media.api-sports.io/football/teams/27803.png"
-      },
-      "awayTeam": {
-        "id": 27805,
-        "name": "NWS Spirit U20",
-        "logo": "https://media.api-sports.io/football/teams/27805.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 3,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1549368,
-      "sport": "football",
-      "league": {
-        "id": 1230,
-        "name": "Npl Nsw U20",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/1230.png",
-        "round": "Regular Season - 28",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 27812,
-        "name": "Sydney Olympic U20",
-        "logo": "https://media.api-sports.io/football/teams/27812.png"
-      },
-      "awayTeam": {
-        "id": 27813,
-        "name": "Sydney Utd U20",
-        "logo": "https://media.api-sports.io/football/teams/27813.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 2
-      },
-      "homeScore": 1,
-      "awayScore": 9
-    },
-    {
-      "matchId": 1554010,
-      "sport": "football",
-      "league": {
-        "id": 98,
-        "name": "J1 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/98.png",
-        "round": "Regular Season - 2",
-        "season": 2027
-      },
-      "homeTeam": {
-        "id": 290,
-        "name": "Kashima",
-        "logo": "https://media.api-sports.io/football/teams/290.png"
-      },
-      "awayTeam": {
-        "id": 288,
-        "name": "Nagoya Grampus",
-        "logo": "https://media.api-sports.io/football/teams/288.png"
-      },
-      "venue": "Kashima Soccer Stadium",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1554012,
-      "sport": "football",
-      "league": {
-        "id": 98,
-        "name": "J1 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/98.png",
-        "round": "Regular Season - 2",
-        "season": 2027
-      },
-      "homeTeam": {
-        "id": 305,
-        "name": "Mito Hollyhock",
-        "logo": "https://media.api-sports.io/football/teams/305.png"
-      },
-      "awayTeam": {
-        "id": 293,
-        "name": "Gamba Osaka",
-        "logo": "https://media.api-sports.io/football/teams/293.png"
-      },
-      "venue": "K's Denki Stadium Mito",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1554349,
-      "sport": "football",
-      "league": {
-        "id": 100,
-        "name": "J3 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/100.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 297,
-        "name": "FC Gifu",
-        "logo": "https://media.api-sports.io/football/teams/297.png"
-      },
-      "awayTeam": {
-        "id": 7129,
-        "name": "Kochi United",
-        "logo": "https://media.api-sports.io/football/teams/7129.png"
-      },
-      "venue": "Gifu Memorial Center Nagaragawa Ball Field",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 3,
-        "away": 0
-      },
-      "homeScore": 7,
-      "awayScore": 0
-    },
-    {
-      "matchId": 1554350,
-      "sport": "football",
-      "league": {
-        "id": 100,
-        "name": "J3 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/100.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 805,
-        "name": "Kitakyushu",
-        "logo": "https://media.api-sports.io/football/teams/805.png"
-      },
-      "awayTeam": {
-        "id": 317,
-        "name": "Kamatamare Sanuki",
-        "logo": "https://media.api-sports.io/football/teams/317.png"
-      },
-      "venue": "Mikuni World Stadium Kitakyushu",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 0
-      },
-      "homeScore": 0,
-      "awayScore": 0
-    },
-    {
-      "matchId": 1562716,
-      "sport": "football",
-      "league": {
-        "id": 685,
-        "name": "3. liga - CFL B",
-        "country": "Czech-Republic",
-        "logo": "https://media.api-sports.io/football/leagues/685.png",
-        "round": "Group B - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 3722,
-        "name": "Chrudim",
-        "logo": "https://media.api-sports.io/football/teams/3722.png"
-      },
-      "awayTeam": {
-        "id": 3728,
-        "name": "Varnsdorf",
-        "logo": "https://media.api-sports.io/football/teams/3728.png"
-      },
-      "venue": "Stadion Za Vodojemem",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 3,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1565065,
-      "sport": "football",
-      "league": {
-        "id": 668,
-        "name": "1. Liga U19",
-        "country": "Czech-Republic",
-        "logo": "https://media.api-sports.io/football/leagues/668.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 7969,
-        "name": "Sigma Olomouc U19",
-        "logo": "https://media.api-sports.io/football/teams/7969.png"
-      },
-      "awayTeam": {
-        "id": 14831,
-        "name": "Hradec Králové U19",
-        "logo": "https://media.api-sports.io/football/teams/14831.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1565066,
-      "sport": "football",
-      "league": {
-        "id": 668,
-        "name": "1. Liga U19",
-        "country": "Czech-Republic",
-        "logo": "https://media.api-sports.io/football/leagues/668.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 7933,
-        "name": "Slavia Praha U19",
-        "logo": "https://media.api-sports.io/football/teams/7933.png"
-      },
-      "awayTeam": {
-        "id": 14836,
-        "name": "Pardubice U19",
-        "logo": "https://media.api-sports.io/football/teams/14836.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 1
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1566683,
-      "sport": "football",
-      "league": {
-        "id": 947,
-        "name": "DFB Pokal - Women",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/947.png",
-        "round": "Round of 64",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 24132,
-        "name": "Hansa Rostock W",
-        "logo": "https://media.api-sports.io/football/teams/24132.png"
-      },
-      "awayTeam": {
-        "id": 20473,
-        "name": "Bochum W",
-        "logo": "https://media.api-sports.io/football/teams/20473.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1568132,
-      "sport": "football",
-      "league": {
-        "id": 783,
-        "name": "III Liga - Group 4",
-        "country": "Poland",
-        "logo": "https://media.api-sports.io/football/leagues/783.png",
-        "round": "Group IV - 3",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 24324,
-        "name": "Wisła Kraków II",
-        "logo": "https://media.api-sports.io/football/teams/24324.png"
-      },
-      "awayTeam": {
-        "id": 19728,
-        "name": "Wiślanie Jaśkowice",
-        "logo": "https://media.api-sports.io/football/teams/19728.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 2
-      },
-      "homeScore": 1,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1577485,
-      "sport": "football",
-      "league": {
-        "id": 236,
-        "name": "First League",
-        "country": "Russia",
-        "logo": "https://media.api-sports.io/football/leagues/236.png",
-        "round": "Regular Season - 6",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 1089,
-        "name": "Enisey",
-        "logo": "https://media.api-sports.io/football/teams/1089.png"
-      },
-      "awayTeam": {
-        "id": 6801,
-        "name": "KAMAZ",
-        "logo": "https://media.api-sports.io/football/teams/6801.png"
-      },
-      "venue": "Tsentralnyi Stadion",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 1
-      },
-      "homeScore": 2,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1581874,
-      "sport": "football",
-      "league": {
-        "id": 334,
-        "name": "Persha Liga",
-        "country": "Ukraine",
-        "logo": "https://media.api-sports.io/football/leagues/334.png",
-        "round": "Regular Season - 4",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 14433,
-        "name": "Chernihiv",
-        "logo": "https://media.api-sports.io/football/teams/14433.png"
-      },
-      "awayTeam": {
-        "id": 24589,
-        "name": "Polissya II",
-        "logo": "https://media.api-sports.io/football/teams/24589.png"
-      },
-      "venue": "Chernihiv Stadium",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1593865,
-      "sport": "football",
-      "league": {
-        "id": 633,
-        "name": "NB III - Northeast",
-        "country": "Hungary",
-        "logo": "https://media.api-sports.io/football/leagues/633.png",
-        "round": "Northeast - 4",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 5089,
-        "name": "Eger",
-        "logo": "https://media.api-sports.io/football/teams/5089.png"
-      },
-      "awayTeam": {
-        "id": 24538,
-        "name": "Nyiregyhaza II",
-        "logo": "https://media.api-sports.io/football/teams/24538.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1594100,
-      "sport": "football",
-      "league": {
-        "id": 635,
-        "name": "NB III - Northwest",
-        "country": "Hungary",
-        "logo": "https://media.api-sports.io/football/leagues/635.png",
-        "round": "Northwest - 4",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 7569,
-        "name": "Veszprém",
-        "logo": "https://media.api-sports.io/football/teams/7569.png"
-      },
-      "awayTeam": {
-        "id": 2412,
-        "name": "MTE 1904",
-        "logo": "https://media.api-sports.io/football/teams/2412.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1594580,
-      "sport": "football",
-      "league": {
-        "id": 634,
-        "name": "NB III - Southwest",
-        "country": "Hungary",
-        "logo": "https://media.api-sports.io/football/leagues/634.png",
-        "round": "Southwest - 4",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 11856,
-        "name": "Paksi SE II",
-        "logo": "https://media.api-sports.io/football/teams/11856.png"
-      },
-      "awayTeam": {
-        "id": 5104,
-        "name": "Iváncsa",
-        "logo": "https://media.api-sports.io/football/teams/5104.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 1
-      },
-      "homeScore": 0,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1595516,
-      "sport": "football",
-      "league": {
-        "id": 488,
-        "name": "U19 Bundesliga",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/488.png",
-        "round": "Preliminary",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 10263,
-        "name": "Karlsruher SC U19",
-        "logo": "https://media.api-sports.io/football/teams/10263.png"
-      },
-      "awayTeam": {
-        "id": 10247,
-        "name": "Augsburg U19",
-        "logo": "https://media.api-sports.io/football/teams/10247.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1595518,
-      "sport": "football",
-      "league": {
-        "id": 488,
-        "name": "U19 Bundesliga",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/488.png",
-        "round": "Preliminary",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 13957,
-        "name": "Rot-Weiss Essen U19",
-        "logo": "https://media.api-sports.io/football/teams/13957.png"
-      },
-      "awayTeam": {
-        "id": 10271,
-        "name": "RW Oberhausen U19",
-        "logo": "https://media.api-sports.io/football/teams/10271.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 3,
-        "away": 1
-      },
-      "homeScore": 4,
-      "awayScore": 3
-    },
-    {
-      "matchId": 1595519,
-      "sport": "football",
-      "league": {
-        "id": 488,
-        "name": "U19 Bundesliga",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/488.png",
-        "round": "Preliminary",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 13963,
-        "name": "Unterhaching U19",
-        "logo": "https://media.api-sports.io/football/teams/13963.png"
-      },
-      "awayTeam": {
-        "id": 13965,
-        "name": "1860 München U19",
-        "logo": "https://media.api-sports.io/football/teams/13965.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1595520,
-      "sport": "football",
-      "league": {
-        "id": 488,
-        "name": "U19 Bundesliga",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/488.png",
-        "round": "Preliminary",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 10276,
-        "name": "Viktoria Köln U19",
-        "logo": "https://media.api-sports.io/football/teams/10276.png"
-      },
-      "awayTeam": {
-        "id": 10249,
-        "name": "Borussia M'bach U19",
-        "logo": "https://media.api-sports.io/football/teams/10249.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 3,
-        "away": 1
-      },
-      "homeScore": 5,
-      "awayScore": 5
-    },
-    {
-      "matchId": 1598611,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9575,
-        "name": "Real Madrid II",
-        "logo": "https://media.api-sports.io/football/teams/9575.png"
-      },
-      "awayTeam": {
-        "id": 799,
-        "name": "Mirandes",
-        "logo": "https://media.api-sports.io/football/teams/799.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1599193,
-      "sport": "football",
-      "league": {
-        "id": 676,
-        "name": "Central Youth League",
-        "country": "Poland",
-        "logo": "https://media.api-sports.io/football/leagues/676.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 20594,
-        "name": "Raków Częstochowa U19",
-        "logo": "https://media.api-sports.io/football/teams/20594.png"
-      },
-      "awayTeam": {
-        "id": 20587,
-        "name": "Arka Gdynia U19",
-        "logo": "https://media.api-sports.io/football/teams/20587.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1606606,
-      "sport": "football",
-      "league": {
-        "id": 99,
-        "name": "J2 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/99.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 4315,
-        "name": "Blaublitz Akita",
-        "logo": "https://media.api-sports.io/football/teams/4315.png"
-      },
-      "awayTeam": {
-        "id": 4322,
-        "name": "Kataller Toyama",
-        "logo": "https://media.api-sports.io/football/teams/4322.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 2
-      },
-      "homeScore": 0,
-      "awayScore": 4
-    },
-    {
-      "matchId": 1606607,
-      "sport": "football",
-      "league": {
-        "id": 99,
-        "name": "J2 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/99.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 7145,
-        "name": "Tochigi City",
-        "logo": "https://media.api-sports.io/football/teams/7145.png"
-      },
-      "awayTeam": {
-        "id": 4326,
-        "name": "Vanraure Hachinohe",
-        "logo": "https://media.api-sports.io/football/teams/4326.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 5,
-      "awayScore": 0
-    },
-    {
-      "matchId": 1618936,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9387,
-        "name": "Gimnástica Segoviana",
-        "logo": "https://media.api-sports.io/football/teams/9387.png"
-      },
-      "awayTeam": {
-        "id": 5281,
-        "name": "Unionistas de Salamanca",
-        "logo": "https://media.api-sports.io/football/teams/5281.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 1
-      },
-      "homeScore": 0,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1626993,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9657,
-        "name": "Beasain",
-        "logo": "https://media.api-sports.io/football/teams/9657.png"
-      },
-      "awayTeam": {
-        "id": 20261,
-        "name": "Touring",
-        "logo": "https://media.api-sports.io/football/teams/20261.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1626994,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9867,
-        "name": "La Calzada",
-        "logo": "https://media.api-sports.io/football/teams/9867.png"
-      },
-      "awayTeam": {
-        "id": 9663,
-        "name": "San Ignacio",
-        "logo": "https://media.api-sports.io/football/teams/9663.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 2
-      },
-      "homeScore": 1,
-      "awayScore": 4
-    },
-    {
-      "matchId": 1626995,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9643,
-        "name": "Racing Santander II",
-        "logo": "https://media.api-sports.io/football/teams/9643.png"
-      },
-      "awayTeam": {
-        "id": 9656,
-        "name": "Basconia",
-        "logo": "https://media.api-sports.io/football/teams/9656.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 3,
-        "away": 1
-      },
-      "homeScore": 3,
-      "awayScore": 3
-    },
-    {
-      "matchId": 1627623,
-      "sport": "football",
-      "league": {
-        "id": 669,
-        "name": "1. Liga Women",
-        "country": "Czech-Republic",
-        "logo": "https://media.api-sports.io/football/leagues/669.png",
-        "round": "Regular Season - 1",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 10925,
-        "name": "Sparta Praha W",
-        "logo": "https://media.api-sports.io/football/teams/10925.png"
-      },
-      "awayTeam": {
-        "id": 28234,
-        "name": "Prague Raptors W",
-        "logo": "https://media.api-sports.io/football/teams/28234.png"
-      },
-      "venue": "Stadium Prosek",
-      "date": "2026-08-15",
-      "time": "15:00",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:00",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "শেষ"
-      },
-      "halfTimeScore": {
-        "home": 3,
-        "away": 0
-      },
-      "homeScore": 4,
-      "awayScore": 0
-    },
     {
       "matchId": 1592985,
       "sport": "football",
@@ -2465,9 +1287,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "16:00",
       "status": {
-        "code": "INT",
+        "code": "2H",
         "category": "Live",
-        "label": "বাধাপ্রাপ্ত"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -3795,9 +2617,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -3833,9 +2655,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -3909,9 +2731,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -3985,9 +2807,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4099,9 +2921,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 2,
@@ -4137,9 +2959,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4251,9 +3073,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4327,9 +3149,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4365,9 +3187,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4403,9 +3225,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4517,9 +3339,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4555,9 +3377,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4593,9 +3415,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4631,16 +3453,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 1
       },
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1528681,
@@ -4707,9 +3529,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4745,9 +3567,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4821,9 +3643,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4859,9 +3681,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 2,
@@ -4935,9 +3757,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 4,
@@ -4973,16 +3795,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 2
     },
     {
       "matchId": 1576145,
@@ -5011,9 +3833,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 2,
@@ -5049,9 +3871,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 3,
@@ -5087,9 +3909,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -5277,9 +4099,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 2,
@@ -5315,9 +4137,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 2,
@@ -5353,9 +4175,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 0,
@@ -5847,9 +4669,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "দ্বিতীয়ার্ধ চলছে"
+        "code": "FT",
+        "category": "Finished",
+        "label": "শেষ"
       },
       "halfTimeScore": {
         "home": 1,
@@ -5932,7 +4754,7 @@
         "away": 0
       },
       "homeScore": 2,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1521661,
@@ -6159,7 +4981,7 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -6198,7 +5020,7 @@
         "away": 0
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1564236,
@@ -6311,7 +5133,7 @@
         "home": 1,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -6502,7 +5324,7 @@
         "away": 3
       },
       "homeScore": 1,
-      "awayScore": 4
+      "awayScore": 5
     },
     {
       "matchId": 1595533,
@@ -6615,7 +5437,7 @@
         "home": 0,
         "away": 2
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 4
     },
     {
@@ -6797,16 +5619,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 2
       },
       "homeScore": 0,
-      "awayScore": 2
+      "awayScore": 3
     },
     {
       "matchId": 1496120,
@@ -6835,9 +5657,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -6873,15 +5695,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 4
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 4
     },
     {
@@ -6911,9 +5733,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 5,
@@ -6987,9 +5809,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7063,9 +5885,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7101,9 +5923,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -7139,15 +5961,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 0
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -7177,9 +5999,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7215,15 +6037,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 0
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -7253,15 +6075,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 2
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2
     },
     {
@@ -7291,15 +6113,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 1
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1
     },
     {
@@ -7329,9 +6151,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -7367,9 +6189,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7405,9 +6227,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7443,16 +6265,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 1
       },
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1536661,
@@ -7481,9 +6303,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7519,15 +6341,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 2
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2
     },
     {
@@ -7557,9 +6379,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7633,15 +6455,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -7671,9 +6493,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7823,9 +6645,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -7937,9 +6759,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 2,
@@ -7975,9 +6797,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8241,15 +7063,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -8279,16 +7101,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "PST",
-        "category": "Postponed",
-        "label": "স্থগিত"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1582375,
@@ -8355,9 +7177,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8431,9 +7253,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -8469,9 +7291,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
@@ -8507,9 +7329,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8583,9 +7405,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8621,15 +7443,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -8697,9 +7519,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
         "home": 1,
@@ -8735,16 +7557,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 3
+        "home": 1,
+        "away": 4
       },
-      "homeScore": 0,
-      "awayScore": 3
+      "homeScore": 1,
+      "awayScore": 4
     },
     {
       "matchId": 1587108,
@@ -8773,9 +7595,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8811,16 +7633,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 0
       },
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1587418,
@@ -8849,9 +7671,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
         "home": 1,
@@ -9533,9 +8355,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "বিরতি"
+        "label": "দ্বিতীয়ার্ধ চলছে"
       },
       "halfTimeScore": {
         "home": 3,
@@ -9723,9 +8545,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:10",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
         "home": 4,
@@ -9761,9 +8583,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:15",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "প্রথমার্ধ চলছে"
+        "label": "বিরতি"
       },
       "halfTimeScore": {
         "home": 2,
@@ -9843,10 +8665,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1538672,
@@ -10033,10 +8855,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1582377,
@@ -10565,10 +9387,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1506649,
@@ -10602,10 +9424,10 @@
         "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -10749,16 +9571,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1495524,
@@ -10825,16 +9647,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1496121,
@@ -10863,16 +9685,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1496668,
@@ -10901,16 +9723,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1496670,
@@ -10939,16 +9761,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1496671,
@@ -10977,16 +9799,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1496672,
@@ -11015,16 +9837,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1496852,
@@ -11053,16 +9875,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497030,
@@ -11091,16 +9913,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497033,
@@ -11129,16 +9951,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497036,
@@ -11167,16 +9989,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497216,
@@ -11205,16 +10027,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497394,
@@ -11243,16 +10065,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497399,
@@ -11281,16 +10103,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497400,
@@ -11319,16 +10141,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497661,
@@ -11357,16 +10179,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1497663,
@@ -11395,16 +10217,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1501443,
@@ -11433,16 +10255,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1504283,
@@ -11471,16 +10293,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1507195,
@@ -11509,16 +10331,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1507197,
@@ -11547,16 +10369,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1517244,
@@ -11585,16 +10407,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1528066,
@@ -11623,16 +10445,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1528067,
@@ -11661,16 +10483,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1531079,
@@ -11775,16 +10597,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1536253,
@@ -11889,16 +10711,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1541549,
@@ -11965,16 +10787,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1547433,
@@ -12003,16 +10825,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1562476,
@@ -12041,16 +10863,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1562597,
@@ -12079,16 +10901,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1566658,
@@ -12231,16 +11053,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1569047,
@@ -12269,16 +11091,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1574599,
@@ -12307,16 +11129,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1574991,
@@ -12345,16 +11167,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "matchId": 1574992,
@@ -12383,16 +11205,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1576453,
@@ -12421,16 +11243,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1577478,
@@ -12459,16 +11281,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1577755,
@@ -12497,16 +11319,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1579419,
@@ -12535,16 +11357,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1579423,
@@ -12573,16 +11395,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1579424,
@@ -12611,16 +11433,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1579425,
@@ -12649,16 +11471,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1579426,
@@ -12687,16 +11509,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580189,
@@ -12877,16 +11699,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1582376,
@@ -13029,16 +11851,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1600315,
@@ -13067,16 +11889,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1600735,
@@ -13181,16 +12003,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1612423,
@@ -13219,16 +12041,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1612424,
@@ -13257,16 +12079,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1618249,
@@ -13333,16 +12155,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1619022,
@@ -13371,16 +12193,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1619316,
@@ -13409,16 +12231,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "শুরু হয়নি"
+        "code": "1H",
+        "category": "Live",
+        "label": "প্রথমার্ধ চলছে"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1619536,
