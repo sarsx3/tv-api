@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-15T16:50:28.697759+00:00",
-  "lastUpdated": "2026-08-15 22:50:28 (Bangladesh Time)",
+  "updatedAt": "2026-08-15T17:20:19.834043+00:00",
+  "lastUpdated": "2026-08-15 23:20:19 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-15",
       "bdTime": "20:00",
       "status": {
-        "category": "Live",
-        "label": "Trichy Grand Cholas need 134 runs in 49 balls"
+        "category": "Finished",
+        "label": "Vida Kovai Kings won by 116 runs"
       },
-      "result": null
+      "result": "Vida Kovai Kings won by 116 runs"
     }
   ]
 }
