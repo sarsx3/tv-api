@@ -1,543 +1,11 @@
 {
   "sport": "football",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-15T13:16:36.221136+00:00",
-  "lastUpdated": "2026-08-15 19:16:36 (Bangladesh Time)",
+  "updatedAt": "2026-08-15T13:51:58.597251+00:00",
+  "lastUpdated": "2026-08-15 19:51:58 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1647,
+  "totalMatches": 1633,
   "matches": [
-    {
-      "matchId": 1522219,
-      "sport": "football",
-      "league": {
-        "id": 836,
-        "name": "Victoria NPL 2",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/836.png",
-        "round": "Regular Season - 24",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 27510,
-        "name": "Brunswick Juventus FC",
-        "logo": "https://media.api-sports.io/football/teams/27510.png"
-      },
-      "awayTeam": {
-        "id": 24077,
-        "name": "Melbourne Srbija",
-        "logo": "https://media.api-sports.io/football/teams/24077.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1527126,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 3793,
-        "name": "MetroStars",
-        "logo": "https://media.api-sports.io/football/teams/3793.png"
-      },
-      "awayTeam": {
-        "id": 3792,
-        "name": "Croydon Kings",
-        "logo": "https://media.api-sports.io/football/teams/3792.png"
-      },
-      "venue": "TK Shutter Reserve",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 2,
-      "awayScore": 0
-    },
-    {
-      "matchId": 1527127,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 16770,
-        "name": "FK Beograd",
-        "logo": "https://media.api-sports.io/football/teams/16770.png"
-      },
-      "awayTeam": {
-        "id": 3785,
-        "name": "Adelaide City",
-        "logo": "https://media.api-sports.io/football/teams/3785.png"
-      },
-      "venue": "Frank Mitchell Park",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 1
-      },
-      "homeScore": 0,
-      "awayScore": 3
-    },
-    {
-      "matchId": 1527128,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 3794,
-        "name": "Para Hills Knights",
-        "logo": "https://media.api-sports.io/football/teams/3794.png"
-      },
-      "awayTeam": {
-        "id": 3786,
-        "name": "Adelaide Comets",
-        "logo": "https://media.api-sports.io/football/teams/3786.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 3
-      },
-      "homeScore": 2,
-      "awayScore": 5
-    },
-    {
-      "matchId": 1527129,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 12866,
-        "name": "Sturt Lions",
-        "logo": "https://media.api-sports.io/football/teams/12866.png"
-      },
-      "awayTeam": {
-        "id": 3791,
-        "name": "Campbelltown City",
-        "logo": "https://media.api-sports.io/football/teams/3791.png"
-      },
-      "venue": "Karinya Reserve",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 3
-      },
-      "homeScore": 1,
-      "awayScore": 3
-    },
-    {
-      "matchId": 1527130,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 16769,
-        "name": "West Torrens Birkalla",
-        "logo": "https://media.api-sports.io/football/teams/16769.png"
-      },
-      "awayTeam": {
-        "id": 3789,
-        "name": "Adelaide United II",
-        "logo": "https://media.api-sports.io/football/teams/3789.png"
-      },
-      "venue": "Jack Smith Park",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 1
-      },
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1527131,
-      "sport": "football",
-      "league": {
-        "id": 194,
-        "name": "South Australia NPL",
-        "country": "Australia",
-        "logo": "https://media.api-sports.io/football/leagues/194.png",
-        "round": "Regular Season - 22",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 3796,
-        "name": "West Adelaide",
-        "logo": "https://media.api-sports.io/football/teams/3796.png"
-      },
-      "awayTeam": {
-        "id": 16768,
-        "name": "Playford City Patriots",
-        "logo": "https://media.api-sports.io/football/teams/16768.png"
-      },
-      "venue": "Kilburn Sportsplex",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 2
-      },
-      "homeScore": 1,
-      "awayScore": 2
-    },
-    {
-      "matchId": 1554014,
-      "sport": "football",
-      "league": {
-        "id": 98,
-        "name": "J1 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/98.png",
-        "round": "Regular Season - 2",
-        "season": 2027
-      },
-      "homeTeam": {
-        "id": 283,
-        "name": "Shimizu S-pulse",
-        "logo": "https://media.api-sports.io/football/teams/283.png"
-      },
-      "awayTeam": {
-        "id": 296,
-        "name": "Yokohama F. Marinos",
-        "logo": "https://media.api-sports.io/football/teams/296.png"
-      },
-      "venue": "IAI Stadium Nihondaira",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 0
-      },
-      "homeScore": 0,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1566055,
-      "sport": "football",
-      "league": {
-        "id": 644,
-        "name": "3. liga - West",
-        "country": "Slovakia",
-        "logo": "https://media.api-sports.io/football/leagues/644.png",
-        "round": "West - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 26245,
-        "name": "Komárno II",
-        "logo": "https://media.api-sports.io/football/teams/26245.png"
-      },
-      "awayTeam": {
-        "id": 14061,
-        "name": "Nové Zámky",
-        "logo": "https://media.api-sports.io/football/teams/14061.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1592979,
-      "sport": "football",
-      "league": {
-        "id": 336,
-        "name": "Druha Liga",
-        "country": "Ukraine",
-        "logo": "https://media.api-sports.io/football/leagues/336.png",
-        "round": "Regular Season - 3",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 28006,
-        "name": "Bratslav Vinnytsia",
-        "logo": "https://media.api-sports.io/football/teams/28006.png"
-      },
-      "awayTeam": {
-        "id": 24587,
-        "name": "Nyva Ternopil II",
-        "logo": "https://media.api-sports.io/football/teams/24587.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 1595521,
-      "sport": "football",
-      "league": {
-        "id": 488,
-        "name": "U19 Bundesliga",
-        "country": "Germany",
-        "logo": "https://media.api-sports.io/football/leagues/488.png",
-        "round": "Preliminary",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 10274,
-        "name": "Ulm U19",
-        "logo": "https://media.api-sports.io/football/teams/10274.png"
-      },
-      "awayTeam": {
-        "id": 10259,
-        "name": "Heidenheim U19",
-        "logo": "https://media.api-sports.io/football/teams/10259.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 0,
-        "away": 1
-      },
-      "homeScore": 1,
-      "awayScore": 3
-    },
-    {
-      "matchId": 1606608,
-      "sport": "football",
-      "league": {
-        "id": 99,
-        "name": "J2 League",
-        "country": "Japan",
-        "logo": "https://media.api-sports.io/football/leagues/99.png",
-        "round": "Regular Season - 2",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 4317,
-        "name": "Fujieda MYFC",
-        "logo": "https://media.api-sports.io/football/teams/4317.png"
-      },
-      "awayTeam": {
-        "id": 7127,
-        "name": "Iwaki",
-        "logo": "https://media.api-sports.io/football/teams/7127.png"
-      },
-      "venue": "Fujieda Soccer Stadium",
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 1
-      },
-      "homeScore": 3,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1618937,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 9724,
-        "name": "Atlético Tordesillas",
-        "logo": "https://media.api-sports.io/football/teams/9724.png"
-      },
-      "awayTeam": {
-        "id": 9388,
-        "name": "Guijuelo",
-        "logo": "https://media.api-sports.io/football/teams/9388.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 1,
-        "away": 0
-      },
-      "homeScore": 1,
-      "awayScore": 1
-    },
-    {
-      "matchId": 1626996,
-      "sport": "football",
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "round": "Club Friendlies",
-        "season": 2026
-      },
-      "homeTeam": {
-        "id": 725,
-        "name": "Cultural Leonesa",
-        "logo": "https://media.api-sports.io/football/teams/725.png"
-      },
-      "awayTeam": {
-        "id": 9588,
-        "name": "Salamanca UDS",
-        "logo": "https://media.api-sports.io/football/teams/9588.png"
-      },
-      "venue": null,
-      "date": "2026-08-15",
-      "time": "15:30",
-      "bdDate": "2026-08-15",
-      "bdTime": "15:30",
-      "status": {
-        "code": "FT",
-        "category": "Finished",
-        "label": "Full Time"
-      },
-      "halfTimeScore": {
-        "home": 2,
-        "away": 0
-      },
-      "homeScore": 5,
-      "awayScore": 0
-    },
     {
       "matchId": 1554013,
       "sport": "football",
@@ -1249,16 +717,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "16:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 0
       },
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1566587,
@@ -1591,16 +1059,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "16:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": null,
         "away": null
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "matchId": 1605557,
@@ -4175,16 +3643,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 3
     },
     {
       "matchId": 1595522,
@@ -4213,16 +3681,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "matchId": 1595524,
@@ -4289,16 +3757,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "matchId": 1595526,
@@ -4479,16 +3947,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 9
     },
     {
       "matchId": 1595531,
@@ -4555,16 +4023,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:00",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 1
     },
     {
       "matchId": 1600988,
@@ -4783,9 +4251,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 1,
@@ -4821,9 +4289,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4859,9 +4327,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 2,
@@ -4897,15 +4365,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 0
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -4935,9 +4403,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -4973,9 +4441,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -5011,15 +4479,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 2
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2
     },
     {
@@ -5049,16 +4517,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 3,
         "away": 1
       },
       "homeScore": 3,
-      "awayScore": 3
+      "awayScore": 4
     },
     {
       "matchId": 1565063,
@@ -5087,15 +4555,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 1,
         "away": 0
       },
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 0
     },
     {
@@ -5163,9 +4631,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 3,
@@ -5201,9 +4669,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -5277,9 +4745,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -5353,16 +4821,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:30",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 1
       },
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1523239,
@@ -5391,15 +4859,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:35",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 2
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 4
     },
     {
@@ -5429,16 +4897,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "17:35",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 1
       },
       "homeScore": 2,
-      "awayScore": 2
+      "awayScore": 3
     },
     {
       "matchId": 1495367,
@@ -5590,7 +5058,7 @@
         "away": 2
       },
       "homeScore": 0,
-      "awayScore": 3
+      "awayScore": 6
     },
     {
       "matchId": 1496120,
@@ -5657,16 +5125,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 4
       },
       "homeScore": 1,
-      "awayScore": 4
+      "awayScore": 7
     },
     {
       "matchId": 1496485,
@@ -5695,16 +5163,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 5,
         "away": 0
       },
-      "homeScore": 5,
-      "awayScore": 0
+      "homeScore": 7,
+      "awayScore": 1
     },
     {
       "matchId": 1496850,
@@ -5741,7 +5209,7 @@
         "home": 2,
         "away": 0
       },
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -5779,8 +5247,8 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
-      "awayScore": 1
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "matchId": 1497218,
@@ -5809,15 +5277,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "Half Time"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 2
       },
-      "homeScore": 0,
+      "homeScore": 4,
       "awayScore": 2
     },
     {
@@ -5856,7 +5324,7 @@
         "away": 3
       },
       "homeScore": 0,
-      "awayScore": 3
+      "awayScore": 4
     },
     {
       "matchId": 1497398,
@@ -5931,7 +5399,7 @@
         "home": 2,
         "away": 0
       },
-      "homeScore": 3,
+      "homeScore": 6,
       "awayScore": 0
     },
     {
@@ -5970,7 +5438,7 @@
         "away": 1
       },
       "homeScore": 0,
-      "awayScore": 2
+      "awayScore": 3
     },
     {
       "matchId": 1510636,
@@ -5999,15 +5467,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 0
       },
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0
     },
     {
@@ -6046,7 +5514,7 @@
         "away": 2
       },
       "homeScore": 1,
-      "awayScore": 3
+      "awayScore": 5
     },
     {
       "matchId": 1510984,
@@ -6084,7 +5552,7 @@
         "away": 1
       },
       "homeScore": 3,
-      "awayScore": 1
+      "awayScore": 4
     },
     {
       "matchId": 1523241,
@@ -6121,7 +5589,7 @@
         "home": 1,
         "away": 1
       },
-      "homeScore": 2,
+      "homeScore": 4,
       "awayScore": 1
     },
     {
@@ -6159,7 +5627,7 @@
         "home": 0,
         "away": 1
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1
     },
     {
@@ -6189,15 +5657,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -6236,7 +5704,7 @@
         "away": 1
       },
       "homeScore": 1,
-      "awayScore": 2
+      "awayScore": 3
     },
     {
       "matchId": 1536661,
@@ -6273,7 +5741,7 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -6349,7 +5817,7 @@
         "home": 0,
         "away": 3
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 3
     },
     {
@@ -6388,7 +5856,7 @@
         "away": 1
       },
       "homeScore": 3,
-      "awayScore": 1
+      "awayScore": 5
     },
     {
       "matchId": 1551314,
@@ -6426,7 +5894,7 @@
         "away": 0
       },
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1562717,
@@ -6616,7 +6084,7 @@
         "away": 1
       },
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1575769,
@@ -6645,16 +6113,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "INT",
-        "category": "Live",
-        "label": "Match Interrupted"
+        "code": "NS",
+        "category": "Upcoming",
+        "label": "Not Started"
       },
       "halfTimeScore": {
-        "home": 1,
-        "away": 0
+        "home": null,
+        "away": null
       },
-      "homeScore": 1,
-      "awayScore": 0
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "matchId": 1577212,
@@ -6721,9 +6189,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 2,
@@ -6759,9 +6227,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "2H",
-        "category": "Live",
-        "label": "Second Half"
+        "code": "FT",
+        "category": "Finished",
+        "label": "Full Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7033,7 +6501,7 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -7063,9 +6531,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -7185,7 +6653,7 @@
         "home": 0,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -7223,7 +6691,7 @@
         "home": 1,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -7299,7 +6767,7 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -7337,8 +6805,8 @@
         "home": 1,
         "away": 0
       },
-      "homeScore": 1,
-      "awayScore": 0
+      "homeScore": 5,
+      "awayScore": 1
     },
     {
       "matchId": 1586826,
@@ -7375,8 +6843,8 @@
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "matchId": 1586829,
@@ -7413,7 +6881,7 @@
         "home": 2,
         "away": 0
       },
-      "homeScore": 2,
+      "homeScore": 4,
       "awayScore": 0
     },
     {
@@ -7452,7 +6920,7 @@
         "away": 2
       },
       "homeScore": 2,
-      "awayScore": 2
+      "awayScore": 3
     },
     {
       "matchId": 1587104,
@@ -7489,7 +6957,7 @@
         "home": 1,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -7557,16 +7025,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:00",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "Half Time"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1587111,
@@ -7603,8 +7071,8 @@
         "home": 1,
         "away": 0
       },
-      "homeScore": 2,
-      "awayScore": 1
+      "homeScore": 3,
+      "awayScore": 3
     },
     {
       "matchId": 1587418,
@@ -7641,7 +7109,7 @@
         "home": 1,
         "away": 1
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 3
     },
     {
@@ -7679,7 +7147,7 @@
         "home": 0,
         "away": 2
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 2
     },
     {
@@ -8439,7 +7907,7 @@
         "home": 1,
         "away": 1
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 2
     },
     {
@@ -8477,7 +7945,7 @@
         "home": 0,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1
     },
     {
@@ -8515,7 +7983,7 @@
         "home": 4,
         "away": 0
       },
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0
     },
     {
@@ -8545,16 +8013,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:15",
       "status": {
-        "code": "HT",
+        "code": "2H",
         "category": "Live",
-        "label": "Half Time"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 2,
         "away": 1
       },
-      "homeScore": 2,
-      "awayScore": 1
+      "homeScore": 3,
+      "awayScore": 4
     },
     {
       "matchId": 1538670,
@@ -8583,9 +8051,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8621,9 +8089,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8659,15 +8127,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -8697,15 +8165,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -8729,15 +8197,15 @@
         "name": "Obolon'-Brovar",
         "logo": "https://media.api-sports.io/football/teams/3630.png"
       },
-      "venue": "Avanhard",
+      "venue": "Avanhard Stadium",
       "date": "2026-08-15",
       "time": "18:30",
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8773,9 +8241,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
@@ -8811,15 +8279,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1
     },
     {
@@ -8887,16 +8355,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
         "away": 0
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1605050,
@@ -9343,9 +8811,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:30",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
@@ -9381,16 +8849,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "18:45",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1553136,
@@ -9413,22 +8881,22 @@
         "name": "Slask Wroclaw",
         "logo": "https://media.api-sports.io/football/teams/337.png"
       },
-      "venue": "KGHM Zaglebie Arena",
+      "venue": "KGHM Zagłębie Arena",
       "date": "2026-08-15",
       "time": "18:45",
       "bdDate": "2026-08-15",
       "bdTime": "18:45",
       "status": {
-        "code": "1H",
+        "code": "2H",
         "category": "Live",
-        "label": "First Half"
+        "label": "Second Half"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1618248,
@@ -9533,16 +9001,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 1
+        "away": 3
       },
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 3
     },
     {
       "matchId": 1495524,
@@ -9609,9 +9077,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -9647,15 +9115,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -9685,9 +9153,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 1,
@@ -9723,16 +9191,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "matchId": 1496671,
@@ -9761,16 +9229,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 1,
-        "away": 1
+        "home": 2,
+        "away": 2
       },
-      "homeScore": 1,
-      "awayScore": 1
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "matchId": 1496672,
@@ -9799,15 +9267,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -9842,11 +9310,11 @@
         "label": "First Half"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "matchId": 1497030,
@@ -9875,16 +9343,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1497033,
@@ -9913,15 +9381,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -9951,15 +9419,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 3,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -9995,10 +9463,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1497394,
@@ -10027,15 +9495,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -10065,16 +9533,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "matchId": 1497400,
@@ -10108,10 +9576,10 @@
         "label": "First Half"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -10141,9 +9609,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10179,9 +9647,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10217,9 +9685,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10255,9 +9723,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10299,10 +9767,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 2
     },
     {
       "matchId": 1507197,
@@ -10331,9 +9799,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10375,10 +9843,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1528066,
@@ -10407,15 +9875,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -10445,15 +9913,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -10526,11 +9994,11 @@
         "label": "First Half"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 3
+        "home": 1,
+        "away": 4
       },
-      "homeScore": 0,
-      "awayScore": 3
+      "homeScore": 1,
+      "awayScore": 4
     },
     {
       "matchId": 1535643,
@@ -10559,9 +10027,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10673,15 +10141,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -10754,11 +10222,11 @@
         "label": "First Half"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 2
+        "home": 1,
+        "away": 3
       },
-      "homeScore": 0,
-      "awayScore": 2
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "matchId": 1547433,
@@ -10787,15 +10255,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -10825,9 +10293,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -10863,15 +10331,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -11015,16 +10483,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 2,
-        "away": 0
+        "home": 4,
+        "away": 2
       },
-      "homeScore": 2,
-      "awayScore": 0
+      "homeScore": 4,
+      "awayScore": 2
     },
     {
       "matchId": 1569047,
@@ -11053,9 +10521,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -11091,16 +10559,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1574991,
@@ -11129,16 +10597,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 2,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
-      "homeScore": 2,
-      "awayScore": 0
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "matchId": 1574992,
@@ -11167,15 +10635,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -11199,22 +10667,22 @@
         "name": "Benfica B",
         "logo": "https://media.api-sports.io/football/teams/229.png"
       },
-      "venue": null,
+      "venue": "Estádio Dr. Magalhães Pessoa",
       "date": "2026-08-15",
       "time": "19:00",
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "matchId": 1577478,
@@ -11243,9 +10711,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -11281,9 +10749,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -11319,16 +10787,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 2
     },
     {
       "matchId": 1579423,
@@ -11357,16 +10825,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1579424,
@@ -11395,9 +10863,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 1,
@@ -11438,10 +10906,10 @@
         "label": "First Half"
       },
       "halfTimeScore": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -11471,15 +10939,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     },
     {
@@ -11667,10 +11135,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 4
+        "away": 5
       },
       "homeScore": 0,
-      "awayScore": 4
+      "awayScore": 5
     },
     {
       "matchId": 1582376,
@@ -11813,15 +11281,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -11851,9 +11319,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -11889,9 +11357,9 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 0,
@@ -11965,16 +11433,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1612423,
@@ -12003,15 +11471,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -12041,15 +11509,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -12155,15 +11623,15 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:00",
       "status": {
-        "code": "1H",
+        "code": "HT",
         "category": "Live",
-        "label": "First Half"
+        "label": "Half Time"
       },
       "halfTimeScore": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -12199,10 +11667,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "matchId": 1619536,
@@ -12383,16 +11851,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:15",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1579418,
@@ -12427,10 +11895,10 @@
       },
       "halfTimeScore": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "matchId": 1527720,
@@ -12459,16 +11927,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1535645,
@@ -12497,16 +11965,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1541731,
@@ -12535,16 +12003,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1546762,
@@ -12573,16 +12041,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1550628,
@@ -12611,16 +12079,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1558177,
@@ -12649,16 +12117,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1558180,
@@ -12687,16 +12155,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1558181,
@@ -12725,16 +12193,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1566679,
@@ -12877,16 +12345,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580466,
@@ -12915,16 +12383,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1580467,
@@ -12953,16 +12421,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580468,
@@ -13029,16 +12497,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1580705,
@@ -13067,16 +12535,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580706,
@@ -13105,16 +12573,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580707,
@@ -13143,16 +12611,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1580708,
@@ -13181,16 +12649,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "matchId": 1580709,
@@ -13295,16 +12763,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1582379,
@@ -13409,16 +12877,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1598615,
@@ -13447,16 +12915,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 1598616,
@@ -13485,16 +12953,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "matchId": 1598866,
@@ -13561,16 +13029,16 @@
       "bdDate": "2026-08-15",
       "bdTime": "19:30",
       "status": {
-        "code": "NS",
-        "category": "Upcoming",
-        "label": "Not Started"
+        "code": "1H",
+        "category": "Live",
+        "label": "First Half"
       },
       "halfTimeScore": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "matchId": 1494736,
