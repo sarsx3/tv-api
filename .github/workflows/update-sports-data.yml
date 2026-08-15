@@ -1,0 +1,54 @@
+name: Update Sports Data
+
+# ============================================================
+# এই workflow প্রতি ৩০ মিনিটে automatically চলবে এবং আপনার
+# বিদ্যমান "sports" ফোল্ডারের ভেতরে football.json ও cricket.json
+# তৈরি/আপডেট করবে। repo-র বাকি কোনো ফাইলে এটি হাত দেয় না।
+# ============================================================
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"     # প্রতি ৩০ মিনিট পরপর
+  workflow_dispatch: {}        # "Actions" ট্যাব থেকে ম্যানুয়ালি চালানোর জন্য
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-sports-data
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Repository checkout করা
+        uses: actions/checkout@v4
+
+      - name: Python সেটআপ করা
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: প্রয়োজনীয় Python package ইনস্টল করা
+        run: pip install -r requirements.txt
+
+      - name: Football ও Cricket ডাটা fetch করা
+        env:
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+          CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
+        run: python scripts/fetch_sports_data.py
+
+      - name: sports/ ফোল্ডারে পরিবর্তন থাকলে commit ও push করা
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sports/football.json sports/cricket.json sports/error_log.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "কোনো নতুন পরিবর্তন নেই, তাই commit করা হচ্ছে না।"
+          else
+            git commit -m "Auto update sports data - $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
