@@ -1,36 +1,11 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T22:47:18.306630+00:00",
-  "lastUpdated": "2026-08-17 04:47:18 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T23:20:07.987037+00:00",
+  "lastUpdated": "2026-08-17 05:20:07 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 1,
   "matches": [
-    {
-      "matchId": "a031df55-6d10-4dfd-b45c-ba4fc9edeaa0",
-      "sport": "cricket",
-      "series": "ac5127e7-663b-4666-83ca-38f5d6935228",
-      "matchTitle": "Trent Rockets vs Manchester Super Giants, Final, The Hundred Mens Competition 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Trent Rockets",
-        "logo": "https://g.cricapi.com/iapi/292-637885742365093855.webp?w=48"
-      },
-      "team2": {
-        "name": "Manchester Super Giants",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Lord's, London",
-      "date": "2026-08-16",
-      "time": "23:00",
-      "bdDate": "2026-08-16",
-      "bdTime": "23:00",
-      "status": {
-        "category": "Finished",
-        "label": "Manchester Super Giants won by 5 wkts"
-      },
-      "result": "Manchester Super Giants won by 5 wkts"
-    },
     {
       "matchId": "fee080ab-e8fe-4579-9e81-40d75f31ebbb",
       "sport": "cricket",
@@ -51,8 +26,8 @@
       "bdDate": "2026-08-17",
       "bdTime": "05:00",
       "status": {
-        "category": "Upcoming",
-        "label": "Saint Lucia Kings opt to bowl"
+        "category": "Live",
+        "label": "Start delayed due to rain - Saint Lucia Kings opt to bowl"
       },
       "result": null
     }
