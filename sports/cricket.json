@@ -1,36 +1,11 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T18:58:20.140545+00:00",
-  "lastUpdated": "2026-08-17 00:58:20 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T19:26:54.907504+00:00",
+  "lastUpdated": "2026-08-17 01:26:54 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 1,
   "matches": [
-    {
-      "matchId": "5a209a6b-c8ed-4931-b392-57d106889dcc",
-      "sport": "cricket",
-      "series": "99aea2e0-513f-4d4c-b83c-336e456723ae",
-      "matchTitle": "Trent Rockets Women vs Sunrisers Leeds Women, Final, The Hundred Womens Competition 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Trent Rockets Women",
-        "logo": "https://g.cricapi.com/iapi/2034-637967614126146514.webp?w=48"
-      },
-      "team2": {
-        "name": "Sunrisers Leeds Women",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Lord's, London",
-      "date": "2026-08-16",
-      "time": "19:15",
-      "bdDate": "2026-08-16",
-      "bdTime": "19:15",
-      "status": {
-        "category": "Finished",
-        "label": "Trent Rockets Women won by 8 wkts"
-      },
-      "result": "Trent Rockets Women won by 8 wkts"
-    },
     {
       "matchId": "a031df55-6d10-4dfd-b45c-ba4fc9edeaa0",
       "sport": "cricket",
@@ -52,7 +27,7 @@
       "bdTime": "23:00",
       "status": {
         "category": "Live",
-        "label": "Manchester Super Giants need 105 runs in 74 balls"
+        "label": "Manchester Super Giants need 48 runs in 35 balls"
       },
       "result": null
     }
