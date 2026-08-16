@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T11:45:23.085187+00:00",
-  "lastUpdated": "2026-08-16 17:45:23 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T12:38:38.780601+00:00",
+  "lastUpdated": "2026-08-16 18:38:38 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 3,
   "matches": [
     {
       "matchId": "67b24f5c-ca0b-43ae-8ef2-b199a740bebe",
@@ -52,7 +52,32 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Drinks break - Nottinghamshire opt to bowl"
+        "label": "Nottinghamshire opt to bowl"
+      },
+      "result": null
+    },
+    {
+      "matchId": "5a209a6b-c8ed-4931-b392-57d106889dcc",
+      "sport": "cricket",
+      "series": "99aea2e0-513f-4d4c-b83c-336e456723ae",
+      "matchTitle": "Trent Rockets Women vs Sunrisers Leeds Women, Final, The Hundred Womens Competition 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Trent Rockets Women",
+        "logo": "https://g.cricapi.com/iapi/2034-637967614126146514.webp?w=48"
+      },
+      "team2": {
+        "name": "Sunrisers Leeds Women",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Lord's, London",
+      "date": "2026-08-16",
+      "time": "19:15",
+      "bdDate": "2026-08-16",
+      "bdTime": "19:15",
+      "status": {
+        "category": "Upcoming",
+        "label": "Trent Rockets Women opt to bowl"
       },
       "result": null
     }
