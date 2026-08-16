@@ -1,9 +1,60 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T09:34:31.730847+00:00",
-  "lastUpdated": "2026-08-16 15:34:31 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T10:22:48.801570+00:00",
+  "lastUpdated": "2026-08-16 16:22:48 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 2,
+  "matches": [
+    {
+      "matchId": "67b24f5c-ca0b-43ae-8ef2-b199a740bebe",
+      "sport": "cricket",
+      "series": "2734957c-528c-4a90-bf0d-17b4c88be4dc",
+      "matchTitle": "Middlesex vs Durham, Semi Final 2, England Domestic One-Day Cup 2026",
+      "matchType": "odi",
+      "team1": {
+        "name": "Middlesex",
+        "logo": "https://g.cricapi.com/iapi/1127-637889091340507643.webp?w=48"
+      },
+      "team2": {
+        "name": "Durham",
+        "logo": "https://g.cricapi.com/iapi/1118-637889090599643548.webp?w=48"
+      },
+      "venue": "Brunton Memorial Ground, Radlett",
+      "date": "2026-08-16",
+      "time": "16:00",
+      "bdDate": "2026-08-16",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Durham opt to bat"
+      },
+      "result": null
+    },
+    {
+      "matchId": "5ea5f86b-8314-473f-a3cc-3d0decf37012",
+      "sport": "cricket",
+      "series": "2734957c-528c-4a90-bf0d-17b4c88be4dc",
+      "matchTitle": "Leicestershire vs Nottinghamshire, Semi Final 1, England Domestic One-Day Cup 2026",
+      "matchType": "odi",
+      "team1": {
+        "name": "Leicestershire",
+        "logo": "https://g.cricapi.com/iapi/1126-637889090878436462.webp?w=48"
+      },
+      "team2": {
+        "name": "Nottinghamshire",
+        "logo": "https://g.cricapi.com/iapi/1130-637889092060873937.webp?w=48"
+      },
+      "venue": "Grace Road, Leicester",
+      "date": "2026-08-16",
+      "time": "16:00",
+      "bdDate": "2026-08-16",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Nottinghamshire opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
