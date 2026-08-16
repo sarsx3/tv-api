@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T07:30:55.026648+00:00",
-  "lastUpdated": "2026-08-16 13:30:55 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T08:28:41.550780+00:00",
+  "lastUpdated": "2026-08-16 14:28:41 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "c0d6b76b-2739-42d6-ac0d-4a9e5ee094ef",
-      "sport": "cricket",
-      "series": "8a921af2-2bac-4b62-a0f6-032356a8b93a",
-      "matchTitle": "Malawi vs Rwanda, 9th Match, Malawi Tri-Series 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Malawi",
-        "logo": null
-      },
-      "team2": {
-        "name": "Rwanda",
-        "logo": null
-      },
-      "venue": "TCA Oval, Blantyre",
-      "date": "2026-08-16",
-      "time": "13:00",
-      "bdDate": "2026-08-16",
-      "bdTime": "13:00",
-      "status": {
-        "category": "Live",
-        "label": "Malawi opt to bat"
-      },
-      "result": null
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
