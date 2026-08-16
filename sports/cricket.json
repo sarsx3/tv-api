@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T22:20:46.509606+00:00",
-  "lastUpdated": "2026-08-17 04:20:46 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T22:47:18.306630+00:00",
+  "lastUpdated": "2026-08-17 04:47:18 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
+  "totalMatches": 2,
   "matches": [
     {
       "matchId": "a031df55-6d10-4dfd-b45c-ba4fc9edeaa0",
@@ -30,6 +30,31 @@
         "label": "Manchester Super Giants won by 5 wkts"
       },
       "result": "Manchester Super Giants won by 5 wkts"
+    },
+    {
+      "matchId": "fee080ab-e8fe-4579-9e81-40d75f31ebbb",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Saint Lucia Kings vs Barbados Tridents, 9th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Saint Lucia Kings",
+        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
+      },
+      "team2": {
+        "name": "Barbados Tridents",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+      "date": "2026-08-17",
+      "time": "05:00",
+      "bdDate": "2026-08-17",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Saint Lucia Kings opt to bowl"
+      },
+      "result": null
     }
   ]
 }
