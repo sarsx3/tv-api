@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T19:46:29.556221+00:00",
-  "lastUpdated": "2026-08-17 01:46:29 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T20:21:48.578484+00:00",
+  "lastUpdated": "2026-08-17 02:21:48 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-16",
       "bdTime": "23:00",
       "status": {
-        "category": "Live",
-        "label": "Manchester Super Giants need 11 runs in 15 balls"
+        "category": "Finished",
+        "label": "Manchester Super Giants won by 5 wkts"
       },
-      "result": null
+      "result": "Manchester Super Giants won by 5 wkts"
     }
   ]
 }
