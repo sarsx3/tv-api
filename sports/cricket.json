@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-16T15:21:44.822845+00:00",
-  "lastUpdated": "2026-08-16 21:21:44 (Bangladesh Time)",
+  "updatedAt": "2026-08-16T15:46:43.629369+00:00",
+  "lastUpdated": "2026-08-16 21:46:43 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 3,
   "matches": [
@@ -27,7 +27,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Middlesex need 154 runs"
+        "label": "Middlesex need 133 runs"
       },
       "result": null
     },
@@ -52,7 +52,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Nottinghamshire need 222 runs"
+        "label": "Nottinghamshire need 237 runs"
       },
       "result": null
     },
@@ -76,10 +76,10 @@
       "bdDate": "2026-08-16",
       "bdTime": "19:15",
       "status": {
-        "category": "Live",
+        "category": "Finished",
         "label": "Trent Rockets Women won by 8 wkts"
       },
-      "result": null
+      "result": "Trent Rockets Women won by 8 wkts"
     }
   ]
 }
