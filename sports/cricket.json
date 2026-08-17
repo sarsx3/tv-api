@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-17T02:41:56.293423+00:00",
-  "lastUpdated": "2026-08-17 08:41:56 (Bangladesh Time)",
+  "updatedAt": "2026-08-17T03:50:36.498237+00:00",
+  "lastUpdated": "2026-08-17 09:50:36 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
+  "totalMatches": 2,
   "matches": [
     {
       "matchId": "fee080ab-e8fe-4579-9e81-40d75f31ebbb",
@@ -26,8 +26,33 @@
       "bdDate": "2026-08-17",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "18 overs game due to rain - Saint Lucia Kings opt to bowl"
+        "category": "Finished",
+        "label": "Barbados Tridents won by 9 runs - 18 overs game due to rain"
+      },
+      "result": "Barbados Tridents won by 9 runs - 18 overs game due to rain"
+    },
+    {
+      "matchId": "ca1a54c7-6c4d-4a33-a11d-5d025494ce8e",
+      "sport": "cricket",
+      "series": "639d4a51-6405-402a-9281-17e7922e5a25",
+      "matchTitle": "Papua New Guinea Women vs Thailand Women, 3rd ODI, Thailand Women tour of Papua New Guinea, 2026",
+      "matchType": null,
+      "team1": {
+        "name": "Papua New Guinea Women",
+        "logo": "https://g.cricapi.com/iapi/2425-637991983542500362.webp?w=48"
+      },
+      "team2": {
+        "name": "Thailand Women",
+        "logo": "https://g.cricapi.com/iapi/2351-637985730472466346.webp?w=48"
+      },
+      "venue": "Amini Park, Port Moresby",
+      "date": "2026-08-18",
+      "time": "05:30",
+      "bdDate": "2026-08-18",
+      "bdTime": "05:30",
+      "status": {
+        "category": "Upcoming",
+        "label": "Thailand Women need 108 runs"
       },
       "result": null
     }
