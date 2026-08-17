@@ -1,36 +1,11 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-17T04:41:50.740724+00:00",
-  "lastUpdated": "2026-08-17 10:41:50 (Bangladesh Time)",
+  "updatedAt": "2026-08-17T05:34:48.382501+00:00",
+  "lastUpdated": "2026-08-17 11:34:48 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 1,
   "matches": [
-    {
-      "matchId": "fee080ab-e8fe-4579-9e81-40d75f31ebbb",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Saint Lucia Kings vs Barbados Tridents, 9th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Saint Lucia Kings",
-        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
-      },
-      "team2": {
-        "name": "Barbados Tridents",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
-      "date": "2026-08-17",
-      "time": "05:00",
-      "bdDate": "2026-08-17",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Barbados Tridents won by 9 runs - 18 overs game due to rain"
-      },
-      "result": "Barbados Tridents won by 9 runs - 18 overs game due to rain"
-    },
     {
       "matchId": "ca1a54c7-6c4d-4a33-a11d-5d025494ce8e",
       "sport": "cricket",
