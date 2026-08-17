@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-17T03:50:36.498237+00:00",
-  "lastUpdated": "2026-08-17 09:50:36 (Bangladesh Time)",
+  "updatedAt": "2026-08-17T04:41:50.740724+00:00",
+  "lastUpdated": "2026-08-17 10:41:50 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 2,
   "matches": [
@@ -51,10 +51,10 @@
       "bdDate": "2026-08-18",
       "bdTime": "05:30",
       "status": {
-        "category": "Upcoming",
-        "label": "Thailand Women need 108 runs"
+        "category": "Finished",
+        "label": "Thailand Women won by 5 wkts"
       },
-      "result": null
+      "result": "Thailand Women won by 5 wkts"
     }
   ]
 }
