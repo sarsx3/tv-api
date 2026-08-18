@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-18T17:27:04.749659+00:00",
-  "lastUpdated": "2026-08-18 23:27:04 (Bangladesh Time)",
+  "updatedAt": "2026-08-18T17:55:46.276336+00:00",
+  "lastUpdated": "2026-08-18 23:55:46 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-18",
       "bdTime": "20:00",
       "status": {
-        "category": "Live",
-        "label": "Vida Kovai Kings need 8 runs in 15 balls"
+        "category": "Finished",
+        "label": "Vida Kovai Kings won by 5 wkts"
       },
-      "result": null
+      "result": "Vida Kovai Kings won by 5 wkts"
     }
   ]
 }
