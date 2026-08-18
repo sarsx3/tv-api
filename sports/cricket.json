@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-18T12:45:48.024322+00:00",
-  "lastUpdated": "2026-08-18 18:45:48 (Bangladesh Time)",
+  "updatedAt": "2026-08-18T13:42:10.668274+00:00",
+  "lastUpdated": "2026-08-18 19:42:10 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "e9d200fb-3c43-4852-9c93-9160517d7b36",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "Chepauk Super Gillies vs Vida Kovai Kings, 21st Match, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Chepauk Super Gillies",
+        "logo": "https://g.cricapi.com/iapi/136-637957472174708637.webp?w=48"
+      },
+      "team2": {
+        "name": "Vida Kovai Kings",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-18",
+      "time": "20:00",
+      "bdDate": "2026-08-18",
+      "bdTime": "20:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Vida Kovai Kings opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
