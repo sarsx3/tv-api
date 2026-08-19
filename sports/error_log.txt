@@ -1,2 +1,10 @@
 [2026-08-15 18:34:59 BDT] FOOTBALL_API_KEY পাওয়া যায়নি। GitHub Secrets ঠিকভাবে সেট করা হয়েছে কিনা দেখুন।
 [2026-08-15 18:34:59 BDT] CRICKET_API_KEY পাওয়া যায়নি। GitHub Secrets ঠিকভাবে সেট করা হয়েছে কিনা দেখুন।
+[2026-08-19 23:52:07 BDT] Cricket currentMatches (offset 0): Request timed out (attempt 1).
+[2026-08-19 23:52:26 BDT] Cricket currentMatches (offset 0): Request timed out (attempt 2).
+[2026-08-19 23:52:46 BDT] Cricket currentMatches (offset 0): Request timed out (attempt 3).
+[2026-08-19 23:52:50 BDT] Cricket currentMatches (offset 0): All retries failed. Last error -> Cricket currentMatches (offset 0): Request timed out (attempt 3).
+[2026-08-19 23:53:14 BDT] Cricket currentMatches (offset 25): Request timed out (attempt 1).
+[2026-08-19 23:53:43 BDT] Cricket currentMatches (offset 25): Request timed out (attempt 2).
+[2026-08-19 23:54:07 BDT] Cricket currentMatches (offset 25): Request timed out (attempt 3).
+[2026-08-19 23:54:11 BDT] Cricket currentMatches (offset 25): All retries failed. Last error -> Cricket currentMatches (offset 25): Request timed out (attempt 3).
