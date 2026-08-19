@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-19T19:50:36.393925+00:00",
-  "lastUpdated": "2026-08-20 01:50:36 (Bangladesh Time)",
+  "updatedAt": "2026-08-19T20:28:02.795835+00:00",
+  "lastUpdated": "2026-08-20 02:28:02 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "b4569241-cd0c-47e3-bf50-dd552c207187",
-      "sport": "cricket",
-      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
-      "matchTitle": "Dindigul Dragons vs Trichy Grand Cholas, 22nd Match, Tamil Nadu Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Dindigul Dragons",
-        "logo": "https://g.cricapi.com/iapi/153-637951184351143751.webp?w=48"
-      },
-      "team2": {
-        "name": "Trichy Grand Cholas",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "MA Chidambaram Stadium, Chennai",
-      "date": "2026-08-19",
-      "time": "20:00",
-      "bdDate": "2026-08-19",
-      "bdTime": "20:00",
-      "status": {
-        "category": "Finished",
-        "label": "Trichy Grand Cholas won by 28 runs  -  19 overs game due to rain,DLS target 199"
-      },
-      "result": "Trichy Grand Cholas won by 28 runs  -  19 overs game due to rain,DLS target 199"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
