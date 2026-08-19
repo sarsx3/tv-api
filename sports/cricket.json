@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-19T22:24:26.626591+00:00",
-  "lastUpdated": "2026-08-20 04:24:26 (Bangladesh Time)",
+  "updatedAt": "2026-08-19T22:51:29.534085+00:00",
+  "lastUpdated": "2026-08-20 04:51:29 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "283a3fed-c27b-488b-8333-e2f96bfec14c",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Saint Lucia Kings vs Guyana Amazon Warriors, 11th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Saint Lucia Kings",
+        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
+      },
+      "team2": {
+        "name": "Guyana Amazon Warriors",
+        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
+      },
+      "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+      "date": "2026-08-20",
+      "time": "05:00",
+      "bdDate": "2026-08-20",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Guyana Amazon Warriors opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
