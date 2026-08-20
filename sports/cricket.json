@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T14:36:30.585130+00:00",
-  "lastUpdated": "2026-08-20 20:36:30 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T15:33:26.962788+00:00",
+  "lastUpdated": "2026-08-20 21:33:26 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 11,
   "matches": [
@@ -52,7 +52,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Rain stops play - Gloucestershire opt to bat"
+        "label": "Day 1: Stumps - Gloucestershire opt to bat"
       },
       "result": null
     },
@@ -77,7 +77,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "3rd Session - Lancashire opt to bowl"
+        "label": "Day 1: 3rd Session - Lancashire opt to bowl"
       },
       "result": null
     },
@@ -102,7 +102,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Match delayed due to wet outfield - Derbyshire opt to bowl"
+        "label": "Day 1: 2nd Session - Derbyshire opt to bowl"
       },
       "result": null
     },
@@ -127,7 +127,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 2nd Session - Kent opt to bat"
+        "label": "Kent opt to bat"
       },
       "result": null
     },
@@ -177,7 +177,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 2nd Session - Essex opt to bowl"
+        "label": "Day 1: 3rd Session - Essex opt to bowl"
       },
       "result": null
     },
@@ -202,7 +202,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Glamorgan opt to bowl"
+        "label": "Day 1: Rain stops play - Glamorgan opt to bowl"
       },
       "result": null
     },
@@ -227,7 +227,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 2nd Session - Warwickshire opt to bowl"
+        "label": "Warwickshire opt to bowl"
       },
       "result": null
     },
@@ -252,7 +252,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 2nd Session - Surrey opt to bowl"
+        "label": "Surrey opt to bowl"
       },
       "result": null
     },
