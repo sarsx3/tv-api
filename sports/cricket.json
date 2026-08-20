@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T13:47:11.046042+00:00",
-  "lastUpdated": "2026-08-20 19:47:11 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T14:36:30.585130+00:00",
+  "lastUpdated": "2026-08-20 20:36:30 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 10,
+  "totalMatches": 11,
   "matches": [
     {
       "matchId": "0d60251b-4fcc-4a8f-8027-a2110aba0fed",
@@ -52,7 +52,32 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 2nd Session - Gloucestershire opt to bat"
+        "label": "Day 1: Rain stops play - Gloucestershire opt to bat"
+      },
+      "result": null
+    },
+    {
+      "matchId": "c6a003c3-890e-42d9-9f57-5a6ace711d29",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Lancashire vs Northamptonshire, 35th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Lancashire",
+        "logo": "https://g.cricapi.com/iapi/1125-637885551497331567.webp?w=48"
+      },
+      "team2": {
+        "name": "Northamptonshire",
+        "logo": "https://g.cricapi.com/iapi/1129-637885551856435418.webp?w=48"
+      },
+      "venue": "Emirates Old Trafford, Manchester",
+      "date": "2026-08-20",
+      "time": "16:00",
+      "bdDate": "2026-08-20",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "3rd Session - Lancashire opt to bowl"
       },
       "result": null
     },
@@ -127,7 +152,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Rain stops play - Yorkshire opt to bat"
+        "label": "Day 1: 2nd Session - Yorkshire opt to bat"
       },
       "result": null
     },
@@ -177,7 +202,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Rain stops play - Glamorgan opt to bowl"
+        "label": "Glamorgan opt to bowl"
       },
       "result": null
     },
@@ -202,7 +227,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Rain stops play - Warwickshire opt to bowl"
+        "label": "Day 1: 2nd Session - Warwickshire opt to bowl"
       },
       "result": null
     },
@@ -251,8 +276,8 @@
       "bdDate": "2026-08-20",
       "bdTime": "20:00",
       "status": {
-        "category": "Upcoming",
-        "label": "Match starts at Aug 20, 14:00 GMT"
+        "category": "Live",
+        "label": "SKM Salem Spartans opt to bat"
       },
       "result": null
     }
