@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T04:36:45.688680+00:00",
-  "lastUpdated": "2026-08-20 10:36:45 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T05:30:42.495558+00:00",
+  "lastUpdated": "2026-08-20 11:30:42 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "283a3fed-c27b-488b-8333-e2f96bfec14c",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Saint Lucia Kings vs Guyana Amazon Warriors, 11th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Saint Lucia Kings",
-        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
-      },
-      "team2": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
-      "date": "2026-08-20",
-      "time": "05:00",
-      "bdDate": "2026-08-20",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Guyana Amazon Warriors won by 7 wkts"
-      },
-      "result": "Guyana Amazon Warriors won by 7 wkts"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
