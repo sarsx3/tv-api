@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T11:26:51.258606+00:00",
-  "lastUpdated": "2026-08-20 17:26:51 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T11:54:39.761819+00:00",
+  "lastUpdated": "2026-08-20 17:54:39 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 8,
+  "totalMatches": 9,
   "matches": [
     {
       "matchId": "0d60251b-4fcc-4a8f-8027-a2110aba0fed",
@@ -53,6 +53,31 @@
       "status": {
         "category": "Live",
         "label": "Day 1: 1st Session - Gloucestershire opt to bat"
+      },
+      "result": null
+    },
+    {
+      "matchId": "a0148686-d357-4b5f-854b-db02c0e8bcfb",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Derbyshire vs Durham, 34th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Derbyshire",
+        "logo": "https://g.cricapi.com/iapi/1117-637889091569915358.webp?w=48"
+      },
+      "team2": {
+        "name": "Durham",
+        "logo": "https://g.cricapi.com/iapi/1118-637889090599643548.webp?w=48"
+      },
+      "venue": "County Ground, Derby",
+      "date": "2026-08-20",
+      "time": "16:00",
+      "bdDate": "2026-08-20",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Derbyshire opt to bowl"
       },
       "result": null
     },
@@ -177,7 +202,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Rain stops play - Warwickshire opt to bowl"
+        "label": "Day 1: 1st Session - Warwickshire opt to bowl"
       },
       "result": null
     },
@@ -202,7 +227,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 1st Session - Surrey opt to bowl"
+        "label": "Day 1: Rain stops play - Surrey opt to bowl"
       },
       "result": null
     }
