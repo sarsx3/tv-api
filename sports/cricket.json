@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T16:35:29.130206+00:00",
-  "lastUpdated": "2026-08-20 22:35:29 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T17:28:56.596382+00:00",
+  "lastUpdated": "2026-08-20 23:28:56 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-20",
       "bdTime": "20:00",
       "status": {
-        "category": "Live",
-        "label": "Nellai Royal Kings need 37 runs in 65 balls"
+        "category": "Finished",
+        "label": "Nellai Royal Kings won by 5 wkts"
       },
-      "result": null
+      "result": "Nellai Royal Kings won by 5 wkts"
     }
   ]
 }
