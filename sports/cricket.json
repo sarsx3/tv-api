@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-20T19:31:33.946929+00:00",
-  "lastUpdated": "2026-08-21 01:31:33 (Bangladesh Time)",
+  "updatedAt": "2026-08-20T20:28:26.966845+00:00",
+  "lastUpdated": "2026-08-21 02:28:26 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "3960b1b6-7602-4759-a83b-4261febc900b",
-      "sport": "cricket",
-      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
-      "matchTitle": "Nellai Royal Kings vs SKM Salem Spartans, 24th Match, Tamil Nadu Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Nellai Royal Kings",
-        "logo": "https://g.cricapi.com/iapi/229-637939378110909048.webp?w=48"
-      },
-      "team2": {
-        "name": "SKM Salem Spartans",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "MA Chidambaram Stadium, Chennai",
-      "date": "2026-08-20",
-      "time": "20:00",
-      "bdDate": "2026-08-20",
-      "bdTime": "20:00",
-      "status": {
-        "category": "Finished",
-        "label": "Nellai Royal Kings won by 5 wkts"
-      },
-      "result": "Nellai Royal Kings won by 5 wkts"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
