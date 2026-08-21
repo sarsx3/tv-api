@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T14:35:10.782439+00:00",
-  "lastUpdated": "2026-08-21 20:35:10 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T15:33:32.093555+00:00",
+  "lastUpdated": "2026-08-21 21:33:32 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 3,
   "matches": [
     {
       "matchId": "7619f5ad-00a7-4f5f-a1e6-76bf2c380015",
@@ -30,6 +30,31 @@
         "label": "Vida Kovai Kings won by 85 runs (DLS Method)"
       },
       "result": "Vida Kovai Kings won by 85 runs (DLS Method)"
+    },
+    {
+      "matchId": "720d44f9-e14d-409b-85dd-dbcf3b7e26eb",
+      "sport": "cricket",
+      "series": "4f45fb90-6c29-43cb-9687-e0936469746f",
+      "matchTitle": "Isle of Man vs Israel, 5th Place Play-off, ICC Mens T20 World Cup Sub Regional Europe Qualifier C 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Isle of Man",
+        "logo": null
+      },
+      "team2": {
+        "name": "Israel",
+        "logo": null
+      },
+      "venue": "Tikkurila Cricket Ground, Vantaa",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "bdDate": "2026-08-21",
+      "bdTime": "19:00",
+      "status": {
+        "category": "Live",
+        "label": "Match not started"
+      },
+      "result": null
     },
     {
       "matchId": "b3610a13-4cd2-4396-aba1-3011dbd0dee6",
