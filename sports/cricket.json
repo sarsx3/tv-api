@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T02:44:52.491131+00:00",
-  "lastUpdated": "2026-08-21 08:44:52 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T03:50:50.338591+00:00",
+  "lastUpdated": "2026-08-21 09:50:50 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-21",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "Antigua and Barbuda Falcons need 15 runs in 11 balls"
+        "category": "Finished",
+        "label": "Antigua and Barbuda Falcons won by 3 wkts"
       },
-      "result": null
+      "result": "Antigua and Barbuda Falcons won by 3 wkts"
     }
   ]
 }
