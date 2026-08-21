@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T04:38:01.241582+00:00",
-  "lastUpdated": "2026-08-21 10:38:01 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T05:32:43.256746+00:00",
+  "lastUpdated": "2026-08-21 11:32:43 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "e2465074-7f3e-4183-b133-9ce6c3368b0f",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Antigua and Barbuda Falcons vs St Kitts and Nevis Patriots, 12th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Antigua and Barbuda Falcons",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "St Kitts and Nevis Patriots",
-        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
-      },
-      "venue": "Sir Vivian Richards Stadium, North Sound, Antigua",
-      "date": "2026-08-21",
-      "time": "05:00",
-      "bdDate": "2026-08-21",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Antigua and Barbuda Falcons won by 3 wkts"
-      },
-      "result": "Antigua and Barbuda Falcons won by 3 wkts"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
