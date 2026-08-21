@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T09:36:28.436172+00:00",
-  "lastUpdated": "2026-08-21 15:36:28 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T10:30:24.368690+00:00",
+  "lastUpdated": "2026-08-21 16:30:24 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "7619f5ad-00a7-4f5f-a1e6-76bf2c380015",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "Vida Kovai Kings vs Dindigul Dragons, 25th Match, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Vida Kovai Kings",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "team2": {
+        "name": "Dindigul Dragons",
+        "logo": "https://g.cricapi.com/iapi/153-637951184351143751.webp?w=48"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-21",
+      "time": "16:00",
+      "bdDate": "2026-08-21",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Dindigul Dragons opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
