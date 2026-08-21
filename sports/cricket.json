@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T17:59:07.675710+00:00",
-  "lastUpdated": "2026-08-21 23:59:07 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T18:49:29.402527+00:00",
+  "lastUpdated": "2026-08-22 00:49:29 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-21",
       "bdTime": "20:00",
       "status": {
-        "category": "Live",
-        "label": "Chepauk Super Gillies need 22 runs in 6 balls"
+        "category": "Finished",
+        "label": "Trichy Grand Cholas won by 14 runs"
       },
-      "result": null
+      "result": "Trichy Grand Cholas won by 14 runs"
     }
   ]
 }
