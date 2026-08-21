@@ -1,61 +1,11 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T15:33:32.093555+00:00",
-  "lastUpdated": "2026-08-21 21:33:32 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T16:34:21.967007+00:00",
+  "lastUpdated": "2026-08-21 22:34:21 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 3,
+  "totalMatches": 1,
   "matches": [
-    {
-      "matchId": "7619f5ad-00a7-4f5f-a1e6-76bf2c380015",
-      "sport": "cricket",
-      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
-      "matchTitle": "Vida Kovai Kings vs Dindigul Dragons, 25th Match, Tamil Nadu Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Vida Kovai Kings",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "Dindigul Dragons",
-        "logo": "https://g.cricapi.com/iapi/153-637951184351143751.webp?w=48"
-      },
-      "venue": "MA Chidambaram Stadium, Chennai",
-      "date": "2026-08-21",
-      "time": "16:00",
-      "bdDate": "2026-08-21",
-      "bdTime": "16:00",
-      "status": {
-        "category": "Finished",
-        "label": "Vida Kovai Kings won by 85 runs (DLS Method)"
-      },
-      "result": "Vida Kovai Kings won by 85 runs (DLS Method)"
-    },
-    {
-      "matchId": "720d44f9-e14d-409b-85dd-dbcf3b7e26eb",
-      "sport": "cricket",
-      "series": "4f45fb90-6c29-43cb-9687-e0936469746f",
-      "matchTitle": "Isle of Man vs Israel, 5th Place Play-off, ICC Mens T20 World Cup Sub Regional Europe Qualifier C 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Isle of Man",
-        "logo": null
-      },
-      "team2": {
-        "name": "Israel",
-        "logo": null
-      },
-      "venue": "Tikkurila Cricket Ground, Vantaa",
-      "date": "2026-08-21",
-      "time": "19:00",
-      "bdDate": "2026-08-21",
-      "bdTime": "19:00",
-      "status": {
-        "category": "Live",
-        "label": "Match not started"
-      },
-      "result": null
-    },
     {
       "matchId": "b3610a13-4cd2-4396-aba1-3011dbd0dee6",
       "sport": "cricket",
@@ -77,7 +27,7 @@
       "bdTime": "20:00",
       "status": {
         "category": "Live",
-        "label": "Trichy Grand Cholas opt to bat"
+        "label": "Chepauk Super Gillies need 187 runs"
       },
       "result": null
     }
