@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-21T13:45:16.218015+00:00",
-  "lastUpdated": "2026-08-21 19:45:16 (Bangladesh Time)",
+  "updatedAt": "2026-08-21T14:35:10.782439+00:00",
+  "lastUpdated": "2026-08-21 20:35:10 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
+  "totalMatches": 2,
   "matches": [
     {
       "matchId": "7619f5ad-00a7-4f5f-a1e6-76bf2c380015",
@@ -26,8 +26,33 @@
       "bdDate": "2026-08-21",
       "bdTime": "16:00",
       "status": {
+        "category": "Finished",
+        "label": "Vida Kovai Kings won by 85 runs (DLS Method)"
+      },
+      "result": "Vida Kovai Kings won by 85 runs (DLS Method)"
+    },
+    {
+      "matchId": "b3610a13-4cd2-4396-aba1-3011dbd0dee6",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "Trichy Grand Cholas vs Chepauk Super Gillies, 26th Match, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Trichy Grand Cholas",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "team2": {
+        "name": "Chepauk Super Gillies",
+        "logo": "https://g.cricapi.com/iapi/136-637957472174708637.webp?w=48"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "bdDate": "2026-08-21",
+      "bdTime": "20:00",
+      "status": {
         "category": "Live",
-        "label": "Dindigul Dragons need 118 runs in 47 balls - 16 Overs game due to rain, DLS Target 179"
+        "label": "Trichy Grand Cholas opt to bat"
       },
       "result": null
     }
