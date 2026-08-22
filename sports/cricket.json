@@ -1,10 +1,10 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-22T13:32:08.814601+00:00",
-  "lastUpdated": "2026-08-22 19:32:08 (Bangladesh Time)",
+  "updatedAt": "2026-08-22T14:20:58.475547+00:00",
+  "lastUpdated": "2026-08-22 20:20:58 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
+  "totalMatches": 2,
   "matches": [
     {
       "matchId": "cbc12416-cb62-4263-9000-b61961c58a44",
@@ -26,8 +26,33 @@
       "bdDate": "2026-08-22",
       "bdTime": "16:00",
       "status": {
+        "category": "Finished",
+        "label": "SKM Salem Spartans won by 45 runs"
+      },
+      "result": "SKM Salem Spartans won by 45 runs"
+    },
+    {
+      "matchId": "d478067f-0f10-454b-9fc0-1d4f173b2fdd",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "Nellai Royal Kings vs Madurai Panthers, 28th Match, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Nellai Royal Kings",
+        "logo": "https://g.cricapi.com/iapi/229-637939378110909048.webp?w=48"
+      },
+      "team2": {
+        "name": "Madurai Panthers",
+        "logo": "https://g.cricapi.com/iapi/217-637940203723122310.webp?w=48"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "bdDate": "2026-08-22",
+      "bdTime": "20:00",
+      "status": {
         "category": "Live",
-        "label": "IDream Tiruppur Tamizhans need 58 runs in 29 balls"
+        "label": "Madurai Panthers opt to bat"
       },
       "result": null
     }
