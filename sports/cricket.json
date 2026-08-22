@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-22T02:34:48.343568+00:00",
-  "lastUpdated": "2026-08-22 08:34:48 (Bangladesh Time)",
+  "updatedAt": "2026-08-22T03:41:50.149891+00:00",
+  "lastUpdated": "2026-08-22 09:41:50 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-22",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "Saint Lucia Kings need 4 runs in 10 balls"
+        "category": "Finished",
+        "label": "Saint Lucia Kings won by 6 wkts"
       },
-      "result": null
+      "result": "Saint Lucia Kings won by 6 wkts"
     }
   ]
 }
