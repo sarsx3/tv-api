@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-22T09:35:59.940832+00:00",
-  "lastUpdated": "2026-08-22 15:35:59 (Bangladesh Time)",
+  "updatedAt": "2026-08-22T10:23:07.278785+00:00",
+  "lastUpdated": "2026-08-22 16:23:07 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "cbc12416-cb62-4263-9000-b61961c58a44",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "IDream Tiruppur Tamizhans vs SKM Salem Spartans, 27th Match, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "IDream Tiruppur Tamizhans",
+        "logo": "https://g.cricapi.com/iapi/181-637945148142038694.webp?w=48"
+      },
+      "team2": {
+        "name": "SKM Salem Spartans",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-22",
+      "time": "16:00",
+      "bdDate": "2026-08-22",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "SKM Salem Spartans opt to bat"
+      },
+      "result": null
+    }
+  ]
 }
