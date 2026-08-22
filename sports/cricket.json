@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-22T04:32:43.410494+00:00",
-  "lastUpdated": "2026-08-22 10:32:43 (Bangladesh Time)",
+  "updatedAt": "2026-08-22T05:27:12.391130+00:00",
+  "lastUpdated": "2026-08-22 11:27:12 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "86850d35-d97a-436f-ba24-78277088d34c",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Saint Lucia Kings vs Jamaica Kingsmen, 13th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Saint Lucia Kings",
-        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
-      },
-      "team2": {
-        "name": "Jamaica Kingsmen",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
-      "date": "2026-08-22",
-      "time": "05:00",
-      "bdDate": "2026-08-22",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Saint Lucia Kings won by 6 wkts"
-      },
-      "result": "Saint Lucia Kings won by 6 wkts"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
