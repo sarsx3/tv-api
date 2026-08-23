@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-23T10:23:54.742998+00:00",
-  "lastUpdated": "2026-08-23 16:23:54 (Bangladesh Time)",
+  "updatedAt": "2026-08-23T10:50:35.115135+00:00",
+  "lastUpdated": "2026-08-23 16:50:35 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "67c75be2-2cbe-4d4a-9b42-a71277bceab6",
+      "sport": "cricket",
+      "series": "2959c81f-9df4-41f8-b9d7-f316975d9677",
+      "matchTitle": "Luxembourg Women vs Belgium Women, 3rd T20I, Belgium Women tour of Luxembourg, 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Luxembourg Women",
+        "logo": "https://g.cricapi.com/iapi/623-637869397000752571.webp?w=48"
+      },
+      "team2": {
+        "name": "Belgium Women",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Pierre Werner Cricket Ground, Walferdange",
+      "date": "2026-08-23",
+      "time": "14:30",
+      "bdDate": "2026-08-23",
+      "bdTime": "14:30",
+      "status": {
+        "category": "Live",
+        "label": "Innings Break"
+      },
+      "result": null
+    }
+  ]
 }
