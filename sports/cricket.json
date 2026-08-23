@@ -1,36 +1,11 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-23T19:28:47.936148+00:00",
-  "lastUpdated": "2026-08-24 01:28:47 (Bangladesh Time)",
+  "updatedAt": "2026-08-23T19:48:28.661719+00:00",
+  "lastUpdated": "2026-08-24 01:48:28 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 2,
+  "totalMatches": 1,
   "matches": [
-    {
-      "matchId": "d7ad6f40-5f17-4a8e-8552-044453e33b43",
-      "sport": "cricket",
-      "series": "2959c81f-9df4-41f8-b9d7-f316975d9677",
-      "matchTitle": "Luxembourg Women vs Belgium Women, 4th T20I, Belgium Women tour of Luxembourg, 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Luxembourg Women",
-        "logo": "https://g.cricapi.com/iapi/623-637869397000752571.webp?w=48"
-      },
-      "team2": {
-        "name": "Belgium Women",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Pierre Werner Cricket Ground, Walferdange",
-      "date": "2026-08-23",
-      "time": "19:30",
-      "bdDate": "2026-08-23",
-      "bdTime": "19:30",
-      "status": {
-        "category": "Finished",
-        "label": "Luxembourg Women won by 47 runs"
-      },
-      "result": "Luxembourg Women won by 47 runs"
-    },
     {
       "matchId": "7d79a71a-0bd5-41eb-8920-6eae1081ba7e",
       "sport": "cricket",
