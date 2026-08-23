@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-23T17:20:23.751876+00:00",
-  "lastUpdated": "2026-08-23 23:20:23 (Bangladesh Time)",
+  "updatedAt": "2026-08-23T17:46:21.535160+00:00",
+  "lastUpdated": "2026-08-23 23:46:21 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 2,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-23",
       "bdTime": "19:30",
       "status": {
-        "category": "Live",
-        "label": "Belgium Women need 58 runs in 18 balls"
+        "category": "Finished",
+        "label": "Luxembourg Women won by 47 runs"
       },
-      "result": null
+      "result": "Luxembourg Women won by 47 runs"
     },
     {
       "matchId": "7d79a71a-0bd5-41eb-8920-6eae1081ba7e",
