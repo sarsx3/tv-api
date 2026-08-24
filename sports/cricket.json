@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-24T01:17:23.074288+00:00",
-  "lastUpdated": "2026-08-24 07:17:23 (Bangladesh Time)",
+  "updatedAt": "2026-08-24T02:45:50.503127+00:00",
+  "lastUpdated": "2026-08-24 08:45:50 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-24",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "Guyana Amazon Warriors need 76 runs in 91 balls"
+        "category": "Finished",
+        "label": "Guyana Amazon Warriors won by 7 wkts"
       },
-      "result": null
+      "result": "Guyana Amazon Warriors won by 7 wkts"
     }
   ]
 }
