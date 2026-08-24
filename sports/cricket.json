@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-24T04:44:21.780094+00:00",
-  "lastUpdated": "2026-08-24 10:44:21 (Bangladesh Time)",
+  "updatedAt": "2026-08-24T05:38:00.166602+00:00",
+  "lastUpdated": "2026-08-24 11:38:00 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "82fc5df7-fe9f-4970-972f-993a0c251c14",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Antigua and Barbuda Falcons vs Guyana Amazon Warriors, 15th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Antigua and Barbuda Falcons",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "venue": "Sir Vivian Richards Stadium, North Sound, Antigua",
-      "date": "2026-08-24",
-      "time": "05:00",
-      "bdDate": "2026-08-24",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Guyana Amazon Warriors won by 7 wkts"
-      },
-      "result": "Guyana Amazon Warriors won by 7 wkts"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
