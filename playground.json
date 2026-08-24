@@ -1,15 +1,53 @@
 [
   {
-    "id": "utcd8sa",
-    "url": "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlist.m3u8",
-    "name": "test01",
-    "urlId": "964181",
+    "id": "manual_1787565147419586_309206722",
+    "url": "http://elitenova.net/get.php?username=T9CE2691ZD1972T&password=EP09r4gQUG&type=m3u_plus&output=m3u8",
+    "name": "elitenova.net",
+    "urlId": "774744",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-24T15:52:27.419058",
+    "createdAt": "2026-08-24T15:52:27.419058",
+    "updatedAt": "2026-08-24T15:52:27.419058",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": null
+    },
+    "stats": {
+      "channelCount": 28405,
+      "categoryCount": 389,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-09T08:54:58.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1787565086954864",
+      "name": "Github",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
+    }
+  },
+  {
+    "id": "u1ydvqjo",
+    "url": "https://biostartvworld.pages.dev/sports.m3u",
+    "name": "Biostar",
+    "urlId": "353189",
     "userCount": 1,
     "linkType": "m3u",
     "source": "custom_playlist",
-    "addedAt": "2026-08-23T18:41:58.744010",
-    "createdAt": "2026-08-23T18:30:48.938",
-    "updatedAt": "2026-08-23T18:30:48.938",
+    "addedAt": "2026-08-24T14:57:53.952865",
+    "createdAt": "2026-08-23T23:08:21.455",
+    "updatedAt": "2026-08-23T23:08:21.455",
     "contributor": {
       "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
       "uniqueId": "HT96XFUH",
@@ -17,13 +55,15 @@
       "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
     },
     "stats": {
-      "channelCount": 2059,
-      "categoryCount": 97,
+      "channelCount": 457,
+      "categoryCount": 12,
       "isActive": true,
       "movieCount": 0,
       "seriesCount": 0
     },
-    "xtream": null
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null
   },
   {
     "id": "uiha6n8",
@@ -55,19 +95,21 @@
       "expiresAt": "2027-04-02T20:33:00.000",
       "maxConnections": 1,
       "activeConnections": 0
-    }
+    },
+    "isManual": false,
+    "playlistSource": null
   },
   {
-    "id": "u1ydvqjo",
-    "url": "https://biostartvworld.pages.dev/sports.m3u",
-    "name": "Biostar",
-    "urlId": "353189",
+    "id": "utcd8sa",
+    "url": "https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlist.m3u8",
+    "name": "test01",
+    "urlId": "964181",
     "userCount": 1,
     "linkType": "m3u",
     "source": "custom_playlist",
-    "addedAt": "2026-08-24T14:57:53.952865",
-    "createdAt": "2026-08-23T23:08:21.455",
-    "updatedAt": "2026-08-23T23:08:21.455",
+    "addedAt": "2026-08-23T18:41:58.744010",
+    "createdAt": "2026-08-23T18:30:48.938",
+    "updatedAt": "2026-08-23T18:30:48.938",
     "contributor": {
       "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
       "uniqueId": "HT96XFUH",
@@ -75,12 +117,14 @@
       "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
     },
     "stats": {
-      "channelCount": 457,
-      "categoryCount": 12,
+      "channelCount": 2059,
+      "categoryCount": 97,
       "isActive": true,
       "movieCount": 0,
       "seriesCount": 0
     },
-    "xtream": null
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null
   }
 ]
