@@ -1,5 +1,44 @@
 [
   {
+    "id": "manual_1787659843601921_956909666",
+    "url": "http://elitenova.net/get.php?username=U58AJBHP3R3TELX&password=hQoZa0Vhzm&type=m3u_plus&output=m3u8",
+    "name": "elitenova.net 2",
+    "urlId": "255982",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-25T18:10:43.601787",
+    "createdAt": "2026-08-25T18:10:43.601787",
+    "updatedAt": "2026-08-25T18:10:43.601787",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 26688,
+      "categoryCount": 371,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-01-11T01:02:38.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1787565086954864",
+      "name": "Github",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
+    },
+    "isPremium": true
+  },
+  {
     "id": "u18di0m9",
     "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/2ukz.m3u?fbclid=IwdGRjcAT6JR1jbGNrBPolEnBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEeqVGOUqhT_Hwl4HICK-Jbihl3xNOL8Sw8nhCL7RDvWjF09Am2ETh9gTD4S2w_aem_d1k0oOL1_Pw8ykgXC8Ym0w",
     "name": "sports1",
