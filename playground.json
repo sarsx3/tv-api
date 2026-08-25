@@ -1,5 +1,67 @@
 [
   {
+    "id": "u18di0m9",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/2ukz.m3u?fbclid=IwdGRjcAT6JR1jbGNrBPolEnBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEeqVGOUqhT_Hwl4HICK-Jbihl3xNOL8Sw8nhCL7RDvWjF09Am2ETh9gTD4S2w_aem_d1k0oOL1_Pw8ykgXC8Ym0w",
+    "name": "sports1",
+    "urlId": "869448",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-25T14:07:36.666557",
+    "createdAt": "2026-08-25T13:37:42.114",
+    "updatedAt": "2026-08-25T13:37:42.114",
+    "contributor": {
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "HT96XFUH",
+      "name": "sars shohag",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
+    },
+    "stats": {
+      "channelCount": 165,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null
+  },
+  {
+    "id": "uz80n0z",
+    "url": "http://103.175.129.146/get.php?username=lalsandri&password=8xAtYYfVj4&type=m3u_plus&output=ts",
+    "name": "ok 5",
+    "urlId": "755315",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-25T02:42:58.116341",
+    "createdAt": "2026-08-25T01:26:43.928",
+    "updatedAt": "2026-08-25T01:26:43.928",
+    "contributor": {
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "HT96XFUH",
+      "name": "sars shohag",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
+    },
+    "stats": {
+      "channelCount": 28379,
+      "categoryCount": 389,
+      "isActive": true,
+      "movieCount": 157406,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-11-21T21:42:16.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null
+  },
+  {
     "id": "manual_1787565147419586_309206722",
     "url": "http://elitenova.net/get.php?username=T9CE2691ZD1972T&password=EP09r4gQUG&type=m3u_plus&output=m3u8",
     "name": "elitenova.net",
