@@ -1,5 +1,40 @@
 [
   {
+    "id": "u1uz372u",
+    "url": "http://elitenova.net/get.php?username=U58AJBHP3R3TELX&password=hQoZa0Vhzm&type=m3u_plus&output=ts",
+    "name": "http://elitenova.net",
+    "urlId": "271746",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-25T18:34:53.223253",
+    "createdAt": "2026-08-25T18:16:56.712",
+    "updatedAt": "2026-08-25T18:16:56.712",
+    "contributor": {
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "HT96XFUH",
+      "name": "sars shohag",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
+    },
+    "stats": {
+      "channelCount": 26688,
+      "categoryCount": 371,
+      "isActive": true,
+      "movieCount": 148970,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-01-11T01:02:38.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "manual_1787659843601921_956909666",
     "url": "http://elitenova.net/get.php?username=U58AJBHP3R3TELX&password=hQoZa0Vhzm&type=m3u_plus&output=m3u8",
     "name": "elitenova.net 2",
