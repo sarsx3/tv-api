@@ -1,35 +1,9 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-26T04:39:29.638405+00:00",
-  "lastUpdated": "2026-08-26 10:39:29 (Bangladesh Time)",
+  "updatedAt": "2026-08-26T05:34:15.959629+00:00",
+  "lastUpdated": "2026-08-26 11:34:15 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 1,
-  "matches": [
-    {
-      "matchId": "d9c33252-aad4-46a8-bc6d-ca87211717a5",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Antigua and Barbuda Falcons vs Barbados Tridents, 16th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Antigua and Barbuda Falcons",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "Barbados Tridents",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Sir Vivian Richards Stadium, North Sound, Antigua",
-      "date": "2026-08-26",
-      "time": "05:00",
-      "bdDate": "2026-08-26",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Antigua and Barbuda Falcons won by 30 runs"
-      },
-      "result": "Antigua and Barbuda Falcons won by 30 runs"
-    }
-  ]
+  "totalMatches": 0,
+  "matches": []
 }
