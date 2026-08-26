@@ -1,8 +1,8 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-26T01:18:19.190428+00:00",
-  "lastUpdated": "2026-08-26 07:18:19 (Bangladesh Time)",
+  "updatedAt": "2026-08-26T02:47:21.524452+00:00",
+  "lastUpdated": "2026-08-26 08:47:21 (Bangladesh Time)",
   "coverageHours": 48,
   "totalMatches": 1,
   "matches": [
@@ -26,10 +26,10 @@
       "bdDate": "2026-08-26",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "Barbados Tridents need 132 runs"
+        "category": "Finished",
+        "label": "Antigua and Barbuda Falcons won by 30 runs"
       },
-      "result": null
+      "result": "Antigua and Barbuda Falcons won by 30 runs"
     }
   ]
 }
