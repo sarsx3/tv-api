@@ -2,25 +2,25 @@
   {
     "id": "uz80n0z",
     "url": "http://103.175.129.146/get.php?username=lalsandri&password=8xAtYYfVj4&type=m3u_plus&output=ts",
-    "name": "hhhh",
-    "urlId": "180891",
+    "name": "Big Fish",
+    "urlId": "620206",
     "userCount": 1,
     "linkType": "xtream",
-    "source": "custom_playlist",
-    "addedAt": "2026-08-27T14:21:50.186949",
-    "createdAt": "2026-08-27T14:02:24.816",
-    "updatedAt": "2026-08-27T14:02:24.816",
+    "source": "community",
+    "addedAt": "2026-08-27T19:00:14.031030",
+    "createdAt": "2026-08-27T18:59:52.933",
+    "updatedAt": "2026-08-27T18:59:52.933",
     "contributor": {
-      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
-      "uniqueId": "C7JUNXG5",
-      "name": "Inventa Labs",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "HT96XFUH",
+      "name": "sars shohag",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
     },
     "stats": {
       "channelCount": 28309,
       "categoryCount": 389,
       "isActive": true,
-      "movieCount": 0,
+      "movieCount": 157591,
       "seriesCount": 0
     },
     "xtream": {
@@ -28,7 +28,7 @@
       "isTrial": false,
       "expiresAt": "2026-11-21T21:42:16.000",
       "maxConnections": 1,
-      "activeConnections": 0
+      "activeConnections": 1
     },
     "isManual": false,
     "playlistSource": null,
@@ -39,12 +39,12 @@
     "url": "http://premiumtvs.space/get.php?username=YqXTywueEV&password=damp2purchase&type=m3u_plus&output=ts",
     "name": "exam01",
     "urlId": "111898",
-    "userCount": 1,
+    "userCount": 3,
     "linkType": "xtream",
     "source": "custom_playlist",
-    "addedAt": "2026-08-27T13:22:22.215532",
+    "addedAt": "2026-08-27T18:52:21.581670",
     "createdAt": "2026-08-27T13:21:58.517",
-    "updatedAt": "2026-08-27T13:21:58.517",
+    "updatedAt": "2026-08-27T17:25:42.171",
     "contributor": {
       "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
       "uniqueId": "C7JUNXG5",
@@ -62,6 +62,41 @@
       "status": "Active",
       "isTrial": false,
       "expiresAt": "2027-04-02T20:33:00.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
+    "id": "u17fk08a",
+    "url": "http://103.240.149.14:25461/get.php?username=veliero&password=240223&type=m3u_plus&output=ts",
+    "name": "International",
+    "urlId": "867238",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-27T18:52:20.560838",
+    "createdAt": "2026-08-27T17:18:56.146",
+    "updatedAt": "2026-08-27T17:18:56.146",
+    "contributor": {
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "HT96XFUH",
+      "name": "sars shohag",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
+    },
+    "stats": {
+      "channelCount": 1819,
+      "categoryCount": 25,
+      "isActive": true,
+      "movieCount": 27819,
+      "seriesCount": 3650
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-27T21:28:46.000",
       "maxConnections": 1,
       "activeConnections": 1
     },
