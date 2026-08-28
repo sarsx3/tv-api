@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-28T05:07:34.605802+00:00",
-  "lastUpdated": "2026-08-28 11:07:34 (Bangladesh Time)",
+  "updatedAt": "2026-08-28T17:37:04.997379+00:00",
+  "lastUpdated": "2026-08-28 23:37:04 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "118efad4-1972-451c-8bf2-7f86c61386d0",
+      "sport": "cricket",
+      "series": "6c3c5876-5cfc-4490-9c8e-8ba90aec4323",
+      "matchTitle": "Madurai Panthers vs Vida Kovai Kings, Final, Tamil Nadu Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Madurai Panthers",
+        "logo": "https://g.cricapi.com/iapi/217-637940203723122310.webp?w=48"
+      },
+      "team2": {
+        "name": "Vida Kovai Kings",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "MA Chidambaram Stadium, Chennai",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "bdDate": "2026-08-28",
+      "bdTime": "20:00",
+      "status": {
+        "category": "Finished",
+        "label": "Vida Kovai Kings won by 84 runs"
+      },
+      "result": "Vida Kovai Kings won by 84 runs"
+    }
+  ]
 }
