@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-29T20:29:52.847370+00:00",
-  "lastUpdated": "2026-08-30 02:29:52 (Bangladesh Time)",
+  "updatedAt": "2026-08-29T22:45:56.441687+00:00",
+  "lastUpdated": "2026-08-30 04:45:56 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "d42f60c6-a3a2-4b97-a487-fe06327933dd",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Trinbago Knight Riders vs Jamaica Kingsmen, 20th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Trinbago Knight Riders",
+        "logo": "https://g.cricapi.com/iapi/293-637932465560269082.png?w=48"
+      },
+      "team2": {
+        "name": "Jamaica Kingsmen",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Queen's Park Oval, Port of Spain, Trinidad",
+      "date": "2026-08-30",
+      "time": "05:00",
+      "bdDate": "2026-08-30",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Jamaica Kingsmen opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
