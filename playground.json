@@ -1,5 +1,44 @@
 [
   {
+    "id": "manual_1788044836598187_263950823",
+    "url": "http://103.175.129.146/get.php?username=lalsandri&password=8xAtYYfVj4&type=m3u_plus&output=ts",
+    "name": "Entertainment +",
+    "urlId": "689263",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-30T05:07:16.598177",
+    "createdAt": "2026-08-30T05:07:16.598177",
+    "updatedAt": "2026-08-30T05:07:16.598177",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 28337,
+      "categoryCount": 389,
+      "isActive": true,
+      "movieCount": 157722,
+      "seriesCount": 49639
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-11-21T21:42:16.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788044818545789",
+      "name": "Tv channels Network",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs2wlvK95DLY_cZOMw1BWTC2rw7mlxrl7-XbL8ZDZZTupPZy-OI5_Nk5UACCND6u3UrmhrqF5lauY3cLQelaatDDPhWzojO4gH1Zu8GEkrJOLuTWWyTOJGxjFOjGwdiH3UZV8dO1aBLdoG68idMqUA94qeFzs6X-IvJvNxKa01sRwL0YMLPk7EiRzu3eQ/s320/1000078452.jpg"
+    },
+    "isPremium": false
+  },
+  {
     "id": "manual_1788044057412724_349247189",
     "url": "https://ag.hridoytvx.workers.dev/playlist-copy-kore-lav-nei-expire=685358567.m3u",
     "name": "Akash Go",
