@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1788042087312466_129434615",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/Full_BDIX_Paid_Server.m3u",
+    "name": "Full BDIX By Tv Network",
+    "urlId": "137963",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-30T04:21:27.312148",
+    "createdAt": "2026-08-30T04:21:27.312148",
+    "updatedAt": "2026-08-30T04:21:27.312148",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 172,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788038881874776",
+      "name": "Tv Network (Skym3u)",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-EtT-3kLF49vteEAlW_l7ZvpO_yx-HU967mH2SQynN20hYZzt1bC8fByFWP7HYZPGqzeZUwo3XTgnm6nljI0f53TSyk3ncObdqAH2eZgmbJrJhyphenhyphenepbjNGJ_s8FdIJDrv8iTiX3Lb1pjtwRcyzaJwd1pE2R4PcfY9Xze_8sIldpJFcnA5AZIxGz5Xw3-c/w320-h320/79g2kMA.jpeg"
+    },
+    "isPremium": false
+  },
+  {
     "id": "manual_1788038909807006_542263460",
     "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/jadu_sky.m3u",
     "name": "Jadu By Tv Network",
