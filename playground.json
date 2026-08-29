@@ -1,107 +1,35 @@
 [
   {
-    "id": "uvhohym",
-    "url": "http://flowutc.com/get.php?username=07A551F3C84002F&password=vguaXwyrtw&type=m3u_plus&output=ts",
-    "name": "HLW",
-    "urlId": "767186",
+    "id": "manual_1788038909807006_542263460",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/jadu_sky.m3u",
+    "name": "Jadu By Tv Network",
+    "urlId": "358676",
     "userCount": 1,
-    "linkType": "xtream",
+    "linkType": "m3u",
     "source": "custom_playlist",
-    "addedAt": "2026-08-27T23:30:58.397051",
-    "createdAt": "2026-08-27T23:30:13.171",
-    "updatedAt": "2026-08-27T23:30:13.171",
+    "addedAt": "2026-08-30T03:28:29.806694",
+    "createdAt": "2026-08-30T03:28:29.806694",
+    "updatedAt": "2026-08-30T03:28:29.806694",
     "contributor": {
-      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
-      "uniqueId": "HT96XFUH",
-      "name": "sars shohag",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
     },
     "stats": {
-      "channelCount": 11332,
-      "categoryCount": 114,
+      "channelCount": 639,
+      "categoryCount": 0,
       "isActive": true,
-      "movieCount": 59038,
-      "seriesCount": 27308
+      "movieCount": 0,
+      "seriesCount": 0
     },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2026-09-25T04:07:34.000",
-      "maxConnections": 1,
-      "activeConnections": 0
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788038881874776",
+      "name": "Tv Network (Skym3u)",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-EtT-3kLF49vteEAlW_l7ZvpO_yx-HU967mH2SQynN20hYZzt1bC8fByFWP7HYZPGqzeZUwo3XTgnm6nljI0f53TSyk3ncObdqAH2eZgmbJrJhyphenhyphenepbjNGJ_s8FdIJDrv8iTiX3Lb1pjtwRcyzaJwd1pE2R4PcfY9Xze_8sIldpJFcnA5AZIxGz5Xw3-c/w320-h320/79g2kMA.jpeg"
     },
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": false
-  },
-  {
-    "id": "uiha6n8",
-    "url": "http://premiumtvs.space/get.php?username=YqXTywueEV&password=damp2purchase&type=m3u_plus&output=ts",
-    "name": "exam01",
-    "urlId": "111898",
-    "userCount": 3,
-    "linkType": "xtream",
-    "source": "custom_playlist",
-    "addedAt": "2026-08-27T18:52:21.581670",
-    "createdAt": "2026-08-27T13:21:58.517",
-    "updatedAt": "2026-08-27T17:25:42.171",
-    "contributor": {
-      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
-      "uniqueId": "C7JUNXG5",
-      "name": "Inventa Labs",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
-    },
-    "stats": {
-      "channelCount": 11302,
-      "categoryCount": 134,
-      "isActive": true,
-      "movieCount": 63934,
-      "seriesCount": 16950
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2027-04-02T20:33:00.000",
-      "maxConnections": 1,
-      "activeConnections": 1
-    },
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": false
-  },
-  {
-    "id": "u17fk08a",
-    "url": "http://103.240.149.14:25461/get.php?username=veliero&password=240223&type=m3u_plus&output=ts",
-    "name": "International",
-    "urlId": "867238",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "custom_playlist",
-    "addedAt": "2026-08-27T18:52:20.560838",
-    "createdAt": "2026-08-27T17:18:56.146",
-    "updatedAt": "2026-08-27T17:18:56.146",
-    "contributor": {
-      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
-      "uniqueId": "HT96XFUH",
-      "name": "sars shohag",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIxDsMo_vRQOjlCcKTHSA29z_CJGLC0uFjgcYmqlMaEWxuTvq8=s96-c"
-    },
-    "stats": {
-      "channelCount": 1819,
-      "categoryCount": 25,
-      "isActive": true,
-      "movieCount": 27819,
-      "seriesCount": 3650
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2026-09-27T21:28:46.000",
-      "maxConnections": 1,
-      "activeConnections": 1
-    },
-    "isManual": false,
-    "playlistSource": null,
     "isPremium": false
   }
 ]
