@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1788043768783494_980497008",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/radio_bangladesh.json",
+    "name": "Radio Bangladesh",
+    "urlId": "938463",
+    "userCount": 1,
+    "linkType": "json",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-30T04:49:28.783485",
+    "createdAt": "2026-08-30T04:49:28.783485",
+    "updatedAt": "2026-08-30T04:49:28.783485",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 11,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788043753890698",
+      "name": "From Internet",
+      "logoUrl": "https://static.vecteezy.com/system/resources/previews/041/440/023/non_2x/website-icon-www-illustration-sign-site-symbol-internet-logo-vector.jpg"
+    },
+    "isPremium": false
+  },
+  {
     "id": "manual_1788043265166275_347161041",
     "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/z.m3u?fbclid=IwdGRjcAUAPyFjbGNrBQA_IHBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEeTqvRCw4kzYguB82sLunPs3npXlU0LVDTiF9FJS2rE_U-w-qKy949zkEPQ-o_aem_yF8eJd_Ivg4PZy0jAnIVNg",
     "name": "Z-Playlist by M3u World",
