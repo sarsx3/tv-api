@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-30T20:39:31.565989+00:00",
-  "lastUpdated": "2026-08-31 02:39:31 (Bangladesh Time)",
+  "updatedAt": "2026-08-30T23:14:28.463777+00:00",
+  "lastUpdated": "2026-08-31 05:14:28 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "64d278c6-f90b-40c4-8612-c181c13ab97c",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "St Kitts and Nevis Patriots vs Antigua and Barbuda Falcons, 21st Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "St Kitts and Nevis Patriots",
+        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
+      },
+      "team2": {
+        "name": "Antigua and Barbuda Falcons",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-08-31",
+      "time": "05:00",
+      "bdDate": "2026-08-31",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Live",
+        "label": "Match start delayed due to rain (Antigua and Barbuda Falcons opt to bowl)"
+      },
+      "result": null
+    }
+  ]
 }
