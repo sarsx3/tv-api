@@ -1,5 +1,40 @@
 [
   {
+    "id": "ucui3s",
+    "url": "http://013tv.com:8080/get.php?username=F30822&password=4a947b1f&type=m3u_plus&output=ts",
+    "name": "MITV",
+    "urlId": "956342",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-08-31T17:30:11.998366",
+    "createdAt": "2026-08-31T17:10:42.917",
+    "updatedAt": "2026-08-31T17:10:42.917",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 11640,
+      "categoryCount": 45,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 856
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-10-05T12:21:18.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "manual_1788173300400382_463031075",
     "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/series_fmftp.json",
     "name": "Web Series",
