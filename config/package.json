@@ -6,9 +6,9 @@
       "name": "1 Month Plan",
       "durationDays": 30,
       "price": 30,
-      "originalPrice": 50,
+      "originalPrice": 100,
       "currency": "BDT",
-      "discountPercent": 0,
+      "discountPercent":70,
       "popular": true,
       "features": [
         "Unlock Premium Online Playlists",
