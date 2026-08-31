@@ -1,9 +1,35 @@
 {
   "sport": "cricket",
   "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-08-31T15:53:22.411471+00:00",
-  "lastUpdated": "2026-08-31 21:53:22 (Bangladesh Time)",
+  "updatedAt": "2026-08-31T21:19:34.052095+00:00",
+  "lastUpdated": "2026-09-01 03:19:34 (Bangladesh Time)",
   "coverageHours": 48,
-  "totalMatches": 0,
-  "matches": []
+  "totalMatches": 1,
+  "matches": [
+    {
+      "matchId": "d63a5a3f-60e0-4170-b81e-ac0de512327a",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Trinbago Knight Riders vs Guyana Amazon Warriors, 22nd Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Trinbago Knight Riders",
+        "logo": "https://g.cricapi.com/iapi/293-637932465560269082.png?w=48"
+      },
+      "team2": {
+        "name": "Guyana Amazon Warriors",
+        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
+      },
+      "venue": "Queen's Park Oval, Port of Spain, Trinidad",
+      "date": "2026-09-01",
+      "time": "03:00",
+      "bdDate": "2026-09-01",
+      "bdTime": "03:00",
+      "status": {
+        "category": "Live",
+        "label": "Trinbago Knight Riders opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
