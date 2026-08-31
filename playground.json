@@ -1,5 +1,40 @@
 [
   {
+    "id": "u17ttmdo",
+    "url": "http://s.nvisionbd.com/get.php?username=islamnaeem952&password=Armyjan%4012345&type=m3u_plus&output=ts",
+    "name": "Air playlist",
+    "urlId": "366148",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-31T13:46:31.792798",
+    "createdAt": "2026-08-31T12:23:41.386",
+    "updatedAt": "2026-08-31T12:23:41.386",
+    "contributor": {
+      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": null
+    },
+    "stats": {
+      "channelCount": 219,
+      "categoryCount": 20,
+      "isActive": true,
+      "movieCount": 202,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": true,
+      "expiresAt": "2026-08-31T18:18:01.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "manual_1788162110479404_434111060",
     "url": "https://raw.githubusercontent.com/Sflex0719/STBPLUS/main/Zio.m3u",
     "name": "Zio",
