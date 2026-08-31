@@ -5,16 +5,18 @@
       "id": "monthly",
       "name": "1 Month Plan",
       "durationDays": 30,
-      "price": 0,
+      "price": 30,
       "originalPrice": 50,
       "currency": "BDT",
-      "discountPercent": 100,
+      "discountPercent": 0,
       "popular": true,
       "features": [
-        "All live TV channels",
-        "Access to all channel servers",
-        "Free TV access",
-        "Priority customer support"
+        "Unlock Premium Online Playlists",
+        "Enjoy a completely Ad-Free experience across the app",
+        "Add Premium Playlists from the Flashify Community",
+        "Enjoy an Ad-Free Community experience",
+        "Get VIP Priority Support",
+        "Create and customize your own playlists"
       ]
     },
     {
