@@ -332,39 +332,6 @@
     "isPremium": false
   },
   {
-    "id": "manual_1788172952668317_192558560",
-    "url": "https://raw.githubusercontent.com/shidul100/Iptv/refs/heads/main/playlist.m3u",
-    "name": "Tv 01",
-    "urlId": "362953",
-    "userCount": 1,
-    "linkType": "m3u",
-    "source": "custom_playlist",
-    "addedAt": "2026-08-31T16:42:32.667992",
-    "createdAt": "2026-08-31T16:42:32.667992",
-    "updatedAt": "2026-08-31T16:42:32.667992",
-    "contributor": {
-      "uid": "flashify_official",
-      "uniqueId": "FLASHIFY",
-      "name": "Flashify",
-      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
-    },
-    "stats": {
-      "channelCount": 137,
-      "categoryCount": 12,
-      "isActive": true,
-      "movieCount": 0,
-      "seriesCount": 0
-    },
-    "xtream": null,
-    "isManual": true,
-    "playlistSource": {
-      "id": "src_1788083383306557",
-      "name": "Flashify Team",
-      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
-    },
-    "isPremium": false
-  },
-  {
     "id": "umtqh1t",
     "url": "http://astott21.xyz/get.php?username=XbknUJShHI&password=is72nB1nio&type=m3u_plus&output=ts",
     "name": "Astott21",
@@ -546,41 +513,6 @@
       "seriesCount": 0
     },
     "xtream": null,
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": false
-  },
-  {
-    "id": "u17ttmdo",
-    "url": "http://s.nvisionbd.com/get.php?username=islamnaeem952&password=Armyjan%4012345&type=m3u_plus&output=ts",
-    "name": "Air playlist",
-    "urlId": "366148",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "custom_playlist",
-    "addedAt": "2026-08-31T13:46:31.792798",
-    "createdAt": "2026-08-31T12:23:41.386",
-    "updatedAt": "2026-08-31T12:23:41.386",
-    "contributor": {
-      "uid": "k0ZNP6rTGDVtLd3uFUDCS91vKET2",
-      "uniqueId": "FLASHIFY",
-      "name": "Flashify",
-      "photoUrl": null
-    },
-    "stats": {
-      "channelCount": 219,
-      "categoryCount": 20,
-      "isActive": true,
-      "movieCount": 202,
-      "seriesCount": 0
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": true,
-      "expiresAt": "2026-08-31T18:18:01.000",
-      "maxConnections": 1,
-      "activeConnections": 1
-    },
     "isManual": false,
     "playlistSource": null,
     "isPremium": false
