@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1788178394488947_658006587",
+    "url": "https://biostartvworld.pages.dev/sports.m3u",
+    "name": "Sports King",
+    "urlId": "144686",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-08-31T18:13:14.488687",
+    "createdAt": "2026-08-31T18:13:14.488687",
+    "updatedAt": "2026-08-31T18:13:14.488687",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 456,
+      "categoryCount": 12,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": false
+  },
+  {
     "id": "ucui3s",
     "url": "http://013tv.com:8080/get.php?username=F30822&password=4a947b1f&type=m3u_plus&output=ts",
     "name": "MITV",
