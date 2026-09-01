@@ -1,5 +1,44 @@
 [
   {
+    "id": "uc7rtkf",
+    "url": "http://62.182.83.108/get.php?username=79035378&password=dshUkVyvP8EU&type=m3u_plus&output=ts",
+    "name": "Rainy Day",
+    "urlId": "901311",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:14:46.430913",
+    "createdAt": "2026-09-01T13:13:32.966",
+    "updatedAt": "2026-09-01T13:13:32.966",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 9104,
+      "categoryCount": 107,
+      "isActive": true,
+      "movieCount": 30400,
+      "seriesCount": 4583
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-12-26T23:09:03.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": false
+  },
+  {
     "id": "ue1t53m",
     "url": "http://iptvch2.com/get.php?username=Lowcourt&password=N1Psm2EcWv&type=m3u_plus&output=ts",
     "name": "Sports Mania",
