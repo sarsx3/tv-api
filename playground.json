@@ -1,5 +1,40 @@
 [
   {
+    "id": "u1241zuk",
+    "url": "http://4z4.xyz:8080/get.php?username=rashad1alawadi&password=0046707531082aswe1&type=m3u_plus&output=ts",
+    "name": "Arabic World",
+    "urlId": "476917",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:36:12.995385",
+    "createdAt": "2026-09-01T13:36:04.470",
+    "updatedAt": "2026-09-01T13:36:04.470",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 4291,
+      "categoryCount": 83,
+      "isActive": true,
+      "movieCount": 11322,
+      "seriesCount": 3492
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-14T00:02:00.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "uu69qz",
     "url": "http://supkartt.xyz/get.php?username=Rogi007&password=95WXXSR&type=m3u_plus&output=ts",
     "name": "Sports Hub",
