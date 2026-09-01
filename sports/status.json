@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T21:56:52.920523+00:00",
-  "lastUpdated": "2026-09-02 03:56:52 (Bangladesh Time)",
+  "generatedAt": "2026-09-01T23:53:54.344247+00:00",
+  "lastUpdated": "2026-09-02 05:53:54 (Bangladesh Time)",
   "football": {
     "state": "error",
     "message": {
@@ -12,13 +12,18 @@
     "isStale": true
   },
   "cricket": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (48 ঘণ্টার মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 48 hours."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     },
-    "totalMatches": 0,
-    "nextMatch": null,
+    "totalMatches": 1,
+    "nextMatch": {
+      "matchId": "b76084ab-303a-4756-848f-67ad34b90578",
+      "date": "2026-09-02",
+      "time": "05:00",
+      "status": "Live"
+    },
     "isStale": false
   }
 }
