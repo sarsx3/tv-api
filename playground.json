@@ -1,5 +1,83 @@
 [
   {
+    "id": "uu69qz",
+    "url": "http://supkartt.xyz/get.php?username=Rogi007&password=95WXXSR&type=m3u_plus&output=ts",
+    "name": "Sports Hub",
+    "urlId": "257922",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:29:11.136431",
+    "createdAt": "2026-09-01T13:29:01.036",
+    "updatedAt": "2026-09-01T13:29:01.036",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 12669,
+      "categoryCount": 172,
+      "isActive": true,
+      "movieCount": 53621,
+      "seriesCount": 25378
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-05T16:59:19.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": false
+  },
+  {
+    "id": "manual_1788247523706683_253219188",
+    "url": "http://configuration.tn:80/get.php?username=topsat122855&password=VAG9b3kh&type=m3u",
+    "name": "Arabic & Indian",
+    "urlId": "234750",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:25:23.706680",
+    "createdAt": "2026-09-01T13:25:23.706680",
+    "updatedAt": "2026-09-01T13:25:23.706680",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 3270,
+      "categoryCount": 29,
+      "isActive": true,
+      "movieCount": 4272,
+      "seriesCount": 1258
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-12-13T20:46:00.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": false
+  },
+  {
     "id": "u1hchtj7",
     "url": "http://62.182.83.108/get.php?username=Adrbzb1010&password=3GFc7QpkrMBn&type=m3u_plus&output=ts",
     "name": "All European & Indian",
