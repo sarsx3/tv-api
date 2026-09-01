@@ -1,5 +1,40 @@
 [
   {
+    "id": "u1hchtj7",
+    "url": "http://62.182.83.108/get.php?username=Adrbzb1010&password=3GFc7QpkrMBn&type=m3u_plus&output=ts",
+    "name": "All European & Indian",
+    "urlId": "178932",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:21:41.335089",
+    "createdAt": "2026-09-01T13:18:41.853",
+    "updatedAt": "2026-09-01T13:18:41.853",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 9528,
+      "categoryCount": 109,
+      "isActive": true,
+      "movieCount": 30400,
+      "seriesCount": 4583
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-11-03T12:40:37.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "uc7rtkf",
     "url": "http://62.182.83.108/get.php?username=79035378&password=dshUkVyvP8EU&type=m3u_plus&output=ts",
     "name": "Rainy Day",
