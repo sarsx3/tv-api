@@ -1,9 +1,23 @@
 {
   "sport": "football",
-  "timezone": "Asia/Dhaka (UTC+6)",
-  "updatedAt": "2026-09-01T18:55:21.252593+00:00",
-  "lastUpdated": "2026-09-02 00:55:21 (Bangladesh Time)",
-  "coverageHours": 48,
+  "status": {
+    "state": "error",
+    "message": {
+      "bn": "ফুটবল ডাটা আনতে সমস্যা হয়েছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
+      "en": "Couldn't fetch football data right now. Showing the last known data."
+    }
+  },
+  "meta": {
+    "updatedAt": "2026-09-01T19:15:34.355836+00:00",
+    "lastUpdated": "2026-09-02 01:15:34 (Bangladesh Time)",
+    "timezone": "Asia/Dhaka (UTC+6)",
+    "coverageHours": 48,
+    "isStale": true,
+    "staleSince": "2026-09-01T18:55:21.252593+00:00",
+    "apiRequestsUsedToday": 1,
+    "apiRequestsLimitToday": 100
+  },
   "totalMatches": 0,
+  "nextMatch": null,
   "matches": []
 }
