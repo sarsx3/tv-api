@@ -1,5 +1,40 @@
 [
   {
+    "id": "u1nbm1z4",
+    "url": "http://185.134.22.150:8080/get.php?username=Noryan123&password=Noryan1234&type=m3u_plus&output=ts",
+    "name": "USA & Sports",
+    "urlId": "995876",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-01T13:39:10.587808",
+    "createdAt": "2026-09-01T13:38:50.142",
+    "updatedAt": "2026-09-01T13:38:50.142",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 5137,
+      "categoryCount": 64,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-07T07:37:58.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "u1241zuk",
     "url": "http://4z4.xyz:8080/get.php?username=rashad1alawadi&password=0046707531082aswe1&type=m3u_plus&output=ts",
     "name": "Arabic World",
