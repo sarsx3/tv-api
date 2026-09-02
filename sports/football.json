@@ -1,23 +1,299 @@
 {
   "sport": "football",
   "status": {
-    "state": "error",
+    "state": "ok",
     "message": {
-      "bn": "ফুটবল ডাটা আনতে সমস্যা হয়েছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
-      "en": "Couldn't fetch football data right now. Showing the last known data."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T08:03:47.360871+00:00",
-    "lastUpdated": "2026-09-02 14:03:47 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T11:53:21.088250+00:00",
+    "lastUpdated": "2026-09-02 17:53:21 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 48,
-    "isStale": true,
-    "staleSince": "2026-09-02T03:13:56.379366+00:00",
-    "apiRequestsUsedToday": 2,
-    "apiRequestsLimitToday": 100
+    "isStale": false,
+    "staleSince": null,
+    "provider": "football-data.org",
+    "rateLimitPerMinute": 10,
+    "coverageNote": {
+      "bn": "শুধু প্রধান লীগ ও টুর্নামেন্ট কভার করা হয়: প্রিমিয়ার লীগ, লা লিগা, বুন্দেসলিগা, সিরি আ, লিগ ১, চ্যাম্পিয়নস লীগ, এরেডিভিজি, প্রিমেইরা লিগা, চ্যাম্পিয়নশিপ, ব্রাজিল সিরি আ, বিশ্বকাপ ও ইউরো।",
+      "en": "Covers major leagues/tournaments only: Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Champions League, Eredivisie, Primeira Liga, the Championship, Brazilian Série A, the World Cup, and the Euros."
+    }
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 7,
+  "nextMatch": {
+    "matchId": 561806,
+    "date": "2026-09-03",
+    "time": "00:45",
+    "status": "Upcoming"
+  },
+  "matches": [
+    {
+      "matchId": 561806,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 384,
+        "name": "Millwall FC",
+        "logo": "https://crests.football-data.org/384.png"
+      },
+      "awayTeam": {
+        "id": 404,
+        "name": "Wrexham AFC",
+        "logo": "https://crests.football-data.org/404.png"
+      },
+      "venue": null,
+      "date": "2026-09-03",
+      "time": "00:45",
+      "bdDate": "2026-09-03",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561808,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 74,
+        "name": "West Bromwich Albion FC",
+        "logo": "https://crests.football-data.org/74.png"
+      },
+      "awayTeam": {
+        "id": 348,
+        "name": "Charlton Athletic FC",
+        "logo": "https://crests.football-data.org/348.png"
+      },
+      "venue": null,
+      "date": "2026-09-03",
+      "time": "00:45",
+      "bdDate": "2026-09-03",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561807,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 69,
+        "name": "Queens Park Rangers FC",
+        "logo": "https://crests.football-data.org/69.png"
+      },
+      "awayTeam": {
+        "id": 715,
+        "name": "Cardiff City FC",
+        "logo": "https://crests.football-data.org/715.png"
+      },
+      "venue": null,
+      "date": "2026-09-03",
+      "time": "00:45",
+      "bdDate": "2026-09-03",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561805,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 328,
+        "name": "Burnley FC",
+        "logo": "https://crests.football-data.org/328.png"
+      },
+      "awayTeam": {
+        "id": 343,
+        "name": "Middlesbrough FC",
+        "logo": "https://crests.football-data.org/343.png"
+      },
+      "venue": null,
+      "date": "2026-09-03",
+      "time": "01:00",
+      "bdDate": "2026-09-03",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 554775,
+      "sport": "football",
+      "league": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "country": "Brazil",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "logo": "https://crests.football-data.org/1783.png"
+      },
+      "awayTeam": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "logo": "https://crests.football-data.org/4364.png"
+      },
+      "venue": null,
+      "date": "2026-09-03",
+      "time": "04:30",
+      "bdDate": "2026-09-03",
+      "bdTime": "04:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559696,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 511,
+        "name": "Toulouse FC",
+        "logo": "https://crests.football-data.org/511.png"
+      },
+      "awayTeam": {
+        "id": 521,
+        "name": "Lille OSC",
+        "logo": "https://crests.football-data.org/521.png"
+      },
+      "venue": null,
+      "date": "2026-09-04",
+      "time": "00:45",
+      "bdDate": "2026-09-04",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 564682,
+      "sport": "football",
+      "league": {
+        "id": 2014,
+        "name": "Primera Division",
+        "country": "Spain",
+        "logo": "https://crests.football-data.org/laliga.png",
+        "round": "Matchday 6",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 92,
+        "name": "Real Sociedad de Fútbol",
+        "logo": "https://crests.football-data.org/92.png"
+      },
+      "awayTeam": {
+        "id": 558,
+        "name": "RC Celta de Vigo",
+        "logo": "https://crests.football-data.org/558.png"
+      },
+      "venue": null,
+      "date": "2026-09-04",
+      "time": "01:00",
+      "bdDate": "2026-09-04",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    }
+  ]
 }

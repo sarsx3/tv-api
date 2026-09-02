@@ -1,23 +1,205 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (48 ঘণ্টার মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 48 hours."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T08:03:48.664897+00:00",
-    "lastUpdated": "2026-09-02 14:03:48 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T11:53:27.062998+00:00",
+    "lastUpdated": "2026-09-02 17:53:27 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 48,
     "isStale": false,
     "staleSince": null,
-    "apiRequestsUsedToday": 2,
+    "provider": "CricketData.org",
+    "apiRequestsUsedToday": 3,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 7,
+  "nextMatch": {
+    "matchId": "19f53d15-4f12-4e14-a788-60a6a3efbe50",
+    "date": "2026-09-02",
+    "time": "16:00",
+    "status": "Live"
+  },
+  "matches": [
+    {
+      "matchId": "19f53d15-4f12-4e14-a788-60a6a3efbe50",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Kent vs Worcestershire, 42nd Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Kent",
+        "logo": "https://g.cricapi.com/iapi/1124-637885551212175895.webp?w=48"
+      },
+      "team2": {
+        "name": "Worcestershire",
+        "logo": "https://g.cricapi.com/iapi/1138-637889091123850841.webp?w=48"
+      },
+      "venue": "St Lawrence Ground, Canterbury",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Worcestershire opt to bowl"
+      },
+      "result": null
+    },
+    {
+      "matchId": "2bdc1874-f283-47ac-acf5-99a3dad45d1f",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Northamptonshire vs Durham, 43rd Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Northamptonshire",
+        "logo": "https://g.cricapi.com/iapi/1129-637885551856435418.webp?w=48"
+      },
+      "team2": {
+        "name": "Durham",
+        "logo": "https://g.cricapi.com/iapi/1118-637889090599643548.webp?w=48"
+      },
+      "venue": "County Ground, Northampton",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Durham opt to bat"
+      },
+      "result": null
+    },
+    {
+      "matchId": "b8e25e87-76b1-4c8b-9eda-f6fb0e27f47f",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Middlesex vs Lancashire, 44th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Middlesex",
+        "logo": "https://g.cricapi.com/iapi/1127-637889091340507643.webp?w=48"
+      },
+      "team2": {
+        "name": "Lancashire",
+        "logo": "https://g.cricapi.com/iapi/1125-637885551497331567.webp?w=48"
+      },
+      "venue": "Merchant Taylors' School Ground, Northwood",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: Lunch Break"
+      },
+      "result": null
+    },
+    {
+      "matchId": "5873846d-22e8-4354-9508-e7fec3e6ca54",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Essex vs Sussex, 51st Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Essex",
+        "logo": "https://g.cricapi.com/iapi/1119-637885549753088458.webp?w=48"
+      },
+      "team2": {
+        "name": "Sussex",
+        "logo": "https://g.cricapi.com/iapi/1134-637889091814592518.webp?w=48"
+      },
+      "venue": "The Ambassador Cruise Line Ground, Chelmsford",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Sussex opt to bat"
+      },
+      "result": null
+    },
+    {
+      "matchId": "03e94bea-7b19-411e-98c4-2e9d51938f2b",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Surrey vs Yorkshire, 52nd Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Surrey",
+        "logo": "https://g.cricapi.com/iapi/1133-637885552361099530.webp?w=48"
+      },
+      "team2": {
+        "name": "Yorkshire",
+        "logo": "https://g.cricapi.com/iapi/1139-637885552795894277.webp?w=48"
+      },
+      "venue": "Kennington Oval, London",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: Lunch Break"
+      },
+      "result": null
+    },
+    {
+      "matchId": "e916ed89-af3c-4d22-81fe-1d6c1273314d",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Somerset vs Glamorgan, 54th Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Somerset",
+        "logo": "https://g.cricapi.com/iapi/1131-637885552070524344.webp?w=48"
+      },
+      "team2": {
+        "name": "Glamorgan",
+        "logo": "https://g.cricapi.com/iapi/1120-637889090390357869.webp?w=48"
+      },
+      "venue": "The Cooper Associates County Ground, Taunton",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Somerset opt to bowl"
+      },
+      "result": null
+    },
+    {
+      "matchId": "b4216654-8fd4-41b0-814b-508825d1e4a7",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Hampshire vs Warwickshire, 55th Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Hampshire",
+        "logo": "https://g.cricapi.com/iapi/1122-637885550993657486.webp?w=48"
+      },
+      "team2": {
+        "name": "Warwickshire",
+        "logo": "https://g.cricapi.com/iapi/1137-637885552592685258.webp?w=48"
+      },
+      "venue": "The Rose Bowl, Southampton",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Hampshire opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
