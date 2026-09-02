@@ -1,49 +1,23 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (48 ঘণ্টার মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 48 hours."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T03:14:00.039346+00:00",
-    "lastUpdated": "2026-09-02 09:14:00 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T08:03:48.664897+00:00",
+    "lastUpdated": "2026-09-02 14:03:48 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 48,
     "isStale": false,
     "staleSince": null,
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
+  "totalMatches": 0,
   "nextMatch": null,
-  "matches": [
-    {
-      "matchId": "b76084ab-303a-4756-848f-67ad34b90578",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "St Kitts and Nevis Patriots vs Barbados Tridents, 23rd Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "St Kitts and Nevis Patriots",
-        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
-      },
-      "team2": {
-        "name": "Barbados Tridents",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Warner Park, Basseterre, St Kitts",
-      "date": "2026-09-02",
-      "time": "05:00",
-      "bdDate": "2026-09-02",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "St Kitts and Nevis Patriots won by 6 wkts"
-      },
-      "result": "St Kitts and Nevis Patriots won by 6 wkts"
-    }
-  ]
+  "matches": []
 }
