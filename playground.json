@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1788358897332985_284741663",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/india_max.m3u?fbclid=IwdGRjcAUFCPRjbGNrBQUI8HBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe7K1Y9orytaf_Ye_Mf1j6iL6HVlm8wYQmWdckYkwuc81F2wEvbWH9eVA_WPg_aem_cUKo5fWnMlNEIlsqxVlzHQ",
+    "name": "Indian Playlist",
+    "urlId": "188668",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-02T20:21:37.332638",
+    "createdAt": "2026-09-02T20:21:37.332638",
+    "updatedAt": "2026-09-02T20:21:37.332638",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 156,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": true
+  },
+  {
     "id": "u4w20cr",
     "url": "https://raw.githubusercontent.com/Tapas-Creation/M3U-Live/refs/heads/main/Nagin.m3u",
     "name": "SA07 BDInD0209",
@@ -26,7 +59,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788291652514643_840683114",
@@ -59,7 +92,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788282276844395_709672999",
@@ -92,7 +125,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "uh9kldk",
@@ -121,7 +154,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1a2lm04",
@@ -150,7 +183,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1c627w3",
@@ -179,7 +212,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "una9m2i",
@@ -208,7 +241,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1pudqsv",
@@ -243,7 +276,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "ufoituk",
@@ -272,7 +305,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1h6jpxf",
@@ -301,7 +334,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "ult8euv",
@@ -336,7 +369,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u72rrrx",
@@ -371,7 +404,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "uiha6n8",
@@ -406,7 +439,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "uxhu0mc",
@@ -435,7 +468,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "ucui3s",
@@ -470,7 +503,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173300400382_463031075",
@@ -503,7 +536,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173251768285_506565958",
@@ -536,7 +569,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173222267027_463450609",
@@ -569,7 +602,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173192410739_829851891",
@@ -602,7 +635,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173159386122_1056961757",
@@ -635,7 +668,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173132939145_66223095",
@@ -668,7 +701,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173104245984_569276635",
@@ -701,7 +734,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788173064051182_1026399135",
@@ -734,7 +767,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "umtqh1t",
@@ -769,7 +802,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u5p3wl4",
@@ -804,7 +837,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u18lsbk1",
@@ -833,7 +866,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1jjjxfa",
@@ -862,7 +895,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1xt5ism",
@@ -891,7 +924,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "unnq0b8",
@@ -920,7 +953,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788162110479404_434111060",
@@ -953,7 +986,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1voluy1",
@@ -992,7 +1025,7 @@
       "name": "Tv channels Network",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs2wlvK95DLY_cZOMw1BWTC2rw7mlxrl7-XbL8ZDZZTupPZy-OI5_Nk5UACCND6u3UrmhrqF5lauY3cLQelaatDDPhWzojO4gH1Zu8GEkrJOLuTWWyTOJGxjFOjGwdiH3UZV8dO1aBLdoG68idMqUA94qeFzs6X-IvJvNxKa01sRwL0YMLPk7EiRzu3eQ/s320/1000078452.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788118813026726_894653975",
@@ -1031,7 +1064,7 @@
       "name": "Tv channels Network",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs2wlvK95DLY_cZOMw1BWTC2rw7mlxrl7-XbL8ZDZZTupPZy-OI5_Nk5UACCND6u3UrmhrqF5lauY3cLQelaatDDPhWzojO4gH1Zu8GEkrJOLuTWWyTOJGxjFOjGwdiH3UZV8dO1aBLdoG68idMqUA94qeFzs6X-IvJvNxKa01sRwL0YMLPk7EiRzu3eQ/s320/1000078452.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u8shm9s",
@@ -1070,7 +1103,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788116903845635_232348205",
@@ -1103,7 +1136,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u12vunrg",
@@ -1132,7 +1165,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1phhcnv",
@@ -1161,7 +1194,7 @@
     "xtream": null,
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "u1ajlxk7",
@@ -1196,7 +1229,7 @@
     },
     "isManual": false,
     "playlistSource": null,
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788083398478862_120617141",
@@ -1229,7 +1262,7 @@
       "name": "Flashify Team",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788083142667277_644448445",
@@ -1262,7 +1295,7 @@
       "name": "Github",
       "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788044836598187_263950823",
@@ -1301,7 +1334,7 @@
       "name": "Tv channels Network",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs2wlvK95DLY_cZOMw1BWTC2rw7mlxrl7-XbL8ZDZZTupPZy-OI5_Nk5UACCND6u3UrmhrqF5lauY3cLQelaatDDPhWzojO4gH1Zu8GEkrJOLuTWWyTOJGxjFOjGwdiH3UZV8dO1aBLdoG68idMqUA94qeFzs6X-IvJvNxKa01sRwL0YMLPk7EiRzu3eQ/s320/1000078452.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788044057412724_349247189",
@@ -1367,7 +1400,7 @@
       "name": "From Internet",
       "logoUrl": "https://static.vecteezy.com/system/resources/previews/041/440/023/non_2x/website-icon-www-illustration-sign-site-symbol-internet-logo-vector.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788043768783494_980497008",
@@ -1400,7 +1433,7 @@
       "name": "From Internet",
       "logoUrl": "https://static.vecteezy.com/system/resources/previews/041/440/023/non_2x/website-icon-www-illustration-sign-site-symbol-internet-logo-vector.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788043265166275_347161041",
@@ -1433,7 +1466,7 @@
       "name": "M3u World",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW-1ZYmt1VY0WCvVIrKHGwASMFLOAT5q5N5cTYccolUXaXMT9rOVdxhvZXT3zw5N3hhsrpxpnqjv5httyfL1LC934EftWGUcrONGK9_oiZuP6rqi_rbA4Ajeyj82o57nhmWeVy9wAQB1s65mHqZ209zt8xHZYxT7xT1VM2pA62Qqg5noojgGPl1vj6XHQ/s320/1000078446.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788043159838653_979616025",
@@ -1466,7 +1499,7 @@
       "name": "M3u World",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW-1ZYmt1VY0WCvVIrKHGwASMFLOAT5q5N5cTYccolUXaXMT9rOVdxhvZXT3zw5N3hhsrpxpnqjv5httyfL1LC934EftWGUcrONGK9_oiZuP6rqi_rbA4Ajeyj82o57nhmWeVy9wAQB1s65mHqZ209zt8xHZYxT7xT1VM2pA62Qqg5noojgGPl1vj6XHQ/s320/1000078446.jpg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788042087312466_129434615",
@@ -1499,7 +1532,7 @@
       "name": "Tv Network (Skym3u)",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-EtT-3kLF49vteEAlW_l7ZvpO_yx-HU967mH2SQynN20hYZzt1bC8fByFWP7HYZPGqzeZUwo3XTgnm6nljI0f53TSyk3ncObdqAH2eZgmbJrJhyphenhyphenepbjNGJ_s8FdIJDrv8iTiX3Lb1pjtwRcyzaJwd1pE2R4PcfY9Xze_8sIldpJFcnA5AZIxGz5Xw3-c/w320-h320/79g2kMA.jpeg"
     },
-    "isPremium": false
+    "isPremium": true
   },
   {
     "id": "manual_1788038909807006_542263460",
@@ -1532,6 +1565,6 @@
       "name": "Tv Network (Skym3u)",
       "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-EtT-3kLF49vteEAlW_l7ZvpO_yx-HU967mH2SQynN20hYZzt1bC8fByFWP7HYZPGqzeZUwo3XTgnm6nljI0f53TSyk3ncObdqAH2eZgmbJrJhyphenhyphenepbjNGJ_s8FdIJDrv8iTiX3Lb1pjtwRcyzaJwd1pE2R4PcfY9Xze_8sIldpJFcnA5AZIxGz5Xw3-c/w320-h320/79g2kMA.jpeg"
     },
-    "isPremium": false
+    "isPremium": true
   }
 ]
