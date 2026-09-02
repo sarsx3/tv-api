@@ -1,5 +1,40 @@
 [
   {
+    "id": "uur6c7g",
+    "url": "http://mpfwasvr.msostvip.com/get.php?username=HJTQ6AJZ&password=3CJ1784B&type=m3u_plus&output=ts",
+    "name": "FLOW",
+    "urlId": "607249",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-02T22:19:23.047079",
+    "createdAt": "2026-09-02T22:14:11.171",
+    "updatedAt": "2026-09-02T22:14:11.171",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 27667,
+      "categoryCount": 336,
+      "isActive": true,
+      "movieCount": 155116,
+      "seriesCount": 61497
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-10-17T12:34:44.000",
+      "maxConnections": 1,
+      "activeConnections": 2
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "manual_1788358897332985_284741663",
     "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/india_max.m3u?fbclid=IwdGRjcAUFCPRjbGNrBQUI8HBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe7K1Y9orytaf_Ye_Mf1j6iL6HVlm8wYQmWdckYkwuc81F2wEvbWH9eVA_WPg_aem_cUKo5fWnMlNEIlsqxVlzHQ",
     "name": "Indian Playlist",
