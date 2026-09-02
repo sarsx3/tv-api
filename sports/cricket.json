@@ -8,17 +8,17 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T12:04:16.400191+00:00",
-    "lastUpdated": "2026-09-02 18:04:16 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T12:53:34.302530+00:00",
+    "lastUpdated": "2026-09-02 18:53:34 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 4,
+    "apiRequestsUsedToday": 5,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 7,
+  "totalMatches": 8,
   "nextMatch": {
     "matchId": "19f53d15-4f12-4e14-a788-60a6a3efbe50",
     "date": "2026-09-02",
@@ -47,7 +47,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Worcestershire opt to bowl"
+        "label": "Day 1: 2nd Session - Worcestershire opt to bowl"
       },
       "result": null
     },
@@ -72,7 +72,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 1st Session - Durham opt to bat"
+        "label": "Durham opt to bat"
       },
       "result": null
     },
@@ -97,7 +97,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Lunch Break"
+        "label": "Day 1: Match delayed due to rain"
       },
       "result": null
     },
@@ -122,7 +122,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Sussex opt to bat"
+        "label": "Day 1: 2nd Session - Sussex opt to bat"
       },
       "result": null
     },
@@ -147,7 +147,32 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: Lunch Break"
+        "label": "Day 1: 2nd Session - Surrey opt to bowl"
+      },
+      "result": null
+    },
+    {
+      "matchId": "c0ae4c16-555a-44db-ba08-0b903cc302e8",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Nottinghamshire vs Leicestershire, 53rd Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Nottinghamshire",
+        "logo": "https://g.cricapi.com/iapi/1130-637889092060873937.webp?w=48"
+      },
+      "team2": {
+        "name": "Leicestershire",
+        "logo": "https://g.cricapi.com/iapi/1126-637889090878436462.webp?w=48"
+      },
+      "venue": "Trent Bridge, Nottingham",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "bdDate": "2026-09-02",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: Rain Stops Play - Leicestershire opt to bowl"
       },
       "result": null
     },
@@ -172,7 +197,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Somerset opt to bowl"
+        "label": "Day 1: 2nd Session - Somerset opt to bowl"
       },
       "result": null
     },
@@ -197,7 +222,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 1st Session - Hampshire opt to bowl"
+        "label": "Day 1: 2nd Session - Hampshire opt to bowl"
       },
       "result": null
     }
