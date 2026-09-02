@@ -5,12 +5,17 @@ name: Update Sports Data
 # বিদ্যমান "sports" ফোল্ডারের ভেতরে football.json, cricket.json ও
 # status.json তৈরি/আপডেট করবে। repo-র বাকি কোনো ফাইলে এটি হাত দেয় না।
 #
-# v2 আপডেট:
+# v3 আপডেট:
+#   - ফুটবল ডাটা এখন API-Football-এর বদলে football-data.org থেকে আসে
+#     (GitHub Actions-এর shared IP-তে account suspend হওয়ার সমস্যা এড়াতে)।
+#     FOOTBALL_API_KEY সিক্রেটে football-data.org-এর টোকেন বসাতে হবে।
 #   - football.json / cricket.json এখন সবসময় একটা স্পষ্ট status.state
 #     সহ লেখা হয়: "ok" (নতুন ডাটা), "no_matches" (সত্যিই কোনো ম্যাচ নেই),
-#     "quota_paused" (আজকের API সীমার কাছাকাছি) বা "error" (fetch ব্যর্থ)।
-#   - sports/.meta/*.json দুটো ছোট ফাইলে প্রতিদিনের API রিকোয়েস্ট সংখ্যা
-#     ট্র্যাক করে, যাতে কখনোই দৈনিক লিমিট পার না হয়।
+#     "quota_paused" (আজকের API সীমার কাছাকাছি — শুধু cricket-এ প্রযোজ্য)
+#     বা "error" (fetch ব্যর্থ)।
+#   - sports/.meta/cricket_quota.json ক্রিকেট API-এর দৈনিক রিকোয়েস্ট
+#     সংখ্যা ট্র্যাক করে, যাতে কখনোই দৈনিক লিমিট পার না হয়। ফুটবলের
+#     জন্য আলাদা quota ফাইলের দরকার নেই (per-minute rate limit)।
 #   - sports/status.json — দুই sport-এর এক-নজরে সারাংশ, ড্যাশবোর্ডের জন্য।
 # ============================================================
 
@@ -46,11 +51,12 @@ jobs:
 
       - name: Football ও Cricket ডাটা fetch করা
         env:
+          # ⚠️ football-data.org-এর টোকেন এখানে বসাবেন (আগের API-Football
+          # key না) — GitHub repo → Settings → Secrets and variables →
+          # Actions → FOOTBALL_API_KEY আপডেট করুন।
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
           CRICKET_API_KEY: ${{ secrets.CRICKET_API_KEY }}
-          # ঐচ্ছিক: আপনার প্ল্যানের দৈনিক সীমা ভিন্ন হলে এখানে override করুন।
-          # FOOTBALL_DAILY_LIMIT: "100"
-          # FOOTBALL_SAFE_CAP: "90"
+          # ঐচ্ছিক: ক্রিকেট API-এর দৈনিক সীমা ভিন্ন হলে override করুন।
           # CRICKET_DAILY_LIMIT: "100"
           # CRICKET_SAFE_CAP: "90"
         run: python scripts/fetch_sports_data.py
