@@ -1,0 +1,510 @@
+{
+  "name": "Flashify Playlist",
+  "type": "m3u",
+  "channels": [
+    {
+      "name": "BAN| NTV BANGLA EU",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=42462&extension=ts&play_token=Ggll4MIfNp",
+      "tvg_name": "BAN| NTV BANGLA EU",
+      "tvg_logo": "http://picons.cmshulk.com/picons/42462.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ATN BANGLA EU",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=97110&extension=ts&play_token=35AivcYAZY",
+      "tvg_name": "BAN| ATN BANGLA EU",
+      "tvg_logo": "http://picons.cmshulk.com/picons/97110.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| IQRA BANGLA EU",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=97109&extension=ts&play_token=pNZR1o5jK3",
+      "tvg_name": "BAN| IQRA BANGLA EU",
+      "tvg_logo": "http://picons.cmshulk.com/picons/97109.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| TRAVEL XP",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=282667&extension=ts&play_token=OOuD8mnxJs",
+      "tvg_name": "BAN| TRAVEL XP",
+      "tvg_logo": "http://picons.cmshulk.com/picons/282667.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| STAR JALSHA MOVIES FHD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=282666&extension=ts&play_token=1PY6tBZUHm",
+      "tvg_name": "BAN| STAR JALSHA MOVIES FHD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/282666.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| NAT GEO CHANNEL",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=282665&extension=ts&play_token=XzsFeC0iVz",
+      "tvg_name": "BAN| NAT GEO CHANNEL",
+      "tvg_logo": "http://picons.cmshulk.com/picons/282665.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ANANDA TV HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165525&extension=ts&play_token=ATkIWmHLCZ",
+      "tvg_name": "BAN| ANANDA TV HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165525.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ATN BANGLA HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165526&extension=ts&play_token=IBbUPqYD9E",
+      "tvg_name": "BAN| ATN BANGLA HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165526.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| TBN 24",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=1169994&extension=ts&play_token=Db3bDm9LRa",
+      "tvg_name": "BAN| TBN 24",
+      "tvg_logo": "http://picons.cmshulk.com/picons/1169994.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ASIAN TV FHD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165528&extension=ts&play_token=PiCGCjYkfQ",
+      "tvg_name": "BAN| ASIAN TV FHD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165528.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ATN NEWS",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165527&extension=ts&play_token=OwxIDFj8DQ",
+      "tvg_name": "BAN| ATN NEWS",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165527.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| BOISAKSHI TV HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165531&extension=ts&play_token=HZXN08qXJM",
+      "tvg_name": "BAN| BOISAKSHI TV HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165531.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| CHANNEL 9 HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165514&extension=ts&play_token=jhggZ3rGLu",
+      "tvg_name": "BAN| CHANNEL 9 HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165514.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| CHANNEL S HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165512&extension=ts&play_token=bZcmuFX6LC",
+      "tvg_name": "BAN| CHANNEL S HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165512.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| DBC NEWS HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165517&extension=ts&play_token=3pSVJpI4O0",
+      "tvg_name": "BAN| DBC NEWS HD",
+      "tvg_logo": "http://103.176.90.118/picons/logos/DBC-NEWS-HD.jpg",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| DESHI TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165523&extension=ts&play_token=abW1cpfCtY",
+      "tvg_name": "BAN| DESHI TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165523.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| NEWS 24 FHD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165541&extension=ts&play_token=nC45bOYpDy",
+      "tvg_name": "BAN| NEWS 24 FHD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165541.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| SOMOY NEWS HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=165521&extension=ts&play_token=bYAzjVHVAZ",
+      "tvg_name": "BAN| SOMOY NEWS HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/165521.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| ANANDA BARTA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225838&extension=ts&play_token=hXBCqAuHkE",
+      "tvg_name": "BAN| ANANDA BARTA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225838.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  iTV UK",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225836&extension=ts&play_token=cQwNJCvfBi",
+      "tvg_name": "BAN|  iTV UK",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225836.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| TV 9 BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225834&extension=ts&play_token=pY1QNMzUpG",
+      "tvg_name": "BAN| TV 9 BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225834.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DISCOVERY HD BENGALI",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225832&extension=ts&play_token=Yj5O8zexSZ",
+      "tvg_name": "BAN|  DISCOVERY HD BENGALI",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225832.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| REPUBLIC BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225831&extension=ts&play_token=cEmrgP5XQN",
+      "tvg_name": "BAN| REPUBLIC BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225831.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  NRB CONNECT",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225823&extension=ts&play_token=FovJfVBqqf",
+      "tvg_name": "BAN|  NRB CONNECT",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225823.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ANANDA TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225815&extension=ts&play_token=opdl3F1vMg",
+      "tvg_name": "BAN|  ANANDA TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225815.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| NEXUS TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225814&extension=ts&play_token=QsHnnTJhSP",
+      "tvg_name": "BAN| NEXUS TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225814.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  STAR JALSHA HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225805&extension=ts&play_token=3YtXaAWISu",
+      "tvg_name": "BAN|  STAR JALSHA HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225805.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  RANG TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225804&extension=ts&play_token=67GrdcF2Sk",
+      "tvg_name": "BAN|  RANG TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225804.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  MADANI TV BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225803&extension=ts&play_token=CTqPfPqh6c",
+      "tvg_name": "BAN|  MADANI TV BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225803.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  iON TV UK",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225802&extension=ts&play_token=rQlapxKtlm",
+      "tvg_name": "BAN|  iON TV UK",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225802.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  CHANNEL S UK",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225797&extension=ts&play_token=uXsOPmcusQ",
+      "tvg_name": "BAN|  CHANNEL S UK",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225797.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ZEE BANGLA HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225796&extension=ts&play_token=LIAHOoSCpH",
+      "tvg_name": "BAN|  ZEE BANGLA HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225796.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  PEACE TV BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225795&extension=ts&play_token=9G4l0jexuV",
+      "tvg_name": "BAN|  PEACE TV BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225795.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  MAGIC BANGLA TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225794&extension=ts&play_token=zXMmSu0xPY",
+      "tvg_name": "BAN|  MAGIC BANGLA TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225794.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  EKUSHEY",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225791&extension=ts&play_token=VvvpPuMYmI",
+      "tvg_name": "BAN|  EKUSHEY",
+      "tvg_logo": "http://103.176.90.118/picons/logos/EKUSHEY-TV.jpeg",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ZEE BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225786&extension=ts&play_token=qNH04O7gxX",
+      "tvg_name": "BAN|  ZEE BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225786.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  NEWS 24 HD",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225785&extension=ts&play_token=LCfefPquOK",
+      "tvg_name": "BAN|  NEWS 24 HD",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225785.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ATN BANGLA USA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225782&extension=ts&play_token=re16MoW20w",
+      "tvg_name": "BAN|  ATN BANGLA USA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225782.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ZEE BANGLA CINEMA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225781&extension=ts&play_token=TuVDQy1IjD",
+      "tvg_name": "BAN|  ZEE BANGLA CINEMA",
+      "tvg_logo": "http://103.176.90.118/picons/logos/ZEE-BANGLA-CINEMA.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  STAR JALSHA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225777&extension=ts&play_token=44DwT4m45P",
+      "tvg_name": "BAN|  STAR JALSHA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225777.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  STAR JALSHA MOVIES",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225776&extension=ts&play_token=slkxpMVZQq",
+      "tvg_name": "BAN|  STAR JALSHA MOVIES",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225776.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  SONY AATH",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225775&extension=ts&play_token=hjfoWms4SH",
+      "tvg_name": "BAN|  SONY AATH",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225775.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  SOMOY NEWS TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225774&extension=ts&play_token=RSVRKFCSx0",
+      "tvg_name": "BAN|  SOMOY NEWS TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225774.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| BOISHAKHI TV PLUS",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225772&extension=ts&play_token=m8crmEly4z",
+      "tvg_name": "BAN| BOISHAKHI TV PLUS",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225772.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  SANGEET BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225770&extension=ts&play_token=ZF8QJBty9C",
+      "tvg_name": "BAN|  SANGEET BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225770.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  NTV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225765&extension=ts&play_token=pJB3RBjqRs",
+      "tvg_name": "BAN|  NTV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225765.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  NTV UK",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225764&extension=ts&play_token=6pKeXzC9vQ",
+      "tvg_name": "BAN|  NTV UK",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225764.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  NRB TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225763&extension=ts&play_token=FtIRhTLKYx",
+      "tvg_name": "BAN|  NRB TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225763.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  IQRA TV BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225762&extension=ts&play_token=pVu6TroUTg",
+      "tvg_name": "BAN|  IQRA TV BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225762.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| AMAR BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225761&extension=ts&play_token=rQdhzTZ9na",
+      "tvg_name": "BAN| AMAR BANGLA",
+      "tvg_logo": "http://103.176.90.118/picons/logos/INDIA_PAKISTAN/AMAR-BANGLA.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  MILLENNIUM TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225756&extension=ts&play_token=4S0bSxf8rV",
+      "tvg_name": "BAN|  MILLENNIUM TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225756.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ETV BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225749&extension=ts&play_token=cpXqANWtv3",
+      "tvg_name": "BAN|  ETV BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225749.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| EKATTOR TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225748&extension=ts&play_token=Xyk2mdSMOR",
+      "tvg_name": "BAN| EKATTOR TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225748.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DISCOVERY BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225747&extension=ts&play_token=em8w4D1oxH",
+      "tvg_name": "BAN|  DISCOVERY BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225747.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DHOOM MUSIC",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225746&extension=ts&play_token=YptwvUT0ex",
+      "tvg_name": "BAN|  DHOOM MUSIC",
+      "tvg_logo": "http://103.176.90.118/picons/logos/DHOOM-MUSIC.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| DESH TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225745&extension=ts&play_token=jzN8GAUqgd",
+      "tvg_name": "BAN| DESH TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225745.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DESHE BIDESHE TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225744&extension=ts&play_token=ysCtydxuwk",
+      "tvg_name": "BAN|  DESHE BIDESHE TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225744.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DD BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225742&extension=ts&play_token=kFZnOjT5zw",
+      "tvg_name": "BAN|  DD BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225742.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  DBC NEWS",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225741&extension=ts&play_token=46yYD6LdRr",
+      "tvg_name": "BAN|  DBC NEWS",
+      "tvg_logo": "http://103.176.90.118/picons/logos/DBC-NEWS.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  COLORS BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225740&extension=ts&play_token=VuY6GReEok",
+      "tvg_name": "BAN|  COLORS BANGLA",
+      "tvg_logo": "http://103.176.90.118/picons/logos/COLORS-BANGLA-HD.jpeg",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN| CHANNEL S",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225739&extension=ts&play_token=RhPSvTQ6cx",
+      "tvg_name": "BAN| CHANNEL S",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225739.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  CHANNEL 24",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225735&extension=ts&play_token=2U7x9fSFv9",
+      "tvg_name": "BAN|  CHANNEL 24",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225735.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  BOISHAKHI TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225732&extension=ts&play_token=3fp7PXzUMA",
+      "tvg_name": "BAN|  BOISHAKHI TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225732.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  BANGLA ETV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225726&extension=ts&play_token=SXoB19uFr5",
+      "tvg_name": "BAN|  BANGLA ETV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225726.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ATN BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225723&extension=ts&play_token=ocPktJ9688",
+      "tvg_name": "BAN|  ATN BANGLA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225723.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ATN BANGLA UK",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225722&extension=ts&play_token=9Io9D3r1jP",
+      "tvg_name": "BAN|  ATN BANGLA UK",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225722.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ASIAN TV",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225721&extension=ts&play_token=y7Z3KQJ49d",
+      "tvg_name": "BAN|  ASIAN TV",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225721.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ABP ANANDA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225720&extension=ts&play_token=lk74jaiuk7",
+      "tvg_name": "BAN|  ABP ANANDA",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225720.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  AAKAASH BANGLA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225716&extension=ts&play_token=HAI1TyqPFi",
+      "tvg_name": "BAN|  AAKAASH BANGLA",
+      "tvg_logo": "http://103.176.90.118/picons/logos/AAKASH-BANGLA.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  JALSHA MOVIES",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225714&extension=ts&play_token=UZyb3abUby",
+      "tvg_name": "BAN|  JALSHA MOVIES",
+      "tvg_logo": "http://picons.cmshulk.com/picons/225714.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  ZEE 24 GHANTA",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225713&extension=ts&play_token=HdpKIPpyCR",
+      "tvg_name": "BAN|  ZEE 24 GHANTA",
+      "tvg_logo": "http://103.176.90.118/picons/logos/ZEE-24-GHANTA.png",
+      "group_title": "BAN| BANGLADESH"
+    },
+    {
+      "name": "BAN|  COLORS BANGLA HD-1",
+      "url": "http://cnametx.cdn-gold.cloud:80/play/live.php?mac=00:1B:79:FE:04:9B&stream=225712&extension=ts&play_token=8ORUIBjJaG",
+      "tvg_name": "BAN|  COLORS BANGLA HD-1",
+      "tvg_logo": "http://103.176.90.118/picons/logos/COLORS-BANGLA-HD.jpeg",
+      "group_title": "BAN| BANGLADESH"
+    }
+  ]
+}
