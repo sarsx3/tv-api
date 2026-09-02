@@ -8,22 +8,17 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-01T23:53:54.344035+00:00",
-    "lastUpdated": "2026-09-02 05:53:54 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T03:14:00.039346+00:00",
+    "lastUpdated": "2026-09-02 09:14:00 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 48,
     "isStale": false,
     "staleSince": null,
-    "apiRequestsUsedToday": 4,
+    "apiRequestsUsedToday": 1,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "b76084ab-303a-4756-848f-67ad34b90578",
-    "date": "2026-09-02",
-    "time": "05:00",
-    "status": "Live"
-  },
+  "nextMatch": null,
   "matches": [
     {
       "matchId": "b76084ab-303a-4756-848f-67ad34b90578",
@@ -45,10 +40,10 @@
       "bdDate": "2026-09-02",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "St Kitts and Nevis Patriots opt to bowl"
+        "category": "Finished",
+        "label": "St Kitts and Nevis Patriots won by 6 wkts"
       },
-      "result": null
+      "result": "St Kitts and Nevis Patriots won by 6 wkts"
     }
   ]
 }
