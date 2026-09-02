@@ -1,5 +1,69 @@
 [
   {
+    "id": "u1j4z24h",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/BanglaMixed.json",
+    "name": "Bangla Mixed",
+    "urlId": "495857",
+    "userCount": 1,
+    "linkType": "json",
+    "source": "community",
+    "addedAt": "2026-09-02T22:38:22.863558",
+    "createdAt": "2026-09-02T22:37:57.169",
+    "updatedAt": "2026-09-02T22:37:57.169",
+    "contributor": {
+      "uid": "3HXPrPDym4U6njt55MjGEqmU01i1",
+      "uniqueId": "C7JUNXG5",
+      "name": "Inventa Labs",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKwGPztW5s-q-ILfIPsMj3E3ZLGLGkShtKgrY6EySpMegxcgB4=s96-c"
+    },
+    "stats": {
+      "channelCount": 72,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
+    "id": "ui1nj7a",
+    "url": "http://4kgood.org:8080/get.php?username=drmtv49_222171&password=Ipgc3YOl&type=m3u_plus&output=ts",
+    "name": "4K GOOD",
+    "urlId": "818047",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-02T22:38:20.864457",
+    "createdAt": "2026-09-02T22:27:48.391",
+    "updatedAt": "2026-09-02T22:27:48.391",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 19103,
+      "categoryCount": 497,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-03-09T01:33:55.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": false
+  },
+  {
     "id": "uur6c7g",
     "url": "http://mpfwasvr.msostvip.com/get.php?username=HJTQ6AJZ&password=3CJ1784B&type=m3u_plus&output=ts",
     "name": "FLOW",
