@@ -68,6 +68,7 @@ DESIGN GOALS
 """
 
 import json
+import math
 import os
 import random
 import sys
@@ -118,7 +119,9 @@ REQUEST_TIMEOUT = 15          # seconds
 MAX_RETRIES = 2               # retries per API call (on transient errors only)
 RETRY_BASE_DELAY = 3          # seconds, exponential backoff base
 
-HOURS_AHEAD = 48               # how far ahead to show matches (hours)
+HOURS_AHEAD = 168              # how far ahead to show matches (hours) — 7 days
+COVERAGE_DAYS_LABEL = f"{HOURS_AHEAD // 24} দিনের" if HOURS_AHEAD % 24 == 0 else f"{HOURS_AHEAD} ঘণ্টার"
+COVERAGE_DAYS_LABEL_EN = f"{HOURS_AHEAD // 24}-day" if HOURS_AHEAD % 24 == 0 else f"{HOURS_AHEAD}-hour"
 
 # CricketData.org returns ~25 results per page. We only fetch a 2nd
 # page if the 1st page came back completely full (a strong signal
@@ -306,8 +309,8 @@ MESSAGES = {
             "en": "Schedule updated successfully.",
         },
         "no_matches": {
-            "bn": f"আগামী {HOURS_AHEAD} ঘণ্টার মধ্যে বড় লীগগুলোতে কোনো ফুটবল ম্যাচ নেই।",
-            "en": f"No football matches in the next {HOURS_AHEAD} hours across the covered leagues.",
+            "bn": f"আগামী {COVERAGE_DAYS_LABEL} মধ্যে বড় লীগগুলোতে কোনো ফুটবল ম্যাচ নেই।",
+            "en": f"No football matches in the next {COVERAGE_DAYS_LABEL_EN} window across the covered leagues.",
         },
         "quota_paused": {
             # Not used for football (no daily quota with this provider) but
@@ -330,8 +333,8 @@ MESSAGES = {
             "en": "Schedule updated successfully.",
         },
         "no_matches": {
-            "bn": f"এই মুহূর্তে কোনো লাইভ বা আসন্ন ({HOURS_AHEAD} ঘণ্টার মধ্যে) ক্রিকেট ম্যাচ নেই।",
-            "en": f"No live or upcoming cricket matches within the next {HOURS_AHEAD} hours.",
+            "bn": f"এই মুহূর্তে কোনো লাইভ বা আসন্ন ({COVERAGE_DAYS_LABEL} মধ্যে) ক্রিকেট ম্যাচ নেই।",
+            "en": f"No live or upcoming cricket matches within the next {COVERAGE_DAYS_LABEL_EN} window.",
         },
         "quota_paused": {
             "bn": "আজকের ক্রিকেট ডাটা রিকোয়েস্ট সীমা প্রায় শেষ, তাই সাময়িকভাবে আপডেট বন্ধ আছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
@@ -548,10 +551,12 @@ def build_football_json(existing):
         return build_result("football", "no_key", existing, extra_meta=extra_meta)
 
     bd_now = now_bd()
-    # football-data.org excludes the dateTo day itself, so add 2 days to
-    # cover "today" and "tomorrow" in full.
+    # football-data.org excludes the dateTo day itself, so add an extra day
+    # of buffer on top of the HOURS_AHEAD window to make sure the last day
+    # is fully included regardless of what time of day this runs.
+    coverage_days = math.ceil(HOURS_AHEAD / 24) + 1
     date_from = bd_now.strftime("%Y-%m-%d")
-    date_to = (bd_now + timedelta(days=2)).strftime("%Y-%m-%d")
+    date_to = (bd_now + timedelta(days=coverage_days)).strftime("%Y-%m-%d")
 
     headers = {"X-Auth-Token": FOOTBALL_API_KEY}
     params = {"dateFrom": date_from, "dateTo": date_to}
