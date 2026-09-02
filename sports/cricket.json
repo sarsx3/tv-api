@@ -8,14 +8,14 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T11:53:27.062998+00:00",
-    "lastUpdated": "2026-09-02 17:53:27 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T12:04:16.400191+00:00",
+    "lastUpdated": "2026-09-02 18:04:16 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
-    "coverageHours": 48,
+    "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 3,
+    "apiRequestsUsedToday": 4,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 7,
@@ -172,7 +172,7 @@
       "bdTime": "16:00",
       "status": {
         "category": "Live",
-        "label": "Day 1: 1st Session - Somerset opt to bowl"
+        "label": "Somerset opt to bowl"
       },
       "result": null
     },
