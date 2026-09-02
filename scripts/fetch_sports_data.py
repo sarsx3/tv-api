@@ -10,30 +10,44 @@ match date, time, teams, venue, competition, and current status
 (Upcoming / Live / Finished / Postponed / Cancelled / Abandoned).
 
 APIs used:
-  - Football : API-Football (api-sports.io)      -> https://www.api-football.com
-  - Cricket  : CricketData.org (formerly CricAPI) -> https://cricketdata.org
+  - Football : football-data.org (v4)             -> https://www.football-data.org
+  - Cricket  : CricketData.org (formerly CricAPI)  -> https://cricketdata.org
 
-DESIGN GOALS (v2)
-------------------
-1. Practically impossible to run out of daily API quota.
-   - Football now uses a single "from/to" date-range request per run
-     instead of two separate per-date requests (half the calls).
-   - Every request made against each API is counted in a small,
-     git-committed quota-tracker file (sports/.meta/*_quota.json) that
-     resets automatically at UTC midnight (when these providers reset
-     their own counters). Once usage reaches a safety cap (default 90
-     out of 100/day), the script stops calling that API for the rest
-     of the day instead of risking a hard failure or, worse, a
-     provider that returns HTTP 200 with an empty body once quota is
-     blown (see point 2).
-   - The safety cap is configurable via FOOTBALL_DAILY_LIMIT /
-     CRICKET_DAILY_LIMIT env vars if your plan has a different quota.
+NOTE ON THE FOOTBALL PROVIDER (v3 of this script)
+---------------------------------------------------
+This script previously used API-Football (api-sports.io). That
+provider's free tier repeatedly auto-suspended this project's account
+for making requests from a shared/cloud IP (GitHub Actions runners
+use datacenter IPs, which its anti-abuse system flags as "hosting
+provider traffic") — a suspension unrelated to quota usage or code
+correctness. football-data.org has none of that: it's been free since
+2013, is widely run from CI/cron by hobby projects, and uses a simple
+per-minute rate limit (10 req/min on the free tier) instead of a
+fragile daily counter. The trade-off is coverage: the free tier only
+includes ~12 major competitions (Premier League, La Liga, Bundesliga,
+Serie A, Ligue 1, Champions League, Eredivisie, Primeira Liga, the
+Championship, Brazilian Série A, the World Cup, and the Euros) rather
+than API-Football's 1000+ leagues.
+
+DESIGN GOALS
+------------
+1. Practically impossible to run into a rate limit.
+   - Football makes exactly ONE request per run (a single dateFrom/
+     dateTo range covering the next two days), against a 10-req/min
+     budget — nowhere close, even with retries.
+   - Cricket (CricketData.org) still has a real daily quota (100/day
+     on the free tier), so it keeps the persistent quota-tracker file
+     (sports/.meta/cricket_quota.json, resets at UTC midnight) and a
+     safety cap (default 90/100) that stops new calls before the real
+     limit is ever reached. Configurable via CRICKET_DAILY_LIMIT /
+     CRICKET_SAFE_CAP env vars.
 
 2. Never mistakes "API failed" for "no matches today".
-   - api-sports.io (football) can return HTTP 200 with an "errors"
-     object embedded in the JSON body when the key/plan/quota is
-     invalid. That is treated as a hard failure, not as zero matches.
-   - CricketData.org's "status" field is checked the same way.
+   - football-data.org uses standard HTTP error codes (400/403/429),
+     which safe_get() already treats as failures — no embedded-error
+     quirk to work around here.
+   - CricketData.org's "status" field is checked explicitly, since it
+     can return HTTP 200 with a "failure" status in the body.
 
 3. Every output file always has a clear, explicit status the app can
    branch on directly — no more guessing why "matches" is empty:
@@ -81,20 +95,22 @@ CRICKET_JSON_PATH = os.path.join(DATA_DIR, "cricket.json")
 STATUS_JSON_PATH = os.path.join(DATA_DIR, "status.json")
 ERROR_LOG_PATH = os.path.join(DATA_DIR, "error_log.txt")
 
-FOOTBALL_QUOTA_PATH = os.path.join(META_DIR, "football_quota.json")
 CRICKET_QUOTA_PATH = os.path.join(META_DIR, "cricket_quota.json")
 
 FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY", "").strip()
 CRICKET_API_KEY = os.environ.get("CRICKET_API_KEY", "").strip()
 
-FOOTBALL_BASE_URL = "https://v3.football.api-sports.io"
+FOOTBALL_BASE_URL = "https://api.football-data.org/v4"
 CRICKET_BASE_URL = "https://api.cricapi.com/v1"
 
-# Daily quota + safety margin. Both providers' free tiers are 100/day;
-# we stop at 90 by default so retries / manual "Run workflow" clicks /
-# clock-skew near midnight never push us over the real limit.
-FOOTBALL_DAILY_LIMIT = int(os.environ.get("FOOTBALL_DAILY_LIMIT", "100"))
-FOOTBALL_SAFE_CAP = int(os.environ.get("FOOTBALL_SAFE_CAP", "90"))
+# football-data.org free tier: 10 requests/minute (no daily counter).
+# We make exactly 1 request per run, so this is purely informational —
+# it's surfaced in the output JSON for transparency, not enforced.
+FOOTBALL_RATE_LIMIT_PER_MINUTE = int(os.environ.get("FOOTBALL_RATE_LIMIT_PER_MINUTE", "10"))
+
+# CricketData.org free tier: 100 requests/day. We stop at 90 by default
+# so retries / manual "Run workflow" clicks never push us over the
+# real limit.
 CRICKET_DAILY_LIMIT = int(os.environ.get("CRICKET_DAILY_LIMIT", "100"))
 CRICKET_SAFE_CAP = int(os.environ.get("CRICKET_SAFE_CAP", "90"))
 
@@ -201,6 +217,28 @@ def bump_quota(path, today, used, by=1):
 # HTTP with retries + exponential backoff (transient errors only)
 # ------------------------------------------------------------------
 
+def _check_rate_limit_headers(resp, label):
+    """
+    Surfaces any rate-limit headers a provider sends back (football-data.org
+    sends X-Requests-Available-Minute / X-RequestCounter-Reset; many others
+    use the X-RateLimit-* convention). Logged to stdout always, and escalated
+    to error_log.txt when we're down to the last request or two, so problems
+    are visible before they turn into a 429.
+    """
+    headers = resp.headers
+    remaining = headers.get("X-Requests-Available-Minute") or headers.get("X-RateLimit-Remaining")
+    limit = headers.get("X-RateLimit-Limit")
+    if remaining is None:
+        return
+    note = f"{label}: rate limit remaining = {remaining}" + (f"/{limit}" if limit else "")
+    print(note)
+    try:
+        if int(remaining) <= 1:
+            log_error(f"{note} (running low — consider spacing out requests further).")
+    except ValueError:
+        pass
+
+
 def safe_get(url, params=None, headers=None, label="request"):
     """
     GET request with retries. Returns (json_or_none, permanent_failure)
@@ -212,9 +250,12 @@ def safe_get(url, params=None, headers=None, label="request"):
     for attempt in range(1, MAX_RETRIES + 2):
         try:
             resp = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
+            _check_rate_limit_headers(resp, label)
 
             if resp.status_code == 429:
-                log_error(f"{label}: Rate limit exceeded (HTTP 429).")
+                retry_after = resp.headers.get("Retry-After")
+                suffix = f" (Retry-After: {retry_after}s)" if retry_after else ""
+                log_error(f"{label}: Rate limit exceeded (HTTP 429){suffix}.")
                 return None, True
 
             if 400 <= resp.status_code < 500:
@@ -265,12 +306,14 @@ MESSAGES = {
             "en": "Schedule updated successfully.",
         },
         "no_matches": {
-            "bn": f"আগামী {HOURS_AHEAD} ঘণ্টার মধ্যে কোনো ফুটবল ম্যাচ নেই।",
-            "en": f"No football matches in the next {HOURS_AHEAD} hours.",
+            "bn": f"আগামী {HOURS_AHEAD} ঘণ্টার মধ্যে বড় লীগগুলোতে কোনো ফুটবল ম্যাচ নেই।",
+            "en": f"No football matches in the next {HOURS_AHEAD} hours across the covered leagues.",
         },
         "quota_paused": {
-            "bn": "আজকের ফুটবল ডাটা রিকোয়েস্ট সীমা প্রায় শেষ, তাই সাময়িকভাবে আপডেট বন্ধ আছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
-            "en": "Today's football API request budget is nearly used up, so updates are paused for now. Showing the last known data.",
+            # Not used for football (no daily quota with this provider) but
+            # kept so build_result() has a message for every possible state.
+            "bn": "ফুটবল ডাটা আপডেট সাময়িকভাবে বন্ধ আছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
+            "en": "Football data updates are paused for now. Showing the last known data.",
         },
         "error": {
             "bn": "ফুটবল ডাটা আনতে সমস্যা হয়েছে। আগের সংগৃহীত তথ্য দেখানো হচ্ছে।",
@@ -320,7 +363,7 @@ def pick_next_match(matches):
     return None
 
 
-def build_result(sport, state, existing, used, limit, matches=None):
+def build_result(sport, state, existing, matches=None, extra_meta=None):
     """
     Assembles the final JSON structure written to disk, for either sport.
     - state: "ok" | "no_matches" | "quota_paused" | "error" | "no_key"
@@ -328,6 +371,8 @@ def build_result(sport, state, existing, used, limit, matches=None):
       when state indicates the fresh fetch didn't happen / failed.
     - matches: freshly parsed matches list, only provided when state is
       "ok" or "no_matches" (a genuinely successful fetch).
+    - extra_meta: sport-specific meta fields (quota usage, rate limit,
+      coverage notes, etc.) merged into the "meta" object.
     """
     is_stale = state in ("quota_paused", "error", "no_key")
     now = now_utc()
@@ -349,22 +394,24 @@ def build_result(sport, state, existing, used, limit, matches=None):
     display_state = state if state != "no_key" else "error"
     message = MESSAGES[sport].get(state, MESSAGES[sport]["error"])
 
+    meta = {
+        "updatedAt": now.isoformat(),
+        "lastUpdated": now_bd_str() + " (Bangladesh Time)",
+        "timezone": "Asia/Dhaka (UTC+6)",
+        "coverageHours": HOURS_AHEAD,
+        "isStale": is_stale,
+        "staleSince": stale_since,
+    }
+    if extra_meta:
+        meta.update(extra_meta)
+
     return {
         "sport": sport,
         "status": {
             "state": display_state,
             "message": message,
         },
-        "meta": {
-            "updatedAt": now.isoformat(),
-            "lastUpdated": now_bd_str() + " (Bangladesh Time)",
-            "timezone": "Asia/Dhaka (UTC+6)",
-            "coverageHours": HOURS_AHEAD,
-            "isStale": is_stale,
-            "staleSince": stale_since,
-            "apiRequestsUsedToday": used,
-            "apiRequestsLimitToday": limit,
-        },
+        "meta": meta,
         "totalMatches": len(final_matches),
         "nextMatch": pick_next_match(final_matches),
         "matches": final_matches,
@@ -372,101 +419,117 @@ def build_result(sport, state, existing, used, limit, matches=None):
 
 
 # ------------------------------------------------------------------
-# FOOTBALL — API-Football (api-sports.io)
+# FOOTBALL — football-data.org (v4)
 # ------------------------------------------------------------------
 
+FOOTBALL_COVERAGE_NOTE = {
+    "bn": "শুধু প্রধান লীগ ও টুর্নামেন্ট কভার করা হয়: প্রিমিয়ার লীগ, লা লিগা, বুন্দেসলিগা, "
+          "সিরি আ, লিগ ১, চ্যাম্পিয়নস লীগ, এরেডিভিজি, প্রিমেইরা লিগা, চ্যাম্পিয়নশিপ, "
+          "ব্রাজিল সিরি আ, বিশ্বকাপ ও ইউরো।",
+    "en": "Covers major leagues/tournaments only: Premier League, La Liga, Bundesliga, "
+          "Serie A, Ligue 1, Champions League, Eredivisie, Primeira Liga, the Championship, "
+          "Brazilian Série A, the World Cup, and the Euros.",
+}
+
+# football-data.org v4 status values -> our normalized categories.
 FOOTBALL_STATUS_MAP = {
-    "TBD":  ("Upcoming", "Time To Be Defined"),
-    "NS":   ("Upcoming", "Not Started"),
-    "1H":   ("Live", "First Half"),
-    "HT":   ("Live", "Half Time"),
-    "2H":   ("Live", "Second Half"),
-    "ET":   ("Live", "Extra Time"),
-    "BT":   ("Live", "Break Time (Extra Time)"),
-    "P":    ("Live", "Penalty Shootout"),
-    "SUSP": ("Live", "Match Suspended"),
-    "INT":  ("Live", "Match Interrupted"),
-    "LIVE": ("Live", "Live"),
-    "FT":   ("Finished", "Full Time"),
-    "AET":  ("Finished", "Finished After Extra Time"),
-    "PEN":  ("Finished", "Finished After Penalties"),
-    "PST":  ("Postponed", "Postponed"),
-    "CANC": ("Cancelled", "Cancelled"),
-    "ABD":  ("Abandoned", "Abandoned"),
-    "AWD":  ("Finished", "Technical Loss / Award"),
-    "WO":   ("Finished", "Walkover"),
+    "SCHEDULED":         ("Upcoming", "Scheduled"),
+    "TIMED":             ("Upcoming", "Time Confirmed"),
+    "IN_PLAY":           ("Live", "In Play"),
+    "PAUSED":            ("Live", "Half Time"),
+    "EXTRA_TIME":        ("Live", "Extra Time"),
+    "PENALTY_SHOOTOUT":  ("Live", "Penalty Shootout"),
+    "SUSPENDED":         ("Live", "Suspended"),
+    "FINISHED":          ("Finished", "Full Time"),
+    "AWARDED":           ("Finished", "Awarded"),
+    "POSTPONED":         ("Postponed", "Postponed"),
+    "CANCELLED":         ("Cancelled", "Cancelled"),
 }
 
 
-def map_football_status(short_code):
-    return FOOTBALL_STATUS_MAP.get(short_code, ("Unknown", short_code or "Unknown"))
+def map_football_status(status_word):
+    return FOOTBALL_STATUS_MAP.get(status_word, ("Unknown", status_word or "Unknown"))
 
 
-def parse_football_fixtures(raw_fixtures):
+def _parse_iso(dt_str):
+    # football-data.org returns e.g. "2026-09-02T16:05:00Z". Normalize the
+    # trailing "Z" defensively instead of relying on the Python version's
+    # fromisoformat() to understand it.
+    if dt_str.endswith("Z"):
+        dt_str = dt_str[:-1] + "+00:00"
+    return datetime.fromisoformat(dt_str)
+
+
+def parse_football_matches(raw_matches):
     window_end = now_utc() + timedelta(hours=HOURS_AHEAD)
     matches = []
 
-    for fx in raw_fixtures:
+    for fx in raw_matches:
         try:
-            fixture = fx.get("fixture", {})
-            league = fx.get("league", {})
-            teams = fx.get("teams", {})
-
-            iso_date = fixture.get("date")
-            if not iso_date:
+            utc_date = fx.get("utcDate")
+            if not utc_date:
                 continue
-            match_dt = datetime.fromisoformat(iso_date)
-            match_dt_utc = match_dt.astimezone(UTC)
+            match_dt_utc = _parse_iso(utc_date)
+            if match_dt_utc.tzinfo is None:
+                match_dt_utc = match_dt_utc.replace(tzinfo=UTC)
 
             # Keep matches within HOURS_AHEAD, plus recently-started ones
             # (so live matches still show).
             if match_dt_utc < (now_utc() - timedelta(hours=4)) or match_dt_utc > window_end:
                 continue
 
-            match_dt_bd = match_dt.astimezone(BD_TZ)
-            status_short = fixture.get("status", {}).get("short")
-            category, label = map_football_status(status_short)
+            match_dt_bd = match_dt_utc.astimezone(BD_TZ)
+            status_word = fx.get("status")
+            category, label = map_football_status(status_word)
 
+            competition = fx.get("competition", {}) or {}
+            area = fx.get("area", {}) or {}
+            home = fx.get("homeTeam", {}) or {}
+            away = fx.get("awayTeam", {}) or {}
             score = fx.get("score", {}) or {}
-            goals = fx.get("goals", {}) or {}
+            full_time = score.get("fullTime", {}) or {}
+            half_time = score.get("halfTime", {}) or {}
+            season = fx.get("season", {}) or {}
+
+            matchday = fx.get("matchday")
 
             matches.append({
-                "matchId": fixture.get("id"),
+                "matchId": fx.get("id"),
                 "sport": "football",
                 "league": {
-                    "id": league.get("id"),
-                    "name": league.get("name"),
-                    "country": league.get("country"),
-                    "logo": league.get("logo"),
-                    "round": league.get("round"),
-                    "season": league.get("season"),
+                    "id": competition.get("id"),
+                    "name": competition.get("name"),
+                    "country": area.get("name"),
+                    "logo": competition.get("emblem"),
+                    "round": f"Matchday {matchday}" if matchday else fx.get("stage"),
+                    "season": (season.get("startDate") or "")[:4] or None,
                 },
                 "homeTeam": {
-                    "id": teams.get("home", {}).get("id"),
-                    "name": teams.get("home", {}).get("name"),
-                    "logo": teams.get("home", {}).get("logo"),
+                    "id": home.get("id"),
+                    "name": home.get("name"),
+                    "logo": home.get("crest"),
                 },
                 "awayTeam": {
-                    "id": teams.get("away", {}).get("id"),
-                    "name": teams.get("away", {}).get("name"),
-                    "logo": teams.get("away", {}).get("logo"),
+                    "id": away.get("id"),
+                    "name": away.get("name"),
+                    "logo": away.get("crest"),
                 },
-                "venue": fixture.get("venue", {}).get("name"),
+                "venue": fx.get("venue"),
                 "date": match_dt_bd.strftime("%Y-%m-%d"),
                 "time": match_dt_bd.strftime("%H:%M"),
                 "bdDate": match_dt_bd.strftime("%Y-%m-%d"),
                 "bdTime": match_dt_bd.strftime("%H:%M"),
                 "status": {
-                    "code": status_short,
-                    "category": category,       # Upcoming / Live / Finished / Postponed / Cancelled / Abandoned
+                    "code": status_word,
+                    "category": category,       # Upcoming / Live / Finished / Postponed / Cancelled
                     "label": label,
                 },
-                "halfTimeScore": score.get("halftime"),
-                "homeScore": goals.get("home"),
-                "awayScore": goals.get("away"),
+                "halfTimeScore": half_time if half_time else None,
+                "homeScore": full_time.get("home"),
+                "awayScore": full_time.get("away"),
             })
         except Exception as e:  # noqa: BLE001
-            log_error(f"Failed to parse a football fixture: {e}")
+            log_error(f"Failed to parse a football match: {e}")
             continue
 
     matches.sort(key=lambda m: (m["date"], m["time"]))
@@ -474,53 +537,46 @@ def parse_football_fixtures(raw_fixtures):
 
 
 def build_football_json(existing):
-    today, used = load_quota(FOOTBALL_QUOTA_PATH)
+    extra_meta = {
+        "provider": "football-data.org",
+        "rateLimitPerMinute": FOOTBALL_RATE_LIMIT_PER_MINUTE,
+        "coverageNote": FOOTBALL_COVERAGE_NOTE,
+    }
 
     if not FOOTBALL_API_KEY:
         log_error("FOOTBALL_API_KEY not found. Check GitHub Secrets configuration.")
-        return build_result("football", "no_key", existing, used, FOOTBALL_DAILY_LIMIT)
-
-    if used >= FOOTBALL_SAFE_CAP:
-        log_error(
-            f"Football: daily safety cap reached ({used}/{FOOTBALL_SAFE_CAP} of "
-            f"{FOOTBALL_DAILY_LIMIT}/day quota). Skipping this run's API call."
-        )
-        return build_result("football", "quota_paused", existing, used, FOOTBALL_DAILY_LIMIT)
+        return build_result("football", "no_key", existing, extra_meta=extra_meta)
 
     bd_now = now_bd()
+    # football-data.org excludes the dateTo day itself, so add 2 days to
+    # cover "today" and "tomorrow" in full.
     date_from = bd_now.strftime("%Y-%m-%d")
-    date_to = (bd_now + timedelta(days=1)).strftime("%Y-%m-%d")
+    date_to = (bd_now + timedelta(days=2)).strftime("%Y-%m-%d")
 
-    headers = {"x-apisports-key": FOOTBALL_API_KEY}
-    params = {"from": date_from, "to": date_to, "timezone": "Asia/Dhaka"}
+    headers = {"X-Auth-Token": FOOTBALL_API_KEY}
+    params = {"dateFrom": date_from, "dateTo": date_to}
 
     data, _permanent = safe_get(
-        f"{FOOTBALL_BASE_URL}/fixtures",
+        f"{FOOTBALL_BASE_URL}/matches",
         params=params,
         headers=headers,
-        label=f"Football fixtures ({date_from} to {date_to})",
+        label=f"Football matches ({date_from} to {date_to})",
     )
-    used = bump_quota(FOOTBALL_QUOTA_PATH, today, used, by=1)
 
     if data is None:
-        return build_result("football", "error", existing, used, FOOTBALL_DAILY_LIMIT)
+        return build_result("football", "error", existing, extra_meta=extra_meta)
 
-    # IMPORTANT: api-sports.io returns HTTP 200 even when the daily quota
-    # is exceeded or the key/plan is invalid — the real error is embedded
-    # inside the JSON body as a non-empty "errors" object, alongside an
-    # empty "response": []. Without this check, a quota-exceeded response
-    # looks identical to "no matches today" and would silently overwrite
-    # the previous good file with an empty list.
-    errors = data.get("errors")
-    if errors:
-        log_error(f"Football fixtures: API returned errors -> {errors}")
-        return build_result("football", "error", existing, used, FOOTBALL_DAILY_LIMIT)
+    raw_matches = data.get("matches")
+    if raw_matches is None:
+        # Standard HTTP errors are already caught by safe_get(); this
+        # covers the unlikely case of a 200 with an unexpected body shape.
+        log_error(f"Football matches: unexpected response shape -> {str(data)[:300]}")
+        return build_result("football", "error", existing, extra_meta=extra_meta)
 
-    raw_fixtures = data.get("response", [])
-    matches = parse_football_fixtures(raw_fixtures)
+    matches = parse_football_matches(raw_matches)
 
     state = "ok" if matches else "no_matches"
-    return build_result("football", state, existing, used, FOOTBALL_DAILY_LIMIT, matches=matches)
+    return build_result("football", state, existing, matches=matches, extra_meta=extra_meta)
 
 
 # ------------------------------------------------------------------
@@ -603,16 +659,23 @@ def parse_cricket_matches(raw_matches):
 def build_cricket_json(existing):
     today, used = load_quota(CRICKET_QUOTA_PATH)
 
+    def meta_with_usage(final_used):
+        return {
+            "provider": "CricketData.org",
+            "apiRequestsUsedToday": final_used,
+            "apiRequestsLimitToday": CRICKET_DAILY_LIMIT,
+        }
+
     if not CRICKET_API_KEY:
         log_error("CRICKET_API_KEY not found. Check GitHub Secrets configuration.")
-        return build_result("cricket", "no_key", existing, used, CRICKET_DAILY_LIMIT)
+        return build_result("cricket", "no_key", existing, extra_meta=meta_with_usage(used))
 
     if used >= CRICKET_SAFE_CAP:
         log_error(
             f"Cricket: daily safety cap reached ({used}/{CRICKET_SAFE_CAP} of "
             f"{CRICKET_DAILY_LIMIT}/day quota). Skipping this run's API calls."
         )
-        return build_result("cricket", "quota_paused", existing, used, CRICKET_DAILY_LIMIT)
+        return build_result("cricket", "quota_paused", existing, extra_meta=meta_with_usage(used))
 
     all_matches = []
     any_success = False
@@ -650,12 +713,11 @@ def build_cricket_json(existing):
             break
 
     if not any_success:
-        state = "error" if any_hard_failure else "error"
-        return build_result("cricket", state, existing, used, CRICKET_DAILY_LIMIT)
+        return build_result("cricket", "error", existing, extra_meta=meta_with_usage(used))
 
     matches = parse_cricket_matches(all_matches)
     state = "ok" if matches else "no_matches"
-    return build_result("cricket", state, existing, used, CRICKET_DAILY_LIMIT, matches=matches)
+    return build_result("cricket", state, existing, matches=matches, extra_meta=meta_with_usage(used))
 
 
 # ------------------------------------------------------------------
@@ -694,8 +756,10 @@ def main():
         football_result = build_football_json(existing_football)
     except Exception as e:  # noqa: BLE001
         log_error(f"Unexpected error building football data: {e}\n{traceback.format_exc()}")
-        _, used = load_quota(FOOTBALL_QUOTA_PATH)
-        football_result = build_result("football", "error", existing_football, used, FOOTBALL_DAILY_LIMIT)
+        football_result = build_result(
+            "football", "error", existing_football,
+            extra_meta={"provider": "football-data.org", "rateLimitPerMinute": FOOTBALL_RATE_LIMIT_PER_MINUTE},
+        )
 
     write_json(FOOTBALL_JSON_PATH, football_result)
 
@@ -704,7 +768,10 @@ def main():
     except Exception as e:  # noqa: BLE001
         log_error(f"Unexpected error building cricket data: {e}\n{traceback.format_exc()}")
         _, used = load_quota(CRICKET_QUOTA_PATH)
-        cricket_result = build_result("cricket", "error", existing_cricket, used, CRICKET_DAILY_LIMIT)
+        cricket_result = build_result(
+            "cricket", "error", existing_cricket,
+            extra_meta={"provider": "CricketData.org", "apiRequestsUsedToday": used, "apiRequestsLimitToday": CRICKET_DAILY_LIMIT},
+        )
 
     write_json(CRICKET_JSON_PATH, cricket_result)
 
@@ -715,10 +782,17 @@ def main():
     def label_for(result):
         s = result["status"]["state"]
         n = result["totalMatches"]
-        used = result["meta"]["apiRequestsUsedToday"]
-        limit = result["meta"]["apiRequestsLimitToday"]
+        meta = result["meta"]
         icon = {"ok": "✅", "no_matches": "💤", "error": "⚠️", "quota_paused": "⏸️"}.get(s, "❓")
-        return f"{icon} {s} | matches={n} | requests_used_today={used}/{limit}"
+
+        if "apiRequestsUsedToday" in meta:
+            quota_note = f" | requests_used_today={meta['apiRequestsUsedToday']}/{meta['apiRequestsLimitToday']}"
+        elif "rateLimitPerMinute" in meta:
+            quota_note = f" | rate_limit={meta['rateLimitPerMinute']}/min (1 call made)"
+        else:
+            quota_note = ""
+
+        return f"{icon} {s} | matches={n}{quota_note}"
 
     print(f"Football -> {label_for(football_result)}")
     print(f"Cricket  -> {label_for(cricket_result)}")
