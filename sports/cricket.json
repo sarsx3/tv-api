@@ -1,24 +1,55 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-02T20:00:21.294684+00:00",
-    "lastUpdated": "2026-09-03 02:00:21 (Bangladesh Time)",
+    "updatedAt": "2026-09-02T22:46:07.065878+00:00",
+    "lastUpdated": "2026-09-03 04:46:07 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 7,
+    "apiRequestsUsedToday": 8,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 1,
+  "nextMatch": {
+    "matchId": "a3ed7e03-c3e7-48a2-8dde-a9c1884b5d2a",
+    "date": "2026-09-03",
+    "time": "05:00",
+    "status": "Upcoming"
+  },
+  "matches": [
+    {
+      "matchId": "a3ed7e03-c3e7-48a2-8dde-a9c1884b5d2a",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Trinbago Knight Riders vs Antigua and Barbuda Falcons, 24th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Trinbago Knight Riders",
+        "logo": "https://g.cricapi.com/iapi/293-637932465560269082.png?w=48"
+      },
+      "team2": {
+        "name": "Antigua and Barbuda Falcons",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "venue": "Queen's Park Oval, Port of Spain, Trinidad",
+      "date": "2026-09-03",
+      "time": "05:00",
+      "bdDate": "2026-09-03",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Trinbago Knight Riders opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
