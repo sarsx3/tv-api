@@ -1,24 +1,55 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-03T21:13:05.494854+00:00",
-    "lastUpdated": "2026-09-04 03:13:05 (Bangladesh Time)",
+    "updatedAt": "2026-09-03T23:25:43.213187+00:00",
+    "lastUpdated": "2026-09-04 05:25:43 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 6,
+    "apiRequestsUsedToday": 7,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 1,
+  "nextMatch": {
+    "matchId": "49e8ff59-3fcf-4128-a56d-da3774c85492",
+    "date": "2026-09-04",
+    "time": "05:00",
+    "status": "Live"
+  },
+  "matches": [
+    {
+      "matchId": "49e8ff59-3fcf-4128-a56d-da3774c85492",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "St Kitts and Nevis Patriots vs Saint Lucia Kings, 25th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "St Kitts and Nevis Patriots",
+        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
+      },
+      "team2": {
+        "name": "Saint Lucia Kings",
+        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
+      },
+      "venue": "Warner Park, Basseterre, St Kitts",
+      "date": "2026-09-04",
+      "time": "05:00",
+      "bdDate": "2026-09-04",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Live",
+        "label": "Saint Lucia Kings opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
