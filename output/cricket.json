@@ -1,0 +1,25 @@
+{
+  "sport": "cricket",
+  "status": {
+    "state": "no_matches",
+    "message": {
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
+    }
+  },
+  "meta": {
+    "updatedAt": "2026-09-03T05:38:45.158316+00:00",
+    "lastUpdated": "2026-09-03 11:38:45 (Bangladesh Time)",
+    "timezone": "Asia/Dhaka (UTC+6)",
+    "coverageHours": 168,
+    "isStale": false,
+    "staleSince": null,
+    "provider": "CricketData.org",
+    "apiRequestsUsedToday": 2,
+    "apiRequestsLimitToday": 100
+  },
+  "totalMatches": 0,
+  "nextMatch": null,
+  "matches": [],
+  "enrichedAt": "2026-09-03T08:55:30.251501+00:00"
+}
