@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-03T10:46:41.460752+00:00",
-    "lastUpdated": "2026-09-03 16:46:41 (Bangladesh Time)",
+    "updatedAt": "2026-09-03T14:53:16.629644+00:00",
+    "lastUpdated": "2026-09-03 20:53:16 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -8072,7 +8072,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 561823,
+      "matchId": 561821,
       "sport": "football",
       "league": {
         "id": 2016,
@@ -8083,14 +8083,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 346,
-        "name": "Watford FC",
-        "logo": "https://crests.football-data.org/346.png"
+        "id": 59,
+        "name": "Blackburn Rovers FC",
+        "logo": "https://crests.football-data.org/59.png"
       },
       "awayTeam": {
-        "id": 1081,
-        "name": "Preston North End FC",
-        "logo": "https://crests.football-data.org/1081.png"
+        "id": 356,
+        "name": "Sheffield United FC",
+        "logo": "https://crests.football-data.org/356.png"
       },
       "venue": null,
       "date": "2026-09-09",
@@ -8131,7 +8131,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 561821,
+      "matchId": 561823,
       "sport": "football",
       "league": {
         "id": 2016,
@@ -8142,14 +8142,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 59,
-        "name": "Blackburn Rovers FC",
-        "logo": "https://crests.football-data.org/59.png"
+        "id": 346,
+        "name": "Watford FC",
+        "logo": "https://crests.football-data.org/346.png"
       },
       "awayTeam": {
-        "id": 356,
-        "name": "Sheffield United FC",
-        "logo": "https://crests.football-data.org/356.png"
+        "id": 1081,
+        "name": "Preston North End FC",
+        "logo": "https://crests.football-data.org/1081.png"
       },
       "venue": null,
       "date": "2026-09-09",
@@ -9896,5 +9896,5 @@
       "hasLiveSource": true
     }
   ],
-  "enrichedAt": "2026-09-03T13:32:21.573716+00:00"
+  "enrichedAt": "2026-09-03T17:49:30.790260+00:00"
 }
