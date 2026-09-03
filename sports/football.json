@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-03T00:58:24.154913+00:00",
-    "lastUpdated": "2026-09-03 06:58:24 (Bangladesh Time)",
+    "updatedAt": "2026-09-03T05:38:43.643677+00:00",
+    "lastUpdated": "2026-09-03 11:38:43 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -600,6 +600,44 @@
       "awayScore": null
     },
     {
+      "matchId": 565785,
+      "sport": "football",
+      "league": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://crests.football-data.org/BL1.png",
+        "round": "Matchday 2",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
+      },
+      "awayTeam": {
+        "id": 721,
+        "name": "RB Leipzig",
+        "logo": "https://crests.football-data.org/721.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "19:30",
+      "bdDate": "2026-09-05",
+      "bdTime": "19:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 565787,
       "sport": "football",
       "league": {
@@ -657,44 +695,6 @@
         "id": 17,
         "name": "SC Freiburg",
         "logo": "https://crests.football-data.org/17.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "19:30",
-      "bdDate": "2026-09-05",
-      "bdTime": "19:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 565785,
-      "sport": "football",
-      "league": {
-        "id": 2002,
-        "name": "Bundesliga",
-        "country": "Germany",
-        "logo": "https://crests.football-data.org/BL1.png",
-        "round": "Matchday 2",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
-      },
-      "awayTeam": {
-        "id": 721,
-        "name": "RB Leipzig",
-        "logo": "https://crests.football-data.org/721.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -2234,6 +2234,44 @@
       "awayScore": null
     },
     {
+      "matchId": 559700,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 531,
+        "name": "ES Troyes AC",
+        "logo": "https://crests.football-data.org/531.png"
+      },
+      "awayTeam": {
+        "id": 576,
+        "name": "RC Strasbourg Alsace",
+        "logo": "https://crests.football-data.org/576.png"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "19:00",
+      "bdDate": "2026-09-06",
+      "bdTime": "19:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 560567,
       "sport": "football",
       "league": {
@@ -2291,44 +2329,6 @@
         "id": 5911,
         "name": "AC Monza",
         "logo": "https://crests.football-data.org/5911.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "19:00",
-      "bdDate": "2026-09-06",
-      "bdTime": "19:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 559700,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 531,
-        "name": "ES Troyes AC",
-        "logo": "https://crests.football-data.org/531.png"
-      },
-      "awayTeam": {
-        "id": 576,
-        "name": "RC Strasbourg Alsace",
-        "logo": "https://crests.football-data.org/576.png"
       },
       "venue": null,
       "date": "2026-09-06",
@@ -4172,6 +4172,44 @@
       "awayScore": null
     },
     {
+      "matchId": 575331,
+      "sport": "football",
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "logo": "https://crests.football-data.org/CL.png",
+        "round": "Matchday 1",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "logo": "https://crests.football-data.org/64.png"
+      },
+      "awayTeam": {
+        "id": 78,
+        "name": "Club Atlético de Madrid",
+        "logo": "https://crests.football-data.org/78.png"
+      },
+      "venue": null,
+      "date": "2026-09-10",
+      "time": "01:00",
+      "bdDate": "2026-09-10",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 575333,
       "sport": "football",
       "league": {
@@ -4229,44 +4267,6 @@
         "id": 69,
         "name": "Queens Park Rangers FC",
         "logo": "https://crests.football-data.org/69.png"
-      },
-      "venue": null,
-      "date": "2026-09-10",
-      "time": "01:00",
-      "bdDate": "2026-09-10",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 575331,
-      "sport": "football",
-      "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "country": "Europe",
-        "logo": "https://crests.football-data.org/CL.png",
-        "round": "Matchday 1",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "logo": "https://crests.football-data.org/64.png"
-      },
-      "awayTeam": {
-        "id": 78,
-        "name": "Club Atlético de Madrid",
-        "logo": "https://crests.football-data.org/78.png"
       },
       "venue": null,
       "date": "2026-09-10",
