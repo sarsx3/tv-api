@@ -1,0 +1,55 @@
+name: 🏟️ Enrich Sports Schedule
+
+on:
+  # sports/ বা channels/ এ কোনো push হলে auto চলবে
+  push:
+    paths:
+      - "sports/football.json"
+      - "sports/cricket.json"
+      - "channels/streams.json"
+      - "channels/mapping.json"
+
+  # প্রতি ১ ঘণ্টায় schedule auto-refresh হলেও enrich চলবে
+  schedule:
+    - cron: "10 * * * *"   # প্রতি ঘণ্টার ১০ মিনিটে (schedule update এর পরে)
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  enrich:
+    name: Enrich & Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📦 Install dependencies (none needed — pure stdlib)
+        run: echo "No external deps needed."
+
+      - name: ⚽🏏 Run enrichment script
+        run: python scripts/enrich.py
+
+      - name: 🔍 Verify output files exist
+        run: |
+          echo "--- output/football.json ---"
+          head -20 output/football.json
+          echo ""
+          echo "--- output/cricket.json ---"
+          head -20 output/cricket.json
+
+      - name: 📤 Commit & push enriched output
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-enrich: schedule + channels updated [skip ci]"
+          file_pattern: "output/football.json output/cricket.json"
+          commit_user_name: "FlashiFly Bot"
+          commit_user_email: "bot@flashifly.com"
