@@ -1,0 +1,209 @@
+{
+  "_comment": "এই ফাইলটা শুধু আপনি এডিট করবেন। প্রতিটা চ্যানেলে একাধিক source রাখতে পারবেন।",
+  "_instructions": {
+    "how_to_update": "শুধু sources এর ভেতরে url গুলো আপডেট করুন। channel_id বা name কখনো পরিবর্তন করবেন না।",
+    "url_formats": "m3u8 link অথবা যেকোনো direct stream link দিন। খালি রাখতে চাইলে url: '' দিন।",
+    "quality_options": "HD, FHD, SD যেকোনো একটা লিখুন।"
+  },
+  "updatedAt": "2026-09-02T00:00:00Z",
+  "channels": [
+
+    {
+      "channel_id": "t_sports",
+      "name": "T Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/T_Sports_logo.png",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "HD" },
+        { "label": "Backup 2", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "gtv",
+      "name": "Gazi TV (GTV)",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/3/3e/Gazi_TV_logo.png",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "btv_sports",
+      "name": "BTV Sports",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "somoy_tv",
+      "name": "Somoy TV",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "star_sports_1",
+      "name": "Star Sports 1",
+      "logo": "",
+      "country": "India/South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "star_sports_2",
+      "name": "Star Sports 2",
+      "logo": "",
+      "country": "India/South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "star_sports_select_1",
+      "name": "Star Sports Select 1 (EPL)",
+      "logo": "",
+      "country": "India/South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sony_ten_1",
+      "name": "Sony Ten 1",
+      "logo": "",
+      "country": "South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sony_ten_2",
+      "name": "Sony Ten 2",
+      "logo": "",
+      "country": "South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sony_ten_3",
+      "name": "Sony Ten 3",
+      "logo": "",
+      "country": "South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sony_ten_5",
+      "name": "Sony Ten 5",
+      "logo": "",
+      "country": "South Asia",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sky_sports_cricket",
+      "name": "Sky Sports Cricket",
+      "logo": "",
+      "country": "UK",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "sky_sports_football",
+      "name": "Sky Sports Football",
+      "logo": "",
+      "country": "UK",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "channel_9_bd",
+      "name": "Channel 9 (Bangladesh)",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "maasranga_tv",
+      "name": "Maasranga TV",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Main", "url": "", "quality": "HD" },
+        { "label": "Backup 1", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "rabbitholebd",
+      "name": "Rabbitholebd (Online)",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Stream 1", "url": "", "quality": "HD" },
+        { "label": "Stream 2", "url": "", "quality": "SD" }
+      ]
+    },
+
+    {
+      "channel_id": "toffee",
+      "name": "Toffee (Banglalink)",
+      "logo": "",
+      "country": "Bangladesh",
+      "sources": [
+        { "label": "Stream 1", "url": "", "quality": "HD" }
+      ]
+    },
+
+    {
+      "channel_id": "ecb_youtube",
+      "name": "ECB Official (YouTube)",
+      "logo": "",
+      "country": "UK",
+      "sources": [
+        { "label": "YouTube Live", "url": "", "quality": "HD" }
+      ]
+    }
+
+  ]
+}
