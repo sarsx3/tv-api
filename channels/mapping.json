@@ -1,0 +1,126 @@
+{
+  "_comment": "এই ফাইলে league/series → channel mapping আছে। Season শুরুতে প্রয়োজনে আপডেট করুন।",
+  "_match_logic": "football: league.name দিয়ে keyword match হবে। cricket: matchTitle দিয়ে keyword match হবে।",
+
+  "football": [
+    {
+      "keywords": ["Premier League"],
+      "channels": ["t_sports", "star_sports_select_1", "toffee"],
+      "note": "EPL — T Sports ও Star Sports Select 1 Bangladesh-এ broadcast করে। Toffee-র digital rights আছে 2025-26।"
+    },
+    {
+      "keywords": ["Champions League", "UEFA Champions"],
+      "channels": ["sony_ten_1", "sony_ten_2", "sony_ten_5"],
+      "note": "UCL — Sony Pictures Network South Asia rights holder। Sony Ten 1/2/5 তে দেখায়।"
+    },
+    {
+      "keywords": ["Primera Division", "La Liga"],
+      "channels": ["rabbitholebd", "t_sports"],
+      "note": "La Liga — Begin platform 5-year deal (2025-30)। Rabbitholebd official stream partner।"
+    },
+    {
+      "keywords": ["Bundesliga"],
+      "channels": ["t_sports", "rabbitholebd"],
+      "note": "Bundesliga — T Sports ও Rabbitholebd তে পাওয়া যায় Bangladesh-এ।"
+    },
+    {
+      "keywords": ["Serie A"],
+      "channels": ["rabbitholebd", "sony_ten_3"],
+      "note": "Serie A — Rabbitholebd official partner। Sony Ten 3 ও দেখায়।"
+    },
+    {
+      "keywords": ["Ligue 1"],
+      "channels": ["rabbitholebd", "t_sports"],
+      "note": "Ligue 1 — Rabbitholebd official। T Sports মাঝে মাঝে দেখায়।"
+    },
+    {
+      "keywords": ["Championship", "EFL Championship"],
+      "channels": ["sky_sports_football"],
+      "note": "EFL Championship — Sky Sports Football official broadcaster।"
+    },
+    {
+      "keywords": ["Eredivisie"],
+      "channels": ["rabbitholebd", "sony_ten_2"],
+      "note": "Eredivisie — Sony/Rabbitholebd South Asia।"
+    },
+    {
+      "keywords": ["Primeira Liga", "Primeira Division"],
+      "channels": ["rabbitholebd", "sony_ten_3"],
+      "note": "Primeira Liga (Portugal) — Sony Ten 3/Rabbitholebd।"
+    },
+    {
+      "keywords": ["Campeonato Brasileiro", "Serie A", "Brazilian"],
+      "channels": ["rabbitholebd"],
+      "note": "Brazil Serie A — Limited coverage Bangladesh। Rabbitholebd best option।"
+    },
+    {
+      "keywords": ["World Cup", "FIFA World Cup"],
+      "channels": ["btv_sports", "t_sports", "somoy_tv"],
+      "note": "FIFA World Cup 2026 — BTV, T Sports, Somoy TV সকল 104 ম্যাচ দেখাবে।"
+    },
+    {
+      "keywords": ["European Championship", "Euro"],
+      "channels": ["t_sports", "gtv", "btv_sports"],
+      "note": "UEFA Euros — T Sports, GTV, BTV তে দেখায় Bangladesh-এ।"
+    }
+  ],
+
+  "cricket": [
+    {
+      "keywords": ["County Championship", "County"],
+      "channels": ["sky_sports_cricket", "ecb_youtube"],
+      "note": "County Championship — Sky Sports Cricket official। প্রতিটা county নিজের YouTube-এ free stream করে (ECB guidelines অনুযায়ী)।"
+    },
+    {
+      "keywords": ["Bangladesh Premier League", "BPL"],
+      "channels": ["t_sports", "gtv"],
+      "note": "BPL — T Sports primary, GTV simulcast। BCB renewal 2025-26।"
+    },
+    {
+      "keywords": ["ICC World Cup", "T20 World Cup", "ODI World Cup", "Cricket World Cup"],
+      "channels": ["t_sports", "gtv", "star_sports_1"],
+      "note": "ICC Events — T Sports, GTV Bangladesh rights। Star Sports South Asia।"
+    },
+    {
+      "keywords": ["IPL", "Indian Premier League"],
+      "channels": ["star_sports_1", "star_sports_2", "gtv", "channel_9_bd"],
+      "note": "IPL — Star Sports official। GTV ও Channel 9 Bangladesh-এ broadcast করে।"
+    },
+    {
+      "keywords": ["Test", "Bangladesh vs", "vs Bangladesh"],
+      "channels": ["t_sports", "gtv", "star_sports_1"],
+      "note": "Bangladesh international matches — T Sports ও GTV primary broadcaster।"
+    },
+    {
+      "keywords": ["Big Bash", "BBL"],
+      "channels": ["t_sports"],
+      "note": "BBL — T Sports Bangladesh-এ দেখায়।"
+    },
+    {
+      "keywords": ["PSL", "Pakistan Super League"],
+      "channels": ["t_sports", "gtv"],
+      "note": "PSL — T Sports ও GTV Bangladesh-এ broadcast করে।"
+    },
+    {
+      "keywords": ["The Hundred"],
+      "channels": ["sky_sports_cricket", "ecb_youtube"],
+      "note": "The Hundred — Sky Sports UK। ECB YouTube free stream।"
+    },
+    {
+      "keywords": ["Asia Cup"],
+      "channels": ["t_sports", "gtv", "star_sports_1"],
+      "note": "Asia Cup — T Sports, GTV Bangladesh। Star Sports South Asia।"
+    },
+    {
+      "keywords": ["Champions Trophy"],
+      "channels": ["t_sports", "gtv"],
+      "note": "ICC Champions Trophy — T Sports, GTV primary।"
+    }
+  ],
+
+  "fallback": {
+    "football": ["t_sports", "rabbitholebd"],
+    "cricket": ["t_sports", "gtv"],
+    "_comment": "কোনো match keyword match না হলে এই default channels দেখাবে।"
+  }
+}
