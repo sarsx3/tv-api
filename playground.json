@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1788441927530851_543718870",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/Moynaott.m3u?fbclid=IwdGRjcAUGVHBjbGNrBQZUbnBkb2YFZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefWhMpqxwIrEj5QgmugjGCeF1CtfTS0fdY_rHUTLKjcwwbmj8zdzY_NEKafI_aem_OFzX9stTra1jn2TPx5HhyQ",
+    "name": "Moyna Ott",
+    "urlId": "844278",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-03T19:25:27.530518",
+    "createdAt": "2026-09-03T19:25:27.530518",
+    "updatedAt": "2026-09-03T19:25:27.530518",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 138,
+      "categoryCount": 47,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788039835162045",
+      "name": "M3u World",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW-1ZYmt1VY0WCvVIrKHGwASMFLOAT5q5N5cTYccolUXaXMT9rOVdxhvZXT3zw5N3hhsrpxpnqjv5httyfL1LC934EftWGUcrONGK9_oiZuP6rqi_rbA4Ajeyj82o57nhmWeVy9wAQB1s65mHqZ209zt8xHZYxT7xT1VM2pA62Qqg5noojgGPl1vj6XHQ/s320/1000078446.jpg"
+    },
+    "isPremium": true
+  },
+  {
     "id": "manual_1788440492297791_385879119",
     "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/fast%20play.m3u",
     "name": "Fast Play",
