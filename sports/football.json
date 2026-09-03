@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-03T14:53:16.629644+00:00",
-    "lastUpdated": "2026-09-03 20:53:16 (Bangladesh Time)",
+    "updatedAt": "2026-09-03T18:22:02.422582+00:00",
+    "lastUpdated": "2026-09-04 00:22:02 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -23,88 +23,12 @@
   },
   "totalMatches": 115,
   "nextMatch": {
-    "matchId": 559696,
+    "matchId": 559699,
     "date": "2026-09-04",
-    "time": "00:45",
+    "time": "23:00",
     "status": "Upcoming"
   },
   "matches": [
-    {
-      "matchId": 559696,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 511,
-        "name": "Toulouse FC",
-        "logo": "https://crests.football-data.org/511.png"
-      },
-      "awayTeam": {
-        "id": 521,
-        "name": "Lille OSC",
-        "logo": "https://crests.football-data.org/521.png"
-      },
-      "venue": null,
-      "date": "2026-09-04",
-      "time": "00:45",
-      "bdDate": "2026-09-04",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 564682,
-      "sport": "football",
-      "league": {
-        "id": 2014,
-        "name": "Primera Division",
-        "country": "Spain",
-        "logo": "https://crests.football-data.org/laliga.png",
-        "round": "Matchday 6",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 92,
-        "name": "Real Sociedad de Fútbol",
-        "logo": "https://crests.football-data.org/92.png"
-      },
-      "awayTeam": {
-        "id": 558,
-        "name": "RC Celta de Vigo",
-        "logo": "https://crests.football-data.org/558.png"
-      },
-      "venue": null,
-      "date": "2026-09-04",
-      "time": "01:00",
-      "bdDate": "2026-09-04",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
     {
       "matchId": 559699,
       "sport": "football",
@@ -258,44 +182,6 @@
       "awayScore": null
     },
     {
-      "matchId": 560566,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 349,
-        "name": "Ipswich Town FC",
-        "logo": "https://crests.football-data.org/349.png"
-      },
-      "awayTeam": {
-        "id": 64,
-        "name": "Liverpool FC",
-        "logo": "https://crests.football-data.org/64.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "01:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 564667,
       "sport": "football",
       "league": {
@@ -325,6 +211,44 @@
         "code": "2026-09-05 13:15:00Z",
         "category": "Unknown",
         "label": "2026-09-05 13:15:00Z"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 560566,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 349,
+        "name": "Ipswich Town FC",
+        "logo": "https://crests.football-data.org/349.png"
+      },
+      "awayTeam": {
+        "id": 64,
+        "name": "Liverpool FC",
+        "logo": "https://crests.football-data.org/64.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "01:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
       },
       "halfTimeScore": {
         "home": null,
@@ -410,82 +334,6 @@
       "awayScore": null
     },
     {
-      "matchId": 561820,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 1126,
-        "name": "Lincoln City FC",
-        "logo": "https://crests.football-data.org/1126.png"
-      },
-      "awayTeam": {
-        "id": 340,
-        "name": "Southampton FC",
-        "logo": "https://crests.football-data.org/340.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "17:30",
-      "bdDate": "2026-09-05",
-      "bdTime": "17:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 561815,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 70,
-        "name": "Stoke City FC",
-        "logo": "https://crests.football-data.org/70.png"
-      },
-      "awayTeam": {
-        "id": 348,
-        "name": "Charlton Athletic FC",
-        "logo": "https://crests.football-data.org/348.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "17:30",
-      "bdDate": "2026-09-05",
-      "bdTime": "17:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 560571,
       "sport": "football",
       "league": {
@@ -524,6 +372,44 @@
       "awayScore": null
     },
     {
+      "matchId": 561820,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 1126,
+        "name": "Lincoln City FC",
+        "logo": "https://crests.football-data.org/1126.png"
+      },
+      "awayTeam": {
+        "id": 340,
+        "name": "Southampton FC",
+        "logo": "https://crests.football-data.org/340.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "17:30",
+      "bdDate": "2026-09-05",
+      "bdTime": "17:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 561813,
       "sport": "football",
       "league": {
@@ -543,6 +429,44 @@
         "id": 59,
         "name": "Blackburn Rovers FC",
         "logo": "https://crests.football-data.org/59.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "17:30",
+      "bdDate": "2026-09-05",
+      "bdTime": "17:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561815,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 70,
+        "name": "Stoke City FC",
+        "logo": "https://crests.football-data.org/70.png"
+      },
+      "awayTeam": {
+        "id": 348,
+        "name": "Charlton Athletic FC",
+        "logo": "https://crests.football-data.org/348.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -790,196 +714,6 @@
       "awayScore": null
     },
     {
-      "matchId": 561814,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 74,
-        "name": "West Bromwich Albion FC",
-        "logo": "https://crests.football-data.org/74.png"
-      },
-      "awayTeam": {
-        "id": 346,
-        "name": "Watford FC",
-        "logo": "https://crests.football-data.org/346.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 560568,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 63,
-        "name": "Fulham FC",
-        "logo": "https://crests.football-data.org/63.png"
-      },
-      "awayTeam": {
-        "id": 354,
-        "name": "Crystal Palace FC",
-        "logo": "https://crests.football-data.org/354.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 561810,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 356,
-        "name": "Sheffield United FC",
-        "logo": "https://crests.football-data.org/356.png"
-      },
-      "awayTeam": {
-        "id": 68,
-        "name": "Norwich City FC",
-        "logo": "https://crests.football-data.org/68.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 560564,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 397,
-        "name": "Brighton & Hove Albion FC",
-        "logo": "https://crests.football-data.org/397.png"
-      },
-      "awayTeam": {
-        "id": 341,
-        "name": "Leeds United FC",
-        "logo": "https://crests.football-data.org/341.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 561816,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 563,
-        "name": "West Ham United FC",
-        "logo": "https://crests.football-data.org/563.png"
-      },
-      "awayTeam": {
-        "id": 342,
-        "name": "Derby County FC",
-        "logo": "https://crests.football-data.org/342.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 561812,
       "sport": "football",
       "league": {
@@ -999,44 +733,6 @@
         "id": 715,
         "name": "Cardiff City FC",
         "logo": "https://crests.football-data.org/715.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 560562,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 351,
-        "name": "Nottingham Forest FC",
-        "logo": "https://crests.football-data.org/351.png"
-      },
-      "awayTeam": {
-        "id": 73,
-        "name": "Tottenham Hotspur FC",
-        "logo": "https://crests.football-data.org/73.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1094,7 +790,45 @@
       "awayScore": null
     },
     {
-      "matchId": 561809,
+      "matchId": 560565,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 402,
+        "name": "Brentford FC",
+        "logo": "https://crests.football-data.org/402.png"
+      },
+      "awayTeam": {
+        "id": 71,
+        "name": "Sunderland AFC",
+        "logo": "https://crests.football-data.org/71.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561814,
       "sport": "football",
       "league": {
         "id": 2016,
@@ -1105,14 +839,90 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 69,
-        "name": "Queens Park Rangers FC",
-        "logo": "https://crests.football-data.org/69.png"
+        "id": 74,
+        "name": "West Bromwich Albion FC",
+        "logo": "https://crests.football-data.org/74.png"
       },
       "awayTeam": {
-        "id": 343,
-        "name": "Middlesbrough FC",
-        "logo": "https://crests.football-data.org/343.png"
+        "id": 346,
+        "name": "Watford FC",
+        "logo": "https://crests.football-data.org/346.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561810,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 356,
+        "name": "Sheffield United FC",
+        "logo": "https://crests.football-data.org/356.png"
+      },
+      "awayTeam": {
+        "id": 68,
+        "name": "Norwich City FC",
+        "logo": "https://crests.football-data.org/68.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561816,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 563,
+        "name": "West Ham United FC",
+        "logo": "https://crests.football-data.org/563.png"
+      },
+      "awayTeam": {
+        "id": 342,
+        "name": "Derby County FC",
+        "logo": "https://crests.football-data.org/342.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1170,44 +980,6 @@
       "awayScore": null
     },
     {
-      "matchId": 560565,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 402,
-        "name": "Brentford FC",
-        "logo": "https://crests.football-data.org/402.png"
-      },
-      "awayTeam": {
-        "id": 71,
-        "name": "Sunderland AFC",
-        "logo": "https://crests.football-data.org/71.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 561817,
       "sport": "football",
       "league": {
@@ -1227,6 +999,158 @@
         "id": 387,
         "name": "Bristol City FC",
         "logo": "https://crests.football-data.org/387.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 560564,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 397,
+        "name": "Brighton & Hove Albion FC",
+        "logo": "https://crests.football-data.org/397.png"
+      },
+      "awayTeam": {
+        "id": 341,
+        "name": "Leeds United FC",
+        "logo": "https://crests.football-data.org/341.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561809,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 69,
+        "name": "Queens Park Rangers FC",
+        "logo": "https://crests.football-data.org/69.png"
+      },
+      "awayTeam": {
+        "id": 343,
+        "name": "Middlesbrough FC",
+        "logo": "https://crests.football-data.org/343.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 560562,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 351,
+        "name": "Nottingham Forest FC",
+        "logo": "https://crests.football-data.org/351.png"
+      },
+      "awayTeam": {
+        "id": 73,
+        "name": "Tottenham Hotspur FC",
+        "logo": "https://crests.football-data.org/73.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 560568,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 63,
+        "name": "Fulham FC",
+        "logo": "https://crests.football-data.org/63.png"
+      },
+      "awayTeam": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "logo": "https://crests.football-data.org/354.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1284,44 +1208,6 @@
       "awayScore": null
     },
     {
-      "matchId": 558251,
-      "sport": "football",
-      "league": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "country": "Netherlands",
-        "logo": "https://crests.football-data.org/ED.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 1915,
-        "name": "NEC",
-        "logo": "https://crests.football-data.org/1915.png"
-      },
-      "awayTeam": {
-        "id": 675,
-        "name": "Feyenoord Rotterdam",
-        "logo": "https://crests.football-data.org/675.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "20:30",
-      "bdDate": "2026-09-05",
-      "bdTime": "20:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 567297,
       "sport": "football",
       "league": {
@@ -1341,6 +1227,44 @@
         "id": 5531,
         "name": "FC Famalicão",
         "logo": "https://crests.football-data.org/5531.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "20:30",
+      "bdDate": "2026-09-05",
+      "bdTime": "20:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 558251,
+      "sport": "football",
+      "league": {
+        "id": 2003,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://crests.football-data.org/ED.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 1915,
+        "name": "NEC",
+        "logo": "https://crests.football-data.org/1915.png"
+      },
+      "awayTeam": {
+        "id": 675,
+        "name": "Feyenoord Rotterdam",
+        "logo": "https://crests.football-data.org/675.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1474,44 +1398,6 @@
       "awayScore": null
     },
     {
-      "matchId": 564660,
-      "sport": "football",
-      "league": {
-        "id": 2014,
-        "name": "Primera Division",
-        "country": "Spain",
-        "logo": "https://crests.football-data.org/laliga.png",
-        "round": "Matchday 4",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 87,
-        "name": "Rayo Vallecano de Madrid",
-        "logo": "https://crests.football-data.org/87.png"
-      },
-      "awayTeam": {
-        "id": 5335,
-        "name": "Real Racing Club de Santander",
-        "logo": "https://crests.football-data.org/5335.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "22:30",
-      "bdDate": "2026-09-05",
-      "bdTime": "22:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 565789,
       "sport": "football",
       "league": {
@@ -1531,6 +1417,44 @@
         "id": 5,
         "name": "FC Bayern München",
         "logo": "https://crests.football-data.org/5.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "22:30",
+      "bdDate": "2026-09-05",
+      "bdTime": "22:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 564660,
+      "sport": "football",
+      "league": {
+        "id": 2014,
+        "name": "Primera Division",
+        "country": "Spain",
+        "logo": "https://crests.football-data.org/laliga.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 87,
+        "name": "Rayo Vallecano de Madrid",
+        "logo": "https://crests.football-data.org/87.png"
+      },
+      "awayTeam": {
+        "id": 5335,
+        "name": "Real Racing Club de Santander",
+        "logo": "https://crests.football-data.org/5335.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1588,44 +1512,6 @@
       "awayScore": null
     },
     {
-      "matchId": 567296,
-      "sport": "football",
-      "league": {
-        "id": 2017,
-        "name": "Primeira Liga",
-        "country": "Portugal",
-        "logo": "https://crests.football-data.org/PPL.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 7822,
-        "name": "FC Alverca",
-        "logo": "https://crests.football-data.org/7822.png"
-      },
-      "awayTeam": {
-        "id": 5613,
-        "name": "Sporting Clube de Braga",
-        "logo": "https://crests.football-data.org/5613.png"
-      },
-      "venue": null,
-      "date": "2026-09-05",
-      "time": "23:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "23:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 567293,
       "sport": "football",
       "league": {
@@ -1645,6 +1531,44 @@
         "id": 1903,
         "name": "Sport Lisboa e Benfica",
         "logo": "https://crests.football-data.org/1903.png"
+      },
+      "venue": null,
+      "date": "2026-09-05",
+      "time": "23:00",
+      "bdDate": "2026-09-05",
+      "bdTime": "23:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 567296,
+      "sport": "football",
+      "league": {
+        "id": 2017,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://crests.football-data.org/PPL.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 7822,
+        "name": "FC Alverca",
+        "logo": "https://crests.football-data.org/7822.png"
+      },
+      "awayTeam": {
+        "id": 5613,
+        "name": "Sporting Clube de Braga",
+        "logo": "https://crests.football-data.org/5613.png"
       },
       "venue": null,
       "date": "2026-09-05",
@@ -1689,44 +1613,6 @@
       "time": "00:00",
       "bdDate": "2026-09-06",
       "bdTime": "00:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 559693,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 533,
-        "name": "Le Havre AC",
-        "logo": "https://crests.football-data.org/533.png"
-      },
-      "awayTeam": {
-        "id": 512,
-        "name": "Stade Brestois 29",
-        "logo": "https://crests.football-data.org/512.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "00:45",
-      "bdDate": "2026-09-06",
-      "bdTime": "00:45",
       "status": {
         "code": "TIMED",
         "category": "Upcoming",
@@ -1797,6 +1683,44 @@
         "id": 535,
         "name": "Le Mans FC",
         "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "00:45",
+      "bdDate": "2026-09-06",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559693,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 533,
+        "name": "Le Havre AC",
+        "logo": "https://crests.football-data.org/533.png"
+      },
+      "awayTeam": {
+        "id": 512,
+        "name": "Stade Brestois 29",
+        "logo": "https://crests.football-data.org/512.png"
       },
       "venue": null,
       "date": "2026-09-06",
@@ -1892,44 +1816,6 @@
       "awayScore": null
     },
     {
-      "matchId": 561811,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 72,
-        "name": "Swansea City AFC",
-        "logo": "https://crests.football-data.org/72.png"
-      },
-      "awayTeam": {
-        "id": 404,
-        "name": "Wrexham AFC",
-        "logo": "https://crests.football-data.org/404.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "01:00",
-      "bdDate": "2026-09-06",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 564662,
       "sport": "football",
       "league": {
@@ -1949,6 +1835,44 @@
         "id": 560,
         "name": "RC Deportivo La Coruña",
         "logo": "https://crests.football-data.org/560.png"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "01:00",
+      "bdDate": "2026-09-06",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561811,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 72,
+        "name": "Swansea City AFC",
+        "logo": "https://crests.football-data.org/72.png"
+      },
+      "awayTeam": {
+        "id": 404,
+        "name": "Wrexham AFC",
+        "logo": "https://crests.football-data.org/404.png"
       },
       "venue": null,
       "date": "2026-09-06",
@@ -2158,6 +2082,44 @@
       "awayScore": null
     },
     {
+      "matchId": 558257,
+      "sport": "football",
+      "league": {
+        "id": 2003,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://crests.football-data.org/ED.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 1912,
+        "name": "Telstar 1963",
+        "logo": "https://crests.football-data.org/1912.png"
+      },
+      "awayTeam": {
+        "id": 1909,
+        "name": "SC Cambuur-Leeuwarden",
+        "logo": "https://crests.football-data.org/1909.png"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "18:30",
+      "bdDate": "2026-09-06",
+      "bdTime": "18:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 558256,
       "sport": "football",
       "league": {
@@ -2196,31 +2158,69 @@
       "awayScore": null
     },
     {
-      "matchId": 558257,
+      "matchId": 560567,
       "sport": "football",
       "league": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "country": "Netherlands",
-        "logo": "https://crests.football-data.org/ED.png",
-        "round": "Matchday 5",
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
         "season": "2026"
       },
       "homeTeam": {
-        "id": 1912,
-        "name": "Telstar 1963",
-        "logo": "https://crests.football-data.org/1912.png"
+        "id": 62,
+        "name": "Everton FC",
+        "logo": "https://crests.football-data.org/62.png"
       },
       "awayTeam": {
-        "id": 1909,
-        "name": "SC Cambuur-Leeuwarden",
-        "logo": "https://crests.football-data.org/1909.png"
+        "id": 66,
+        "name": "Manchester United FC",
+        "logo": "https://crests.football-data.org/66.png"
       },
       "venue": null,
       "date": "2026-09-06",
-      "time": "18:30",
+      "time": "19:00",
       "bdDate": "2026-09-06",
-      "bdTime": "18:30",
+      "bdTime": "19:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559700,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 531,
+        "name": "ES Troyes AC",
+        "logo": "https://crests.football-data.org/531.png"
+      },
+      "awayTeam": {
+        "id": 576,
+        "name": "RC Strasbourg Alsace",
+        "logo": "https://crests.football-data.org/576.png"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "19:00",
+      "bdDate": "2026-09-06",
+      "bdTime": "19:00",
       "status": {
         "code": "TIMED",
         "category": "Upcoming",
@@ -2291,82 +2291,6 @@
         "id": 5911,
         "name": "AC Monza",
         "logo": "https://crests.football-data.org/5911.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "19:00",
-      "bdDate": "2026-09-06",
-      "bdTime": "19:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 559700,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 531,
-        "name": "ES Troyes AC",
-        "logo": "https://crests.football-data.org/531.png"
-      },
-      "awayTeam": {
-        "id": 576,
-        "name": "RC Strasbourg Alsace",
-        "logo": "https://crests.football-data.org/576.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "19:00",
-      "bdDate": "2026-09-06",
-      "bdTime": "19:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 560567,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 62,
-        "name": "Everton FC",
-        "logo": "https://crests.football-data.org/62.png"
-      },
-      "awayTeam": {
-        "id": 66,
-        "name": "Manchester United FC",
-        "logo": "https://crests.football-data.org/66.png"
       },
       "venue": null,
       "date": "2026-09-06",
@@ -2614,44 +2538,6 @@
       "awayScore": null
     },
     {
-      "matchId": 560570,
-      "sport": "football",
-      "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 57,
-        "name": "Arsenal FC",
-        "logo": "https://crests.football-data.org/57.png"
-      },
-      "awayTeam": {
-        "id": 61,
-        "name": "Chelsea FC",
-        "logo": "https://crests.football-data.org/61.png"
-      },
-      "venue": null,
-      "date": "2026-09-06",
-      "time": "21:30",
-      "bdDate": "2026-09-06",
-      "bdTime": "21:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 565786,
       "sport": "football",
       "league": {
@@ -2671,6 +2557,44 @@
         "id": 16,
         "name": "FC Augsburg",
         "logo": "https://crests.football-data.org/16.png"
+      },
+      "venue": null,
+      "date": "2026-09-06",
+      "time": "21:30",
+      "bdDate": "2026-09-06",
+      "bdTime": "21:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 560570,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 57,
+        "name": "Arsenal FC",
+        "logo": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": 61,
+        "name": "Chelsea FC",
+        "logo": "https://crests.football-data.org/61.png"
       },
       "venue": null,
       "date": "2026-09-06",
@@ -2842,44 +2766,6 @@
       "awayScore": null
     },
     {
-      "matchId": 559694,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 516,
-        "name": "Olympique de Marseille",
-        "logo": "https://crests.football-data.org/516.png"
-      },
-      "awayTeam": {
-        "id": 1045,
-        "name": "Paris FC",
-        "logo": "https://crests.football-data.org/1045.png"
-      },
-      "venue": null,
-      "date": "2026-09-07",
-      "time": "00:45",
-      "bdDate": "2026-09-07",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 558618,
       "sport": "football",
       "league": {
@@ -2899,6 +2785,44 @@
         "id": 98,
         "name": "AC Milan",
         "logo": "https://crests.football-data.org/98.png"
+      },
+      "venue": null,
+      "date": "2026-09-07",
+      "time": "00:45",
+      "bdDate": "2026-09-07",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559694,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "awayTeam": {
+        "id": 1045,
+        "name": "Paris FC",
+        "logo": "https://crests.football-data.org/1045.png"
       },
       "venue": null,
       "date": "2026-09-07",
@@ -2994,44 +2918,6 @@
       "awayScore": null
     },
     {
-      "matchId": 554996,
-      "sport": "football",
-      "league": {
-        "id": 2013,
-        "name": "Campeonato Brasileiro Série A",
-        "country": "Brazil",
-        "logo": "https://crests.football-data.org/bsa.png",
-        "round": "Matchday 26",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "logo": "https://crests.football-data.org/6684.png"
-      },
-      "awayTeam": {
-        "id": 6685,
-        "name": "Santos FC",
-        "logo": "https://crests.football-data.org/6685.png"
-      },
-      "venue": null,
-      "date": "2026-09-07",
-      "time": "01:00",
-      "bdDate": "2026-09-07",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 554994,
       "sport": "football",
       "league": {
@@ -3051,6 +2937,44 @@
         "id": 1768,
         "name": "CA Paranaense",
         "logo": "https://crests.football-data.org/1768.png"
+      },
+      "venue": null,
+      "date": "2026-09-07",
+      "time": "01:00",
+      "bdDate": "2026-09-07",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 554996,
+      "sport": "football",
+      "league": {
+        "id": 2013,
+        "name": "Campeonato Brasileiro Série A",
+        "country": "Brazil",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "round": "Matchday 26",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 6684,
+        "name": "SC Internacional",
+        "logo": "https://crests.football-data.org/6684.png"
+      },
+      "awayTeam": {
+        "id": 6685,
+        "name": "Santos FC",
+        "logo": "https://crests.football-data.org/6685.png"
       },
       "venue": null,
       "date": "2026-09-07",
@@ -3488,6 +3412,44 @@
       "awayScore": null
     },
     {
+      "matchId": 575323,
+      "sport": "football",
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "logo": "https://crests.football-data.org/CL.png",
+        "round": "Matchday 1",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 851,
+        "name": "Club Brugge KV",
+        "logo": "https://crests.football-data.org/851.png"
+      },
+      "awayTeam": {
+        "id": 58,
+        "name": "Aston Villa FC",
+        "logo": "https://crests.football-data.org/58.png"
+      },
+      "venue": null,
+      "date": "2026-09-08",
+      "time": "22:45",
+      "bdDate": "2026-09-08",
+      "bdTime": "22:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 558233,
       "sport": "football",
       "league": {
@@ -3526,31 +3488,31 @@
       "awayScore": null
     },
     {
-      "matchId": 575323,
+      "matchId": 561822,
       "sport": "football",
       "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "country": "Europe",
-        "logo": "https://crests.football-data.org/CL.png",
-        "round": "Matchday 1",
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 6",
         "season": "2026"
       },
       "homeTeam": {
-        "id": 851,
-        "name": "Club Brugge KV",
-        "logo": "https://crests.football-data.org/851.png"
+        "id": 340,
+        "name": "Southampton FC",
+        "logo": "https://crests.football-data.org/340.png"
       },
       "awayTeam": {
-        "id": 58,
-        "name": "Aston Villa FC",
-        "logo": "https://crests.football-data.org/58.png"
+        "id": 72,
+        "name": "Swansea City AFC",
+        "logo": "https://crests.football-data.org/72.png"
       },
       "venue": null,
-      "date": "2026-09-08",
-      "time": "22:45",
-      "bdDate": "2026-09-08",
-      "bdTime": "22:45",
+      "date": "2026-09-09",
+      "time": "00:45",
+      "bdDate": "2026-09-09",
+      "bdTime": "00:45",
       "status": {
         "code": "TIMED",
         "category": "Upcoming",
@@ -3640,7 +3602,7 @@
       "awayScore": null
     },
     {
-      "matchId": 561822,
+      "matchId": 561823,
       "sport": "football",
       "league": {
         "id": 2016,
@@ -3651,14 +3613,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 340,
-        "name": "Southampton FC",
-        "logo": "https://crests.football-data.org/340.png"
+        "id": 346,
+        "name": "Watford FC",
+        "logo": "https://crests.football-data.org/346.png"
       },
       "awayTeam": {
-        "id": 72,
-        "name": "Swansea City AFC",
-        "logo": "https://crests.football-data.org/72.png"
+        "id": 1081,
+        "name": "Preston North End FC",
+        "logo": "https://crests.football-data.org/1081.png"
       },
       "venue": null,
       "date": "2026-09-09",
@@ -3716,44 +3678,6 @@
       "awayScore": null
     },
     {
-      "matchId": 561823,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 6",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 346,
-        "name": "Watford FC",
-        "logo": "https://crests.football-data.org/346.png"
-      },
-      "awayTeam": {
-        "id": 1081,
-        "name": "Preston North End FC",
-        "logo": "https://crests.football-data.org/1081.png"
-      },
-      "venue": null,
-      "date": "2026-09-09",
-      "time": "00:45",
-      "bdDate": "2026-09-09",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 575328,
       "sport": "football",
       "league": {
@@ -3792,44 +3716,6 @@
       "awayScore": null
     },
     {
-      "matchId": 561827,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 6",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 60,
-        "name": "Bolton Wanderers FC",
-        "logo": "https://crests.football-data.org/60.png"
-      },
-      "awayTeam": {
-        "id": 563,
-        "name": "West Ham United FC",
-        "logo": "https://crests.football-data.org/563.png"
-      },
-      "venue": null,
-      "date": "2026-09-09",
-      "time": "01:00",
-      "bdDate": "2026-09-09",
-      "bdTime": "01:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 575326,
       "sport": "football",
       "league": {
@@ -3849,6 +3735,44 @@
         "id": 65,
         "name": "Manchester City FC",
         "logo": "https://crests.football-data.org/65.png"
+      },
+      "venue": null,
+      "date": "2026-09-09",
+      "time": "01:00",
+      "bdDate": "2026-09-09",
+      "bdTime": "01:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 561827,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 6",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 60,
+        "name": "Bolton Wanderers FC",
+        "logo": "https://crests.football-data.org/60.png"
+      },
+      "awayTeam": {
+        "id": 563,
+        "name": "West Ham United FC",
+        "logo": "https://crests.football-data.org/563.png"
       },
       "venue": null,
       "date": "2026-09-09",
@@ -3982,6 +3906,44 @@
       "awayScore": null
     },
     {
+      "matchId": 558239,
+      "sport": "football",
+      "league": {
+        "id": 2003,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://crests.football-data.org/ED.png",
+        "round": "Matchday 3",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 666,
+        "name": "FC Twente '65",
+        "logo": "https://crests.football-data.org/666.png"
+      },
+      "awayTeam": {
+        "id": 1912,
+        "name": "Telstar 1963",
+        "logo": "https://crests.football-data.org/1912.png"
+      },
+      "venue": null,
+      "date": "2026-09-09",
+      "time": "22:45",
+      "bdDate": "2026-09-09",
+      "bdTime": "22:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "matchId": 575330,
       "sport": "football",
       "league": {
@@ -4039,44 +4001,6 @@
         "id": 675,
         "name": "Feyenoord Rotterdam",
         "logo": "https://crests.football-data.org/675.png"
-      },
-      "venue": null,
-      "date": "2026-09-09",
-      "time": "22:45",
-      "bdDate": "2026-09-09",
-      "bdTime": "22:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "matchId": 558239,
-      "sport": "football",
-      "league": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "country": "Netherlands",
-        "logo": "https://crests.football-data.org/ED.png",
-        "round": "Matchday 3",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 666,
-        "name": "FC Twente '65",
-        "logo": "https://crests.football-data.org/666.png"
-      },
-      "awayTeam": {
-        "id": 1912,
-        "name": "Telstar 1963",
-        "logo": "https://crests.football-data.org/1912.png"
       },
       "venue": null,
       "date": "2026-09-09",
@@ -4387,6 +4311,82 @@
       "time": "01:45",
       "bdDate": "2026-09-10",
       "bdTime": "01:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 575336,
+      "sport": "football",
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "logo": "https://crests.football-data.org/CL.png",
+        "round": "Matchday 1",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 674,
+        "name": "PSV",
+        "logo": "https://crests.football-data.org/674.png"
+      },
+      "awayTeam": {
+        "id": 1887,
+        "name": "FK Shakhtar Donetsk",
+        "logo": "https://crests.football-data.org/1887.png"
+      },
+      "venue": null,
+      "date": "2026-09-10",
+      "time": "22:45",
+      "bdDate": "2026-09-10",
+      "bdTime": "22:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 575335,
+      "sport": "football",
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "logo": "https://crests.football-data.org/CL.png",
+        "round": "Matchday 1",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 613,
+        "name": "Fenerbahçe SK",
+        "logo": "https://crests.football-data.org/613.png"
+      },
+      "awayTeam": {
+        "id": 100,
+        "name": "AS Roma",
+        "logo": "https://crests.football-data.org/100.png"
+      },
+      "venue": null,
+      "date": "2026-09-10",
+      "time": "22:45",
+      "bdDate": "2026-09-10",
+      "bdTime": "22:45",
       "status": {
         "code": "TIMED",
         "category": "Upcoming",
