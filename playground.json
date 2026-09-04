@@ -1,5 +1,40 @@
 [
   {
+    "id": "udxx91r",
+    "url": "http://sans7.org:88/get.php?username=ULMCTGCYHU&password=HCFOND3UOQ&type=m3u_plus&output=ts",
+    "name": "FOX",
+    "urlId": "866060",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-04T18:57:36.137715",
+    "createdAt": "2026-09-04T18:56:25.965",
+    "updatedAt": "2026-09-04T18:56:25.965",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 12410,
+      "categoryCount": 180,
+      "isActive": true,
+      "movieCount": 149249,
+      "seriesCount": 24933
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-03-14T23:08:17.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "ub1yi3o",
     "url": "http://yolomax.pro/get.php?username=3Q43L4L&password=59R3J6J&type=m3u_plus&output=ts",
     "name": "SMART4K",
