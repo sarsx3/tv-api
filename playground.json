@@ -35,41 +35,6 @@
     "isPremium": true
   },
   {
-    "id": "uprvtd4",
-    "url": "http://iptvch.com:2082/get.php?username=MI6m7jdHNww&password=tUSgBGZcpB&type=m3u_plus&output=ts",
-    "name": "CANADA MOVIE",
-    "urlId": "993120",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "community",
-    "addedAt": "2026-09-05T00:03:49.639206",
-    "createdAt": "2026-09-04T23:50:27.878",
-    "updatedAt": "2026-09-04T23:50:27.878",
-    "contributor": {
-      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
-      "uniqueId": "ZS2GDWX6",
-      "name": "Zisan Islam",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
-    },
-    "stats": {
-      "channelCount": 10677,
-      "categoryCount": 253,
-      "isActive": true,
-      "movieCount": 9930,
-      "seriesCount": 2668
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2027-03-06T00:46:00.000",
-      "maxConnections": 1,
-      "activeConnections": 0
-    },
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": true
-  },
-  {
     "id": "manual_1788543403741197_147985213",
     "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/Sports%20Mixed.m3u",
     "name": "Bangla + Sports Mixed",
