@@ -1,125 +1,25 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-04T01:11:12.943204+00:00",
-    "lastUpdated": "2026-09-04 07:11:12 (Bangladesh Time)",
+    "updatedAt": "2026-09-04T06:18:43.872419+00:00",
+    "lastUpdated": "2026-09-04 12:18:43 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "49e8ff59-3fcf-4128-a56d-da3774c85492",
-    "date": "2026-09-04",
-    "time": "05:00",
-    "status": "Live"
-  },
-  "matches": [
-    {
-      "matchId": "49e8ff59-3fcf-4128-a56d-da3774c85492",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "St Kitts and Nevis Patriots vs Saint Lucia Kings, 25th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "St Kitts and Nevis Patriots",
-        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
-      },
-      "team2": {
-        "name": "Saint Lucia Kings",
-        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
-      },
-      "venue": "Warner Park, Basseterre, St Kitts",
-      "date": "2026-09-04",
-      "time": "05:00",
-      "bdDate": "2026-09-04",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Live",
-        "label": "Saint Lucia Kings need 233 runs"
-      },
-      "result": null,
-      "channels": [
-        {
-          "channelId": "t_sports",
-          "name": "T Sports",
-          "logo": "https://i.postimg.cc/rp4WHTQB/1630662269264.jpg",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Server 1 (Official)",
-              "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://s1.itcnbd.live/T-Sports-HD/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 3",
-              "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 4",
-              "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 5",
-              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
-              "quality": "SD"
-            },
-            {
-              "label": "Server 6",
-              "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
-              "quality": "SD"
-            }
-          ]
-        },
-        {
-          "channelId": "gtv",
-          "name": "Gazi TV (GTV)",
-          "logo": "https://i.postimg.cc/TYmSkqf3/20240822-230513.png",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Server 1",
-              "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 3",
-              "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 4",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/gtv/index.m3u8",
-              "quality": "HD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    }
-  ],
-  "enrichedAt": "2026-09-04T04:24:44.667110+00:00"
+  "totalMatches": 0,
+  "nextMatch": null,
+  "matches": [],
+  "enrichedAt": "2026-09-04T09:34:45.295444+00:00"
 }
