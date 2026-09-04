@@ -1,5 +1,110 @@
 [
   {
+    "id": "ub1yi3o",
+    "url": "http://yolomax.pro/get.php?username=3Q43L4L&password=59R3J6J&type=m3u_plus&output=ts",
+    "name": "SMART4K",
+    "urlId": "977095",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-04T18:53:50.495631",
+    "createdAt": "2026-09-04T18:27:14.280",
+    "updatedAt": "2026-09-04T18:27:14.280",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 28349,
+      "categoryCount": 389,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-08-24T21:16:09.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "ux7zrfl",
+    "url": "http://pl-ott.com/get.php?username=7775340824&password=8992539284&type=m3u_plus&output=ts",
+    "name": "MTG VIP",
+    "urlId": "167190",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-04T18:53:49.227892",
+    "createdAt": "2026-09-04T18:42:52.694",
+    "updatedAt": "2026-09-04T18:42:52.694",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 15887,
+      "categoryCount": 214,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-03-21T15:16:14.000",
+      "maxConnections": 2,
+      "activeConnections": 2
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "uopnzmm",
+    "url": "http://forevertv.me:2095/get.php?username=raida1307&password=LY3E0RB05u&type=m3u_plus&output=ts",
+    "name": "FORVEVER TV",
+    "urlId": "942561",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-04T18:53:47.273272",
+    "createdAt": "2026-09-04T18:53:16.902",
+    "updatedAt": "2026-09-04T18:53:16.902",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 6919,
+      "categoryCount": 143,
+      "isActive": true,
+      "movieCount": 50013,
+      "seriesCount": 10356
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-10-01T22:42:49.000",
+      "maxConnections": 1,
+      "activeConnections": null
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "uius8o2",
     "url": "http://line.ottcst.com/get.php?username=LiU7iuz1IqYHfcn&password=R54SY3EJAD&type=m3u_plus&output=ts",
     "name": "V4K",
