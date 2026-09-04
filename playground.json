@@ -1,5 +1,40 @@
 [
   {
+    "id": "u7bw3ox",
+    "url": "https://xtream.kbhub.online/get.php?username=kblivetv&password=kblivetv&type=m3u_plus&output=ts",
+    "name": "KBI TV",
+    "urlId": "519052",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-05T00:30:23.060600",
+    "createdAt": "2026-09-05T00:30:00.327",
+    "updatedAt": "2026-09-05T00:30:00.327",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 11243,
+      "categoryCount": 132,
+      "isActive": true,
+      "movieCount": 64243,
+      "seriesCount": 17026
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-04-02T20:33:00.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u1p1zlje",
     "url": "http://megatv.cx/get.php?username=2368258120&password=C8A3A47A&type=m3u_plus&output=ts",
     "name": "Dhoom TV",
