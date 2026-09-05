@@ -1,34 +1,5 @@
 [
   {
-    "id": "urb8dom",
-    "url": "https://tvx.kbhub.online/iptv.m3u",
-    "name": "RAW",
-    "urlId": "579676",
-    "userCount": 1,
-    "linkType": "m3u",
-    "source": "community",
-    "addedAt": "2026-09-05T16:26:23.750500",
-    "createdAt": "2026-09-05T15:18:41.285",
-    "updatedAt": "2026-09-05T15:18:41.285",
-    "contributor": {
-      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
-      "uniqueId": "ZS2GDWX6",
-      "name": "Zisan Islam",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
-    },
-    "stats": {
-      "channelCount": 190,
-      "categoryCount": 12,
-      "isActive": true,
-      "movieCount": 0,
-      "seriesCount": 0
-    },
-    "xtream": null,
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": true
-  },
-  {
     "id": "uhvjuyo",
     "url": "http://skyfilex.fun/get.php?username=2543643&password=3754754&type=m3u_plus&output=ts",
     "name": "SKYFLIX",
@@ -197,41 +168,6 @@
       "isTrial": false,
       "expiresAt": "2027-01-15T13:16:00.000",
       "maxConnections": 3,
-      "activeConnections": 2
-    },
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": true
-  },
-  {
-    "id": "uu8qjvo",
-    "url": "http://flowutc.com/get.php?username=1678171048233507&password=41D4EA0655BC&type=m3u_plus&output=ts",
-    "name": "DHD 4K",
-    "urlId": "902379",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "community",
-    "addedAt": "2026-09-05T16:25:55.459441",
-    "createdAt": "2026-09-05T16:17:12.708",
-    "updatedAt": "2026-09-05T16:17:12.708",
-    "contributor": {
-      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
-      "uniqueId": "ZS2GDWX6",
-      "name": "Zisan Islam",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
-    },
-    "stats": {
-      "channelCount": 23156,
-      "categoryCount": 301,
-      "isActive": true,
-      "movieCount": 137483,
-      "seriesCount": 47461
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2027-05-18T04:14:19.000",
-      "maxConnections": 1,
       "activeConnections": 2
     },
     "isManual": false,
