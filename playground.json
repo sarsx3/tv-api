@@ -1,5 +1,44 @@
 [
   {
+    "id": "manual_1788635725087243_11493551",
+    "url": "http://filex.me:8080/get.php?username=3114654477&password=5787654467&type=m3u_plus&output=ts",
+    "name": "Pakistan Special 🇵🇰",
+    "urlId": "485135",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-06T01:15:25.087133",
+    "createdAt": "2026-09-06T01:15:25.087133",
+    "updatedAt": "2026-09-06T01:15:25.087133",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 17043,
+      "categoryCount": 468,
+      "isActive": true,
+      "movieCount": 65020,
+      "seriesCount": 15017
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-12-23T19:51:51.000",
+      "maxConnections": 1,
+      "activeConnections": 2
+    },
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788083383306557",
+      "name": "Flashify Team",
+      "logoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/w400-h400/app_icon.png"
+    },
+    "isPremium": true
+  },
+  {
     "id": "u5vwmy6",
     "url": "https://raw.githubusercontent.com/Tapas-Creation/M3U-Live/refs/heads/main/04_09_26_2.m3u",
     "name": "SA09 BD & Ind 0509",
