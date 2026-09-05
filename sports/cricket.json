@@ -1,55 +1,24 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-05T01:15:44.714763+00:00",
-    "lastUpdated": "2026-09-05 07:15:44 (Bangladesh Time)",
+    "updatedAt": "2026-09-05T06:07:09.571009+00:00",
+    "lastUpdated": "2026-09-05 12:07:09 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "9fb494fd-6398-4955-a349-28065464d1a2",
-    "date": "2026-09-05",
-    "time": "05:00",
-    "status": "Live"
-  },
-  "matches": [
-    {
-      "matchId": "9fb494fd-6398-4955-a349-28065464d1a2",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Guyana Amazon Warriors vs Jamaica Kingsmen, 26th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "team2": {
-        "name": "Jamaica Kingsmen",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "venue": "Providence Stadium, Guyana",
-      "date": "2026-09-05",
-      "time": "05:00",
-      "bdDate": "2026-09-05",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Live",
-        "label": "Guyana Amazon Warriors need 155 runs"
-      },
-      "result": null
-    }
-  ]
+  "totalMatches": 0,
+  "nextMatch": null,
+  "matches": []
 }
