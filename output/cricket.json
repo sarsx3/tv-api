@@ -8,14 +8,14 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-04T23:10:24.425287+00:00",
-    "lastUpdated": "2026-09-05 05:10:24 (Bangladesh Time)",
+    "updatedAt": "2026-09-05T01:15:44.714763+00:00",
+    "lastUpdated": "2026-09-05 07:15:44 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 7,
+    "apiRequestsUsedToday": 1,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
@@ -47,7 +47,7 @@
       "bdTime": "05:00",
       "status": {
         "category": "Live",
-        "label": "Guyana Amazon Warriors opt to bowl"
+        "label": "Guyana Amazon Warriors need 155 runs"
       },
       "result": null,
       "channels": [
@@ -121,5 +121,5 @@
       "hasLiveSource": true
     }
   ],
-  "enrichedAt": "2026-09-05T00:01:00.484943+00:00"
+  "enrichedAt": "2026-09-05T04:20:39.654985+00:00"
 }
