@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-06T05:33:38.841622+00:00",
-  "lastUpdated": "2026-09-06 11:33:38 (Bangladesh Time)",
+  "generatedAt": "2026-09-06T10:23:35.093103+00:00",
+  "lastUpdated": "2026-09-06 16:23:35 (Bangladesh Time)",
   "football": {
     "state": "ok",
     "message": {
       "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
       "en": "Schedule updated successfully."
     },
-    "totalMatches": 126,
+    "totalMatches": 127,
     "nextMatch": {
       "matchId": 558255,
       "date": "2026-09-06",
       "time": "16:15",
-      "status": "Upcoming"
+      "status": "Live"
     },
     "isStale": false
   },
