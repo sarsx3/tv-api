@@ -1,24 +1,55 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-06T21:05:32.709985+00:00",
-    "lastUpdated": "2026-09-07 03:05:32 (Bangladesh Time)",
+    "updatedAt": "2026-09-06T22:58:34.003567+00:00",
+    "lastUpdated": "2026-09-07 04:58:34 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 7,
+    "apiRequestsUsedToday": 8,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 1,
+  "nextMatch": {
+    "matchId": "404707a9-a2b4-4111-9d19-ab32afa8ea2f",
+    "date": "2026-09-07",
+    "time": "05:00",
+    "status": "Upcoming"
+  },
+  "matches": [
+    {
+      "matchId": "404707a9-a2b4-4111-9d19-ab32afa8ea2f",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Barbados Tridents vs Saint Lucia Kings, 29th Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Barbados Tridents",
+        "logo": "https://h.cricapi.com/img/icon512.png"
+      },
+      "team2": {
+        "name": "Saint Lucia Kings",
+        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
+      },
+      "venue": "Kensington Oval, Bridgetown, Barbados",
+      "date": "2026-09-07",
+      "time": "05:00",
+      "bdDate": "2026-09-07",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Barbados Tridents opt to bowl"
+      },
+      "result": null
+    }
+  ]
 }
