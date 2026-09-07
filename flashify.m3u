@@ -291,8 +291,6 @@ http://27.124.71.27/Love_Nature/index.m3u8
 https://wildearth-plex.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ACCU WEATHER" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg" group-title="Documentary",ACCU WEATHER
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1
-#EXTINF:-1 tvg-id="c2dj2py6" tvg-name="Discovery_Asia HD" tvg-logo="https://i.imgur.com/sqeIrMo.jpeg" group-title="Documentary",Discovery_Asia HD
-https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8
 #EXTINF:-1 tvg-id="cktkbpy6" tvg-name="Redbull TV" tvg-logo="https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg" group-title="Documentary",Redbull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Adventure Earth" tvg-logo="https://imglink.cc/cdn/eEZmseF3Tb.jpg" group-title="Documentary",Adventure Earth
@@ -414,7 +412,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
 #EXTINF:-1 tvg-id="A Sports HD" tvg-name="A Sports HD" tvg-logo="https://play-lh.googleusercontent.com/Qhs1jcocO2FenxF7j5DBVn-3lQV3cPhnsJCfeo3fAvEPzdsUx1RCb8Ka956B_ZEhAA8" group-title="Sports",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Sports HD" tvg-logo="" group-title="Sports",A Sports HD
-https://playztv-apps.pages.dev/asports/index.m3u8
+https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="QAZ Sports HD" tvg-logo="" group-title="Sports",QAZ Sports HD
 http://stream.mcquack.net/72/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Mundial" tvg-logo="https://i.imgur.com/jVBfQNj.png" group-title="Sports",Mundial
