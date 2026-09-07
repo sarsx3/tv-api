@@ -221,6 +221,10 @@ https://tvsen7.aynaott.com/AssamTalks/index.m3u8
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Gold Mines Bollywood" tvg-logo="https://i.postimg.cc/7ZNqRywh/20240823-023440.png" group-title="Indian",Gold Mines Bollywood
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ZB Cinema" tvg-logo="https://i.postimg.cc/L8xzTtQY/k-Ug6WSk.jpg" group-title="Indian",ZB Cinema
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STAR BANGLA" tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Indian",STAR BANGLA
+http://103.151.60.162:2122/play/a0f5/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Duranta Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju7Cz0yDr0JHmAmse94OCH6Xve6iTv_lgEGig-BQIyw&s=10" group-title="Kids",Duranta Tv
 http://103.165.93.31:8095/duranta/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Kids" tvg-logo="https://i.postimg.cc/wTvMLMp2/20240823_021706.png" group-title="Kids",Discovery Kids
@@ -365,6 +369,8 @@ https://tvsen7.aynaott.com/hbo/index.m3u8
 https://tvsen3.aynaott.com/u3NjUrny/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LIFE TIME" tvg-logo="https://s3.aynaott.com/storage/90258e6758834a12979d27097bee04a7" group-title="Entertainment",LIFE TIME
 https://tvsen7.aynaott.com/lifetime/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MTV" tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Entertainment",MTV
+https://tvsen6.aynaott.com/mtv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sangeet Bangla" tvg-logo="https://imglink.cc/cdn/LmVOSdl3ku.png" group-title="Music",Sangeet Bangla
 http://103.165.93.31:8095/sangeetBangla/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Music India" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyMNNb_SRC2dnm7IW84llAJ9aO5Zb7V4jdjHaweOo58tzrc9pSsRv85-TZD1w4L57nc4&usqp=CAU" group-title="Music",Music India
@@ -491,3 +497,5 @@ https://tvsen7.aynascope.net/tsn3/index.m3u8
 https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Xtrem Sports" tvg-logo="https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927" group-title="Sports",Xtrem Sports
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Sports",PTV Sports
+https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/index.m3u8
