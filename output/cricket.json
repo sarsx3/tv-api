@@ -1,25 +1,391 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-08T06:18:04.366080+00:00",
-    "lastUpdated": "2026-09-08 12:18:04 (Bangladesh Time)",
+    "updatedAt": "2026-09-08T11:35:19.889454+00:00",
+    "lastUpdated": "2026-09-08 17:35:19 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 2,
+    "apiRequestsUsedToday": 3,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": [],
-  "enrichedAt": "2026-09-08T09:36:45.021220+00:00"
+  "totalMatches": 6,
+  "nextMatch": {
+    "matchId": "1a0bdc82-4a9b-4202-a962-2a8daf52840e",
+    "date": "2026-09-08",
+    "time": "16:00",
+    "status": "Live"
+  },
+  "matches": [
+    {
+      "matchId": "1a0bdc82-4a9b-4202-a962-2a8daf52840e",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Lancashire vs Gloucestershire, 48th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Lancashire",
+        "logo": "https://g.cricapi.com/iapi/1125-637885551497331567.webp?w=48"
+      },
+      "team2": {
+        "name": "Gloucestershire",
+        "logo": "https://g.cricapi.com/iapi/1121-637885550747990018.webp?w=48"
+      },
+      "venue": "Emirates Old Trafford, Manchester",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: Match delayed due to rain - Gloucestershire opt to bat"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": "d762ae72-5789-4f2c-bf22-e228da1cfe7d",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Durham vs Middlesex, 47th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Durham",
+        "logo": "https://g.cricapi.com/iapi/1118-637889090599643548.webp?w=48"
+      },
+      "team2": {
+        "name": "Middlesex",
+        "logo": "https://g.cricapi.com/iapi/1127-637889091340507643.webp?w=48"
+      },
+      "venue": "Riverside Ground, Chester-le-Street",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Middlesex opt to bowl"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": "e6f9bb7f-1169-45fb-b374-3849c2eced6a",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Worcestershire vs Northamptonshire, 46th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Worcestershire",
+        "logo": "https://g.cricapi.com/iapi/1138-637889091123850841.webp?w=48"
+      },
+      "team2": {
+        "name": "Northamptonshire",
+        "logo": "https://g.cricapi.com/iapi/1129-637885551856435418.webp?w=48"
+      },
+      "venue": "New Road, Worcester",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Northamptonshire opt to bowl"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": "2662bac3-8eea-47fd-9bfd-64fe24702ac4",
+      "sport": "cricket",
+      "series": "dfe730c5-873d-44ce-955c-00d82716749b",
+      "matchTitle": "Derbyshire vs Kent, 45th Match, County Championship Division Two 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Derbyshire",
+        "logo": "https://g.cricapi.com/iapi/1117-637889091569915358.webp?w=48"
+      },
+      "team2": {
+        "name": "Kent",
+        "logo": "https://g.cricapi.com/iapi/1124-637885551212175895.webp?w=48"
+      },
+      "venue": "County Ground, Derby",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Kent opt to bowl"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": "af52eb8d-e038-479f-bcc5-f845124ab4b5",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Yorkshire vs Essex, 57th Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Yorkshire",
+        "logo": "https://g.cricapi.com/iapi/1139-637885552795894277.webp?w=48"
+      },
+      "team2": {
+        "name": "Essex",
+        "logo": "https://g.cricapi.com/iapi/1119-637885549753088458.webp?w=48"
+      },
+      "venue": "Headingley, Leeds",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Yorkshire opt to bat"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": "c2a3eed0-e2ac-42ce-80f6-35babdd221d0",
+      "sport": "cricket",
+      "series": "fc9cfc65-4ff6-47c4-baa2-05cc39830e5a",
+      "matchTitle": "Nottinghamshire vs Hampshire, 56th Match, County Championship Division One 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "Nottinghamshire",
+        "logo": "https://g.cricapi.com/iapi/1130-637889092060873937.webp?w=48"
+      },
+      "team2": {
+        "name": "Hampshire",
+        "logo": "https://g.cricapi.com/iapi/1122-637885550993657486.webp?w=48"
+      },
+      "venue": "Trent Bridge, Nottingham",
+      "date": "2026-09-08",
+      "time": "16:00",
+      "bdDate": "2026-09-08",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Live",
+        "label": "Day 1: 1st Session - Hampshire opt to bowl"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_cricket",
+          "name": "Sky Sports Cricket",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Sky_Sports_Cricket_logo_2020.svg/200px-Sky_Sports_Cricket_logo_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7343/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "ecb_youtube",
+          "name": "ECB Official (YouTube/Free)",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/England_and_Wales_Cricket_Board_Logo.svg/200px-England_and_Wales_Cricket_Board_Logo.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "YouTube Live",
+              "url": "",
+              "quality": "HD",
+              "_note": "Match দিনে ECB YouTube live link এখানে দিন"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    }
+  ],
+  "enrichedAt": "2026-09-08T14:30:16.922877+00:00"
 }
