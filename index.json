@@ -1,7 +1,8 @@
 {
   "servers": [
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
-    { "name": "Sports", "downloadUrl": "https://biostartvworld.pages.dev/sports.m3u" },
+    { "name": "Football", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/ffxoilacz.m3u" },
+    { "name": "Sports Mixed", "downloadUrl": "https://biostartvworld.pages.dev/sports.m3u" },
     { "name": "Bangla Backup", "downloadUrl": "https://ag.hridoytvx.workers.dev/playlist-copy-kore-lav-nei-expire=685358567.m3u" },
     { "name": "Kids", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/kids.m3u" },
     { "name": "Indian Tv", "downloadUrl": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/India/LiveTV.m3u" },
