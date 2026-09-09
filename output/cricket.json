@@ -8,14 +8,14 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-09T09:59:42.938287+00:00",
-    "lastUpdated": "2026-09-09 15:59:42 (Bangladesh Time)",
+    "updatedAt": "2026-09-09T14:25:36.044255+00:00",
+    "lastUpdated": "2026-09-09 20:25:36 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 3,
+    "apiRequestsUsedToday": 4,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
@@ -23,7 +23,7 @@
     "matchId": "4d504550-036d-42bd-9f49-4fd0c038be54",
     "date": "2026-09-09",
     "time": "16:00",
-    "status": "Upcoming"
+    "status": "Live"
   },
   "matches": [
     {
@@ -46,8 +46,8 @@
       "bdDate": "2026-09-09",
       "bdTime": "16:00",
       "status": {
-        "category": "Upcoming",
-        "label": "England opt to bowl"
+        "category": "Live",
+        "label": "Day 1: 2nd Session - England trail by 109 runs"
       },
       "result": null,
       "channels": [
@@ -149,5 +149,5 @@
       "hasLiveSource": true
     }
   ],
-  "enrichedAt": "2026-09-09T11:16:35.824631+00:00"
+  "enrichedAt": "2026-09-09T16:34:53.751063+00:00"
 }
