@@ -1,24 +1,55 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-09T20:33:08.508338+00:00",
-    "lastUpdated": "2026-09-10 02:33:08 (Bangladesh Time)",
+    "updatedAt": "2026-09-09T22:58:43.252570+00:00",
+    "lastUpdated": "2026-09-10 04:58:43 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 6,
+    "apiRequestsUsedToday": 7,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": []
+  "totalMatches": 1,
+  "nextMatch": {
+    "matchId": "60f146c0-b66b-408b-96f0-d8a653d7a972",
+    "date": "2026-09-10",
+    "time": "05:00",
+    "status": "Upcoming"
+  },
+  "matches": [
+    {
+      "matchId": "60f146c0-b66b-408b-96f0-d8a653d7a972",
+      "sport": "cricket",
+      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
+      "matchTitle": "Guyana Amazon Warriors vs Saint Lucia Kings, 31st Match, Caribbean Premier League 2026",
+      "matchType": "t20",
+      "team1": {
+        "name": "Guyana Amazon Warriors",
+        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
+      },
+      "team2": {
+        "name": "Saint Lucia Kings",
+        "logo": "https://g.cricapi.com/iapi/266-637937643184202597.webp?w=48"
+      },
+      "venue": "Providence Stadium, Guyana",
+      "date": "2026-09-10",
+      "time": "05:00",
+      "bdDate": "2026-09-10",
+      "bdTime": "05:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "Saint Lucia Kings opt to bat"
+      },
+      "result": null
+    }
+  ]
 }
