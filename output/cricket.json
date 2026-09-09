@@ -1,25 +1,153 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "no_matches",
+    "state": "ok",
     "message": {
-      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
-      "en": "No live or upcoming cricket matches within the next 7-day window."
+      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
+      "en": "Schedule updated successfully."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-09T05:02:18.874697+00:00",
-    "lastUpdated": "2026-09-09 11:02:18 (Bangladesh Time)",
+    "updatedAt": "2026-09-09T09:59:42.938287+00:00",
+    "lastUpdated": "2026-09-09 15:59:42 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 2,
+    "apiRequestsUsedToday": 3,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 0,
-  "nextMatch": null,
-  "matches": [],
-  "enrichedAt": "2026-09-09T05:57:04.554226+00:00"
+  "totalMatches": 1,
+  "nextMatch": {
+    "matchId": "4d504550-036d-42bd-9f49-4fd0c038be54",
+    "date": "2026-09-09",
+    "time": "16:00",
+    "status": "Upcoming"
+  },
+  "matches": [
+    {
+      "matchId": "4d504550-036d-42bd-9f49-4fd0c038be54",
+      "sport": "cricket",
+      "series": "4f8f04e8-8c11-402d-9bc3-48c09603d9d8",
+      "matchTitle": "England vs Pakistan, 3rd Test, Pakistan tour of England 2026",
+      "matchType": "test",
+      "team1": {
+        "name": "England",
+        "logo": "https://g.cricapi.com/iapi/23-637877072894080569.webp?w=48"
+      },
+      "team2": {
+        "name": "Pakistan",
+        "logo": "https://g.cricapi.com/iapi/66-637877075103236690.webp?w=48"
+      },
+      "venue": "Edgbaston, Birmingham",
+      "date": "2026-09-09",
+      "time": "16:00",
+      "bdDate": "2026-09-09",
+      "bdTime": "16:00",
+      "status": {
+        "category": "Upcoming",
+        "label": "England opt to bowl"
+      },
+      "result": null,
+      "channels": [
+        {
+          "channelId": "t_sports",
+          "name": "T Sports",
+          "logo": "https://i.postimg.cc/rp4WHTQB/1630662269264.jpg",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Server 1 (Official)",
+              "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 4",
+              "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 5",
+              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+              "quality": "SD"
+            },
+            {
+              "label": "Server 6",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+              "quality": "SD"
+            }
+          ]
+        },
+        {
+          "channelId": "gtv",
+          "name": "Gazi TV (GTV)",
+          "logo": "https://i.postimg.cc/TYmSkqf3/20240822-230513.png",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 4",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/gtv/index.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "star_sports_1",
+          "name": "Star Sports 1",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Star_Sports_1_logo.svg/200px-Star_Sports_1_logo.svg.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge1/7/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 4",
+              "url": "http://103.253.18.58:8000/play/a00t",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    }
+  ],
+  "enrichedAt": "2026-09-09T11:16:35.824631+00:00"
 }
