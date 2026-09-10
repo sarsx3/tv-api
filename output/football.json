@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-10T18:09:39.591621+00:00",
-    "lastUpdated": "2026-09-11 00:09:39 (Bangladesh Time)",
+    "updatedAt": "2026-09-10T21:04:52.883754+00:00",
+    "lastUpdated": "2026-09-11 03:04:52 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -21,7 +21,7 @@
       "en": "Covers major leagues/tournaments only: Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Champions League, Eredivisie, Primeira Liga, the Championship, Brazilian Série A, the World Cup, and the Euros."
     }
   },
-  "totalMatches": 104,
+  "totalMatches": 105,
   "nextMatch": {
     "matchId": 576252,
     "date": "2026-09-11",
@@ -149,9 +149,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "00:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-11 17:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-11 17:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -237,9 +237,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "00:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-11 17:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-11 17:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -330,9 +330,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-11 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-11 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -423,9 +423,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-11 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-11 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -648,9 +648,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "06:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-11 23:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-11 23:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -973,9 +973,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -1046,9 +1046,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -1139,9 +1139,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -1232,9 +1232,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -1325,9 +1325,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -1418,9 +1418,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -2052,65 +2052,6 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 561834,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 7",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 1081,
-        "name": "Preston North End FC",
-        "logo": "https://crests.football-data.org/1081.png"
-      },
-      "awayTeam": {
-        "id": 1126,
-        "name": "Lincoln City FC",
-        "logo": "https://crests.football-data.org/1126.png"
-      },
-      "venue": null,
-      "date": "2026-09-12",
-      "time": "20:00",
-      "bdDate": "2026-09-12",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "sky_sports_football",
-          "name": "Sky Sports Football",
-          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Sky_Sports_Football_2020.svg/200px-Sky_Sports_Football_2020.svg.png",
-          "country": "UK",
-          "sources": [
-            {
-              "label": "Server 1",
-              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://cdn3.zohanayaan.com:1686/hls/skysfott.m3u8",
-              "quality": "HD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
       "matchId": 560581,
       "sport": "football",
       "league": {
@@ -2548,6 +2489,65 @@
       "hasLiveSource": true
     },
     {
+      "matchId": 561834,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 7",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 1081,
+        "name": "Preston North End FC",
+        "logo": "https://crests.football-data.org/1081.png"
+      },
+      "awayTeam": {
+        "id": 1126,
+        "name": "Lincoln City FC",
+        "logo": "https://crests.football-data.org/1126.png"
+      },
+      "venue": null,
+      "date": "2026-09-12",
+      "time": "20:00",
+      "bdDate": "2026-09-12",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_football",
+          "name": "Sky Sports Football",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Sky_Sports_Football_2020.svg/200px-Sky_Sports_Football_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn3.zohanayaan.com:1686/hls/skysfott.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
       "matchId": 564673,
       "sport": "football",
       "league": {
@@ -2667,9 +2667,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "20:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 13:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 13:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -2740,9 +2740,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "20:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 13:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 13:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -2828,9 +2828,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "21:15",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 14:15:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 14:15:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -2921,9 +2921,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "22:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 15:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 15:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -2994,9 +2994,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "22:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 15:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 15:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3310,9 +3310,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "22:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 15:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 15:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3398,9 +3398,9 @@
       "bdDate": "2026-09-12",
       "bdTime": "23:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 16:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 16:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3471,9 +3471,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3559,9 +3559,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3632,9 +3632,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3725,9 +3725,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3818,9 +3818,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -3911,9 +3911,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4004,9 +4004,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "01:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 18:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 18:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4059,9 +4059,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "01:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 18:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 18:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4337,9 +4337,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "01:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 18:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 18:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4425,9 +4425,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "01:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 18:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 18:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4498,9 +4498,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "02:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 19:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 19:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4553,9 +4553,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "03:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 20:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 20:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4608,9 +4608,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "05:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 22:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 22:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4663,9 +4663,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "06:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-12 23:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-12 23:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4718,9 +4718,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "16:15",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 09:15:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 09:15:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -4958,9 +4958,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "18:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 11:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 11:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5176,9 +5176,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "19:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 12:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 12:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5269,9 +5269,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "19:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 12:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 12:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5342,9 +5342,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "19:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 12:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 12:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5528,9 +5528,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "20:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 13:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 13:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5616,9 +5616,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "21:15",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 14:15:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 14:15:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5709,9 +5709,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "21:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 14:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 14:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -5932,9 +5932,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "22:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 15:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 15:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6098,9 +6098,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "23:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 16:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 16:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6171,9 +6171,9 @@
       "bdDate": "2026-09-13",
       "bdTime": "23:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 16:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 16:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6244,9 +6244,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "00:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 17:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 17:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6306,6 +6306,79 @@
       "hasLiveSource": true
     },
     {
+      "matchId": 558608,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 471,
+        "name": "US Sassuolo Calcio",
+        "logo": "https://crests.football-data.org/471.png"
+      },
+      "awayTeam": {
+        "id": 109,
+        "name": "Juventus FC",
+        "logo": "https://crests.football-data.org/109.png"
+      },
+      "venue": null,
+      "date": "2026-09-14",
+      "time": "00:45",
+      "bdDate": "2026-09-14",
+      "bdTime": "00:45",
+      "status": {
+        "code": "2026-09-13 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 17:45:00Z"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_3",
+          "name": "Sony Ten 3",
+          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (Toffee)",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
       "matchId": 559691,
       "sport": "football",
       "league": {
@@ -6332,9 +6405,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6392,79 +6465,6 @@
               "label": "Server 6",
               "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
               "quality": "SD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
-      "matchId": 558608,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 4",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 471,
-        "name": "US Sassuolo Calcio",
-        "logo": "https://crests.football-data.org/471.png"
-      },
-      "awayTeam": {
-        "id": 109,
-        "name": "Juventus FC",
-        "logo": "https://crests.football-data.org/109.png"
-      },
-      "venue": null,
-      "date": "2026-09-14",
-      "time": "00:45",
-      "bdDate": "2026-09-14",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_3",
-          "name": "Sony Ten 3",
-          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
-              "quality": "HD"
             }
           ]
         }
@@ -6591,9 +6591,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "01:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 18:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 18:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6646,9 +6646,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "01:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 18:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 18:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6719,9 +6719,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "02:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-13 19:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-13 19:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6774,9 +6774,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "22:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 15:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 15:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6847,9 +6847,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "22:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 15:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 15:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6920,9 +6920,9 @@
       "bdDate": "2026-09-14",
       "bdTime": "23:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 16:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 16:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -6993,9 +6993,9 @@
       "bdDate": "2026-09-15",
       "bdTime": "00:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 17:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 17:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -7289,9 +7289,9 @@
       "bdDate": "2026-09-15",
       "bdTime": "01:15",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 18:15:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 18:15:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -7362,9 +7362,9 @@
       "bdDate": "2026-09-15",
       "bdTime": "01:45",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 18:45:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 18:45:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -7435,9 +7435,9 @@
       "bdDate": "2026-09-15",
       "bdTime": "05:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-14 22:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-14 22:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -7676,9 +7676,9 @@
       "bdDate": "2026-09-16",
       "bdTime": "00:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-15 17:00:00Z",
+        "category": "Unknown",
+        "label": "2026-09-15 17:00:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -8533,9 +8533,9 @@
       "bdDate": "2026-09-17",
       "bdTime": "04:30",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "2026-09-16 21:30:00Z",
+        "category": "Unknown",
+        "label": "2026-09-16 21:30:00Z"
       },
       "halfTimeScore": {
         "home": null,
@@ -8746,7 +8746,100 @@
         }
       ],
       "hasLiveSource": true
+    },
+    {
+      "matchId": 564683,
+      "sport": "football",
+      "league": {
+        "id": 2014,
+        "name": "Primera Division",
+        "country": "Spain",
+        "logo": "https://crests.football-data.org/laliga.png",
+        "round": "Matchday 6",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 84,
+        "name": "Málaga CF",
+        "logo": "https://crests.football-data.org/84.png"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF",
+        "logo": "https://crests.football-data.org/94.png"
+      },
+      "venue": null,
+      "date": "2026-09-18",
+      "time": "01:30",
+      "bdDate": "2026-09-18",
+      "bdTime": "01:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "t_sports",
+          "name": "T Sports",
+          "logo": "https://i.postimg.cc/rp4WHTQB/1630662269264.jpg",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Server 1 (Official)",
+              "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 4",
+              "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 5",
+              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+              "quality": "SD"
+            },
+            {
+              "label": "Server 6",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+              "quality": "SD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
     }
   ],
-  "enrichedAt": "2026-09-10T19:38:52.232160+00:00"
+  "enrichedAt": "2026-09-10T22:32:38.116439+00:00"
 }
