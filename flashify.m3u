@@ -38,7 +38,7 @@ https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Maasranga" tvg-logo="https://i.postimg.cc/1R8bF1d6/20240822-230344.png" group-title="Bangladeshi",Maasranga
 https://mtv.sunplex.live/MAASRANGA/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ekushe TV" tvg-logo="https://i.postimg.cc/rsDjtcFp/20240822_225424.png" group-title="Bangladeshi",Ekushe TV
-https://tvsen5.aynaott.com/SyQuXz8sC3TB/tracks-v1a1/mono.ts.m3u8
+https://master-proxy.wispy-boat-fc77.workers.dev/?url=https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ntv" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" group-title="Bangladeshi",Ntv
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Channel i" tvg-logo="https://i.postimg.cc/W3WS3tVK/20240822-225402.png" group-title="Bangladeshi",Channel i
@@ -217,6 +217,12 @@ https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="STAR BANGLA" tvg-logo="https://tinyurl.com/mr2dec8v" group-title="Indian",STAR BANGLA
 http://103.151.60.162:2122/play/a0f5/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="B4U Movies" tvg-logo="https://i.imgur.com/gLqHIqt.png" group-title="Indian",B4U Movies
+https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bollywood 4U" tvg-logo="https://i.imgur.com/gLqHIqt.png" group-title="Indian",Bollywood 4U
+https://streams2.sofast.tv/umaxx/v1/0196d96223231ea506ec2e7986613e/0196d96312d71ebd416a37ff7b3317/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/gLqHIqt.png" group-title="Indian",Bollywood HD
+https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Duranta Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRju7Cz0yDr0JHmAmse94OCH6Xve6iTv_lgEGig-BQIyw&s=10" group-title="Kids",Duranta Tv
 http://103.165.93.31:8095/duranta/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Kids" tvg-logo="https://i.postimg.cc/wTvMLMp2/20240823_021706.png" group-title="Kids",Discovery Kids
