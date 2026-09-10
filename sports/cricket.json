@@ -8,14 +8,14 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-09T22:58:43.252570+00:00",
-    "lastUpdated": "2026-09-10 04:58:43 (Bangladesh Time)",
+    "updatedAt": "2026-09-10T00:58:52.864228+00:00",
+    "lastUpdated": "2026-09-10 06:58:52 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 7,
+    "apiRequestsUsedToday": 1,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
@@ -23,7 +23,7 @@
     "matchId": "60f146c0-b66b-408b-96f0-d8a653d7a972",
     "date": "2026-09-10",
     "time": "05:00",
-    "status": "Upcoming"
+    "status": "Live"
   },
   "matches": [
     {
@@ -46,8 +46,8 @@
       "bdDate": "2026-09-10",
       "bdTime": "05:00",
       "status": {
-        "category": "Upcoming",
-        "label": "Saint Lucia Kings opt to bat"
+        "category": "Live",
+        "label": "Guyana Amazon Warriors need 109 runs"
       },
       "result": null
     }
