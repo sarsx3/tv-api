@@ -1,55 +1,24 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-11T01:21:15.118535+00:00",
-    "lastUpdated": "2026-09-11 07:21:15 (Bangladesh Time)",
+    "updatedAt": "2026-09-11T06:26:57.252136+00:00",
+    "lastUpdated": "2026-09-11 12:26:57 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "87c75673-5aa0-408d-8cf5-d8316a0e2383",
-    "date": "2026-09-11",
-    "time": "05:00",
-    "status": "Live"
-  },
-  "matches": [
-    {
-      "matchId": "87c75673-5aa0-408d-8cf5-d8316a0e2383",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Barbados Tridents vs St Kitts and Nevis Patriots, 32nd Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Barbados Tridents",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "St Kitts and Nevis Patriots",
-        "logo": "https://g.cricapi.com/iapi/277-637937608859640652.webp?w=48"
-      },
-      "venue": "Kensington Oval, Bridgetown, Barbados",
-      "date": "2026-09-11",
-      "time": "05:00",
-      "bdDate": "2026-09-11",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Live",
-        "label": "Barbados Tridents need 104 runs"
-      },
-      "result": null
-    }
-  ]
+  "totalMatches": 0,
+  "nextMatch": null,
+  "matches": []
 }
