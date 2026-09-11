@@ -1,5 +1,92 @@
 [
   {
+    "id": "upus1xi",
+    "url": "http://tahmidx.tech/m3u/tahmidx-bdix-bd-in.m3u",
+    "name": "SA08BdIndToF1109",
+    "urlId": "240054",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-09-11T23:04:46.037112",
+    "createdAt": "2026-09-11T00:15:17.603",
+    "updatedAt": "2026-09-11T00:17:53.496",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 132,
+      "categoryCount": 9,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "uviodrp",
+    "url": "https://raw.githubusercontent.com/ashik4u/mrgify-clean/main/playlist.m3u",
+    "name": "SA18BDInD1009",
+    "urlId": "400284",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-09-11T23:04:32.158974",
+    "createdAt": "2026-09-10T23:27:18.679",
+    "updatedAt": "2026-09-10T23:27:18.679",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 389,
+      "categoryCount": 28,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u40lhjj",
+    "url": "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Bangladesh/LiveTV.m3u",
+    "name": "SA20BDInDMix1109",
+    "urlId": "419644",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-09-11T23:04:31.055197",
+    "createdAt": "2026-09-10T23:36:29.661",
+    "updatedAt": "2026-09-11T08:26:09.810",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 1633,
+      "categoryCount": 56,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "uppbw4p",
     "url": "https://m3u.gom3u.top/roarv2.m3u",
     "name": "SA16BdInD1009",
@@ -233,41 +320,6 @@
       "seriesCount": 0
     },
     "xtream": null,
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": true
-  },
-  {
-    "id": "u1ll3t2p",
-    "url": "http://ziggo.pro/get.php?username=mQCPfY3G&password=dDZG2gd&type=m3u_plus&output=ts",
-    "name": "ZIGGO",
-    "urlId": "652953",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "community",
-    "addedAt": "2026-09-07T17:32:12.601039",
-    "createdAt": "2026-09-07T15:48:41.958",
-    "updatedAt": "2026-09-07T15:48:41.958",
-    "contributor": {
-      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
-      "uniqueId": "ZS2GDWX6",
-      "name": "Zisan Islam",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
-    },
-    "stats": {
-      "channelCount": 4979,
-      "categoryCount": 100,
-      "isActive": true,
-      "movieCount": 43590,
-      "seriesCount": 10089
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2026-09-15T19:52:44.000",
-      "maxConnections": 1,
-      "activeConnections": 0
-    },
     "isManual": false,
     "playlistSource": null,
     "isPremium": true
@@ -529,41 +581,6 @@
       "expiresAt": "2027-09-05T04:00:00.000",
       "maxConnections": 1,
       "activeConnections": 0
-    },
-    "isManual": false,
-    "playlistSource": null,
-    "isPremium": true
-  },
-  {
-    "id": "uk3txh6",
-    "url": "http://bigenterprise.live:8080/get.php?username=00612533&password=17905940&type=m3u_plus&output=ts",
-    "name": "4K VIP",
-    "urlId": "180344",
-    "userCount": 1,
-    "linkType": "xtream",
-    "source": "community",
-    "addedAt": "2026-09-06T13:04:52.823767",
-    "createdAt": "2026-09-06T12:08:46.703",
-    "updatedAt": "2026-09-06T12:08:46.703",
-    "contributor": {
-      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
-      "uniqueId": "ZS2GDWX6",
-      "name": "Zisan Islam",
-      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
-    },
-    "stats": {
-      "channelCount": 12652,
-      "categoryCount": 82,
-      "isActive": true,
-      "movieCount": 14131,
-      "seriesCount": 1915
-    },
-    "xtream": {
-      "status": "Active",
-      "isTrial": false,
-      "expiresAt": "2026-09-15T01:35:36.000",
-      "maxConnections": 1,
-      "activeConnections": 1
     },
     "isManual": false,
     "playlistSource": null,
