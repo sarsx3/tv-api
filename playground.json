@@ -1,5 +1,139 @@
 [
   {
+    "id": "uujsohf",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/g3333.m3u",
+    "name": "SA21BDinD120911K",
+    "urlId": "563921",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-09-12T21:05:29.254247",
+    "createdAt": "2026-09-12T20:22:29.075",
+    "updatedAt": "2026-09-12T20:22:29.075",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 1136,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "uvgheml",
+    "url": "http://rgkkw.live:8080/get.php?username=505060681&password=416568435&type=m3u_plus&output=ts",
+    "name": "RGTV",
+    "urlId": "590643",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-12T21:05:27.328086",
+    "createdAt": "2026-09-12T20:52:03.939",
+    "updatedAt": "2026-09-12T20:52:03.939",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 11272,
+      "categoryCount": 133,
+      "isActive": true,
+      "movieCount": 64486,
+      "seriesCount": 17116
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-01-21T17:24:34.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u158fi1f",
+    "url": "http://xtreme-tv.is:18800/get.php?username=ksB5UsCT&password=kfYtsq8&type=m3u_plus&output=ts",
+    "name": "NINO TV",
+    "urlId": "359514",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-12T21:05:26.373175",
+    "createdAt": "2026-09-12T20:59:09.365",
+    "updatedAt": "2026-09-12T20:59:09.365",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 24506,
+      "categoryCount": 448,
+      "isActive": true,
+      "movieCount": 18470,
+      "seriesCount": 4010
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-18T23:14:22.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u10e4qkw",
+    "url": "http://golden8k.xyz/get.php?username=TQ15KBD&password=x2PmFEQ6oc&type=m3u_plus&output=ts",
+    "name": "GOLD TV",
+    "urlId": "193641",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-12T21:05:25.340566",
+    "createdAt": "2026-09-12T21:01:40.202",
+    "updatedAt": "2026-09-12T21:01:40.202",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 27942,
+      "categoryCount": 390,
+      "isActive": true,
+      "movieCount": 156708,
+      "seriesCount": 49944
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-01-02T23:12:05.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "uw11m7h",
     "url": "https://server.vodep39240327.workers.dev/channel/raw?=m3u",
     "name": "BIG BOSS",
