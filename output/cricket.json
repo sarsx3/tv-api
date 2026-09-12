@@ -8,23 +8,18 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-11T23:54:28.061724+00:00",
-    "lastUpdated": "2026-09-12 05:54:28 (Bangladesh Time)",
+    "updatedAt": "2026-09-12T03:26:52.411366+00:00",
+    "lastUpdated": "2026-09-12 09:26:52 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 7,
+    "apiRequestsUsedToday": 1,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "2519e9f2-5fe8-482e-906b-d85ab9d6a5d1",
-    "date": "2026-09-12",
-    "time": "05:00",
-    "status": "Live"
-  },
+  "nextMatch": null,
   "matches": [
     {
       "matchId": "2519e9f2-5fe8-482e-906b-d85ab9d6a5d1",
@@ -46,10 +41,10 @@
       "bdDate": "2026-09-12",
       "bdTime": "05:00",
       "status": {
-        "category": "Live",
-        "label": "Guyana Amazon Warriors opt to bowl"
+        "category": "Finished",
+        "label": "Guyana Amazon Warriors won by 6 wkts"
       },
-      "result": null,
+      "result": "Guyana Amazon Warriors won by 6 wkts",
       "channels": [
         {
           "channelId": "t_sports",
@@ -121,5 +116,5 @@
       "hasLiveSource": true
     }
   ],
-  "enrichedAt": "2026-09-12T01:04:31.988668+00:00"
+  "enrichedAt": "2026-09-12T05:44:26.629870+00:00"
 }
