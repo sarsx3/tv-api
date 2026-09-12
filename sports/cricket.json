@@ -1,50 +1,24 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-12T03:26:52.411366+00:00",
-    "lastUpdated": "2026-09-12 09:26:52 (Bangladesh Time)",
+    "updatedAt": "2026-09-12T08:05:26.789567+00:00",
+    "lastUpdated": "2026-09-12 14:05:26 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
+  "totalMatches": 0,
   "nextMatch": null,
-  "matches": [
-    {
-      "matchId": "2519e9f2-5fe8-482e-906b-d85ab9d6a5d1",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Guyana Amazon Warriors vs Trinbago Knight Riders, 33rd Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "team2": {
-        "name": "Trinbago Knight Riders",
-        "logo": "https://g.cricapi.com/iapi/293-637932465560269082.png?w=48"
-      },
-      "venue": "Providence Stadium, Guyana",
-      "date": "2026-09-12",
-      "time": "05:00",
-      "bdDate": "2026-09-12",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Guyana Amazon Warriors won by 6 wkts"
-      },
-      "result": "Guyana Amazon Warriors won by 6 wkts"
-    }
-  ]
+  "matches": []
 }
