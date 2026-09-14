@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="Bangladesh Betar Dhaka" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUmJx9jACLmDe3lkRYxo4AZcuxSuD6rIqbvw&usqp=CAU" group-title="Bangladesh Radio",Bangladesh Betar Dhaka
+http://as3.digitalsynapsebd.com:8263/;stream.mp3
+#EXTINF:-1 tvg-id="" tvg-name="Radio Today (89.6)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwsPsZ8ydAQQ_Qq5CYuqdlhzCBze53_7NzCg&usqp=CAU" group-title="Bangladesh Radio",Radio Today (89.6)
+http://node-03.zeno.fm/0zha3rfq02quv
+#EXTINF:-1 tvg-id="" tvg-name="Spice FM (96.4)" tvg-logo="https://spicefmbd.com/logospice.png" group-title="Bangladesh Radio",Spice FM (96.4)
+https://stream.spicefmbd.com/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Foorti" tvg-logo="https://cdn-profiles.tunein.com/s122537/images/logod.png?t=636625146120570000" group-title="Bangladesh Radio",Radio Foorti
+https://radiofoorti.fm/api/stream?t=1783925020031
+#EXTINF:-1 tvg-id="" tvg-name="Radio Bhumi (92.8)" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/rmsssnhxzav4.png" group-title="Bangladesh Radio",Radio Bhumi (92.8)
+https://stream-204.surfernetwork.com/yaqpcmhxe48uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5YXFwY21oeGU0OHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJjVDdLd25XY1JNeXExM3lSYk1JTERBIiwiaWF0IjoxNzgzOTIxMzIyLCJleHAiOjE3ODM5MjEzODJ9.R-X32DDT-iX2Zug3KWmRZPfkHXZ1QQZ2C5axgz3wPmI&rj-tok=AAABfgXkCqUAo83RYDSRIcag4Q&rj-ttl=5
+#EXTINF:-1 tvg-id="" tvg-name="Radio GoonGoon Live" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/dy78FaAKzY.png" group-title="Bangladesh Radio",Radio GoonGoon Live
+https://audio.streamcast.xyz/radio/8000/radio.mp3
+#EXTINF:-1 tvg-id="" tvg-name="Dhaka FM (90.4)" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/8D3KJLgv3u.png" group-title="Bangladesh Radio",Dhaka FM (90.4)
+https://play.dhakafm904.com/;
+#EXTINF:-1 tvg-id="" tvg-name="FnF.FM Bangla" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/mn9anbdu3mle.png" group-title="Bangladesh Radio",FnF.FM Bangla
+http://eu6.fastcast4u.com:5099/;stream
+#EXTINF:-1 tvg-id="" tvg-name="Traffic FM" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5fsVPeMvC-Is-WajMo_pk13SBT-A7yjko0Q&s" group-title="Bangladesh Radio",Traffic FM
+http://as3.digitalsynapsebd.com:8263/;stream.mp3
+#EXTINF:-1 tvg-id="" tvg-name="Awaj FM" tvg-logo="https://via.placeholder.com/100x60?text=Awaj+FM" group-title="Bangladesh Radio",Awaj FM
+http://streamasiacdn.atc-labs.com/radioawaj.aac
+#EXTINF:-1 tvg-id="" tvg-name="Suno FM 102" tvg-logo="https://via.placeholder.com/100x60?text=Suno+FM" group-title="Bangladesh Radio",Suno FM 102
+http://51.255.235.165:5476/;stream.mp3
