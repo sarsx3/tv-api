@@ -1,6 +1,7 @@
 {
   "servers": [
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
+    { "name": "Radio", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/radio_bangladesh.json" },
     { "name": "Football", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/ffxoilacz.m3u" },
     { "name": "Sports Mixed", "downloadUrl": "https://biostartvworld.pages.dev/sports.m3u" },
     { "name": "Kids", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/kids.m3u" },
