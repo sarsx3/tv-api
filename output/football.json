@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-14T19:03:44.385908+00:00",
-    "lastUpdated": "2026-09-15 01:03:44 (Bangladesh Time)",
+    "updatedAt": "2026-09-14T22:38:48.481064+00:00",
+    "lastUpdated": "2026-09-15 04:38:48 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -1681,79 +1681,6 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 558596,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 5911,
-        "name": "AC Monza",
-        "logo": "https://crests.football-data.org/5911.png"
-      },
-      "awayTeam": {
-        "id": 471,
-        "name": "US Sassuolo Calcio",
-        "logo": "https://crests.football-data.org/471.png"
-      },
-      "venue": null,
-      "date": "2026-09-19",
-      "time": "00:45",
-      "bdDate": "2026-09-19",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_3",
-          "name": "Sony Ten 3",
-          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
-              "quality": "HD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
       "matchId": 559682,
       "sport": "football",
       "league": {
@@ -1840,6 +1767,79 @@
               "label": "Server 6",
               "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
               "quality": "SD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": 558596,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 5911,
+        "name": "AC Monza",
+        "logo": "https://crests.football-data.org/5911.png"
+      },
+      "awayTeam": {
+        "id": 471,
+        "name": "US Sassuolo Calcio",
+        "logo": "https://crests.football-data.org/471.png"
+      },
+      "venue": null,
+      "date": "2026-09-19",
+      "time": "00:45",
+      "bdDate": "2026-09-19",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_3",
+          "name": "Sony Ten 3",
+          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (Toffee)",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
+              "quality": "HD"
             }
           ]
         }
@@ -2675,7 +2675,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 565808,
+      "matchId": 565810,
       "sport": "football",
       "league": {
         "id": 2002,
@@ -2686,14 +2686,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "logo": "https://crests.football-data.org/7.png"
+        "id": 12,
+        "name": "SV Werder Bremen",
+        "logo": "https://crests.football-data.org/12.png"
       },
       "awayTeam": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
+        "id": 16,
+        "name": "FC Augsburg",
+        "logo": "https://crests.football-data.org/16.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -2768,7 +2768,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 565810,
+      "matchId": 565808,
       "sport": "football",
       "league": {
         "id": 2002,
@@ -2779,14 +2779,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 12,
-        "name": "SV Werder Bremen",
-        "logo": "https://crests.football-data.org/12.png"
+        "id": 7,
+        "name": "Hamburger SV",
+        "logo": "https://crests.football-data.org/7.png"
       },
       "awayTeam": {
-        "id": 16,
-        "name": "FC Augsburg",
-        "logo": "https://crests.football-data.org/16.png"
+        "id": 1,
+        "name": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -3040,65 +3040,6 @@
               "url": "",
               "quality": "HD",
               "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
-      "matchId": 561848,
-      "sport": "football",
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "country": "England",
-        "logo": "https://crests.football-data.org/ELC.png",
-        "round": "Matchday 8",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 328,
-        "name": "Burnley FC",
-        "logo": "https://crests.football-data.org/328.png"
-      },
-      "awayTeam": {
-        "id": 342,
-        "name": "Derby County FC",
-        "logo": "https://crests.football-data.org/342.png"
-      },
-      "venue": null,
-      "date": "2026-09-19",
-      "time": "20:00",
-      "bdDate": "2026-09-19",
-      "bdTime": "20:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "sky_sports_football",
-          "name": "Sky Sports Football",
-          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Sky_Sports_Football_2020.svg/200px-Sky_Sports_Football_2020.svg.png",
-          "country": "UK",
-          "sources": [
-            {
-              "label": "Server 1",
-              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://cdn3.zohanayaan.com:1686/hls/skysfott.m3u8",
-              "quality": "HD"
             }
           ]
         }
@@ -3673,7 +3614,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 561853,
+      "matchId": 561848,
       "sport": "football",
       "league": {
         "id": 2016,
@@ -3684,14 +3625,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 69,
-        "name": "Queens Park Rangers FC",
-        "logo": "https://crests.football-data.org/69.png"
+        "id": 328,
+        "name": "Burnley FC",
+        "logo": "https://crests.football-data.org/328.png"
       },
       "awayTeam": {
-        "id": 1081,
-        "name": "Preston North End FC",
-        "logo": "https://crests.football-data.org/1081.png"
+        "id": 342,
+        "name": "Derby County FC",
+        "logo": "https://crests.football-data.org/342.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -3751,6 +3692,65 @@
         "id": 343,
         "name": "Middlesbrough FC",
         "logo": "https://crests.football-data.org/343.png"
+      },
+      "venue": null,
+      "date": "2026-09-19",
+      "time": "20:00",
+      "bdDate": "2026-09-19",
+      "bdTime": "20:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "sky_sports_football",
+          "name": "Sky Sports Football",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Sky_Sports_Football_2020.svg/200px-Sky_Sports_Football_2020.svg.png",
+          "country": "UK",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://cdn3.zohanayaan.com:1686/hls/skysfott.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": 561853,
+      "sport": "football",
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "country": "England",
+        "logo": "https://crests.football-data.org/ELC.png",
+        "round": "Matchday 8",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 69,
+        "name": "Queens Park Rangers FC",
+        "logo": "https://crests.football-data.org/69.png"
+      },
+      "awayTeam": {
+        "id": 1081,
+        "name": "Preston North End FC",
+        "logo": "https://crests.football-data.org/1081.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -3884,79 +3884,6 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 567312,
-      "sport": "football",
-      "league": {
-        "id": 2017,
-        "name": "Primeira Liga",
-        "country": "Portugal",
-        "logo": "https://crests.football-data.org/PPL.png",
-        "round": "Matchday 7",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 5533,
-        "name": "Gil Vicente FC",
-        "logo": "https://crests.football-data.org/5533.png"
-      },
-      "awayTeam": {
-        "id": 5575,
-        "name": "CS Marítimo",
-        "logo": "https://crests.football-data.org/5575.png"
-      },
-      "venue": null,
-      "date": "2026-09-19",
-      "time": "20:30",
-      "bdDate": "2026-09-19",
-      "bdTime": "20:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_3",
-          "name": "Sony Ten 3",
-          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
-              "quality": "HD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
       "matchId": 558889,
       "sport": "football",
       "league": {
@@ -4037,6 +3964,79 @@
             {
               "label": "Server 5",
               "url": "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
+      "matchId": 567312,
+      "sport": "football",
+      "league": {
+        "id": 2017,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://crests.football-data.org/PPL.png",
+        "round": "Matchday 7",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 5533,
+        "name": "Gil Vicente FC",
+        "logo": "https://crests.football-data.org/5533.png"
+      },
+      "awayTeam": {
+        "id": 5575,
+        "name": "CS Marítimo",
+        "logo": "https://crests.football-data.org/5575.png"
+      },
+      "venue": null,
+      "date": "2026-09-19",
+      "time": "20:30",
+      "bdDate": "2026-09-19",
+      "bdTime": "20:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_3",
+          "name": "Sony Ten 3",
+          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (Toffee)",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
               "quality": "HD"
             }
           ]
@@ -5128,6 +5128,79 @@
       "hasLiveSource": true
     },
     {
+      "matchId": 558594,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 454,
+        "name": "Venezia FC",
+        "logo": "https://crests.football-data.org/454.png"
+      },
+      "awayTeam": {
+        "id": 110,
+        "name": "SS Lazio",
+        "logo": "https://crests.football-data.org/110.png"
+      },
+      "venue": null,
+      "date": "2026-09-20",
+      "time": "00:45",
+      "bdDate": "2026-09-20",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_3",
+          "name": "Sony Ten 3",
+          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (Toffee)",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
       "matchId": 559680,
       "sport": "football",
       "league": {
@@ -5214,79 +5287,6 @@
               "label": "Server 6",
               "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
               "quality": "SD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
-      "matchId": 558594,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 454,
-        "name": "Venezia FC",
-        "logo": "https://crests.football-data.org/454.png"
-      },
-      "awayTeam": {
-        "id": 110,
-        "name": "SS Lazio",
-        "logo": "https://crests.football-data.org/110.png"
-      },
-      "venue": null,
-      "date": "2026-09-20",
-      "time": "00:45",
-      "bdDate": "2026-09-20",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_3",
-          "name": "Sony Ten 3",
-          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
-              "quality": "HD"
             }
           ]
         }
@@ -6195,94 +6195,6 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 558882,
-      "sport": "football",
-      "league": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "country": "Netherlands",
-        "logo": "https://crests.football-data.org/ED.png",
-        "round": "Matchday 7",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 666,
-        "name": "FC Twente '65",
-        "logo": "https://crests.football-data.org/666.png"
-      },
-      "awayTeam": {
-        "id": 674,
-        "name": "PSV",
-        "logo": "https://crests.football-data.org/674.png"
-      },
-      "venue": null,
-      "date": "2026-09-20",
-      "time": "18:30",
-      "bdDate": "2026-09-20",
-      "bdTime": "18:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_2",
-          "name": "Sony Ten 2 (Sony Sports 2)",
-          "logo": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_HD.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (OttPlus)",
-              "url": "https://stream.ottplus.bd/live/ten_2_hd_abr/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2 (OttPlus)",
-              "url": "https://stream.ottplus.bd/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 3 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 4",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-2/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 5",
-              "url": "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-              "quality": "HD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
       "matchId": 558884,
       "sport": "football",
       "league": {
@@ -6371,31 +6283,31 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 560590,
+      "matchId": 558882,
       "sport": "football",
       "league": {
-        "id": 2021,
-        "name": "Premier League",
-        "country": "England",
-        "logo": "https://crests.football-data.org/PL.png",
-        "round": "Matchday 5",
+        "id": 2003,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://crests.football-data.org/ED.png",
+        "round": "Matchday 7",
         "season": "2026"
       },
       "homeTeam": {
-        "id": 65,
-        "name": "Manchester City FC",
-        "logo": "https://crests.football-data.org/65.png"
+        "id": 666,
+        "name": "FC Twente '65",
+        "logo": "https://crests.football-data.org/666.png"
       },
       "awayTeam": {
-        "id": 71,
-        "name": "Sunderland AFC",
-        "logo": "https://crests.football-data.org/71.png"
+        "id": 674,
+        "name": "PSV",
+        "logo": "https://crests.football-data.org/674.png"
       },
       "venue": null,
       "date": "2026-09-20",
-      "time": "19:00",
+      "time": "18:30",
       "bdDate": "2026-09-20",
-      "bdTime": "19:00",
+      "bdTime": "18:30",
       "status": {
         "code": "TIMED",
         "category": "Upcoming",
@@ -6409,90 +6321,48 @@
       "awayScore": null,
       "channels": [
         {
-          "channelId": "t_sports",
-          "name": "T Sports",
-          "logo": "https://i.postimg.cc/rp4WHTQB/1630662269264.jpg",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Server 1 (Official)",
-              "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://s1.itcnbd.live/T-Sports-HD/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 3",
-              "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 4",
-              "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 5",
-              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
-              "quality": "SD"
-            },
-            {
-              "label": "Server 6",
-              "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
-              "quality": "SD"
-            }
-          ]
-        },
-        {
-          "channelId": "star_sports_select_1",
-          "name": "Star Sports Select 1 (EPL)",
-          "logo": "https://i.imgur.com/FtRT73R.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1",
-              "url": "http://tvsen7.aynascope.net/sspts1/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/spl-1/index.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 3",
-              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
-              "quality": "HD"
-            }
-          ]
-        },
-        {
-          "channelId": "toffee",
-          "name": "Toffee (Banglalink)",
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
           "logo": "",
           "country": "Bangladesh",
           "sources": [
             {
-              "label": "Sony Sports 1",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_2",
+          "name": "Sony Ten 2 (Sony Sports 2)",
+          "logo": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_HD.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (OttPlus)",
+              "url": "https://stream.ottplus.bd/live/ten_2_hd_abr/index.m3u8",
               "quality": "HD"
             },
             {
-              "label": "Sony Sports 2",
+              "label": "Server 2 (OttPlus)",
+              "url": "https://stream.ottplus.bd/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3 (Toffee)",
               "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
               "quality": "HD"
             },
             {
-              "label": "Sony Sports 5",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+              "label": "Server 4",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-2/index.m3u8",
               "quality": "HD"
             },
             {
-              "label": "Somoy TV",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+              "label": "Server 5",
+              "url": "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
               "quality": "HD"
             }
           ]
@@ -6631,7 +6501,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 560585,
+      "matchId": 560590,
       "sport": "football",
       "league": {
         "id": 2021,
@@ -6642,14 +6512,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 341,
-        "name": "Leeds United FC",
-        "logo": "https://crests.football-data.org/341.png"
+        "id": 65,
+        "name": "Manchester City FC",
+        "logo": "https://crests.football-data.org/65.png"
       },
       "awayTeam": {
-        "id": 354,
-        "name": "Crystal Palace FC",
-        "logo": "https://crests.football-data.org/354.png"
+        "id": 71,
+        "name": "Sunderland AFC",
+        "logo": "https://crests.football-data.org/71.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -7000,6 +6870,136 @@
       "hasLiveSource": true
     },
     {
+      "matchId": 560585,
+      "sport": "football",
+      "league": {
+        "id": 2021,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://crests.football-data.org/PL.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 341,
+        "name": "Leeds United FC",
+        "logo": "https://crests.football-data.org/341.png"
+      },
+      "awayTeam": {
+        "id": 354,
+        "name": "Crystal Palace FC",
+        "logo": "https://crests.football-data.org/354.png"
+      },
+      "venue": null,
+      "date": "2026-09-20",
+      "time": "19:00",
+      "bdDate": "2026-09-20",
+      "bdTime": "19:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "t_sports",
+          "name": "T Sports",
+          "logo": "https://i.postimg.cc/rp4WHTQB/1630662269264.jpg",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Server 1 (Official)",
+              "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 4",
+              "url": "https://tvsen7.aynascope.net/Sports1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 5",
+              "url": "https://tvsen3.aynaott.com/Sports1/mono.m3u8",
+              "quality": "SD"
+            },
+            {
+              "label": "Server 6",
+              "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+              "quality": "SD"
+            }
+          ]
+        },
+        {
+          "channelId": "star_sports_select_1",
+          "name": "Star Sports Select 1 (EPL)",
+          "logo": "https://i.imgur.com/FtRT73R.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1",
+              "url": "http://tvsen7.aynascope.net/sspts1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/spl-1/index.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 3",
+              "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/9289/index.m3u8",
+              "quality": "HD"
+            }
+          ]
+        },
+        {
+          "channelId": "toffee",
+          "name": "Toffee (Banglalink)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Sony Sports 1",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Sony Sports 2",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Sony Sports 5",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Somoy TV",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
       "matchId": 565807,
       "sport": "football",
       "league": {
@@ -7241,7 +7241,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 567317,
+      "matchId": 567315,
       "sport": "football",
       "league": {
         "id": 2017,
@@ -7252,14 +7252,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 9136,
-        "name": "CF Estrela da Amadora",
-        "logo": "https://crests.football-data.org/9136.png"
+        "id": 5543,
+        "name": "Vitória SC",
+        "logo": "https://crests.football-data.org/5543.png"
       },
       "awayTeam": {
-        "id": 5527,
-        "name": "Académico de Viseu FC",
-        "logo": "https://crests.football-data.org/5527.png"
+        "id": 583,
+        "name": "Moreirense FC",
+        "logo": "https://crests.football-data.org/583.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -7314,7 +7314,7 @@
       "hasLiveSource": true
     },
     {
-      "matchId": 567315,
+      "matchId": 567317,
       "sport": "football",
       "league": {
         "id": 2017,
@@ -7325,14 +7325,14 @@
         "season": "2026"
       },
       "homeTeam": {
-        "id": 5543,
-        "name": "Vitória SC",
-        "logo": "https://crests.football-data.org/5543.png"
+        "id": 9136,
+        "name": "CF Estrela da Amadora",
+        "logo": "https://crests.football-data.org/9136.png"
       },
       "awayTeam": {
-        "id": 583,
-        "name": "Moreirense FC",
-        "logo": "https://crests.football-data.org/583.png"
+        "id": 5527,
+        "name": "Académico de Viseu FC",
+        "logo": "https://crests.football-data.org/5527.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -8289,6 +8289,79 @@
       "hasLiveSource": true
     },
     {
+      "matchId": 558597,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 98,
+        "name": "AC Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "awayTeam": {
+        "id": 5890,
+        "name": "US Lecce",
+        "logo": "https://crests.football-data.org/5890.png"
+      },
+      "venue": null,
+      "date": "2026-09-21",
+      "time": "00:45",
+      "bdDate": "2026-09-21",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null,
+      "channels": [
+        {
+          "channelId": "rabbitholebd",
+          "name": "Rabbitholebd (Online)",
+          "logo": "",
+          "country": "Bangladesh",
+          "sources": [
+            {
+              "label": "Stream 1",
+              "url": "",
+              "quality": "HD",
+              "_note": "rabbitholebd.com থেকে live stream URL নিন"
+            }
+          ]
+        },
+        {
+          "channelId": "sony_ten_3",
+          "name": "Sony Ten 3",
+          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
+          "country": "South Asia",
+          "sources": [
+            {
+              "label": "Server 1 (Toffee)",
+              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
+              "quality": "HD"
+            },
+            {
+              "label": "Server 2",
+              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
+              "quality": "HD"
+            }
+          ]
+        }
+      ],
+      "hasLiveSource": true
+    },
+    {
       "matchId": 559675,
       "sport": "football",
       "league": {
@@ -8375,79 +8448,6 @@
               "label": "Server 6",
               "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
               "quality": "SD"
-            }
-          ]
-        }
-      ],
-      "hasLiveSource": true
-    },
-    {
-      "matchId": 558597,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 98,
-        "name": "AC Milan",
-        "logo": "https://crests.football-data.org/98.png"
-      },
-      "awayTeam": {
-        "id": 5890,
-        "name": "US Lecce",
-        "logo": "https://crests.football-data.org/5890.png"
-      },
-      "venue": null,
-      "date": "2026-09-21",
-      "time": "00:45",
-      "bdDate": "2026-09-21",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null,
-      "channels": [
-        {
-          "channelId": "rabbitholebd",
-          "name": "Rabbitholebd (Online)",
-          "logo": "",
-          "country": "Bangladesh",
-          "sources": [
-            {
-              "label": "Stream 1",
-              "url": "",
-              "quality": "HD",
-              "_note": "rabbitholebd.com থেকে live stream URL নিন"
-            }
-          ]
-        },
-        {
-          "channelId": "sony_ten_3",
-          "name": "Sony Ten 3",
-          "logo": "https://i.postimg.cc/65fsWLS1/20240823_024136.png",
-          "country": "South Asia",
-          "sources": [
-            {
-              "label": "Server 1 (Toffee)",
-              "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8",
-              "quality": "HD"
-            },
-            {
-              "label": "Server 2",
-              "url": "https://edge2.roarzone.net:8447/roarzone/edge7/sony-ten-3/index.m3u8",
-              "quality": "HD"
             }
           ]
         }
@@ -8841,5 +8841,5 @@
       "hasLiveSource": false
     }
   ],
-  "enrichedAt": "2026-09-14T19:18:54.823722+00:00"
+  "enrichedAt": "2026-09-14T23:06:28.476508+00:00"
 }
