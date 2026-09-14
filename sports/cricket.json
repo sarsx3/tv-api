@@ -1,55 +1,24 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-14T01:23:38.158475+00:00",
-    "lastUpdated": "2026-09-14 07:23:38 (Bangladesh Time)",
+    "updatedAt": "2026-09-14T06:47:03.940104+00:00",
+    "lastUpdated": "2026-09-14 12:47:03 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
-  "nextMatch": {
-    "matchId": "b16673ec-cf45-4dc0-b700-1981e9cb6745",
-    "date": "2026-09-14",
-    "time": "05:00",
-    "status": "Live"
-  },
-  "matches": [
-    {
-      "matchId": "b16673ec-cf45-4dc0-b700-1981e9cb6745",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Barbados Tridents vs Guyana Amazon Warriors, 35th Match, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Barbados Tridents",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "venue": "Kensington Oval, Bridgetown, Barbados",
-      "date": "2026-09-14",
-      "time": "05:00",
-      "bdDate": "2026-09-14",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Live",
-        "label": "Barbados Tridents need 60 runs in 79 balls"
-      },
-      "result": null
-    }
-  ]
+  "totalMatches": 0,
+  "nextMatch": null,
+  "matches": []
 }
