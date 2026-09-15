@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-09-15",
   "packages": [
     {
       "id": "monthly",
@@ -8,8 +8,26 @@
       "price": 30,
       "originalPrice": 100,
       "currency": "BDT",
-      "discountPercent":70,
-      "popular": true,
+      "discountPercent": 70,
+      "popular": false,
+      "features": [
+        "Unlock Premium Online Playlists",
+        "Enjoy a completely Ad-Free experience across the app",
+        "Add Premium Playlists from the Flashify Community",
+        "Enjoy an Ad-Free Community experience",
+        "Get VIP Priority Support",
+        "Create and customize your own playlists"
+      ]
+    },
+    {
+      "id": "two_months",
+      "name": "2 Months Plan",
+      "durationDays": 60,
+      "price": 60,
+      "originalPrice": 200,
+      "currency": "BDT",
+      "discountPercent": 70,
+      "popular": false,
       "features": [
         "Unlock Premium Online Playlists",
         "Enjoy a completely Ad-Free experience across the app",
@@ -21,11 +39,21 @@
     },
     {
       "id": "quarterly",
-      "name": "3 Months Plan"
-    },
-    {
-      "id": "yearly",
-      "name": "1 Year Plan"
+      "name": "3 Months Plan",
+      "durationDays": 90,
+      "price": 80,
+      "originalPrice": 300,
+      "currency": "BDT",
+      "discountPercent": 73.33,
+      "popular": true,
+      "features": [
+        "Unlock Premium Online Playlists",
+        "Enjoy a completely Ad-Free experience across the app",
+        "Add Premium Playlists from the Flashify Community",
+        "Enjoy an Ad-Free Community experience",
+        "Get VIP Priority Support",
+        "Create and customize your own playlists"
+      ]
     },
     {
       "id": "lifetime",
