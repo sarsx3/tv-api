@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-15T12:02:12.460839+00:00",
-    "lastUpdated": "2026-09-15 18:02:12 (Bangladesh Time)",
+    "updatedAt": "2026-09-15T17:11:56.301511+00:00",
+    "lastUpdated": "2026-09-15 23:11:56 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -26,7 +26,7 @@
     "matchId": 564678,
     "date": "2026-09-15",
     "time": "23:00",
-    "status": "Upcoming"
+    "status": "Live"
   },
   "matches": [
     {
@@ -56,16 +56,16 @@
       "bdDate": "2026-09-15",
       "bdTime": "23:00",
       "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
+        "code": "IN_PLAY",
+        "category": "Live",
+        "label": "In Play"
       },
       "halfTimeScore": {
         "home": null,
         "away": null
       },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "matchId": 564680,
@@ -752,44 +752,6 @@
       "awayScore": null
     },
     {
-      "matchId": 558596,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 5911,
-        "name": "AC Monza",
-        "logo": "https://crests.football-data.org/5911.png"
-      },
-      "awayTeam": {
-        "id": 471,
-        "name": "US Sassuolo Calcio",
-        "logo": "https://crests.football-data.org/471.png"
-      },
-      "venue": null,
-      "date": "2026-09-19",
-      "time": "00:45",
-      "bdDate": "2026-09-19",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 559682,
       "sport": "football",
       "league": {
@@ -809,6 +771,44 @@
         "id": 546,
         "name": "Racing Club de Lens",
         "logo": "https://crests.football-data.org/546.png"
+      },
+      "venue": null,
+      "date": "2026-09-19",
+      "time": "00:45",
+      "bdDate": "2026-09-19",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 558596,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 5911,
+        "name": "AC Monza",
+        "logo": "https://crests.football-data.org/5911.png"
+      },
+      "awayTeam": {
+        "id": 471,
+        "name": "US Sassuolo Calcio",
+        "logo": "https://crests.football-data.org/471.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -1284,44 +1284,6 @@
       "awayScore": null
     },
     {
-      "matchId": 565808,
-      "sport": "football",
-      "league": {
-        "id": 2002,
-        "name": "Bundesliga",
-        "country": "Germany",
-        "logo": "https://crests.football-data.org/BL1.png",
-        "round": "Matchday 4",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 7,
-        "name": "Hamburger SV",
-        "logo": "https://crests.football-data.org/7.png"
-      },
-      "awayTeam": {
-        "id": 1,
-        "name": "1. FC Köln",
-        "logo": "https://crests.football-data.org/1.png"
-      },
-      "venue": null,
-      "date": "2026-09-19",
-      "time": "19:30",
-      "bdDate": "2026-09-19",
-      "bdTime": "19:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 565810,
       "sport": "football",
       "league": {
@@ -1341,6 +1303,44 @@
         "id": 16,
         "name": "FC Augsburg",
         "logo": "https://crests.football-data.org/16.png"
+      },
+      "venue": null,
+      "date": "2026-09-19",
+      "time": "19:30",
+      "bdDate": "2026-09-19",
+      "bdTime": "19:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 565808,
+      "sport": "football",
+      "league": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://crests.football-data.org/BL1.png",
+        "round": "Matchday 4",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 7,
+        "name": "Hamburger SV",
+        "logo": "https://crests.football-data.org/7.png"
+      },
+      "awayTeam": {
+        "id": 1,
+        "name": "1. FC Köln",
+        "logo": "https://crests.football-data.org/1.png"
       },
       "venue": null,
       "date": "2026-09-19",
@@ -2158,44 +2158,6 @@
       "awayScore": null
     },
     {
-      "matchId": 559680,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 511,
-        "name": "Toulouse FC",
-        "logo": "https://crests.football-data.org/511.png"
-      },
-      "awayTeam": {
-        "id": 533,
-        "name": "Le Havre AC",
-        "logo": "https://crests.football-data.org/533.png"
-      },
-      "venue": null,
-      "date": "2026-09-20",
-      "time": "00:45",
-      "bdDate": "2026-09-20",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 558594,
       "sport": "football",
       "league": {
@@ -2215,6 +2177,44 @@
         "id": 110,
         "name": "SS Lazio",
         "logo": "https://crests.football-data.org/110.png"
+      },
+      "venue": null,
+      "date": "2026-09-20",
+      "time": "00:45",
+      "bdDate": "2026-09-20",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559680,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 511,
+        "name": "Toulouse FC",
+        "logo": "https://crests.football-data.org/511.png"
+      },
+      "awayTeam": {
+        "id": 533,
+        "name": "Le Havre AC",
+        "logo": "https://crests.football-data.org/533.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -2804,44 +2804,6 @@
       "awayScore": null
     },
     {
-      "matchId": 558882,
-      "sport": "football",
-      "league": {
-        "id": 2003,
-        "name": "Eredivisie",
-        "country": "Netherlands",
-        "logo": "https://crests.football-data.org/ED.png",
-        "round": "Matchday 7",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 666,
-        "name": "FC Twente '65",
-        "logo": "https://crests.football-data.org/666.png"
-      },
-      "awayTeam": {
-        "id": 674,
-        "name": "PSV",
-        "logo": "https://crests.football-data.org/674.png"
-      },
-      "venue": null,
-      "date": "2026-09-20",
-      "time": "18:30",
-      "bdDate": "2026-09-20",
-      "bdTime": "18:30",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 558884,
       "sport": "football",
       "league": {
@@ -2861,6 +2823,44 @@
         "id": 1912,
         "name": "Telstar 1963",
         "logo": "https://crests.football-data.org/1912.png"
+      },
+      "venue": null,
+      "date": "2026-09-20",
+      "time": "18:30",
+      "bdDate": "2026-09-20",
+      "bdTime": "18:30",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 558882,
+      "sport": "football",
+      "league": {
+        "id": 2003,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://crests.football-data.org/ED.png",
+        "round": "Matchday 7",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 666,
+        "name": "FC Twente '65",
+        "logo": "https://crests.football-data.org/666.png"
+      },
+      "awayTeam": {
+        "id": 674,
+        "name": "PSV",
+        "logo": "https://crests.football-data.org/674.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -3716,44 +3716,6 @@
       "awayScore": null
     },
     {
-      "matchId": 559675,
-      "sport": "football",
-      "league": {
-        "id": 2015,
-        "name": "Ligue 1",
-        "country": "France",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 516,
-        "name": "Olympique de Marseille",
-        "logo": "https://crests.football-data.org/516.png"
-      },
-      "awayTeam": {
-        "id": 524,
-        "name": "Paris Saint-Germain FC",
-        "logo": "https://crests.football-data.org/524.png"
-      },
-      "venue": null,
-      "date": "2026-09-21",
-      "time": "00:45",
-      "bdDate": "2026-09-21",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 558597,
       "sport": "football",
       "league": {
@@ -3773,6 +3735,44 @@
         "id": 5890,
         "name": "US Lecce",
         "logo": "https://crests.football-data.org/5890.png"
+      },
+      "venue": null,
+      "date": "2026-09-21",
+      "time": "00:45",
+      "bdDate": "2026-09-21",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 559675,
+      "sport": "football",
+      "league": {
+        "id": 2015,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 516,
+        "name": "Olympique de Marseille",
+        "logo": "https://crests.football-data.org/516.png"
+      },
+      "awayTeam": {
+        "id": 524,
+        "name": "Paris Saint-Germain FC",
+        "logo": "https://crests.football-data.org/524.png"
       },
       "venue": null,
       "date": "2026-09-21",
