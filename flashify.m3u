@@ -396,14 +396,12 @@ http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="tsports_live" tvg-name="T sports - server 1" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T sports - server 1
 https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tsports_live" tvg-name="T sports - server 2" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T sports - server 2
-https://tvsen7.aynascope.net/Sports1/index.m3u8
+http://172.17.50.112:84/ant1009/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="T sports - server 3" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T sports - server 3
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="T sports - server 5" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T sports - server 5
-https://tvsen7.aynascope.net/Sports1/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="T sports - server 6" tvg-logo="https://i.postimg.cc/Qx3GZn6T/20240823_024117.png" group-title="Sports",T sports - server 6
+#EXTINF:-1 tvg-id="" tvg-name="T sports - server 4" tvg-logo="https://i.postimg.cc/Qx3GZn6T/20240823_024117.png" group-title="Sports",T sports - server 4
 https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PTV Sports Server 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png/revision/latest?cb=20240716062958" group-title="Sports",PTV Sports Server 3
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png/revision/latest?cb=20240716062958" group-title="Sports",PTV Sports
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PTV" tvg-logo="https://i.postimg.cc/rFKBNjwP/Ptvsportslogo2023.webp" group-title="Sports",PTV
 https://flussonic.defineatoz.com/PTV/index.m3u8
@@ -438,21 +436,19 @@ https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Willow (720p)" tvg-logo="https://i.imgur.com/gLqHIqt.png" group-title="Sports",Willow (720p)
 https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
 #EXTINF:-1 tvg-id="Willow HD" tvg-name="Willow HD" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow HD
-https://digitalotthub.com/tv/dd/live.php/346.m3u8
-#EXTINF:-1 tvg-id="Willow HD 2" tvg-name="Willow HD 2" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/8-by-xfireflix.png" group-title="Sports",Willow HD 2
-https://digitalotthub.com/tv/dd/live.php/598.m3u8
+https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Sports-1 HD" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen1_HD.png" group-title="Sports",Sony Sports-1 HD
 https://stream.ottplus.bd/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Sports-2 HD" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen2_HD.png" group-title="Sports",Sony Sports-2 HD
-https://stream.ottplus.bd/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sony Sports-5 SD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",Sony Sports-5 SD
-https://stream.ottplus.bd/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
+https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sony Sports-5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",Sony Sports-5 HD
+https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Ten 1" tvg-logo="https://i.postimg.cc/65fsWLS1/20240823_024136.png" group-title="Sports",Sony Ten 1
-https://stream.ottplus.bd/live/ten_1_hd_abr/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Ten 2" tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="Sports",Sony Ten 2
-https://stream.ottplus.bd/live/ten_2_hd_abr/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sony Ten 5" tvg-logo="https://i.postimg.cc/W4tx7R4Q/20240823_024232.png" group-title="Sports",Sony Ten 5
-https://stream.ottplus.bd/live/ten_5_hd_abr/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sports Extra" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="Sports",BeIN Sports Extra
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FIGHT | FIGHT NETWORK" tvg-logo="https://media.unreel.me/prod/sportsplus/logo/7607dd92-7305-4bab-886e-c38fe745fff7" group-title="Sports",FIGHT | FIGHT NETWORK
