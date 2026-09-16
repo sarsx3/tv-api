@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="BTV CTG" tvg-logo="https://s3.aynaott.com/storage/00da8a07fb26b2fb79359ee535e4c7bc" group-title="Bangladeshi",BTV CTG
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BTV NEWS" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangladeshi",BTV NEWS
+http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DBC News" tvg-logo="https://i.postimg.cc/hvmC5cF5/20240822_230837.png" group-title="Bangladeshi",DBC News
 https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Jamuna" tvg-logo="https://i.postimg.cc/G2V7K9fD/20240822-230750.png" group-title="Bangladeshi",Jamuna
@@ -477,5 +479,3 @@ https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/index.m3u8
 http://198.195.239.50:8095/sonyYay/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SONY YAY" tvg-logo="http://198.195.239.50/img/channels/SONY%20YAY.png" group-title="Kids",SONY YAY
 http://198.195.239.50:8095/sonyYay/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BTV NEWS" tvg-logo="http://198.195.239.50/img/channels/BTV.HD.png" group-title="Bangladeshi",BTV NEWS
-http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
