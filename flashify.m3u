@@ -236,7 +236,7 @@ https://tvsen7.aynaott.com/teennick/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ducktv HD" tvg-logo="https://i.imgur.com/gLqHIqt.png" group-title="Kids",ducktv HD
 https://dash3.antik.sk/live/duck_tv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nick Jr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9COiO8NVC3ydSSDeg35mlKiYDnkA2w5X9iR2ulr6Hg&s=10" group-title="Kids",Nick Jr
-http://103.165.93.31:8095/nickJr/tracks-v1a1/mono.m3u8
+http://stream.mcquack.net/220/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Pogo" tvg-logo="https://i.postimg.cc/C1s5Hf5P/20240823_021444.png" group-title="Kids",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sonic" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSztse8tZz5K-cxE_8zRKnqH1x3qVNs0HTORRYrab8IJw&s=10" group-title="Kids",Sonic
@@ -263,6 +263,10 @@ https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg0
 https://tvsen7.aynaott.com/disney/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="SONY AATH kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/SONY_AATH.png" group-title="Kids",SONY AATH kids
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nick Bangla" tvg-logo="https://i.postimg.cc/GtzBrs18/20240823_021125.png" group-title="Kids",Nick Bangla
+http://live.balajibroadband.com:3500/live/1341.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nicktoons" tvg-logo="https://imglink.cc/cdn/cZxNWhHkaZ.jpg" group-title="Kids",Nicktoons
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Islamic TV" tvg-logo="https://i.postimg.cc/J4nkLqHS/20260321_075216.png" group-title="Religious",Islamic TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Peace TV Bangla" tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" group-title="Religious",Peace TV Bangla
