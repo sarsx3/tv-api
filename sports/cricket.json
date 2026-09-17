@@ -8,14 +8,14 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-16T23:10:13.872571+00:00",
-    "lastUpdated": "2026-09-17 05:10:13 (Bangladesh Time)",
+    "updatedAt": "2026-09-17T01:37:00.662375+00:00",
+    "lastUpdated": "2026-09-17 07:37:00 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 6,
+    "apiRequestsUsedToday": 1,
     "apiRequestsLimitToday": 100
   },
   "totalMatches": 1,
@@ -47,7 +47,7 @@
       "bdTime": "05:00",
       "status": {
         "category": "Live",
-        "label": "Jamaica Kingsmen opt to bowl"
+        "label": "Jamaica Kingsmen need 86 runs in 93 balls"
       },
       "result": null
     }
