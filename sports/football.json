@@ -8,8 +8,8 @@
     }
   },
   "meta": {
-    "updatedAt": "2026-09-18T06:21:54.605827+00:00",
-    "lastUpdated": "2026-09-18 12:21:54 (Bangladesh Time)",
+    "updatedAt": "2026-09-18T11:38:12.089391+00:00",
+    "lastUpdated": "2026-09-18 17:38:12 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
@@ -2348,44 +2348,6 @@
       "awayScore": null
     },
     {
-      "matchId": 558592,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 470,
-        "name": "Frosinone Calcio",
-        "logo": "https://crests.football-data.org/470.png"
-      },
-      "awayTeam": {
-        "id": 7397,
-        "name": "Como 1907",
-        "logo": "https://crests.football-data.org/7397.png"
-      },
-      "venue": null,
-      "date": "2026-09-20",
-      "time": "19:00",
-      "bdDate": "2026-09-20",
-      "bdTime": "19:00",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 559676,
       "sport": "football",
       "league": {
@@ -2481,6 +2443,44 @@
         "id": 354,
         "name": "Crystal Palace FC",
         "logo": "https://crests.football-data.org/354.png"
+      },
+      "venue": null,
+      "date": "2026-09-20",
+      "time": "19:00",
+      "bdDate": "2026-09-20",
+      "bdTime": "19:00",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 558592,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 470,
+        "name": "Frosinone Calcio",
+        "logo": "https://crests.football-data.org/470.png"
+      },
+      "awayTeam": {
+        "id": 7397,
+        "name": "Como 1907",
+        "logo": "https://crests.football-data.org/7397.png"
       },
       "venue": null,
       "date": "2026-09-20",
@@ -3070,44 +3070,6 @@
       "awayScore": null
     },
     {
-      "matchId": 558597,
-      "sport": "football",
-      "league": {
-        "id": 2019,
-        "name": "Serie A",
-        "country": "Italy",
-        "logo": "https://crests.football-data.org/c111.png",
-        "round": "Matchday 5",
-        "season": "2026"
-      },
-      "homeTeam": {
-        "id": 98,
-        "name": "AC Milan",
-        "logo": "https://crests.football-data.org/98.png"
-      },
-      "awayTeam": {
-        "id": 5890,
-        "name": "US Lecce",
-        "logo": "https://crests.football-data.org/5890.png"
-      },
-      "venue": null,
-      "date": "2026-09-21",
-      "time": "00:45",
-      "bdDate": "2026-09-21",
-      "bdTime": "00:45",
-      "status": {
-        "code": "TIMED",
-        "category": "Upcoming",
-        "label": "Time Confirmed"
-      },
-      "halfTimeScore": {
-        "home": null,
-        "away": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "matchId": 559675,
       "sport": "football",
       "league": {
@@ -3127,6 +3089,44 @@
         "id": 524,
         "name": "Paris Saint-Germain FC",
         "logo": "https://crests.football-data.org/524.png"
+      },
+      "venue": null,
+      "date": "2026-09-21",
+      "time": "00:45",
+      "bdDate": "2026-09-21",
+      "bdTime": "00:45",
+      "status": {
+        "code": "TIMED",
+        "category": "Upcoming",
+        "label": "Time Confirmed"
+      },
+      "halfTimeScore": {
+        "home": null,
+        "away": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "matchId": 558597,
+      "sport": "football",
+      "league": {
+        "id": 2019,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://crests.football-data.org/c111.png",
+        "round": "Matchday 5",
+        "season": "2026"
+      },
+      "homeTeam": {
+        "id": 98,
+        "name": "AC Milan",
+        "logo": "https://crests.football-data.org/98.png"
+      },
+      "awayTeam": {
+        "id": 5890,
+        "name": "US Lecce",
+        "logo": "https://crests.football-data.org/5890.png"
       },
       "venue": null,
       "date": "2026-09-21",
