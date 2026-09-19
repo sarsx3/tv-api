@@ -1,5 +1,40 @@
 [
   {
+    "id": "u103t0ve",
+    "url": "http://dctv.pro:2082/get.php?username=xuj5Xw7mdG3o&password=4GFqvjSBNf2w&type=m3u_plus&output=ts",
+    "name": "DC TV",
+    "urlId": "571023",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-19T14:56:57.332175",
+    "createdAt": "2026-09-19T14:55:15.486",
+    "updatedAt": "2026-09-19T14:55:15.486",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 5048,
+      "categoryCount": 108,
+      "isActive": true,
+      "movieCount": 12500,
+      "seriesCount": 1593
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-09-25T11:00:00.000",
+      "maxConnections": 3,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u1shmk4c",
     "url": "http://starshare.org:8080/get.php?username=Shah786&password=Shah1234&type=m3u_plus&output=ts",
     "name": "SA24Comb11K",
