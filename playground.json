@@ -1,5 +1,71 @@
 [
   {
+    "id": "manual_1789814690794976_227467556",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/cztv.m3u",
+    "name": "Caze Tv All",
+    "urlId": "223259",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-19T16:44:50.794969",
+    "createdAt": "2026-09-19T16:44:50.794969",
+    "updatedAt": "2026-09-19T16:44:50.794969",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 22,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788043753890698",
+      "name": "From Internet",
+      "logoUrl": "https://static.vecteezy.com/system/resources/previews/041/440/023/non_2x/website-icon-www-illustration-sign-site-symbol-internet-logo-vector.jpg"
+    },
+    "isPremium": true
+  },
+  {
+    "id": "manual_1789814416489112_784053692",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/alldisco.m3u",
+    "name": "Discovery All",
+    "urlId": "896145",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-19T16:40:16.488783",
+    "createdAt": "2026-09-19T16:40:16.488783",
+    "updatedAt": "2026-09-19T16:40:16.488783",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 40,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1788043753890698",
+      "name": "From Internet",
+      "logoUrl": "https://static.vecteezy.com/system/resources/previews/041/440/023/non_2x/website-icon-www-illustration-sign-site-symbol-internet-logo-vector.jpg"
+    },
+    "isPremium": true
+  },
+  {
     "id": "u120mc5r",
     "url": "http://s7aabb12.org/get.php?username=2603C278AA27294&password=q7Ew9ym9dg&type=m3u_plus&output=ts",
     "name": "BOXIPTV",
