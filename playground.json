@@ -1,5 +1,40 @@
 [
   {
+    "id": "u120mc5r",
+    "url": "http://s7aabb12.org/get.php?username=2603C278AA27294&password=q7Ew9ym9dg&type=m3u_plus&output=ts",
+    "name": "BOXIPTV",
+    "urlId": "649522",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-19T14:59:15.726785",
+    "createdAt": "2026-09-19T14:57:54.558",
+    "updatedAt": "2026-09-19T14:57:54.558",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 26090,
+      "categoryCount": 360,
+      "isActive": true,
+      "movieCount": 142718,
+      "seriesCount": 49894
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-10-10T06:24:56.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u103t0ve",
     "url": "http://dctv.pro:2082/get.php?username=xuj5Xw7mdG3o&password=4GFqvjSBNf2w&type=m3u_plus&output=ts",
     "name": "DC TV",
