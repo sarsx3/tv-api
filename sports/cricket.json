@@ -1,50 +1,24 @@
 {
   "sport": "cricket",
   "status": {
-    "state": "ok",
+    "state": "no_matches",
     "message": {
-      "bn": "সময়সূচি সফলভাবে আপডেট হয়েছে।",
-      "en": "Schedule updated successfully."
+      "bn": "এই মুহূর্তে কোনো লাইভ বা আসন্ন (7 দিনের মধ্যে) ক্রিকেট ম্যাচ নেই।",
+      "en": "No live or upcoming cricket matches within the next 7-day window."
     }
   },
   "meta": {
-    "updatedAt": "2026-09-19T03:28:44.103402+00:00",
-    "lastUpdated": "2026-09-19 09:28:44 (Bangladesh Time)",
+    "updatedAt": "2026-09-19T08:15:53.757864+00:00",
+    "lastUpdated": "2026-09-19 14:15:53 (Bangladesh Time)",
     "timezone": "Asia/Dhaka (UTC+6)",
     "coverageHours": 168,
     "isStale": false,
     "staleSince": null,
     "provider": "CricketData.org",
-    "apiRequestsUsedToday": 1,
+    "apiRequestsUsedToday": 2,
     "apiRequestsLimitToday": 100
   },
-  "totalMatches": 1,
+  "totalMatches": 0,
   "nextMatch": null,
-  "matches": [
-    {
-      "matchId": "57b9034f-2942-4394-898c-c285b78b7485",
-      "sport": "cricket",
-      "series": "929c36f6-9ed6-4cec-a2ad-910a2ee4f701",
-      "matchTitle": "Jamaica Kingsmen vs Guyana Amazon Warriors, Qualifier 2, Caribbean Premier League 2026",
-      "matchType": "t20",
-      "team1": {
-        "name": "Jamaica Kingsmen",
-        "logo": "https://h.cricapi.com/img/icon512.png"
-      },
-      "team2": {
-        "name": "Guyana Amazon Warriors",
-        "logo": "https://g.cricapi.com/iapi/174-637945408285271060.webp?w=48"
-      },
-      "venue": "Kensington Oval, Bridgetown, Barbados",
-      "date": "2026-09-19",
-      "time": "05:00",
-      "bdDate": "2026-09-19",
-      "bdTime": "05:00",
-      "status": {
-        "category": "Finished",
-        "label": "Jamaica Kingsmen won by 5 wkts"
-      },
-      "result": "Jamaica Kingsmen won by 5 wkts"
-    }
-  ]
+  "matches": []
 }
