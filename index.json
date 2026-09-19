@@ -1,7 +1,7 @@
 {
   "servers": [
     { "name": "flashify", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/flashify.m3u" },
-    { "name": "Comming Soon", "downloadUrl": "https://github.com/srhady/tapmad-bd/blob/main/tapmad_bd.m3u" },
+    { "name": "Live Events", "downloadUrl": "https://github.com/srhady/tapmad-bd/blob/main/tapmad_bd.m3u" },
     { "name": "Radio", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/radio/radio_main_playlist.m3u" },
     { "name": "Football", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/ffxoilacz.m3u" },
     { "name": "Kids", "downloadUrl": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/kids.m3u" },
