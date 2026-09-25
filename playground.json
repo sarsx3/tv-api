@@ -1,5 +1,40 @@
 [
   {
+    "id": "u8rjd01",
+    "url": "http://rgkkw.live/get.php?username=4dfoydR2gZ&password=clever3still&type=m3u_plus&output=ts",
+    "name": "SA32MixWorld11.6K",
+    "urlId": "827956",
+    "userCount": 5,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-09-25T11:52:59.077286",
+    "createdAt": "2026-09-23T23:09:09.142",
+    "updatedAt": "2026-09-25T10:39:58.912",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 11600,
+      "categoryCount": 135,
+      "isActive": true,
+      "movieCount": 65054,
+      "seriesCount": 17331
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-12-07T11:23:14.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u1b37d1t",
     "url": "https://raw.githubusercontent.com/sm-monirulislam/AynaOTT_Auto_Update_Playlist/refs/heads/main/aynaott.m3u",
     "name": "Ayna OTT",
