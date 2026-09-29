@@ -1,5 +1,71 @@
 [
   {
+    "id": "manual_1790704703420970_780159080",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/29-09-26_Link-1.m3u",
+    "name": "29-09-26_Link-1",
+    "urlId": "682664",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-29T23:58:23.420959",
+    "createdAt": "2026-09-29T23:58:23.420959",
+    "updatedAt": "2026-09-29T23:58:23.420959",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 358,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1787565086954864",
+      "name": "Github",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
+    },
+    "isPremium": true
+  },
+  {
+    "id": "manual_1790704542249238_81820211",
+    "url": "https://raw.githubusercontent.com/sarsx3/tv-api/refs/heads/main/community/29-09-26_Link-2.m3u",
+    "name": "29_09-26_Link-2",
+    "urlId": "722279",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-29T23:55:42.248907",
+    "createdAt": "2026-09-29T23:55:42.248907",
+    "updatedAt": "2026-09-29T23:55:42.248907",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 391,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1787565086954864",
+      "name": "Github",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
+    },
+    "isPremium": true
+  },
+  {
     "id": "uhiqxou",
     "url": "https://raw.githubusercontent.com/sadadsami443/SAMI-IPTV/refs/heads/main/Sami%20BDIX%20(1).m3u",
     "name": "SA43BDIX148",
