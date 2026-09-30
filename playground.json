@@ -1,5 +1,38 @@
 [
   {
+    "id": "manual_1790773066947755_477339094",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/paidserver.m3u?fbclid=IwdGRjcAUp5k5jbGNrBSnmP2V4dG4DYWVtAjExAHBkb2YFc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEehQW60npR-_Qzs7p4Vf95mC0X2cOp8iXHQqiRDdJETteofEeBkHWGRMyNenY_aem_dih5Ck7tkZxu-xYyPqLkPA",
+    "name": "Paidserver",
+    "urlId": "735545",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "custom_playlist",
+    "addedAt": "2026-09-30T18:57:46.947404",
+    "createdAt": "2026-09-30T18:57:46.947404",
+    "updatedAt": "2026-09-30T18:57:46.947404",
+    "contributor": {
+      "uid": "flashify_official",
+      "uniqueId": "FLASHIFY",
+      "name": "Flashify",
+      "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJPYzlBmVq1EXEH1OWoBWlgiQsLt6sdRTjZqOsQKPEjQK4AmDm0pp7E0Gghy_PzaN2x1PSKVXQPaUdhs0pyK8w6isAcprQOx2HMvsytUhVAnPNDths5nxokepmm0S7GM5_64_gKFmovyYWkZSOT8qV_lv14iFQ6ag1zhbLm-N3INBsvA60KIJL7LnCZCQ/s1254/app_icon.png"
+    },
+    "stats": {
+      "channelCount": 129,
+      "categoryCount": 8,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": true,
+    "playlistSource": {
+      "id": "src_1787565086954864",
+      "name": "Github",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s"
+    },
+    "isPremium": true
+  },
+  {
     "id": "u1w7q1y2",
     "url": "http://fixtv123.xyz:2095/get.php?username=mr2668cep&password=mr0929dd00&type=m3u_plus&output=ts",
     "name": "FLEX TV",
