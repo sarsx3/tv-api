@@ -1,5 +1,110 @@
 [
   {
+    "id": "u1f7i308",
+    "url": "http://sa.xurvani.cfd/get.php?username=564500400&password=3839746022&type=m3u_plus&output=ts",
+    "name": "SA TV",
+    "urlId": "948947",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-04T16:43:45.338704",
+    "createdAt": "2026-10-04T15:50:23.373",
+    "updatedAt": "2026-10-04T15:50:23.373",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 15838,
+      "categoryCount": 93,
+      "isActive": true,
+      "movieCount": 19076,
+      "seriesCount": 8778
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2028-02-21T19:38:00.000",
+      "maxConnections": 2,
+      "activeConnections": 2
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u67dccd",
+    "url": "http://tvmemotv.xyz:8080/get.php?username=ozkanerturk&password=bhFKQkY&type=m3u_plus&output=ts",
+    "name": "Geem TV",
+    "urlId": "719045",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-04T16:43:43.952232",
+    "createdAt": "2026-10-04T16:00:42.256",
+    "updatedAt": "2026-10-04T16:00:42.256",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 6220,
+      "categoryCount": 130,
+      "isActive": true,
+      "movieCount": 28561,
+      "seriesCount": 4733
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-10-18T02:26:19.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u12et6fj",
+    "url": "http://1notchup.online/get.php?username=5C5F037FFC9C&password=1C2A31683714&type=m3u_plus&output=ts",
+    "name": "ATA TV",
+    "urlId": "388873",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-04T16:43:42.890619",
+    "createdAt": "2026-10-04T16:02:29.107",
+    "updatedAt": "2026-10-04T16:02:29.107",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 28583,
+      "categoryCount": 393,
+      "isActive": true,
+      "movieCount": 160305,
+      "seriesCount": 50460
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-02-12T00:41:10.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "manual_1790966433458143_382702011",
     "url": "https://raw.githubusercontent.com/sarsx3/aladin430/refs/heads/main/playlists/hk-tv.m3u",
     "name": "HK LIVE TV",
