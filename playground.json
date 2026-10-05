@@ -1,5 +1,104 @@
 [
   {
+    "id": "u5vqw09",
+    "url": "http://bigdonkeyfanz.com/get.php?username=A2FMQ35B&password=VM9S3PEA&type=m3u_plus&output=ts",
+    "name": "DNS 4K",
+    "urlId": "980773",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-05T23:40:03.339409",
+    "createdAt": "2026-10-05T23:29:14.811",
+    "updatedAt": "2026-10-05T23:29:14.811",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 28675,
+      "categoryCount": 392,
+      "isActive": true,
+      "movieCount": 159479,
+      "seriesCount": 0
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-05-23T07:41:54.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1twooh6",
+    "url": "https://cdn.jsdelivr.net/gh/iptv-paid-swf/Skym3u.dev@main/SkyM3U/05-10-26_Link-1.m3u",
+    "name": "SA52SportsBDInDAll378",
+    "urlId": "180627",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-05T23:40:01.989114",
+    "createdAt": "2026-10-05T23:34:31.022",
+    "updatedAt": "2026-10-05T23:36:20.362",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 378,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1j89k4r",
+    "url": "http://www.nobutv.com/get.php?username=F3579A2A15C8147&password=eiGLdooS5Q&type=m3u_plus&output=ts",
+    "name": "SAN TV",
+    "urlId": "742789",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-05T23:40:00.923444",
+    "createdAt": "2026-10-05T23:38:13.752",
+    "updatedAt": "2026-10-05T23:38:13.752",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 22180,
+      "categoryCount": 283,
+      "isActive": true,
+      "movieCount": 137867,
+      "seriesCount": 48133
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-02-11T03:09:37.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "ugo3dq6",
     "url": "https://raw.githubusercontent.com/sm-monirulislam/jago_bd_auto_update_playlist-/refs/heads/main/jago_bd.m3u",
     "name": "SA51Jagobd",
