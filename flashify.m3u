@@ -184,7 +184,7 @@ https://streams2.sofast.tv/umaxx/v1/0196d96223231ea506ec2e7986613e/0196d96312d71
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOs7HFLgRP1rqHxDe-koNMTta-3aVQbwuc3UpNIP2dA&s=10" group-title="Indian",Colors Bangla
 http://103.114.11.37:8081/Colors-bangla/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a4/BanglaCinema.jpeg/revision/latest?cb=20191207094555" group-title="Indian",Colors Bangla Cinema
-http://198.195.239.50:8095/COLORS.BANGLA.CINEMA/tracks-v1a1/mono.m3u8
+http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8#skym3u.dev
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png" group-title="Indian",Colors CINEPLEX
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/WzhwJYDJ/DD-Bangla.jpg" group-title="Indian",DD Bangla
@@ -203,6 +203,10 @@ https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
 https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-logo="https://imglink.cc/cdn/cScI5tEUjV.png" group-title="Indian",Hindi Classic 24
 https://vods2.aynaott.com/hindimovies/index.m3u8
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/T9O9X5UBm1RY_In7UXFv/posters/30e0f372-eb3e-4cf9-be1e-b196a40c2fc7.png" group-title="Indian",HUM MASALA HD
+https://j6nfugukcl.gpcdn.net/tile_1/master.m3u8#skym3u.dev
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png" group-title="Indian",HUM SITARAY HD
+https://j6nfugukcl.gpcdn.net/tile_2/master.m3u8#skym3u.dev
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL5F3z7i9qkDU88_7hjpAjnQuQdVzoryknNzIT7VcvGQ&s=10" group-title="Indian",HUM TV
 https://drk6xq0vhn.gpcdn.net/live/hum_tv_abr/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiFx1PcX7CERbyD4ev9egTtjKeO2npTcUFoSLn6bgkAw&s" group-title="Indian",Jalsha Movies HD
@@ -245,6 +249,10 @@ https://drk6xq0vhn.gpcdn.net/live/sony_ent_hd_abr/index.m3u8
 http://103.135.253.32:8080/STAR-BHARAT/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="Indian",Star Jalsha HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/155843.png" group-title="Indian",Star Maa (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/155842.png" group-title="Indian",Star Maa Movies HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/STAR%20MOVIES%20HD.png" group-title="Indian",Star Movies HD
 http://103.135.253.32:8080/STAR-MOVIES/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/images__3_.png" group-title="Indian",Star Movies SEL
@@ -283,6 +291,8 @@ https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/disneych.png" group-title="Kids",Disney Channel
 https://tvsen7.aynaott.com/disney/index.m3u8
+#EXTINF:-1 tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_608bd1c995275bd65872dae5b2be9ba0_playmist_duronto_tv_400x400.jpg" group-title="Kids",Duronto TV
+http://1598364.heaven596.space:80/live/4dfoydR2gZ/clever3still/433.ts?token=ShJcU0BbQQNHX1IBAVcBCV8HBFVeV11UAlUGBQQCVgAEBw0DUQJVC1IbGBpEF0dcWF1vWQIXXlUCUU4VEBdWQG5ZUBAJEVIMXAEHDgNBGRtNWV1VRA9VVghTWgRTVwECHRJEW1cRWRtRCAMMA1sCGxUSVUgSUBYPUA49UwASWlFUEg5cRl8PFUdWWmdTBlhYV1QSCkQFRk0TCxFHR14RdUNRWVdWXTNRCldRGhtBV1BNQlFEAxdeQwBaUwNHSBFRXkVaRkFKQQNHe3AaG0FQQU1VXkMPWgpDC0AWREdIEVtCb0ZXQEcRXARUUUoVWRcJGxwSXQdNOwJeDAxSBhBaXV9DFggRAkEVR1RbVl4XWktmQFlURA9GUgJWVwBUUBEeE0VBW1cRWRsBXwAIU1tRD10EBAJVUFBQV1EDAlMBCwVTBwVWVldUDkdE#skym3u.dev
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUAHNg9352E5NYvr8OLuG4pwpU3D5qUv3ld0YhbDHjg&s" group-title="Kids",Jungle Book
 https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfu2gnR9ZGDySJDqkBGRgWjazKRUdcix3PVScnU2FBw5MiYeIMoxWJjbE&s=10" group-title="Kids",Mr Bean Animated
@@ -325,6 +335,8 @@ https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
 https://cdn.pishow.tv/ott/live/226/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/NFKqPkBP/image.png" group-title="Music",PTC Music
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFKqPkBP/image.png" group-title="Music",PTC Music
+https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8#skym3u.dev
 #EXTINF:-1 tvg-logo="https://imglink.cc/cdn/LmVOSdl3ku.png" group-title="Music",Sangeet Bangla
 https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143757_ld_h15_aa.png?lock=720x540" group-title="Music",Sangeet Bhojpuri
