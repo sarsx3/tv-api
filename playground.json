@@ -1,5 +1,191 @@
 [
   {
+    "id": "unm4801",
+    "url": "http://kytv.xyz/get.php?username=brendan1&password=brendan1&type=m3u_plus&output=ts",
+    "name": "brendan1 @ kytv.xyz",
+    "urlId": "935885",
+    "userCount": 2,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:23.080773",
+    "createdAt": "2026-10-09T21:48:09.594",
+    "updatedAt": "2026-10-09T21:52:06.939",
+    "contributor": {
+      "uid": "CHLmK85wXDeXcA8KP4uRsTTmgmh1",
+      "uniqueId": "H6KUCMWG",
+      "name": "shohanur Rahman",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIg3tH4IOVf_-6tIjAMm_G5PaVQD3Gbq9KmSZPEQP5PUGOaA2k=s96-c"
+    },
+    "stats": {
+      "channelCount": 9232,
+      "categoryCount": 127,
+      "isActive": true,
+      "movieCount": 53819,
+      "seriesCount": 13118
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-05-25T17:31:50.000",
+      "maxConnections": 2,
+      "activeConnections": 4
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "umhynuy",
+    "url": "https://cdn.jsdelivr.net/gh/tapas-iptv/Skym3u.dev@main/SkyM3U/10-10-26_Link-1.m3u",
+    "name": "SA59BdInD366",
+    "urlId": "181213",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:14.751555",
+    "createdAt": "2026-10-11T00:23:03.323",
+    "updatedAt": "2026-10-11T00:24:58.625",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 366,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1qvx44c",
+    "url": "https://raw.githubusercontent.com/Tapas-Creation/M3U-Live/main/Skym3u.dev/11-10-26_Link-2.m3u",
+    "name": "SA58Sports & Ent.",
+    "urlId": "326947",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:13.264440",
+    "createdAt": "2026-10-12T11:34:29.742",
+    "updatedAt": "2026-10-12T11:36:45.477",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 349,
+      "categoryCount": 1,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "ucybapo",
+    "url": "https://raw.githubusercontent.com/ahan443/FAST-IPTV/refs/heads/main/11-10-26_Link-1.m3u",
+    "name": "SA60BdInd348",
+    "urlId": "723585",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:11.742950",
+    "createdAt": "2026-10-13T18:31:20.361",
+    "updatedAt": "2026-10-13T18:33:10.490",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 348,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "uzrezol",
+    "url": "https://file.garden/arh5j1imhgfdoFAF/HOMEAIR%20UPDATE.m3u",
+    "name": "SA61 HomeAir TV 767",
+    "urlId": "125314",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:10.429849",
+    "createdAt": "2026-10-14T00:01:09.816",
+    "updatedAt": "2026-10-14T00:03:54.003",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 767,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1aagnc4",
+    "url": "http://skyfilex.fun/get.php?username=47389291992&password=848e92929290&type=m3u_plus&output=ts",
+    "name": "4K TV",
+    "urlId": "288553",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-14T18:56:09.461089",
+    "createdAt": "2026-10-14T17:10:28.292",
+    "updatedAt": "2026-10-14T17:10:28.292",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 14868,
+      "categoryCount": 158,
+      "isActive": true,
+      "movieCount": 65533,
+      "seriesCount": 17602
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-06-23T00:23:16.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "urcgyah",
     "url": "https://cdn.jsdelivr.net/gh/tapas-iptv/Skym3u.dev@main/SkyM3U/05-10-26_Link-2.m3u",
     "name": "SA53Sports24",
