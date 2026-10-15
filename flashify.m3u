@@ -180,9 +180,9 @@ https://streams2.sofast.tv/umaxx/v1/0196d96223231ea506ec2e7986613e/0196d96312d71
 #EXTINF:-1 tvg-id="ch_78" tvg-logo="http://103.176.90.154/picons/logos/NETHERLANDNEW/COLORS.png" group-title="Indian",Colors
 http://103.135.253.32:8080/Color-HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOs7HFLgRP1rqHxDe-koNMTta-3aVQbwuc3UpNIP2dA&s=10" group-title="Indian",Colors Bangla
-http://103.114.11.37:8081/Colors-bangla/index.m3u8
+https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a4/BanglaCinema.jpeg/revision/latest?cb=20191207094555" group-title="Indian",Colors Bangla Cinema
-http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8#skym3u.dev
+http://sm-monirul.xyz/private/live/COLORS-BANGLA-CINEMA/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/COLORS%20CINEPLEX%20HD.png" group-title="Indian",Colors CINEPLEX
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/WzhwJYDJ/DD-Bangla.jpg" group-title="Indian",DD Bangla
@@ -230,7 +230,7 @@ https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png" group-title="Indian",Rupashi Bangla TV (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweRp_d3WoEmdfZ5jyzM4pVULm_SUR-JRW9u9Fnrj1rg&s=10" group-title="Indian",Sananda TV
-http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
+http://27.124.71.27/Animal_Planet/index.m3u8#skym3u.dev
 #EXTINF:-1 tvg-logo="https://i.ibb.co/KjjqnRH/Picsart-23-06-30-21-35-20-283.png" group-title="Indian",Sheemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png" group-title="Indian",Sony Aath
