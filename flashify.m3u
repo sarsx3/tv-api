@@ -485,8 +485,12 @@ https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports 1" tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS1%20HD.png" group-title="Sports",Star Sports 1
 https://starsportshindiii.pages.dev/index.m3u8
+#EXTINF:-1 tvg-id="ch_214" tvg-name="Star Sports 1" tvg-logo="https://cdn.jsdelivr.net/gh/television-app/TeleVision-Assets@main/Star%20Sports%201.webp" group-title="Sports",Star Sports 1
+http://103.135.253.32:8080/STAR-SPORTS-1-HD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports 2" tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS2%20HD.png" group-title="Sports",Star Sports 2
 https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
+#EXTINF:-1 tvg-id="ch_218" tvg-name="Star sports 2" tvg-logo="https://cdn.jsdelivr.net/gh/television-app/TeleVision-Assets@main/Star%20Sports%202.webp" group-title="Sports",Star sports 2
+http://103.135.253.32:8080/STAR-SPORTS-2-HD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports 2 [Backup]" tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png" group-title="Sports",Star Sports 2 [Backup]
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports 3" tvg-logo="http://198.195.239.50/img/channels/STAR%20SPORTS3.png" group-title="Sports",Star Sports 3
@@ -494,18 +498,20 @@ http://103.114.11.37:8081/Star-sports-3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports Select 1" tvg-logo="http://198.195.239.50/img/channels/images__2_.jpg" group-title="Sports",Star Sports Select 1
 http://103.135.253.32:8080/STAR-SPORTS-SELECT-1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star Sports Select 2" tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sports",Star Sports Select 2
-http://103.151.60.162:2122/play/a027/index.m3u8?hls
-#EXTINF:-1 tvg-id="" tvg-name="T Sports" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports
-https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMpWmLb0Ts759Tjsp/m3u8
+https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8#skym3u.dev
+#EXTINF:-1 tvg-id="" tvg-name="T Sports - Server 1" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 1
+http://sm-monirul.xyz/private/live/1LIVE/index.m3u8
 #EXTINF:-1 tvg-id="tsports_live" tvg-name="T Sports - Server 2" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 2
 http://103.209.196.22:84/feed1001/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="T Sports - Server 3" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 3
-https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="T Sports 3" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports 3
+https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="T Sports - Server 4" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 4
 https://robitv.com/rn/http://45.117.61.162/01_Tsports_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Willow" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow
+#EXTINF:-1 tvg-id="ch_238" tvg-name="TNT Sports 1" tvg-logo="https://cdn.jsdelivr.net/gh/television-app/TeleVision-Assets@main/TNT%20Sports%201.webp" group-title="Sports",TNT Sports 1
+https://tvsen6.aynaott.com/TntSports1HD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Willow - Server 1" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow - Server 1
 http://103.135.253.32:8080/WILLOW-SPORTS/index.m3u8
-#EXTINF:-1 tvg-id="Willow HD" tvg-name="Willow (Backup)" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow (Backup)
+#EXTINF:-1 tvg-id="Willow HD" tvg-name="Willow - Server 2" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow - Server 2
 https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa
-#EXTINF:-1 tvg-id="" tvg-name="Willow Live" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow Live
+#EXTINF:-1 tvg-id="" tvg-name="Willow - Server 3" tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/38-by-xfireflix.png" group-title="Sports",Willow - Server 3
 https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8
