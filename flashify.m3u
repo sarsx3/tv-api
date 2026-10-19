@@ -550,11 +550,11 @@ http://103.114.11.37:8081/Star-sports-3/index.m3u8
 #EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/images__2_.jpg" group-title="Sports",Star Sports Select 1
 http://103.135.253.32:8080/STAR-SPORTS-SELECT-1/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="Sports",Star Sports Select 2
-http://tvsen7.aynascope.net/ssport2hd/index.m3u8#skym3u.dev
+http://103.151.60.162:2122/play/a027/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 1
-http://103.209.196.22:84/feed1001/index.m3u8
+https://mycoffeetime.net/play/tSDRdsaoGGQ2qYgRPDEe9q-qMIzoahbJArH3W3vOiEaB97nXMpWmLb0Ts759Tjsp/m3u8
 #EXTINF:-1 tvg-id="tsports_live" tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 2
-http://103.209.196.22:84/feed1001/index.m3u8
+http://103.135.253.32:8080/T-SPORTS-FULL-HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 3
 https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rp4WHTQB/1630662269264.jpg" group-title="Sports",T Sports - Server 4
