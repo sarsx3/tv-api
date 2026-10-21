@@ -55,6 +55,8 @@ http://103.135.253.32:8080/Gazi-TV/index.m3u8
 https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrX-irK_PUfSU_68SZVs6MZp-kCNhwA_t4N9neASERoeXm9CabYAr6aWQ&s=10" group-title="Bangladeshi",Independent
 https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NGkpvww2/jatv.png" group-title="Bangladeshi",JA TV
+https://dish.porosh.com.bd/hls/jtvnews.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gaP0wy5lit2VBwKOmMbgWbjzx9v9_8UNwXZaCx8_hQ&s=10" group-title="Bangladeshi",Jamuna
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
 #EXTINF:-1 tvg-id="51" tvg-logo="https://raw.githubusercontent.com/BadhanStrom/img/refs/heads/main/jhonmobhumitv.png" group-title="Bangladeshi",JonmoBhumi TV
@@ -327,6 +329,8 @@ https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8
 https://tvsen7.aynaott.com/disney/index.m3u8
 #EXTINF:-1 tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_608bd1c995275bd65872dae5b2be9ba0_playmist_duronto_tv_400x400.jpg" group-title="Kids",Duronto TV
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
+#EXTINF:-1 tvg-logo="http://198.195.239.50/img/channels/HUNGAMA.png?ref=skym3u.dev" group-title="Kids",Hungama
+http://103.135.253.32:8080/HUNGAMA/index.m3u8#fb:M3U_World_4K
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUAHNg9352E5NYvr8OLuG4pwpU3D5qUv3ld0YhbDHjg&s" group-title="Kids",Jungle Book
 https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfu2gnR9ZGDySJDqkBGRgWjazKRUdcix3PVScnU2FBw5MiYeIMoxWJjbE&s=10" group-title="Kids",Mr Bean Animated
