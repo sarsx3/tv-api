@@ -1,5 +1,75 @@
 [
   {
+    "id": "ubmvjxf",
+    "url": "http://starhub.pro/get.php?username=atuljisgpr&password=sonuiptv&type=m3u_plus&output=ts",
+    "name": "Star IPTV",
+    "urlId": "229354",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-22T20:03:17.909592",
+    "createdAt": "2026-10-22T17:07:08.907",
+    "updatedAt": "2026-10-22T17:07:08.907",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 14740,
+      "categoryCount": 157,
+      "isActive": true,
+      "movieCount": 65457,
+      "seriesCount": 17589
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-02-14T16:23:20.000",
+      "maxConnections": 1,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1jkm72p",
+    "url": "http://dgda92.com/get.php?username=RodrigoVivas&password=BQFVZK8HAc&type=m3u_plus&output=ts",
+    "name": "DDN IPTV",
+    "urlId": "638862",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-22T20:03:16.795669",
+    "createdAt": "2026-10-22T17:13:02.410",
+    "updatedAt": "2026-10-22T17:13:02.410",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 5833,
+      "categoryCount": 113,
+      "isActive": true,
+      "movieCount": 42446,
+      "seriesCount": 5562
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2026-11-05T21:37:34.000",
+      "maxConnections": 3,
+      "activeConnections": 0
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "urs7sn4",
     "url": "https://raw.githubusercontent.com/tawfiqueiptv/M3U-Special/main/Tawfique_m3uf.m3u",
     "name": "SA67 BdInd133",
