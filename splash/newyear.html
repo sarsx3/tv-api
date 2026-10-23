@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#05060d}
+canvas{position:fixed;inset:0;width:100%;height:100%}
+.v{position:fixed;inset:0;background:radial-gradient(120% 60% at 50% 100%,rgba(70,40,120,.45),transparent 70%)}
+.t{position:fixed;left:0;right:0;top:11%;text-align:center;animation:in 1.6s cubic-bezier(.2,.7,.2,1) both}
+.y{margin:0;font:700 78px/1 "Noto Serif","Times New Roman",serif;letter-spacing:.05em;color:#e9bf62;
+  background:linear-gradient(#fff2c4,#d49a3a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.s{margin:12px 0 0;font:500 17px/1.4 system-ui,"Noto Sans Bengali",sans-serif;color:#d9ccaa;letter-spacing:.08em}
+@keyframes in{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.t{animation:none}}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="v"></div>
+<div class="t"><p class="y" id="y"></p><p class="s" id="s"></p></div>
+<script>
+const d=new Date();
+const P=Object.assign({year:d.getMonth()===11?d.getFullYear()+1:d.getFullYear(),sub:'শুভ নববর্ষ'},window.SPLASH_PARAMS||{});
+document.getElementById('y').textContent=P.year;
+document.getElementById('s').textContent=P.sub;
+
+const c=document.getElementById('c'),x=c.getContext('2d'),R=Math.min(devicePixelRatio||1,2);
+let W,H;
+function size(){W=innerWidth;H=innerHeight;c.width=W*R;c.height=H*R;x.setTransform(R,0,0,R,0,0);x.fillStyle='#05060d';x.fillRect(0,0,W,H)}
+size();addEventListener('resize',size);
+
+const COLORS=['#ffd36e','#ff8fa3','#9ad7ff','#f7f3e3','#b9a2ff'];
+let ps=[],rk=[],nextAt=0.2,clock=0,last=0;
+
+function burst(px,py){
+  if(ps.length>380)return;
+  const col=COLORS[Math.random()*COLORS.length|0],n=46;
+  for(let i=0;i<n;i++){
+    const a=i/n*6.2832+Math.random()*.2,v=70+Math.random()*95;
+    ps.push({x:px,y:py,vx:Math.cos(a)*v,vy:Math.sin(a)*v,l:1,c:col});
+  }
+}
+function step(dt){
+  clock+=dt;
+  if(clock>=nextAt){
+    nextAt=clock+.9+Math.random()*.7;
+    rk.push({x:W*(.14+Math.random()*.72),y:H,ty:H*(.16+Math.random()*.28),vy:-H*.62});
+  }
+  for(let i=rk.length-1;i>=0;i--){
+    const r=rk[i];r.y+=r.vy*dt;
+    if(r.y<=r.ty){burst(r.x,r.y);rk.splice(i,1)}
+  }
+  for(let i=ps.length-1;i>=0;i--){
+    const p=ps[i],k=1-1.3*dt;
+    p.vx*=k;p.vy=p.vy*k+95*dt;p.x+=p.vx*dt;p.y+=p.vy*dt;p.l-=dt*.6;
+    if(p.l<=0)ps.splice(i,1);
+  }
+}
+function draw(trail){
+  x.globalCompositeOperation='source-over';
+  x.globalAlpha=1;
+  x.fillStyle=trail?'rgba(5,6,13,.2)':'#05060d';
+  x.fillRect(0,0,W,H);
+  x.globalCompositeOperation='lighter';
+  x.fillStyle='#fff6d8';
+  for(const r of rk){x.globalAlpha=.9;x.fillRect(r.x-1,r.y,2,10)}
+  for(const p of ps){x.globalAlpha=Math.max(p.l,0);x.fillStyle=p.c;x.fillRect(p.x-1.3,p.y-1.3,2.6,2.6)}
+  x.globalAlpha=1;
+}
+function loop(t){
+  requestAnimationFrame(loop);
+  if(document.hidden){last=t;return}
+  const dt=Math.min((t-last)/1000||0,.05);last=t;
+  step(dt);draw(true);
+}
+if(matchMedia('(prefers-reduced-motion:reduce)').matches){
+  [.25,.5,.75].forEach((f,i)=>burst(W*f,H*(.2+.07*i)));
+  for(let i=0;i<30;i++)step(.016);
+  draw(false);
+}else requestAnimationFrame(loop);
+</script>
+</body>
+</html>
