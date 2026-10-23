@@ -6,7 +6,7 @@
   "load_budget_ms": 1500,
 
   "default": {
-    "enabled": false,
+    "enabled": true,
     "file": "splash/default.html",
     "version": 1
   },
