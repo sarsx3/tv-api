@@ -1,0 +1,85 @@
+{
+  "_readme": "এই ফাইলটা রেপোর config/splash_schedule.json এ থাকবে। কোনো ইভেন্ট না থাকলে (এবং default বন্ধ থাকলে) অ্যাপে আগের মতো কালো স্কিন দেখাবে।",
+
+  "enabled": true,
+  "timezone": "+06:00",
+  "load_budget_ms": 1500,
+
+  "default": {
+    "enabled": false,
+    "file": "splash/default.html",
+    "version": 1
+  },
+
+  "events": [
+    {
+      "id": "new-year",
+      "enabled": true,
+      "yearly": true,
+      "start": "12-31",
+      "end": "01-02",
+      "priority": 50,
+      "file": "splash/newyear.html",
+      "version": 1,
+      "params": {
+        "sub": "শুভ নববর্ষ"
+      }
+    },
+    {
+      "id": "victory-day",
+      "enabled": true,
+      "yearly": true,
+      "start": "12-15",
+      "end": "12-16",
+      "priority": 60,
+      "file": "splash/victory.html",
+      "version": 1,
+      "params": {
+        "title": "মহান বিজয় দিবস",
+        "sub": "১৬ ডিসেম্বর"
+      }
+    },
+    {
+      "id": "independence-day",
+      "enabled": true,
+      "yearly": true,
+      "start": "03-25",
+      "end": "03-26",
+      "priority": 60,
+      "file": "splash/victory.html",
+      "version": 1,
+      "params": {
+        "title": "মহান স্বাধীনতা দিবস",
+        "sub": "২৬ মার্চ"
+      }
+    },
+    {
+      "id": "eid-ul-fitr-2027",
+      "_note": "চাঁদ দেখার পর সঠিক তারিখ বসিয়ে enabled: true করুন",
+      "enabled": false,
+      "start": "2027-03-10",
+      "end": "2027-03-12",
+      "priority": 80,
+      "file": "splash/eid.html",
+      "version": 1,
+      "params": {
+        "title": "ঈদ মুবারক",
+        "sub": "Eid Mubarak"
+      }
+    },
+    {
+      "id": "eid-ul-adha-2027",
+      "_note": "চাঁদ দেখার পর সঠিক তারিখ বসিয়ে enabled: true করুন",
+      "enabled": false,
+      "start": "2027-05-17",
+      "end": "2027-05-19",
+      "priority": 80,
+      "file": "splash/eid.html",
+      "version": 1,
+      "params": {
+        "title": "ঈদ মুবারক",
+        "sub": "Eid Mubarak"
+      }
+    }
+  ]
+}
