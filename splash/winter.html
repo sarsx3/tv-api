@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>
+:root{--top:#061226;--mid:#0d2745;--low:#1c4a73;--glow:#7fb9e6}
+html,body{margin:0;height:100%;overflow:hidden;background:var(--top)}
+.sky{position:fixed;inset:0;background:
+  linear-gradient(180deg,#050f20 0%,#0a2040 38%,#16406a 70%,#2b6a9a 100%)}
+/* horizon glow */
+.hz{position:fixed;left:-20%;right:-20%;bottom:18%;height:46%;
+  background:radial-gradient(60% 70% at 50% 100%,rgba(150,205,245,.42),rgba(150,205,245,0) 70%);
+  animation:breathe 9s ease-in-out infinite alternate;will-change:opacity}
+/* aurora */
+.au{position:fixed;width:140vmax;height:70vmax;left:50%;top:-18vmax;margin-left:-70vmax;border-radius:50%;will-change:transform,opacity}
+.a1{background:radial-gradient(closest-side,rgba(90,230,210,.46),rgba(90,230,210,0));animation:ad1 22s ease-in-out infinite alternate}
+.a2{background:radial-gradient(closest-side,rgba(130,150,255,.36),rgba(130,150,255,0));animation:ad2 29s ease-in-out infinite alternate;top:-26vmax}
+.a3{background:radial-gradient(closest-side,rgba(170,235,255,.18),rgba(170,235,255,0));animation:ad3 35s ease-in-out infinite alternate;top:-10vmax}
+@keyframes ad1{from{transform:translate3d(-18vw,0,0) scale(.9) rotate(-8deg);opacity:.55}to{transform:translate3d(14vw,4vh,0) scale(1.08) rotate(6deg);opacity:1}}
+@keyframes ad2{from{transform:translate3d(16vw,2vh,0) scale(1.05) rotate(10deg);opacity:.9}to{transform:translate3d(-14vw,-3vh,0) scale(.9) rotate(-6deg);opacity:.5}}
+@keyframes ad3{from{transform:translate3d(-8vw,0,0) scale(1);opacity:.4}to{transform:translate3d(10vw,3vh,0) scale(1.15);opacity:.9}}
+@keyframes breathe{from{opacity:.65}to{opacity:1}}
+/* moon */
+.moon{position:fixed;right:13%;top:9%;width:54px;height:54px;border-radius:50%;
+  background:radial-gradient(circle at 38% 36%,#ffffff,#e6f1fb 55%,#c4dcf0 100%);
+  box-shadow:0 0 40px 14px rgba(190,225,255,.35),0 0 120px 50px rgba(120,180,240,.18);
+  animation:breathe 7s ease-in-out infinite alternate;will-change:opacity}
+/* stars */
+.st{position:fixed;border-radius:50%;background:#fff;will-change:opacity;animation:tw var(--d) ease-in-out infinite alternate;animation-delay:var(--l)}
+@keyframes tw{from{opacity:.08}to{opacity:.95}}
+/* mist */
+.mist{position:fixed;left:-30%;width:160%;will-change:transform;
+  background:radial-gradient(50% 50% at 50% 50%,rgba(205,230,250,.20),rgba(205,230,250,0) 70%)}
+.m1{bottom:20%;height:22%;animation:drift 38s linear infinite alternate}
+.m2{bottom:8%;height:20%;animation:drift 50s linear infinite alternate-reverse;opacity:.8}
+@keyframes drift{from{transform:translate3d(-12%,0,0)}to{transform:translate3d(12%,0,0)}}
+/* hills */
+svg.h{position:fixed;left:0;bottom:0;width:100%;height:42%;display:block}
+canvas{position:fixed;inset:0;width:100%;height:100%}
+/* quiet centre so the app logo/progress stays readable */
+.vg{position:fixed;inset:0;background:radial-gradient(70% 22% at 50% 50%,rgba(4,12,26,.28),rgba(4,12,26,0) 100%)}
+@media (prefers-reduced-motion:reduce){.au,.hz,.moon,.st,.mist{animation:none}}
+</style>
+</head>
+<body>
+<div class="sky"></div>
+<div id="stars"></div>
+<div class="au a2"></div>
+<div class="au a1"></div>
+<div class="au a3"></div>
+<div class="moon"></div>
+<div class="hz"></div>
+<svg class="h" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f9dc4"/><stop offset="1" stop-color="#34608a"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9cbe6"/><stop offset="1" stop-color="#4c7ba5"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcebf8"/><stop offset="1" stop-color="#7fa9cf"/></linearGradient>
+  </defs>
+  <path d="M0 96 C40 70 80 62 120 78 C160 94 200 52 250 58 C300 64 340 90 400 66 L400 200 L0 200Z" fill="url(#g1)" opacity=".9"/>
+  <path d="M0 128 C50 104 100 100 150 116 C200 132 260 92 320 104 C360 112 385 118 400 112 L400 200 L0 200Z" fill="url(#g2)" opacity=".95"/>
+  <path d="M0 158 C60 142 110 144 170 156 C230 168 290 136 350 146 C375 150 392 154 400 152 L400 200 L0 200Z" fill="url(#g3)"/>
+</svg>
+<div class="mist m1"></div>
+<div class="mist m2"></div>
+<div class="vg"></div>
+<canvas id="c"></canvas>
+<script>
+(function(){
+  /* twinkling stars (top 40% only) */
+  var s=document.getElementById('stars'),f=document.createDocumentFragment();
+  for(var i=0;i<34;i++){
+    var e=document.createElement('i');e.className='st';
+    var z=Math.random()<.25?2:1.2;
+    e.style.cssText='left:'+(Math.random()*100)+'%;top:'+(Math.random()*40)+'%;width:'+z+'px;height:'+z+'px;--d:'+(2+Math.random()*4).toFixed(1)+'s;--l:-'+(Math.random()*6).toFixed(1)+'s';
+    f.appendChild(e);
+  }
+  s.appendChild(f);
+
+  /* snow */
+  var c=document.getElementById('c'),x=c.getContext('2d'),R=Math.min(window.devicePixelRatio||1,2),W=0,H=0;
+  function size(){W=innerWidth;H=innerHeight;c.width=Math.round(W*R);c.height=Math.round(H*R);x.setTransform(R,0,0,R,0,0)}
+  size();addEventListener('resize',size);
+
+  function sprite(r,soft){
+    var d=Math.ceil(r*2+2),o=document.createElement('canvas');o.width=o.height=d;
+    var g=o.getContext('2d'),gr=g.createRadialGradient(d/2,d/2,0,d/2,d/2,r);
+    gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(soft,'rgba(255,255,255,.85)');gr.addColorStop(1,'rgba(255,255,255,0)');
+    g.fillStyle=gr;g.fillRect(0,0,d,d);return o;
+  }
+  var L=[
+    {n:46,r:[1.2,2.2],v:[14,26],a:[.35,.7],w:8,spr:sprite(4,.35)},   /* far */
+    {n:30,r:[2.4,3.8],v:[28,46],a:[.55,.9],w:16,spr:sprite(6,.45)},  /* mid */
+    {n:11,r:[5,8.5],v:[55,85],a:[.35,.6],w:26,spr:sprite(10,.2)}     /* near, soft bokeh */
+  ];
+  var P=[];
+  function rnd(a,b){return a+Math.random()*(b-a)}
+  L.forEach(function(l,li){
+    for(var i=0;i<l.n;i++)P.push({l:li,x:Math.random()*innerWidth,y:Math.random()*innerHeight,
+      r:rnd(l.r[0],l.r[1]),v:rnd(l.v[0],l.v[1]),a:rnd(l.a[0],l.a[1]),
+      ph:Math.random()*6.283,sw:rnd(.3,.9),w:l.w*rnd(.6,1.2)});
+  });
+
+  var last=0,t=0,run=true;
+  function loop(ts){
+    if(!run)return;
+    var dt=last?Math.min((ts-last)/1000,.05):.016;last=ts;t+=dt;
+    x.clearRect(0,0,W,H);
+    for(var i=0;i<P.length;i++){
+      var p=P[i],l=L[p.l];
+      p.y+=p.v*dt;
+      var px=p.x+Math.sin(t*p.sw+p.ph)*p.w;
+      if(p.y>H+12){p.y=-12;p.x=Math.random()*W}
+      var d=p.r*2.4;
+      x.globalAlpha=p.a;
+      x.drawImage(l.spr,px-d/2,p.y-d/2,d,d);
+    }
+    x.globalAlpha=1;
+    requestAnimationFrame(loop);
+  }
+  document.addEventListener('visibilitychange',function(){
+    if(document.hidden){run=false}else if(!run){run=true;last=0;requestAnimationFrame(loop)}
+  });
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches){
+    last=0;loop(16);run=false;
+  }else requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
