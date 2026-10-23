@@ -13,6 +13,17 @@
 
   "events": [
     {
+      "id": "winter-dark",
+      "_note": "শীতের মৌসুম: প্রতি বছর ২৪ অক্টোবর থেকে ১৫ ফেব্রুয়ারি। অন্য উৎসবের চেয়ে priority কম, তাই উৎসবের দিনে উৎসবেরটাই চলে।",
+      "enabled": true,
+      "yearly": true,
+      "start": "10-24",
+      "end": "02-15",
+      "priority": 10,
+      "file": "splash/winter.html",
+      "version": 1
+    },
+    {
       "id": "new-year",
       "enabled": true,
       "yearly": true,
