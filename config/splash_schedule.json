@@ -3,10 +3,10 @@
 
   "enabled": true,
   "timezone": "+06:00",
-  "load_budget_ms": 1500,
+  "load_budget_ms": 3000,
 
   "default": {
-    "enabled": true,
+    "enabled": false,
     "file": "splash/default.html",
     "version": 1
   },
