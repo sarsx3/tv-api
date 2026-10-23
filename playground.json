@@ -1,5 +1,63 @@
 [
   {
+    "id": "u1ndps0b",
+    "url": "https://liljnnprtqwoimmsjuhy.supabase.co/storage/v1/object/public/IPTV-Network/Skym3u.dev/22-10-26-link-1_10.m3u",
+    "name": "SA70 BDInDWorld & Sports 572",
+    "urlId": "961443",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-23T22:12:44.183555",
+    "createdAt": "2026-10-23T13:56:12.751",
+    "updatedAt": "2026-10-23T13:59:49.211",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 572,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u45k3uf",
+    "url": "https://raw.githubusercontent.com/public-iptv-org/BD/refs/heads/main/rangdhonu-playlist",
+    "name": "Update Playlist",
+    "urlId": "955207",
+    "userCount": 1,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-23T22:12:43.379649",
+    "createdAt": "2026-10-23T22:11:54.891",
+    "updatedAt": "2026-10-23T22:11:54.891",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 138,
+      "categoryCount": 8,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u19a9oga",
     "url": "https://liljnnprtqwoimmsjuhy.supabase.co/storage/v1/object/public/IPTV-Network/Skym3u.dev/17-10-26-file-1_11.m3u",
     "name": "SA69 BdInd160",
