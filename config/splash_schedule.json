@@ -1,5 +1,5 @@
 {
-  "_readme": "এই ফাইলটা রেপোর config/splash_schedule.json এ থাকবে। কোনো ইভেন্ট না থাকলে (এবং default বন্ধ থাকলে) অ্যাপে আগের মতো কালো স্কিন দেখাবে। ডিজাইন ফাইল এখন Lottie (.json), splash/ ফোল্ডারে। params-এর title/sub অ্যাপ নিজে Flutter Text দিয়ে আঁকে; style = eid | victory | newyear; title-তে {year} লিখলে সাল বসে। ফাইল বদলালে সেই এন্ট্রির version বাড়ান।",
+  "_readme": "Place at config/splash_schedule.json in the repo. Splash designs are Lottie files in splash/. Title and sub are drawn by the app (Flutter Text) from params. style = eid | victory | newyear. Use {year} in text for the year. Text changes need no version bump; bump version only when the Lottie file itself changes. No active event and default disabled = plain black splash.",
   "enabled": true,
   "timezone": "+06:00",
   "load_budget_ms": 3000,
@@ -11,7 +11,7 @@
   "events": [
     {
       "id": "winter-dark",
-      "_note": "শীতের মৌসুম: প্রতি বছর ২৪ অক্টোবর থেকে ১৫ ফেব্রুয়ারি। অন্য উৎসবের চেয়ে priority কম, তাই উৎসবের দিনে উৎসবেরটাই চলে।",
+      "_note": "Winter season, 24 Oct to 15 Feb every year. Lowest priority, so festival designs override it.",
       "enabled": true,
       "yearly": true,
       "start": "10-24",
@@ -31,8 +31,9 @@
       "version": 1,
       "params": {
         "style": "newyear",
-        "title": "{year}",
-        "sub": "শুভ নববর্ষ"
+        "title": "Happy\nNew Year",
+        "title_size": 56,
+        "sub": "Welcome {year}"
       }
     },
     {
@@ -46,8 +47,8 @@
       "version": 1,
       "params": {
         "style": "victory",
-        "title": "মহান বিজয় দিবস",
-        "sub": "১৬ ডিসেম্বর"
+        "title": "Victory Day",
+        "sub": "16 December"
       }
     },
     {
@@ -61,13 +62,14 @@
       "version": 1,
       "params": {
         "style": "victory",
-        "title": "মহান স্বাধীনতা দিবস",
-        "sub": "২৬ মার্চ"
+        "title": "Independence Day",
+        "title_size": 34,
+        "sub": "26 March"
       }
     },
     {
       "id": "eid-ul-fitr-2027",
-      "_note": "চাঁদ দেখার পর সঠিক তারিখ বসিয়ে enabled: true করুন",
+      "_note": "Set the exact dates after moon sighting, then enable.",
       "enabled": false,
       "start": "2027-03-10",
       "end": "2027-03-12",
@@ -76,13 +78,13 @@
       "version": 1,
       "params": {
         "style": "eid",
-        "title": "ঈদ মুবারক",
-        "sub": "Eid Mubarak"
+        "title": "Eid Mubarak",
+        "sub": "Eid al-Fitr"
       }
     },
     {
       "id": "eid-ul-adha-2027",
-      "_note": "চাঁদ দেখার পর সঠিক তারিখ বসিয়ে enabled: true করুন",
+      "_note": "Set the exact dates after moon sighting, then enable.",
       "enabled": false,
       "start": "2027-05-17",
       "end": "2027-05-19",
@@ -91,8 +93,8 @@
       "version": 1,
       "params": {
         "style": "eid",
-        "title": "ঈদ মুবারক",
-        "sub": "Eid Mubarak"
+        "title": "Eid Mubarak",
+        "sub": "Eid al-Adha"
       }
     }
   ]
