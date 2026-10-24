@@ -1,16 +1,13 @@
 {
-  "_readme": "এই ফাইলটা রেপোর config/splash_schedule.json এ থাকবে। কোনো ইভেন্ট না থাকলে (এবং default বন্ধ থাকলে) অ্যাপে আগের মতো কালো স্কিন দেখাবে।",
-
+  "_readme": "এই ফাইলটা রেপোর config/splash_schedule.json এ থাকবে। কোনো ইভেন্ট না থাকলে (এবং default বন্ধ থাকলে) অ্যাপে আগের মতো কালো স্কিন দেখাবে। ডিজাইন ফাইল এখন Lottie (.json), splash/ ফোল্ডারে। params-এর title/sub অ্যাপ নিজে Flutter Text দিয়ে আঁকে; style = eid | victory | newyear; title-তে {year} লিখলে সাল বসে। ফাইল বদলালে সেই এন্ট্রির version বাড়ান।",
   "enabled": true,
   "timezone": "+06:00",
   "load_budget_ms": 3000,
-
   "default": {
     "enabled": true,
-    "file": "splash/default.html",
+    "file": "splash/default.json",
     "version": 1
   },
-
   "events": [
     {
       "id": "winter-dark",
@@ -20,7 +17,7 @@
       "start": "10-24",
       "end": "02-15",
       "priority": 10,
-      "file": "splash/winter.html",
+      "file": "splash/winter.json",
       "version": 1
     },
     {
@@ -30,9 +27,11 @@
       "start": "12-31",
       "end": "01-02",
       "priority": 50,
-      "file": "splash/newyear.html",
+      "file": "splash/newyear.json",
       "version": 1,
       "params": {
+        "style": "newyear",
+        "title": "{year}",
         "sub": "শুভ নববর্ষ"
       }
     },
@@ -43,9 +42,10 @@
       "start": "12-15",
       "end": "12-16",
       "priority": 60,
-      "file": "splash/victory.html",
+      "file": "splash/victory.json",
       "version": 1,
       "params": {
+        "style": "victory",
         "title": "মহান বিজয় দিবস",
         "sub": "১৬ ডিসেম্বর"
       }
@@ -57,9 +57,10 @@
       "start": "03-25",
       "end": "03-26",
       "priority": 60,
-      "file": "splash/victory.html",
+      "file": "splash/victory.json",
       "version": 1,
       "params": {
+        "style": "victory",
         "title": "মহান স্বাধীনতা দিবস",
         "sub": "২৬ মার্চ"
       }
@@ -71,9 +72,10 @@
       "start": "2027-03-10",
       "end": "2027-03-12",
       "priority": 80,
-      "file": "splash/eid.html",
+      "file": "splash/eid.json",
       "version": 1,
       "params": {
+        "style": "eid",
         "title": "ঈদ মুবারক",
         "sub": "Eid Mubarak"
       }
@@ -85,9 +87,10 @@
       "start": "2027-05-17",
       "end": "2027-05-19",
       "priority": 80,
-      "file": "splash/eid.html",
+      "file": "splash/eid.json",
       "version": 1,
       "params": {
+        "style": "eid",
         "title": "ঈদ মুবারক",
         "sub": "Eid Mubarak"
       }
