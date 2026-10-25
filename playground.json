@@ -1,5 +1,127 @@
 [
   {
+    "id": "uuy3od3",
+    "url": "https://liljnnprtqwoimmsjuhy.supabase.co/storage/v1/object/public/IPTV-Network/Skym3u.dev/23-10-26-Link-2_14.m3u",
+    "name": "SA73 BdInD 332",
+    "urlId": "327261",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-25T20:36:14.481065",
+    "createdAt": "2026-10-25T07:44:39.202",
+    "updatedAt": "2026-10-25T07:46:00.275",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 332,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1wo2975",
+    "url": "https://liljnnprtqwoimmsjuhy.supabase.co/storage/v1/object/public/IPTV-Network/Skym3u.dev/24-10-26-File-1_16.m3u",
+    "name": "SA74 BdInD 688",
+    "urlId": "713779",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-25T20:36:12.738979",
+    "createdAt": "2026-10-25T08:20:30.242",
+    "updatedAt": "2026-10-25T08:23:00.822",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 688,
+      "categoryCount": 0,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u1qb3mum",
+    "url": "https://raw.githubusercontent.com/public-iptv-org/BD/refs/heads/main/rangdhonu-playlist.m3u8",
+    "name": "SA75 Rangdhanu 138",
+    "urlId": "917180",
+    "userCount": 2,
+    "linkType": "m3u",
+    "source": "community",
+    "addedAt": "2026-10-25T20:36:12.088670",
+    "createdAt": "2026-10-25T09:13:41.326",
+    "updatedAt": "2026-10-25T09:14:46.183",
+    "contributor": {
+      "uid": "nTiftVAwolZdBlQH2uG7hMffGKm1",
+      "uniqueId": "6FT48BR2",
+      "name": "Saiful Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJzG0z7ZceKSDiBjkwNeO0r2gmUqKcOdjKlc9GJEaVzzgfsnz0=s96-c"
+    },
+    "stats": {
+      "channelCount": 138,
+      "categoryCount": 8,
+      "isActive": true,
+      "movieCount": 0,
+      "seriesCount": 0
+    },
+    "xtream": null,
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
+    "id": "u9tn8dv",
+    "url": "http://00224689.xyz/get.php?username=schreibt&password=ff32333c66&type=m3u_plus&output=ts",
+    "name": "20 TV",
+    "urlId": "458038",
+    "userCount": 1,
+    "linkType": "xtream",
+    "source": "community",
+    "addedAt": "2026-10-25T20:36:11.144410",
+    "createdAt": "2026-10-25T20:34:49.112",
+    "updatedAt": "2026-10-25T20:34:49.112",
+    "contributor": {
+      "uid": "8QaTnXkbjbPoNEDKZLqMPClZV4P2",
+      "uniqueId": "ZS2GDWX6",
+      "name": "Zisan Islam",
+      "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJBGTXX9jsah8W8b3kPocD2Mtea2bO1F4pe5Nwb4v1hpPU_pQw=s96-c"
+    },
+    "stats": {
+      "channelCount": 54074,
+      "categoryCount": 877,
+      "isActive": true,
+      "movieCount": 183988,
+      "seriesCount": 48869
+    },
+    "xtream": {
+      "status": "Active",
+      "isTrial": false,
+      "expiresAt": "2027-04-15T04:00:00.000",
+      "maxConnections": 1,
+      "activeConnections": 1
+    },
+    "isManual": false,
+    "playlistSource": null,
+    "isPremium": true
+  },
+  {
     "id": "u1sflsik",
     "url": "https://liljnnprtqwoimmsjuhy.supabase.co/storage/v1/object/public/IPTV-Network/IPTV-NETWORK/Special%20File%20By%20IPTV-Network_6.m3u",
     "name": "SA71 BdInD133",
